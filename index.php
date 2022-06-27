@@ -4,7 +4,7 @@
     header("Content-Disposition: attachment; filename=iptv-org.m3u");
   }
 
-  $countries = isset($_GET["country"]) ? str_getcsv($_GET['country']) : str_getcsv("ph");
+  $countries = isset($_GET["country"]) ? str_getcsv($_GET['country']) : str_getcsv("us,uk,ca,au,nz");
   $quality   = isset($_GET["quality"]) ? str_getcsv($_GET["quality"]) : str_getcsv("0,240,480,720,1080,2160,4320");
   $nsfw      = isset($_GET["nsfw"]) ? $_GET["nsfw"] : 0;
   $debug     = isset($_GET["debug"]) ? $_GET["debug"] : 0;

@@ -10,7 +10,7 @@ This is an automatic M3U file/provider that reads channels marked as online on t
 
 >https://iptv-sniper.herokuapp.com/?country=us,uk​
 
-##### defaults to us,uk,ca,au,hk,sg,ph if unprovided​
+##### defaults to us,uk,ca,au,nz if unprovided​
 
   <dt>quality</dt>
   <dd>desired resolution (represented in numbers) separated by commas</dd>
