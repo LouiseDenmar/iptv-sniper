@@ -4,7 +4,7 @@
     header("Content-Disposition: attachment; filename=iptv-org.m3u");
   }
 
-  $countries = isset($_GET["country"]) ? str_getcsv($_GET['country']) : str_getcsv("us,uk,ca,au,hk,sg,ph");
+  $countries = isset($_GET["country"]) ? str_getcsv($_GET['country']) : str_getcsv("ph");
   $quality   = isset($_GET["quality"]) ? str_getcsv($_GET["quality"]) : str_getcsv("0,240,480,720,1080,2160,4320");
   $nsfw      = isset($_GET["nsfw"]) ? $_GET["nsfw"] : 0;
   $debug     = isset($_GET["debug"]) ? $_GET["debug"] : 1;
@@ -29,22 +29,22 @@
     }
   }
 
-  // $guides_api = fetch('https://iptv-org.github.io/api/guides.json');
-  // $guides     = json_decode($guides_api);
+  $guides_api = fetch('https://iptv-org.github.io/api/guides.json');
+  $guides     = json_decode($guides_api);
 
-  // foreach ($guides as $guide) {
-  //   if (array_key_exists($guide->channel, $channel_info)) {
-  //       $channel_info[$guide->channel] = (object) array_merge((array) $channel_info[$guide->channel], (array) $guide);
-  //       $channel_info[$guide->channel]->guide_url = $guide->url;
-  //   }
-  // }
+  foreach ($guides as $guide) {
+    if (array_key_exists($guide->channel, $channel_info)) {
+        $channel_info[$guide->channel] = (object) array_merge((array) $channel_info[$guide->channel], (array) $guide);
+        $channel_info[$guide->channel]->guide_url = $guide->url;
+    }
+  }
 
-  // $tvg_urls = array();
+  $tvg_urls = array();
 
-  // foreach ($channel_info as $channel) {
-  //   if(property_exists($channel, "guide_url") && !in_array($channel->guide_url, $tvg_urls))
-  //     $tvg_urls[] = $channel->guide_url;
-  // }
+  foreach ($channel_info as $channel) {
+    if(property_exists($channel, "guide_url") && !in_array($channel->guide_url, $tvg_urls))
+      $tvg_urls[] = $channel->guide_url;
+  }
 
   if ($debug == true)
     die("<pre>" . print_r($channel_info, true) . "</pre>");
