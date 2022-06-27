@@ -9,7 +9,7 @@
   $nsfw      = isset($_GET["nsfw"]) ? $_GET["nsfw"] : 0;
   $debug     = isset($_GET["debug"]) ? $_GET["debug"] : 1;
 
-  $streams_api     = file_get_contents("https://iptv-org.github.io/api/streams.json'");
+  $streams_api     = file_get_contents('https://iptv-org.github.io/api/streams.json');
   $channels        = json_decode($streams_api);
   $online_channels = array();
 var_dump($channels);
