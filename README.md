@@ -1,6 +1,6 @@
 # IPTV-org Stream Sniper
 
-This is an automatic M3U file/provider that reads channels marked as online on the iptv-org api. Simply add it as your IPTV Client's provider or you can download a copy by pasting the customizable link on your browser. By reading directly from the iptv-org api, it has the advantage of serving you high quality fast loading streams, and the channel information is well structured. Plus, this being from iptv-org, there is a higher guarantee of channel uptime.
+This is an automatic M3U file/provider that reads channels marked as online on the [iptv-org api](https://github.com/iptv-org/api). Simply add it as your IPTV Client's provider or you can download a copy by pasting the customizable link on your browser. By reading directly from the iptv-org api, it has the advantage of serving you high quality fast loading streams, and the channel information is well structured. Plus, this being from iptv-org, there is a higher guarantee of channel uptime.
 
 ### Configuration Parameters:
 ##### country:  
