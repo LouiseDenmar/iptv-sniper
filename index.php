@@ -48,8 +48,10 @@
 
   if ($debug == true)
     die("<pre>" . print_r($channel_info, true) . "</pre>");
+
+  $countries = json_decode(file_get_contents('http://country.io/names.json'), true);
 ?>#EXTM3U url-tvg="<?php echo implode(",", $tvg_urls); ?>"
 <?php foreach ($channel_info as $channel): ?>
-#EXTINF:-1 tvg-id="<?php echo $channel->id; ?>" tvg-name="<?php echo $channel->name; ?>" tvg-logo="<?php echo $channel->logo; ?>" group-title="<?php echo (property_exists($channel, "categories") && !empty($channel->categories)) ? Locale::getDisplayRegion('sl-Latn-IT-nedis', $channel->country) . "," . ucfirst($channel->categories[0]) : "Uncategorized"; ?>",<?php echo $channel->name . "\n"; ?>
+#EXTINF:-1 tvg-id="<?php echo $channel->id; ?>" tvg-name="<?php echo $channel->name; ?>" tvg-logo="<?php echo $channel->logo; ?>" group-title="<?php echo (property_exists($channel, "categories") && !empty($channel->categories)) ? $countries[$channel->country] . "," . ucfirst($channel->categories[0]) : "Uncategorized"; ?>",<?php echo $channel->name . "\n"; ?>
 <?php echo $channel->stream_url . "\n"; ?>
 <?php endforeach ?>
