@@ -18,16 +18,16 @@
       $online_channels[$channel->channel] = $channel;
   }
 
-  // $channels_api = fetch('https://iptv-org.github.io/api/channels.json');
-  // $channels     = json_decode($channels_api);
-  // $channel_info = array();
+  $channels_api = fetch('https://iptv-org.github.io/api/channels.json');
+  $channels     = json_decode($channels_api);
+  $channel_info = array();
 
-  // foreach ($channels as $channel) {
-  //   if ($channel->is_nsfw == $nsfw && array_key_exists($channel->id, $online_channels)) {
-  //     $channel_info[$channel->id] = (object) array_merge((array) $channel, (array) $online_channels[$channel->id]);
-  //     $channel_info[$channel->id]->stream_url = $online_channels[$channel->id]->url;
-  //   }
-  // }
+  foreach ($channels as $channel) {
+    if ($channel->is_nsfw == $nsfw && array_key_exists($channel->id, $online_channels)) {
+      $channel_info[$channel->id] = (object) array_merge((array) $channel, (array) $online_channels[$channel->id]);
+      $channel_info[$channel->id]->stream_url = $online_channels[$channel->id]->url;
+    }
+  }
 
   // $guides_api = fetch('https://iptv-org.github.io/api/guides.json');
   // $guides     = json_decode($guides_api);
@@ -47,7 +47,7 @@
   // }
 
   if ($debug == true)
-    die("<pre>" . print_r($online_channels, true) . "</pre>");
+    die("<pre>" . print_r($channel_info, true) . "</pre>");
 
   function fetch($url) {
     $ch = curl_init();
