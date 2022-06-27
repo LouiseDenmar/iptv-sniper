@@ -4,24 +4,24 @@ This is an automatic M3U file/provider that reads channels marked as online on t
 
 ### Configuration Parameters:
 <dl>
-  <dt>`country`</dt>
-  <dd>2 letter country code separated by commas [ref. <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>]</dd>
+  <dt>country</dt>
+  <dd>2 letter country code separated by commas [ref. https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2]</dd>
 
->link example: <https://iptv-sniper.herokuapp.com/?country=us,uk​>  
+>https://iptv-sniper.herokuapp.com/?country=us,uk​
 
 defaults to us,uk,ca,au,hk,sg,ph if unprovided​
 
   <dt>quality</dt>
   <dd>desired resolution (represented in numbers) separated by commas</dd>
 
->link example: <https://iptv-sniper.herokuapp.com/?country=ph&quality=240,480,720​>  
+>https://iptv-sniper.herokuapp.com/?country=ph&quality=240,480,720​
 
 defaults to not shown if unprovided​
 
   <dt>nsfw</dt>
   <dd>include adult content</dd>
 
->link example: <https://iptv-sniper.herokuapp.com/index.php?country=us&quality=720,1080&nsfw=1​>  
+>https://iptv-sniper.herokuapp.com/index.php?country=us&quality=720,1080&nsfw=1​
 
 defaults to not shown if unprovided​
 </dl>
