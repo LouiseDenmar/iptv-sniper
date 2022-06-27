@@ -7,7 +7,7 @@
   $countries = isset($_GET["country"]) ? str_getcsv($_GET['country']) : str_getcsv("us,uk,ca,au,hk,sg,ph");
   $quality   = isset($_GET["quality"]) ? str_getcsv($_GET["quality"]) : str_getcsv("0,240,480,720,1080,2160,4320");
   $nsfw      = isset($_GET["nsfw"]) ? $_GET["nsfw"] : 0;
-  $debug = isset($_GET["debug"]) ? $_GET["debug"] : 0;
+  $debug = isset($_GET["debug"]) ? $_GET["debug"] : 1;
 
   $streams_api = fetch("https://iptv-org.github.io/api/streams.json'");
   $channels    = json_decode($streams_api);
@@ -46,7 +46,7 @@
   // }
 
   if ($debug == true)
-    die("<pre>" . print_r($channel_info, true) . "</pre>");
+    die("<pre>" . print_r($online_channels, true) . "</pre>");
 
   function fetch($url) {
     $ch = curl_init();
@@ -56,8 +56,3 @@
     curl_close($ch);
     return $response;
   }
-?>#EXTM3U url-tvg="<?php //echo implode(",", $tvg_urls); ?>"
-<?php //foreach ($channel_info as $channel): ?>
-#EXTINF:-1 tvg-id="<?php //echo $channel->id; ?>" tvg-name="<?php //echo $channel->name; ?>" tvg-logo="<?php //echo $channel->logo; ?>" group-title="<?php //echo (property_exists($channel, "categories") && !empty($channel->categories)) ? ucfirst($channel->categories[0]) : "Uncategorized"; ?>",<?php //echo $channel->name . "\n"; ?>
-<?php //echo $channel->stream_url . "\n"; ?>
-<?php //endforeach ?>
