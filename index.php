@@ -9,8 +9,9 @@
   $nsfw      = isset($_GET["nsfw"]) ? $_GET["nsfw"] : 0;
   $debug = isset($_GET["debug"]) ? $_GET["debug"] : 1;
 
-  $streams_api = fetch("https://iptv-org.github.io/api/streams.json'");
-  $channels    = json_decode($streams_api);
+  $streams_api     = fetch("https://iptv-org.github.io/api/streams.json'");
+  $channels        = json_decode($streams_api);
+  $online_channels = array();
 
   foreach ($channels as $channel) {
     if ($channel->status == "online" && in_array(substr($channel->channel, -2), $countries) && property_exists($channel, "height") && in_array($channel->height, $quality))
