@@ -9,21 +9,21 @@ This is an automatic M3U file/provider that reads channels marked as online on t
 
 >https://iptv-sniper.herokuapp.com/?country=us,uk​
 
-defaults to us,uk,ca,au,hk,sg,ph if unprovided​
+##### defaults to us,uk,ca,au,hk,sg,ph if unprovided​
 
   <dt>quality</dt>
   <dd>desired resolution (represented in numbers) separated by commas</dd>
 
 >https://iptv-sniper.herokuapp.com/?country=ph&quality=240,480,720​
 
-defaults to not shown if unprovided​
+##### defaults to not shown if unprovided​
 
   <dt>nsfw</dt>
   <dd>include adult content</dd>
 
 >https://iptv-sniper.herokuapp.com/index.php?country=us&quality=720,1080&nsfw=1​
 
-defaults to not shown if unprovided​
+##### defaults to not shown if unprovided​
 </dl>
 
 ### Developer Notes:
