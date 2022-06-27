@@ -1,2 +1,2 @@
 <?php
-  echo php_info();
+  echo "hello world!";
