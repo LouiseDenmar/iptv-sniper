@@ -17,9 +17,4 @@ include adult content
    >defaults to not shown if unprovided​
 
 ### Developer Notes:
-This is a work in progress. I have open-sourced this project to facilitate more efficient ways of doing the api scraping in case you know better. 
-
-### Changelog:
-```
-Release 6.26.22v1.0 - Initial public release​
-```
+This is a work in progress. I have open-sourced this project to facilitate more efficient ways of doing the api scraping in case you know better.
