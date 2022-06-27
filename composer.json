@@ -1,3 +1,5 @@
-"require": {
-    "ext-curl": "*",
+{
+    "require": {
+        "ext-curl": "*"
+    }
 }
