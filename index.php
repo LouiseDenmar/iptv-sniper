@@ -1,5 +1,5 @@
 <?php
-  if (isset($_GET["debug"])) {
+  if (!isset($_GET["debug"])) {
     header("Content-Type: audio/x-mpegurl");
     header("Content-Disposition: attachment; filename=iptv-org.m3u");
   }
@@ -7,9 +7,9 @@
   $countries = isset($_GET["country"]) ? str_getcsv($_GET['country']) : str_getcsv("ph");
   $quality   = isset($_GET["quality"]) ? str_getcsv($_GET["quality"]) : str_getcsv("0,240,480,720,1080,2160,4320");
   $nsfw      = isset($_GET["nsfw"]) ? $_GET["nsfw"] : 0;
-  $debug     = isset($_GET["debug"]) ? $_GET["debug"] : 1;
+  $debug     = isset($_GET["debug"]) ? $_GET["debug"] : 0;
 
-  $streams_api     = fetch('https://iptv-org.github.io/api/streams.json');
+  $streams_api     = file_get_contents('https://iptv-org.github.io/api/streams.json');
   $channels        = json_decode($streams_api);
   $online_channels = array();
 
@@ -18,7 +18,7 @@
       $online_channels[$channel->channel] = $channel;
   }
 
-  $channels_api = fetch('https://iptv-org.github.io/api/channels.json');
+  $channels_api = file_get_contents('https://iptv-org.github.io/api/channels.json');
   $channels     = json_decode($channels_api);
   $channel_info = array();
 
@@ -29,7 +29,7 @@
     }
   }
 
-  $guides_api = fetch('https://iptv-org.github.io/api/guides.json');
+  $guides_api = file_get_contents('https://iptv-org.github.io/api/guides.json');
   $guides     = json_decode($guides_api);
 
   foreach ($guides as $guide) {
@@ -48,12 +48,8 @@
 
   if ($debug == true)
     die("<pre>" . print_r($channel_info, true) . "</pre>");
-
-  function fetch($url) {
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    $response = curl_exec($ch);
-    curl_close($ch);
-    return $response;
-  }
+?>#EXTM3U url-tvg="<?php echo implode(",", $tvg_urls); ?>"
+<?php foreach ($channel_info as $channel): ?>
+#EXTINF:-1 tvg-id="<?php echo $channel->id; ?>" tvg-name="<?php echo $channel->name; ?>" tvg-logo="<?php echo $channel->logo; ?>" group-title="<?php echo (property_exists($channel, "categories") && !empty($channel->categories)) ? ucfirst($channel->categories[0]) : "Uncategorized"; ?>",<?php echo $channel->name . "\n"; ?>
+<?php echo $channel->stream_url . "\n"; ?>
+<?php endforeach ?>
