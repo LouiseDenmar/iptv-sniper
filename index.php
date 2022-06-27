@@ -12,7 +12,7 @@
   $streams_api     = file_get_contents("https://iptv-org.github.io/api/streams.json'");
   $channels        = json_decode($streams_api);
   $online_channels = array();
-
+var_dump($channels);
   foreach ($channels as $channel) {
     if ($channel->status == "online" && in_array(substr($channel->channel, -2), $countries) && property_exists($channel, "height") && in_array($channel->height, $quality))
       $online_channels[$channel->channel] = $channel;
