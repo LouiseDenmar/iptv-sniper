@@ -7,9 +7,9 @@
   $countries = isset($_GET["country"]) ? str_getcsv($_GET['country']) : str_getcsv("us,uk,ca,au,hk,sg,ph");
   $quality   = isset($_GET["quality"]) ? str_getcsv($_GET["quality"]) : str_getcsv("0,240,480,720,1080,2160,4320");
   $nsfw      = isset($_GET["nsfw"]) ? $_GET["nsfw"] : 0;
-  $debug = isset($_GET["debug"]) ? $_GET["debug"] : 1;
+  $debug     = isset($_GET["debug"]) ? $_GET["debug"] : 1;
 
-  $streams_api     = fetch("https://iptv-org.github.io/api/streams.json'");
+  $streams_api     = file_get_contents("https://iptv-org.github.io/api/streams.json'");
   $channels        = json_decode($streams_api);
   $online_channels = array();
 
