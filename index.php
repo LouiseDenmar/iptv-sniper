@@ -30,6 +30,7 @@
     if ($channel->is_nsfw == $nsfw && array_key_exists($channel->id, $online_channels)) {
       $online_channels[$channel->id] = (object) array_merge((array) $channel, (array) $online_channels[$channel->id]);
       $online_channels[$channel->id]->stream_url = $online_channels[$channel->id]->url;
+      unset($online_channels[$channel->channel]->url);
     }
   }
 
@@ -42,7 +43,7 @@
     if (array_key_exists($guide->channel, $online_channels)) {
       $online_channels[$guide->channel] = (object) array_merge((array) $online_channels[$guide->channel], (array) $guide);
       $online_channels[$guide->channel]->guide_url = $guide->url;
-      unset($online_channels[$guide->id]->url);
+      unset($online_channels[$guide->channel]->url);
     }
   }
 
