@@ -42,8 +42,9 @@
     if (array_key_exists($guide->channel, $online_channels)) {
       $online_channels[$guide->channel] = (object) array_merge((array) $online_channels[$guide->channel], (array) $guide);
       $online_channels[$guide->channel]->guide_url = $guide->url;
-      unset($online_channels[$guide->channel]->url);
     }
+
+    unset($online_channels[$guide->id]->url);
   }
 
   $tvg_urls = array();
