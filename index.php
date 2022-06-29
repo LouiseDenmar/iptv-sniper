@@ -68,7 +68,7 @@
     $m3u = str_replace('tvg-country', 'country', $m3u);
     $m3u = str_replace('tvg-language', 'language', $m3u);
 
-    preg_match_all($re, $m3ufile, $matches);
+    preg_match_all($re, $m3u, $matches);
 
     $items = array();
 
@@ -96,10 +96,19 @@
 
       $items[] = $newdata;
     }
+
+    $globalitems =  array(
+      //'ATTRIBUTE' => $matchList[2],
+      'service' => "iptv",
+      'title' => "iptv",
+      'item' => $items,
+    );
+
+    $globalist['list'] = $globalitems;
   }
 
   if ($debug == true)
-    die("<pre>" . print_r($items, true) . "</pre>");
+    die("<pre>" . print_r($globalist, true) . "</pre>");
   // die("<pre>" . print_r($online_channels, true) . "</pre>");
 ?>#EXTM3U url-tvg="<?php echo implode(",", $tvg_urls); ?>"
 <?php foreach ($online_channels as $channel): ?>
