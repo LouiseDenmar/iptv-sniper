@@ -61,10 +61,10 @@
     $re = '/#EXTINF:(.+?)[,]\s?(.+?)[\r\n]+?((?:https?|rtmp):\/\/(?:\S*?\.\S*?)(?:[\s)\[\]{};"\'<]|\.\s|$))/';
     $attributes = '/([a-zA-Z0-9\-\_]+?)="([^"]*)"/';
 
-    $m3u = str_replace('tvg-logo', 'thumb_square', $m3u);
+    $m3u = str_replace('tvg-logo', 'logo', $m3u);
     $m3u = str_replace('tvg-id', 'id', $m3u);
     $m3u = str_replace('tvg-name', 'author', $m3u);
-    $m3u = str_replace('group-title', 'group', $m3u);
+    $m3u = str_replace('group-title', 'categories', $m3u);
     $m3u = str_replace('tvg-country', 'country', $m3u);
     $m3u = str_replace('tvg-language', 'language', $m3u);
 
@@ -78,13 +78,8 @@
       $mediaURL = preg_replace('/\s+/', '', $mediaURL);
 
       $newdata =  array(
-        //'ATTRIBUTE' => $matchList[2],
-        'service' => "iptv",
-        'title' => $matchList[2],
-        //'playlistURL' => (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",
-        //'playlistURL' => str_replace("url=","",$_SERVER['QUERY_STRING']),
-        'playlistURL' => $url,
-        'media_url' => $mediaURL,
+        'name' => $matchList[2],
+        'stream_url' => $mediaURL,
         'url' => $mediaURL
       );
 
