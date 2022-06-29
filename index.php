@@ -103,7 +103,8 @@
   }
 
   if ($debug == true)
-    die("<pre>" . print_r($online_channels, true) . "</pre>");
+    die("<pre>" . print_r($globalist, true) . "</pre>");
+    // die("<pre>" . print_r($online_channels, true) . "</pre>");
 ?>#EXTM3U url-tvg="<?php echo implode(",", $tvg_urls); ?>"
 <?php foreach ($online_channels as $channel): ?>
 #EXTINF:-1 tvg-id="<?php echo $channel->id; ?>" tvg-name="<?php echo $channel->name; ?>" tvg-logo="<?php echo $channel->logo; ?>" group-title="<?php echo (property_exists($channel, "categories") && !empty($channel->categories)) ? ucfirst($channel->categories[0]) : "Uncategorized"; ?>",<?php echo $channel->name . "\n"; ?>
