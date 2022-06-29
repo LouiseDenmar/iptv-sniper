@@ -14,7 +14,9 @@ http://quality-restream.com:8080/ce1eb8b3/fd28c06f6f/751
 #EXTINF:-1 tvg-id="AMCPlus.us" tvg-name="AMC+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/AMC%2B_logo.png/512px-AMC%2B_logo.png" group-title="Movies",AMC+
 http://wayforward.xyz:25461/Stacy1/Stacy1/199591
 #EXTINF:-1 tvg-id="CinemaxEast.us" tvg-name="Cinemax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Cinemax.svg/512px-Cinemax.svg.png" group-title="Movies",Cinemax
-http://wayforward.xyz:25461/Stacy1/Stacy1/56276
+http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/30925
+#EXTINF:-1 tvg-id="FXEast.us" tvg-name="FX" tvg-logo="https://zap2it.tmsimg.com/h5/NowShowing/73681/s73681_h5_aa.png" group-title="Movies",FX
+http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/31044
 #EXTINF:-1 tvg-id="HallmarkMoviesMysteriesEast.us" tvg-name="Hallmark Movies & Mysteries" tvgr-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Hallmark_movies_mysteries.png/512px-Hallmark_movies_mysteries.png" group-title="Movies",Hallmark Movies & Mysteries
 http://quality-restream.com:8080/ce1eb8b3/fd28c06f6f/3388
 #EXTINF:-1 tvg-id="HBOEast.us" tvg-name="HBO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7d/Hbo-tp.png" group-title="Movies",HBO
@@ -33,6 +35,8 @@ http://quality-restream.com:8080/ce1eb8b3/fd28c06f6f/14839
 http://quality-restream.com:8080/ce1eb8b3/fd28c06f6f/276532
 #EXTINF:-1 tvg-id="ShowtimeEast.us" tvg-name="Showtime" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/512px-Showtime.svg.png" group-title="Movies",Showtime
 http://quality-restream.com:8080/ce1eb8b3/fd28c06f6f/16137
+#EXTINF:-1 tvg-id="SonyMoviesUSA.us" tvg-name="Sony Movies" tvg-logo="https://i.imgur.com/1uTtTfJ.png" group-title="Movies",Sony Movies
+http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/30919
 #EXTINF:-1 tvg-id="StarzEast.us" tvg-name="STARZ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Starz_HD_logo.svg/512px-Starz_HD_logo.svg.png" group-title="Movies",STARZ
 http://quality-restream.com:8080/ce1eb8b3/fd28c06f6f/6302
 #EXTINF:-1 tvg-id="STIRRMovies.us" tvg-name="STIRR Movies" tvg-logo="https://i.imgur.com/ec3yTaI.png" group-title="Movies",STIRR Movies
@@ -117,12 +121,14 @@ http://quality-restream.com:8080/ce1eb8b3/fd28c06f6f/290487
 http://quality-restream.com:8080/ce1eb8b3/fd28c06f6f/15558
 #EXTINF:-1 tvg-id="BBCEarthAsia.uk" tvg-name="BBC Earth" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/44/BBC_Earth_logo.png" group-title="Documentary",BBC Earth
 http://quality-restream.com:8080/ce1eb8b3/fd28c06f6f/171979
+#EXTINF:-1 tvg-id="DiscoveryChannelEast.us" tvg-name="Discovery Channel" tvg-logo="https://i.imgur.com/8Z8bUvw.png" group-title="Documentary",Discovery Channel
+http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/31094
 #EXTINF:-1 tvg-id="DiscoveryScience.us" tvg-name="Discovery Science" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/512px-Discovery_Science_2017_Logo.svg.png" group-title="Documentary",Discovery Science
 http://quality-restream.com:8080/ce1eb8b3/fd28c06f6f/2301
 #EXTINF:-1 tvg-id="DiscoveryWorldHDPanregional.us" tvg-name="Discovery World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/World_Discovery_HD_logo.svg/512px-World_Discovery_HD_logo.svg.png" group-title="Documentary",Discovery World
 http://quality-restream.com:8080/ce1eb8b3/fd28c06f6f/755
-#EXTINF:-1 tvg-id="HistoryPhilippines.ph" tvg-name="History Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/History_Logo.svg/512px-History_Logo.svg.png" group-title="Documentary",History Channel
-http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=115715&extension=ts&play_token=mqWcCWYKlM
+#EXTINF:-1 tvg-id="HistoryEast.us" tvg-name="History" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="Documentary",History
+http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86031
 #EXTINF:-1 tvg-id="NationalGeographicUK.uk" tvg-name="National Geographic Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic Channel
 http://quality-restream.com:8080/ce1eb8b3/fd28c06f6f/1101
 #EXTINF:-1 tvg-id="NationalGeographicWildUK.uk" tvg-name="Nat Geo Wild" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",Nat Geo Wild
@@ -158,7 +164,7 @@ http://quality-restream.com:8080/ce1eb8b3/fd28c06f6f/773
 #EXTINF:-1 tvg-id="TSN5.ca" tvg-name="TSN5" tvg-logo="https://i.imgur.com/R1GycDb.png" group-title="Sports",TSN5
 http://quality-restream.com:8080/ce1eb8b3/fd28c06f6f/774
 #EXTINF:-1 tvg-id="MTVEast.us" tvg-name="MTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_(brand_version).svg/512px-MTV_2021_(brand_version).svg.png" group-title="Music",MTV
-http://wayforward.xyz:25461/Stacy1/Stacy1/53531
+http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86043
 #EXTINF:-1 tvg-id="MTVBiggestPop.us" tvg-name="MTV Biggest Pop" tvg-logo="https://images.pluto.tv/channels/5d14fd1a252d35decbc4080c/featuredImage.jpg?auto=&fill=blur&fit=fill&ixlib=react-9.1.5&h=185&w=512" group-title="Music",MTV Biggest Pop
 http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8
 #EXTINF:-1 tvg-id="MTVAsia.sg" tvg-name="MTV Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/512px-MTV-2021.svg.png" group-title="Music",MTV Asia
