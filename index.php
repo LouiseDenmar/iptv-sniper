@@ -64,7 +64,7 @@
     $m3u = str_replace('tvg-logo', 'logo', $m3u);
     $m3u = str_replace('tvg-id', 'id', $m3u);
     $m3u = str_replace('tvg-name', 'author', $m3u);
-    $m3u = str_replace('group-title', 'categories', $m3u);
+    $m3u = str_replace('group-title', 'group', $m3u);
     $m3u = str_replace('tvg-country', 'country', $m3u);
     $m3u = str_replace('tvg-language', 'language', $m3u);
 
@@ -80,7 +80,7 @@
       $newdata =  array(
         'name' => $matchList[2],
         'stream_url' => $mediaURL,
-        'url' => $mediaURL
+        'matchlist' => $matchList
       );
 
       preg_match_all($attributes, $list, $matches, PREG_SET_ORDER);
