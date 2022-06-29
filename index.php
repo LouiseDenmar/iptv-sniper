@@ -9,6 +9,7 @@
   $quality   = isset($_GET["quality"]) ? str_getcsv($_GET["quality"]) : ["0","240","480","720","1080","2160","4320"];
   $nsfw      = isset($_GET["nsfw"]) ? $_GET["nsfw"] : 0;
   $debug     = isset($_GET["debug"]) ? $_GET["debug"] : 0;
+  $include   = isset($_GET["include"]) ? $_GET["include"] : null;
 
   //get a list of all available online streams
   $streams_api     = file_get_contents('https://iptv-org.github.io/api/streams.json');
@@ -55,8 +56,51 @@
       $tvg_urls[] = $channel->guide_url;
   }
 
+  if ($include !== null) {
+    $m3u = file_get_contents($include);
+    $re = '/#EXTINF:(.+?)[,]\s?(.+?)[\r\n]+?((?:https?|rtmp):\/\/(?:\S*?\.\S*?)(?:[\s)\[\]{};"\'<]|\.\s|$))/';
+    $attributes = '/([a-zA-Z0-9\-\_]+?)="([^"]*)"/';
+
+    $m3u = str_replace('tvg-logo', 'thumb_square', $m3u);
+    $m3u = str_replace('tvg-id', 'id', $m3u);
+    $m3u = str_replace('tvg-name', 'author', $m3u);
+    $m3u = str_replace('group-title', 'group', $m3u);
+    $m3u = str_replace('tvg-country', 'country', $m3u);
+    $m3u = str_replace('tvg-language', 'language', $m3u);
+
+    preg_match_all($re, $m3ufile, $matches);
+
+    $items = array();
+
+    foreach($matches[0] as $list) {
+      preg_match($re, $list, $matchList);
+      $mediaURL = preg_replace("/[\n\r]/","",$matchList[3]);
+      $mediaURL = preg_replace('/\s+/', '', $mediaURL);
+
+      $newdata =  array(
+        //'ATTRIBUTE' => $matchList[2],
+        'service' => "iptv",
+        'title' => $matchList[2],
+        //'playlistURL' => (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]",
+        //'playlistURL' => str_replace("url=","",$_SERVER['QUERY_STRING']),
+        'playlistURL' => $url,
+        'media_url' => $mediaURL,
+        'url' => $mediaURL
+      );
+
+      preg_match_all($attributes, $list, $matches, PREG_SET_ORDER);
+
+      foreach ($matches as $match) {
+        $newdata[$match[1]] = $match[2];
+      }
+
+      $items[] = $newdata;
+    }
+  }
+
   if ($debug == true)
-    die("<pre>" . print_r($online_channels, true) . "</pre>");
+    die("<pre>" . print_r($items, true) . "</pre>");
+  // die("<pre>" . print_r($online_channels, true) . "</pre>");
 ?>#EXTM3U url-tvg="<?php echo implode(",", $tvg_urls); ?>"
 <?php foreach ($online_channels as $channel): ?>
 #EXTINF:-1 tvg-id="<?php echo $channel->id; ?>" tvg-name="<?php echo $channel->name; ?>" tvg-logo="<?php echo $channel->logo; ?>" group-title="<?php echo (property_exists($channel, "categories") && !empty($channel->categories)) ? ucfirst($channel->categories[0]) : "Uncategorized"; ?>",<?php echo $channel->name . "\n"; ?>
