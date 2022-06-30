@@ -85,12 +85,13 @@
       preg_match_all($attributes, $list, $matches, PREG_SET_ORDER);
 
       foreach ($matches as $match) {
-        if ($match[1] == "group") {
+        if ($match[1] == "group")
           $newdata["categories"] = array($match[2]);
-        }
 
         $newdata[$match[1]] = $match[2];
-        $items["id"][] = $newdata;
+
+        if ($match[1] == "id")
+          $items[$match[2]] = $newdata;
       }
     }
   }
