@@ -9,7 +9,7 @@
   $quality   = isset($_GET["quality"]) ? str_getcsv($_GET["quality"]) : ["0","240","480","720","1080","2160","4320"];
   $nsfw      = isset($_GET["nsfw"]) ? $_GET["nsfw"] : 0;
   $debug     = isset($_GET["debug"]) ? $_GET["debug"] : 0;
-  $include   = isset($_GET["include"]) ? $_GET["include"] : null;
+  $import    = isset($_GET["import"]) ? $_GET["import"] : null;
 
   //get a list of all available online streams
   $streams_api     = file_get_contents('https://iptv-org.github.io/api/streams.json');
@@ -56,50 +56,43 @@
       $tvg_urls[] = $channel->guide_url;
   }
 
-  if ($include !== null) {
-    $m3u = file_get_contents($include);
-    $re = '/#EXTINF:(.+?)[,]\s?(.+?)[\r\n]+?((?:https?|rtmp):\/\/(?:\S*?\.\S*?)(?:[\s)\[\]{};"\'<]|\.\s|$))/';
-    $attributes = '/([a-zA-Z0-9\-\_]+?)="([^"]*)"/';
+  if ($import !== null) {
+    $m3u = file_get_contents($import);
+    $channel_pattern = '/#EXTINF:(.+?)[,]\s?(.+?)[\r\n]+?((?:https?|rtmp):\/\/(?:\S*?\.\S*?)(?:[\s)\[\]{};"\'<]|\.\s|$))/';
+    $channel_attributes = '/([a-zA-Z0-9\-\_]+?)="([^"]*)"/';
 
-    $m3u = str_replace('tvg-logo', 'logo', $m3u);
     $m3u = str_replace('tvg-id', 'id', $m3u);
-    $m3u = str_replace('tvg-name', 'author', $m3u);
+    $m3u = str_replace('tvg-name', 'name', $m3u);
+    $m3u = str_replace('tvg-logo', 'logo', $m3u);
     $m3u = str_replace('group-title', 'group', $m3u);
-    $m3u = str_replace('tvg-country', 'country', $m3u);
-    $m3u = str_replace('tvg-language', 'language', $m3u);
 
-    preg_match_all($re, $m3u, $matches);
+    preg_match_all($channel_pattern, $m3u, $channels);
 
-    $items = array();
+    $imported_channels = array();
 
-    foreach($matches[0] as $list) {
-      preg_match($re, $list, $matchList);
-      $mediaURL = preg_replace("/[\n\r]/","",$matchList[3]);
-      $mediaURL = preg_replace('/\s+/', '', $mediaURL);
+    foreach($channels[0] as $channel) {
+      preg_match($channel_pattern, $list, $match_list);
+      $stream_url = preg_replace("/[\n\r]/","",$match_list[3]);
+      $stream_url = preg_replace('/\s+/', '', $stream_url);
 
-      $newdata =  array(
-        'name' => $matchList[2],
-        'stream_url' => $mediaURL
-      );
+      $channel_info =  array('stream_url' => $stream_url);
 
-      preg_match_all($attributes, $list, $matches, PREG_SET_ORDER);
+      preg_match_all($channel_attributes, $channel, $channels, PREG_SET_ORDER);
 
-      foreach ($matches as $match) {
-        if ($match[1] == "group") {
-          $newdata["categories"] = array($match[2]);
-          unset($newdata["author"]);
-        }
+      foreach ($channels as $match) {
+        if ($match[1] == "group")
+          $channel_info["categories"] = array($match[2]);
 
-        $newdata[$match[1]] = $match[2];
-        unset($newdata["group"]);
+        $channel_info[$match[1]] = $match[2];
+        unset($channel_info["group"]);
       }
 
-      $items[$matches[0][2]] = (object) $newdata;
+      $imported_channels[$channels[0][2]] = (object) $channel_info;
     }
   }
 
   if ($debug == true)
-    die("<pre>" . print_r($items, true) . "</pre>");
+    die("<pre>" . print_r($imported_channels, true) . "</pre>");
     // die("<pre>" . print_r($online_channels, true) . "</pre>");
 ?>#EXTM3U url-tvg="<?php echo implode(",", $tvg_urls); ?>"
 <?php foreach ($online_channels as $channel): ?>
