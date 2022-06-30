@@ -25,6 +25,11 @@ This is an automatic M3U file/provider that reads channels marked as online on t
 >https://iptv-sniper.herokuapp.com/index.php?country=us&quality=720,1080&nsfw=1​
 
 ##### default: hidden
+
+  <dt>import</dt>
+  <dd>include an external m3u file to add to the automatically generated playlist</dd>
+
+>https://iptv-sniper.herokuapp.com/?country=ph&import=https://raw.githubusercontent.com/jmvbambico/iptv-sniper/master/channels_alpha.m3u
 </dl>
 
 ---
