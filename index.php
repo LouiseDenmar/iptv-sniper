@@ -91,7 +91,8 @@
         $newdata[$match[1]] = $match[2];
       }
 
-      $items[$matches[3]][] = (object) $newdata;
+      die(print_r($matches));
+      // $items[$matches[3]][] = (object) $newdata;
     }
   }
 
