@@ -79,31 +79,25 @@
 
       $newdata =  array(
         'name' => $matchList[2],
-        'stream_url' => $mediaURL,
-        'matchlist' => $matchList
+        'stream_url' => $mediaURL
       );
 
       preg_match_all($attributes, $list, $matches, PREG_SET_ORDER);
 
       foreach ($matches as $match) {
+        if ($match[1] == "group") {
+          $newdata["categories"] = array($match[2]);
+        }
+
         $newdata[$match[1]] = $match[2];
       }
 
-      $items[] = $newdata;
+      $items = $newdata;
     }
-
-    $globalitems =  array(
-      //'ATTRIBUTE' => $matchList[2],
-      'service' => "iptv",
-      'title' => "iptv",
-      'item' => $items,
-    );
-
-    $globalist['list'] = $globalitems;
   }
 
   if ($debug == true)
-    die("<pre>" . print_r($globalist, true) . "</pre>");
+    die("<pre>" . print_r($items, true) . "</pre>");
     // die("<pre>" . print_r($online_channels, true) . "</pre>");
 ?>#EXTM3U url-tvg="<?php echo implode(",", $tvg_urls); ?>"
 <?php foreach ($online_channels as $channel): ?>
