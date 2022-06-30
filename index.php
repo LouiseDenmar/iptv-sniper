@@ -91,7 +91,7 @@
         $newdata[$match[1]] = $match[2];
       }
 
-      $items[] = (object) $newdata;
+      $items[$matches[3]][] = (object) $newdata;
     }
   }
 
