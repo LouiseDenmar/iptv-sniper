@@ -89,10 +89,9 @@
           $newdata["categories"] = array($match[2]);
 
         $newdata[$match[1]] = $match[2];
-
-        if ($match[1] == "id")
-          $items[$match[2]] = $newdata;
       }
+
+      $items[] = (object) $newdata;
     }
   }
 
