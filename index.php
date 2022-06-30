@@ -90,11 +90,15 @@
 
       $imported_channels[$channels[0][2]] = (object) $channel_info;
     }
+
+    foreach ($imported_channels as $channel) {
+      if (array_key_exists($channel->id, $online_channels))
+        $online_channels[$channel->id] = (object) array_merge((array) $online_channels[$channel->id], (array) $channel);
+    }
   }
 
   if ($debug == true)
-    die("<pre>" . print_r($imported_channels, true) . "</pre>");
-    // die("<pre>" . print_r($online_channels, true) . "</pre>");
+    die("<pre>" . print_r($online_channels, true) . "</pre>");
 ?>#EXTM3U url-tvg="<?php echo implode(",", $tvg_urls); ?>"
 <?php foreach ($online_channels as $channel): ?>
 #EXTINF:-1 tvg-id="<?php echo $channel->id; ?>" tvg-name="<?php echo $channel->name; ?>" tvg-logo="<?php echo $channel->logo; ?>" group-title="<?php echo (property_exists($channel, "categories") && !empty($channel->categories)) ? ucfirst($channel->categories[0]) : "Uncategorized"; ?>",<?php echo $channel->name . "\n"; ?>
