@@ -90,10 +90,7 @@
         }
 
         $newdata[$match[1]] = $match[2];
-      }
-
-      foreach ($newdata as $channel) {
-        $items[$channel["id"]][] = $channel;
+        $items["id"][] = $newdata;
       }
     }
   }
