@@ -93,7 +93,7 @@
       }
 
       foreach ($newdata as $channel) {
-        $items[$channel["id"]] = $channel;
+        $items[$channel["id"]][] = $channel;
       }
     }
   }
