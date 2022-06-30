@@ -72,6 +72,7 @@
 
     foreach($channels[0] as $channel) {
       preg_match($channel_pattern, $list, $match_list);
+      die("<pre>" . print_r($match_list, true) . "</pre>");
       $stream_url = preg_replace("/[\n\r]/","",$match_list[3]);
       $stream_url = preg_replace('/\s+/', '', $stream_url);
 
