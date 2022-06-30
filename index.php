@@ -88,10 +88,10 @@
         if ($match[1] == "group") {
           $newdata["categories"] = array($match[2]);
           unset($newdata["author"]);
-          unset($newdata["group"]);
         }
 
         $newdata[$match[1]] = $match[2];
+        unset($newdata["group"]);
       }
 
       $items[$matches[0][2]] = (object) $newdata;
