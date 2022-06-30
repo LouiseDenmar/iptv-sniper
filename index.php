@@ -57,29 +57,40 @@
   }
 
   if ($import !== null) {
+    //get external m3u file
     $m3u = file_get_contents($import);
+
+    //general regex patterns for a specific channel
     $channel_pattern = '/#EXTINF:(.+?)[,]\s?(.+?)[\r\n]+?((?:https?|rtmp):\/\/(?:\S*?\.\S*?)(?:[\s)\[\]{};"\'<]|\.\s|$))/';
     $channel_attributes = '/([a-zA-Z0-9\-\_]+?)="([^"]*)"/';
 
+    //replace some strings on the external m3u file for easier processing
     $m3u = str_replace('tvg-id', 'id', $m3u);
     $m3u = str_replace('tvg-name', 'name', $m3u);
     $m3u = str_replace('tvg-logo', 'logo', $m3u);
     $m3u = str_replace('group-title', 'group', $m3u);
 
+    //begin matching the regex on the entire external m3u file
     preg_match_all($channel_pattern, $m3u, $channels);
 
     $imported_channels = array();
 
+    //for each match, process them individually as a channel
     foreach($channels[0] as $channel) {
+      //rematch the channel pattern on each match to pluck its attributes
       preg_match($channel_pattern, $channel, $match_list);
 
+      //get the stream url
       $stream_url = preg_replace("/[\n\r]/","",$match_list[3]);
       $stream_url = preg_replace('/\s+/', '', $stream_url);
 
+      //initialize final list of imported channel info with the stream url already included 
       $channel_info =  array('stream_url' => $stream_url);
 
+      //pluck channel attributes
       preg_match_all($channel_attributes, $channel, $channels, PREG_SET_ORDER);
 
+      //for each attribute match, add them to the final list of imported channel info
       foreach ($channels as $match) {
         if ($match[1] == "group")
           $channel_info["categories"] = array($match[2]);
@@ -91,6 +102,7 @@
       $imported_channels[$channels[0][2]] = (object) $channel_info;
     }
 
+    //merge the imported list of channel info to the list of available online streams
     foreach ($imported_channels as $channel)
       $online_channels[$channel->id] = (array_key_exists($channel->id, $online_channels)) ? (object) array_merge((array) $online_channels[$channel->id], (array) $channel) : $channel;
   }

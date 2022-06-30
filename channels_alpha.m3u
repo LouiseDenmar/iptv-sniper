@@ -1,7 +1,7 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/tvguide.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml.gz,https://iptv-org.github.io/epg/guides/ar/directv.com.ar.epg.xml.gz,https://iptv-org.github.io/epg/guides/rs/mts.rs.epg.xml.gz,https://i.mjh.nz/Stirr/all.xml.gz,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ca/tvhebdo.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/au/ontvtonight.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/in/startv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml.gz"
-#EXTINF:-1 tvg-id="KapamilyaChannel.ph" tvg-name="ABS CBN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/ABS-CBN_(2013).svg/512px-ABS-CBN_(2013).svg.png" group-title="Local TV",Kapamilya Channel
+#EXTINF:-1 tvg-id="KapamilyaChannel.ph" tvg-name="Kapamilya Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/ABS-CBN_(2013).svg/512px-ABS-CBN_(2013).svg.png" group-title="Local TV",Kapamilya Channel
 http://iptvtree.net:8080/Miglioriptv/9meicgdec6/144837
-#EXTINF:-1 tvg-id="TheFilipinoChannelAsia.us" tvg-name="The Filipino Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/The_Filipino_Channel_2011_logo.svg/512px-The_Filipino_Channel_2011_logo.svg.png" group-title="Local TV",The Filipino Channel
+#EXTINF:-1 tvg-id="TheFilipinoChannelAsia.us" tvg-name="TFC" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/The_Filipino_Channel_2011_logo.svg/512px-The_Filipino_Channel_2011_logo.svg.png" group-title="Local TV",TFC
 http://iptvtree.net:8080/Miglioriptv/9meicgdec6/121795
 #EXTINF:-1 tvg-id="TV5.ph" tvg-name="Kapatid TV 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TV5_(Philippines)_logo.svg/512px-TV5_(Philippines)_logo.svg.png" group-title="Local TV",Kapatid TV 5
 http://iptvtree.net:8080/Miglioriptv/9meicgdec6/171991
@@ -195,5 +195,5 @@ http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/34494
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/34496
 #EXTINF:-1 tvg-id="OnePH.ph" tvg-name="One PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/OnePHCignal.svg/512px-OnePHCignal.svg.png" group-title="Local Radio",One PH
 http://iptvtree.net:8080/ce1eb8b3/fd28c06f6f/276603
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Super Radyo DZBB" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/DZBB594.svg/512px-DZBB594.svg.png" group-title="Local Radio",Super Radyo DZBB
+#EXTINF:-1 tvg-id="SuperRadyoDZBB.ph" tvg-name="Super Radyo DZBB" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/DZBB594.svg/512px-DZBB594.svg.png" group-title="Local Radio",Super Radyo DZBB
 http://stream.gmanews.tv/ioslive/livestream/chunklist.m3u8?wowzasessionid=693701106
