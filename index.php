@@ -91,10 +91,8 @@
       $imported_channels[$channels[0][2]] = (object) $channel_info;
     }
 
-    foreach ($imported_channels as $channel) {
-      if (array_key_exists($channel->id, $online_channels))
-        $online_channels[$channel->id] = (object) array_merge((array) $online_channels[$channel->id], (array) $channel);
-    }
+    foreach ($imported_channels as $channel)
+      $online_channels[$channel->id] = (array_key_exists($channel->id, $online_channels)) ? (object) array_merge((array) $online_channels[$channel->id], (array) $channel) : $channel;
   }
 
   if ($debug == true)
