@@ -91,7 +91,7 @@
         $newdata[$match[1]] = $match[2];
       }
 
-      die("<pre>" . print_r($matches, true) . "</pre>");
+      die("<pre>" . print_r($matches[0], true) . "</pre>");
       // $items[$matches[3]][] = (object) $newdata;
     }
   }
