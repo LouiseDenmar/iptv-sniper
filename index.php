@@ -85,8 +85,11 @@
       preg_match_all($attributes, $list, $matches, PREG_SET_ORDER);
 
       foreach ($matches as $match) {
-        if ($match[1] == "group")
+        if ($match[1] == "group") {
           $newdata["categories"] = array($match[2]);
+          unset($newdata["author"]);
+          unset($newdata["group"]);
+        }
 
         $newdata[$match[1]] = $match[2];
       }
