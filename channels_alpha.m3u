@@ -39,6 +39,8 @@ http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cb0cae7a461406ffe3f5213/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="ParamountNetworkHDEast.us" tvg-name="Paramount Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Movies",Paramount Network
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86049
+#EXTINF:-1 tvg-id="ParamountNetworkMalaysia.my" tvg-name="Paramount Network Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Movies",Paramount Network Asia
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/59.m3u8
 #EXTINF:-1 tvg-id="PBO.ph" tvg-name="PBO" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f6/Pinoy_Box_Office_logo.png" group-title="Movies",PBO
 http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/12.m3u8
 #EXTINF:-1 tvg-id="ShowtimeEast.us" tvg-name="Showtime" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/512px-Showtime.svg.png" group-title="Movies",Showtime
@@ -60,9 +62,9 @@ http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/21.m3u8
 #EXTINF:-1 tvg-id="StoriesbyAMC.us" tvg-name="Stories by AMC" tvg-logo="https://images.pluto.tv/channels/5e8254118601b80007b4b7ae/colorLogoPNG.png" group-title="Lifestyle & Entertainment",Stories by AMC
 https://amc-amcpresents-1.imdbtv.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="AsianFoodNetwork.sg" tvg-name="Asian Food Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Asian_Food_Network.svg/512px-Asian_Food_Network.svg.png" group-title="Lifestyle & Entertainment",Asian Food Network
-http://iptvtree.net:8080/Miglioriptv/9meicgdec6/157549
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/63.m3u8
 #EXTINF:-1 tvg-id="AXNAsia.sg" tvg-name="AXN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_(2015).svg/512px-AXN_logo_(2015).svg.png" group-title="Lifestyle & Entertainment",AXN
-http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=115620&extension=ts&play_token=shv19sZenn
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/62.m3u8
 #EXTINF:-1 tvg-id="BETEast.us" tvg-name="BET" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/BET-2021Logo.svg/512px-BET-2021Logo.svg.png" group-title="Lifestyle & Entertainment",BET
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86000
 #EXTINF:-1 tvg-id="CrimePlusInvestigationNetworkUSA.us" tvg-name="Crime + Investigation" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg/512px-Crime_%2B_Investigation_Logo_10.2019.svg.png" group-title="Lifestyle & Entertainment",Crime + Investigation
@@ -75,6 +77,8 @@ http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/30939
 http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/60.m3u8
 #EXTINF:-1 tvg-id="FashionTVParis.fr" tvg-name="FashionTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="Lifestyle & Entertainment",FashionTV
 http://iptvtree.net:8080/ce1eb8b3/fd28c06f6f/295034
+#EXTINF:-1 tvg-id="FashionTVAsia.fr" tvg-name="FashionTV Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="Lifestyle & Entertainment",FashionTV Asia
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/96.m3u8
 #EXTINF:-1 tvg-id="FoodNetworkEast.us" tvg-name="Food Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Food_Network_logo.svg/512px-Food_Network_logo.svg.png" group-title="Lifestyle & Entertainment",Food Network
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/30943
 #EXTINF:-1 tvg-id="HallmarkChannelEast.us" tvg-name="Hallmark Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Hallmark_Channel.svg/512px-Hallmark_Channel.svg.png" group-title="Lifestyle & Entertainment",Hallmark Channel
@@ -84,13 +88,13 @@ http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86030
 #EXTINF:-1 tvg-id="HGTVAsia.us" tvg-name="HGTV Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/HGTV_2010.svg/512px-HGTV_2010.svg.png" group-title="Lifestyle & Entertainment",HGTV Asia
 http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/87.m3u8
 #EXTINF:-1 tvg-id="LifetimeAsia.us" tvg-name="Lifetime" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png" group-title="Lifestyle & Entertainment",Lifetime
-http://iptvtree.net:8080/Miglioriptv/9meicgdec6/147240
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/55.m3u8
 #EXTINF:-1 tvg-id="MetroChannel.ph" tvg-name="Metro Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c2/Metro_Channel_logo.png" group-title="Lifestyle & Entertainment",Metro Channel
 http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/58.m3u8
 #EXTINF:-1 tvg-id="RockEntertainment.sg" tvg-name="Rock Entertainment" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/db/ROCK_entertainment_UHD.png/revision/latest/scale-to-width-down/1000?cb=20210911032942" group-title="Lifestyle & Entertainment",Rock Entertainment
-http://210.210.155.35/dr9445/h/h16/index.m3u8
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/56.m3u8
 #EXTINF:-1 tvg-id="RockExtreme.sg" tvg-name="Rock Extreme" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d4/RockExtreme.png/revision/latest?cb=20210911032825" group-title="Lifestyle & Entertainment",Rock Extreme
-http://210.210.155.37/dr9445/h/h15/index.m3u8
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/57.m3u8
 #EXTINF:-1 tvg-id="TLCEast.us" tvg-name="TLC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/512px-TLC_Logo.svg.png" group-title="Lifestyle & Entertainment",TLC
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86059
 #EXTINF:-1 tvg-id="TLCPhilippines.ph" tvg-name="TLC Philippines" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/TLC-Logo_2016.svg/512px-TLC-Logo_2016.svg.png" group-title="Lifestyle & Entertainment",TLC Philippines
@@ -165,8 +169,12 @@ http://iptvtree.net:8080/ce1eb8b3/fd28c06f6f/713
 http://iptvtree.net:8080/ce1eb8b3/fd28c06f6f/755
 #EXTINF:-1 tvg-id="HistoryEast.us" tvg-name="History" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="Documentary",History
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86031
+#EXTINF:-1 tvg-id="HistoryPhilippines.ph" tvg-name="History Philippines" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="Documentary",History Philippines
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/53.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicEast.us" tvg-name="National Geographic Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic Channel
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86047
+#EXTINF:-1 tvg-id="NationalGeographicHDSingapore.sg" tvg-name="National Geographic Channel Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic Channel Asia
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/64.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicWildUK.uk" tvg-name="Nat Geo Wild" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",Nat Geo Wild
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86046
 #EXTINF:-1 tvg-id="NationalGeographicWildHDSingapore.sg" tvg-name="Nat Geo Wild Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",Nat Geo Wild Asia
