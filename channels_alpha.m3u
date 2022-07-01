@@ -106,7 +106,7 @@ http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/30914
 #EXTINF:-1 tvg-id="ViceTV.us" tvg-name="Vice" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Vice_TV_logo.svg/512px-Vice_TV_logo.svg.png" group-title="Lifestyle & Entertainment",Vice
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86067
 #EXTINF:-1 tvg-id="ABCTV.au" tvg-name="ABC TV" tvg-logo="https://i.imgur.com/rLCHYCs.png" group-title="News & Culture",ABC TV
-https://c.mjh.nz/101002510251/
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/82.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-name="Al Jazeera" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/512px-Aljazeera_eng.svg.png" group-title="News & Culture",Al Jazeera
 https://live-hls-web-aje.getaj.net/AJE/01.m3u8
 #EXTINF:-1 tvg-id="ANC.ph" tvg-name="ANC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/ANClogo2014.svg/512px-ANClogo2014.svg.png" group-title="News & Culture",ANC
@@ -148,9 +148,9 @@ https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="UNTV.ph" tvg-name="UNTV News & Recue" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/99/UNTV-Logo-2016.svg/512px-UNTV-Logo-2016.svg.png" group-title="News & Culture",UNTV News & Recue
 http://iptvtree.net:8080/Miglioriptv/9meicgdec6/151356
 #EXTINF:-1 tvg-id="KBSWorld.kr" tvg-name="KBS World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_(2009).svg/512px-KBS_World_(2009).svg.png" group-title="Korean Entertainment",KBS World
-http://iptvtree.net:8080/ce1eb8b3/fd28c06f6f/284633
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/65.m3u8
 #EXTINF:-1 tvg-id="TVNAsia.hk" tvg-name="tvN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/512px-Logo_tvN.svg.png" group-title="Korean Entertainment",tvN
-http://iptvtree.net:8080/ce1eb8b3/fd28c06f6f/290487
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/85.m3u8
 #EXTINF:-1 tvg-id="AnimalPlanetEast.us" tvg-name="Animal Planet" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/512px-2018_Animal_Planet_logo.svg.png" group-title="Documentary",Animal Planet
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/85995
 #EXTINF:-1 tvg-id="AnimalPlanetSoutheastAsia.us" tvg-name="Animal Planet Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/512px-2018_Animal_Planet_logo.svg.png" group-title="Documentary",Animal Planet Asia
@@ -217,11 +217,13 @@ http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/8109
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86043
 #EXTINF:-1 tvg-id="MTVBiggestPop.us" tvg-name="MTV Biggest Pop" tvg-logo="https://images.pluto.tv/channels/5d14fd1a252d35decbc4080c/featuredImage.jpg?auto=&fill=blur&fit=fill&ixlib=react-9.1.5&h=185&w=512" group-title="Music",MTV Biggest Pop
 http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8
-#EXTINF:-1 tvg-id="MTVAsia.sg" tvg-name="MTV Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/512px-MTV-2021.svg.png" group-title="Music",MTV Asia
-http://iptvtree.net:8080/ce1eb8b3/fd28c06f6f/144862
+#EXTINF:-1 tvg-id="MTVLive.uk" tvg-name="MTV Live" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/MTV_Live_2021_logo.svg/512px-MTV_Live_2021_logo.svg.png" group-title="Music",MTV Live
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/66.m3u8
 #EXTINF:-1 tvg-id="YoMTV.us" tvg-name="Yo! MTV" tvg-logo="https://images.pluto.tv/channels/5d14fc31252d35decbc4080b/colorLogoPNG.png" group-title="Music",Yo! MTV
 http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS01/master.m3u8
-#EXTINF:-1 tvg-id="MyxUSA.us" tvg-name="Myx" tvg-logo="https://i.imgur.com/Bv8iTjn.png" group-title="Music",Myx
+#EXTINF:-1 tvg-id="MyxPhilippines.ph" tvg-name="Myx Philippines" tvg-logo="https://i.imgur.com/Bv8iTjn.png" group-title="Music",Myx Philippines
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/75.m3u8
+#EXTINF:-1 tvg-id="MyxUSA.us" tvg-name="Myx USA" tvg-logo="https://i.imgur.com/Bv8iTjn.png" group-title="Music",Myx USA
 http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=31036&extension=ts&play_token=SwYKQHBEvQ
 #EXTINF:-1 tvg-id="AnimaxPhilippines.ph" tvg-name="Animax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Animax.svg/512px-Animax.svg.png" group-title="Kids",Animax
 http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/24.m3u8
