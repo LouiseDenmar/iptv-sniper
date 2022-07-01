@@ -2,15 +2,15 @@
 #EXTINF:-1 tvg-id="JeepneyTV.ph" tvg-name="Jeppney TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7c/Jeepneytvnewlogo2015.jpg" group-title="Local TV",JeepneyTV
 http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/76.m3u8
 #EXTINF:-1 tvg-id="KapamilyaChannel.ph" tvg-name="Kapamilya Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/ABS-CBN_(2013).svg/512px-ABS-CBN_(2013).svg.png" group-title="Local TV",Kapamilya Channel
-http://iptvtree.net:8080/Miglioriptv/9meicgdec6/144837
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/11.m3u8
 #EXTINF:-1 tvg-id="TheFilipinoChannelAsia.us" tvg-name="TFC" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/The_Filipino_Channel_2011_logo.svg/512px-The_Filipino_Channel_2011_logo.svg.png" group-title="Local TV",TFC
 http://iptvtree.net:8080/Miglioriptv/9meicgdec6/121795
 #EXTINF:-1 tvg-id="TV5.ph" tvg-name="Kapatid TV 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TV5_(Philippines)_logo.svg/512px-TV5_(Philippines)_logo.svg.png" group-title="Local TV",Kapatid TV 5
-http://iptvtree.net:8080/Miglioriptv/9meicgdec6/171991
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/8.m3u8
 #EXTINF:-1 tvg-id="GMALifeTV.ph" tvg-name="GMA Life TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ae/Gma_life_tv.png" group-title="Local TV",GMA Life TV
 http://iptvtree.net:8080/Miglioriptv/9meicgdec6/144867
 #EXTINF:-1 tvg-id="GMATV.ph" tvg-name="GMA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/GMA_Network_Logo_Vector.svg/512px-GMA_Network_Logo_Vector.svg.png" group-title="Local TV",GMA TV
-http://iptvtree.net:8080/Miglioriptv/9meicgdec6/295310
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/5.m3u8
 #EXTINF:-1 tvg-id="AMCEast.us" tvg-name="AMC" tvg-logo="https://i.imgur.com/CTOvVcN.png" group-title="Movies",AMC
 https://bcovlive-a.akamaihd.net/ebf15ff84e98490e8b00209ed77c77f5/us-east-1/6240731308001/playlist.m3u8
 #EXTINF:-1 tvg-id="AMCPlus.us" tvg-name="AMC+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/AMC%2B_logo.png/512px-AMC%2B_logo.png" group-title="Movies",AMC+
@@ -28,7 +28,7 @@ http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/115820
 #EXTINF:-1 tvg-id="HBO2East.us" tvg-name="HBO 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png" group-title="Movies",HBO 2
 http://iptvtree.net:8080/ce1eb8b3/fd28c06f6f/5844
 #EXTINF:-1 tvg-id="HitsMovies.sg" tvg-name="Hits Movies" tvg-logo="https://movies.hitstv.com/img/hits-movies-logo.png" group-title="Movies",Hits Movies
-http://iptvtree.net:8080/ce1eb8b3/fd28c06f6f/285605
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/22.m3u8
 #EXTINF:-1 tvg-id="HollywoodMovieChannel.tw" tvg-name="Hollywood Movie Channel" tvg-logo="https://static.wixstatic.com/media/da73d2_a0e24afbbc1448c68568ba46f065d858~mv2.png/v1/fill/w_92,h_78,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/da73d2_a0e24afbbc1448c68568ba46f065d858~mv2.png" group-title="Movies",Hollywood Movie Channel
 http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
 #EXTINF:-1 tvg-id="ParamountMovieChannel.us" tvg-name="Paramount Movie Channel" tvg-logo="https://images.pluto.tv/channels/5cb0cae7a461406ffe3f5213/colorLogoPNG.png" group-title="Movies",Paramount Movie Channel
@@ -36,7 +36,7 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5cb0cae7a
 #EXTINF:-1 tvg-id="ParamountNetworkHDEast.us" tvg-name="Paramount Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Movies",Paramount Network
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86049
 #EXTINF:-1 tvg-id="PBO.ph" tvg-name="PBO" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f6/Pinoy_Box_Office_logo.png" group-title="Movies",PBO
-http://iptvtree.net:8080/Miglioriptv/9meicgdec6/276532
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/12.m3u8
 #EXTINF:-1 tvg-id="ShowtimeEast.us" tvg-name="Showtime" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/512px-Showtime.svg.png" group-title="Movies",Showtime
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/227981
 #EXTINF:-1 tvg-id="SonyMoviesUSA.us" tvg-name="Sony Movies" tvg-logo="https://i.imgur.com/1uTtTfJ.png" group-title="Movies",Sony Movies
@@ -52,7 +52,7 @@ http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/30916
 #EXTINF:-1 tvg-id="VivaCinema.ph" tvg-name="Viva" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/96/Viva_TV_logo.jpg" group-title="Movies",VivaCinema
 http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/13.m3u8
 #EXTINF:-1 tvg-id="WarnerTVAsia.us" tvg-name="Warner TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies",Warner TV
-http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=115823&extension=ts&play_token=DeYV0qiYzd
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/21.m3u8
 #EXTINF:-1 tvg-id="StoriesbyAMC.us" tvg-name="Stories by AMC" tvg-logo="https://images.pluto.tv/channels/5e8254118601b80007b4b7ae/colorLogoPNG.png" group-title="Lifestyle & Entertainment",Stories by AMC
 https://amc-amcpresents-1.imdbtv.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="AsianFoodNetwork.sg" tvg-name="Asian Food Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Asian_Food_Network.svg/512px-Asian_Food_Network.svg.png" group-title="Lifestyle & Entertainment",Asian Food Network
@@ -118,7 +118,7 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="Fox News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/512px-Fox_News_Channel_logo.svg.png" group-title="News & Culture",Fox News
 http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/39.m3u8
 #EXTINF:-1 tvg-id="GMANewsTV.ph" tvg-name="GMA News TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/GMA_News_TV_Logo_Vector.svg/512px-GMA_News_TV_Logo_Vector.svg.png" group-title="News & Culture",GMA News TV
-http://iptvtree.net:8080/Miglioriptv/9meicgdec6/144859
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/7.m3u8
 #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="MSNBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/MSNBC_2021.svg/512px-MSNBC_2021.svg.png" group-title="News & Culture",MSNBC
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/41388
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-name="NHK World Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" group-title="News & Culture",NHK World Japan
