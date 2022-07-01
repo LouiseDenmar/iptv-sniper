@@ -19,10 +19,14 @@ http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/227945
 http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/14.m3u8
 #EXTINF:-1 tvg-id="CinemaxEast.us" tvg-name="Cinemax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Cinemax.svg/512px-Cinemax.svg.png" group-title="Movies",Cinemax
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/30925
+#EXTINF:-1 tvg-id="CinemaxSingapore.sg" tvg-name="Cinemax Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png" group-title="Movies",Cinemax Asia
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/16.m3u8
 #EXTINF:-1 tvg-id="FXEast.us" tvg-name="FX" tvg-logo="https://zap2it.tmsimg.com/h5/NowShowing/73681/s73681_h5_aa.png" group-title="Movies",FX
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/31044
 #EXTINF:-1 tvg-id="HallmarkMoviesMysteriesEast.us" tvg-name="Hallmark Movies & Mysteries" tvgr-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Hallmark_movies_mysteries.png/512px-Hallmark_movies_mysteries.png" group-title="Movies",Hallmark Movies & Mysteries
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/30896
+#EXTINF:-1 tvg-id="HBOSingapore.sg" tvg-name="HBO Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7d/Hbo-tp.png" group-title="Movies",HBO Asia
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/15.m3u8
 #EXTINF:-1 tvg-id="HBOEast.us" tvg-name="HBO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7d/Hbo-tp.png" group-title="Movies",HBO
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/115820
 #EXTINF:-1 tvg-id="HBO2East.us" tvg-name="HBO 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png" group-title="Movies",HBO 2
@@ -61,8 +65,10 @@ http://iptvtree.net:8080/Miglioriptv/9meicgdec6/157549
 http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=115620&extension=ts&play_token=shv19sZenn
 #EXTINF:-1 tvg-id="BETEast.us" tvg-name="BET" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/BET-2021Logo.svg/512px-BET-2021Logo.svg.png" group-title="Lifestyle & Entertainment",BET
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86000
-#EXTINF:-1 tvg-id="CrimePlusInvestigationNetworkUSA.us" tvg-name="Crime & Investigation" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg/512px-Crime_%2B_Investigation_Logo_10.2019.svg.png" group-title="Lifestyle & Entertainment",Crime & Investigation
+#EXTINF:-1 tvg-id="CrimePlusInvestigationNetworkUSA.us" tvg-name="Crime + Investigation" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg/512px-Crime_%2B_Investigation_Logo_10.2019.svg.png" group-title="Lifestyle & Entertainment",Crime + Investigation
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86009
+#EXTINF:-1 tvg-id="CrimePlusInvestigationAsia.us" tvg-name="Crime + Investigation Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg/512px-Crime_%2B_Investigation_Logo_10.2019.svg.png" group-title="Lifestyle & Entertainment",Crime + Investigation
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/35.m3u8
 #EXTINF:-1 tvg-id="EEast.us" tvg-name="E!" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/E!_Logo.svg/512px-E!_Logo.svg.png" group-title="Lifestyle & Entertainment",E!
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/30939
 #EXTINF:-1 tvg-id="ETC.ph" tvg-name="ETC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Etc%2C_etc_(Philippine_TV_channel)%2C_Feb_2019.png/512px-Etc%2C_etc_(Philippine_TV_channel)%2C_Feb_2019.png" group-title="Lifestyle & Entertainment",ETC
@@ -75,6 +81,8 @@ http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/30943
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/30895
 #EXTINF:-1 tvg-id="HGTVEast.us" tvg-name="HGTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/HGTV_2010.svg/512px-HGTV_2010.svg.png" group-title="Lifestyle & Entertainment",HGTV
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86030
+#EXTINF:-1 tvg-id="HGTVAsia.us" tvg-name="HGTV Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/HGTV_2010.svg/512px-HGTV_2010.svg.png" group-title="Lifestyle & Entertainment",HGTV Asia
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/87.m3u8
 #EXTINF:-1 tvg-id="LifetimeAsia.us" tvg-name="Lifetime" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png" group-title="Lifestyle & Entertainment",Lifetime
 http://iptvtree.net:8080/Miglioriptv/9meicgdec6/147240
 #EXTINF:-1 tvg-id="MetroChannel.ph" tvg-name="Metro Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c2/Metro_Channel_logo.png" group-title="Lifestyle & Entertainment",Metro Channel
@@ -85,6 +93,8 @@ http://210.210.155.35/dr9445/h/h16/index.m3u8
 http://210.210.155.37/dr9445/h/h15/index.m3u8
 #EXTINF:-1 tvg-id="TLCEast.us" tvg-name="TLC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/512px-TLC_Logo.svg.png" group-title="Lifestyle & Entertainment",TLC
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86059
+#EXTINF:-1 tvg-id="TLCPhilippines.ph" tvg-name="TLC Philippines" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/TLC-Logo_2016.svg/512px-TLC-Logo_2016.svg.png" group-title="Lifestyle & Entertainment",TLC Philippines
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/47.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TMC" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/512px-TMC_logo.svg.png" group-title="Movies",TMC
 http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/9.m3u8
 #EXTINF:-1 tvg-id="TravelChannelEast.us" tvg-name="Travel Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2018_Travel_Channel_logo.svg/512px-2018_Travel_Channel_logo.svg.png" group-title="Lifestyle & Entertainment",Travel Channel
@@ -96,19 +106,25 @@ https://c.mjh.nz/101002510251/
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-name="Al Jazeera" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/512px-Aljazeera_eng.svg.png" group-title="News & Culture",Al Jazeera
 https://live-hls-web-aje.getaj.net/AJE/01.m3u8
 #EXTINF:-1 tvg-id="ANC.ph" tvg-name="ANC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/ANClogo2014.svg/512px-ANClogo2014.svg.png" group-title="News & Culture",ANC
-http://iptvtree.net:8080/Miglioriptv/9meicgdec6/285601
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/37.m3u8
 #EXTINF:-1 tvg-id="ArirangTV.kr" tvg-name="Arirang" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Arirang.svg/512px-Arirang.svg.png" group-title="News & Culture",Arirang
 http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-name="BBC News" tvg-logo="https://i.imgur.com/rPzH88J.png" group-title="News & Culture",BBC News
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/32474
-#EXTINF:-1 tvg-id="BloombergTelevision.us" tvg-name="Bloomberg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/512px-New_Bloomberg_Logo.svg.png" group-title="News & Culture",Bloomberg
+#EXTINF:-1 tvg-id="BBCWorldNewsAsiaPacific.uk" tvg-name="BBC World News" tvg-logo="https://i.imgur.com/rPzH88J.png" group-title="News & Culture",BBC World News
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/40.m3u8
+#EXTINF:-1 tvg-id="BloombergTelevision.us" tvg-name="Bloomberg TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/512px-New_Bloomberg_Logo.svg.png" group-title="News & Culture",Bloomberg TV
 https://bloomberg-bloomberg-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BloombergTVAsiaPacific.hk" tvg-name="Bloomberg TV Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/512px-New_Bloomberg_Logo.svg.png" group-title="News & Culture",Bloomberg TV
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/44.m3u8
 #EXTINF:-1 tvg-id="CGTN.cn" tvg-name="CGTN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="News & Culture",CGTN
 https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
 #EXTINF:-1 tvg-id="CNA.sg" tvg-name="CNA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/512px-CNA_new_logo.svg.png" group-title="News & Culture",CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 #EXTINF:-1 tvg-id="CNBC.us" tvg-name="CNBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/512px-CNBC_logo.svg.png" group-title="News & Culture",CNBC
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/30927
+#EXTINF:-1 tvg-id="CNBCAsia.sg" tvg-name="CNBC Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/512px-CNBC_logo.svg.png" group-title="News & Culture",CNBC Asia
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/43.m3u8
 #EXTINF:-1 tvg-id="CNN.us" tvg-name="CNN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/512px-CNN.svg.png" group-title="News & Culture",CNN
 https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_4_1064000.m3u8
 #EXTINF:-1 tvg-id="CNNPhilippines.ph" tvg-name="CNN Philippines" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/CNN_Philippines_Logo.svg/512px-CNN_Philippines_Logo.svg.png" group-title="News & Culture",CNN Philippines
@@ -153,6 +169,8 @@ http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86031
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86047
 #EXTINF:-1 tvg-id="NationalGeographicWildUK.uk" tvg-name="Nat Geo Wild" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",Nat Geo Wild
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86046
+#EXTINF:-1 tvg-id="NationalGeographicWildHDSingapore.sg" tvg-name="Nat Geo Wild Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",Nat Geo Wild Asia
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/51.m3u8
 #EXTINF:-1 tvg-id="RTDocumentary.ru" tvg-name="RT Documentary" tvg-logo="https://i.imgur.com/1Ltaei8.png" group-title="Documentary",RT Documentary
 https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
 #EXTINF:-1 tvg-id="SmithsonianChannelAsia.us" tvg-name="Smithsonian Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b6/Smithsonian_Channel_current_logo.png" group-title="Documentary",Smithsonian Channel
@@ -216,7 +234,7 @@ http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/30991
 #EXTINF:-1 tvg-id="DreamWorksChannelAsia.us" tvg-name="DreamWorks Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/DreamWorks_Channel_Logo.svg/512px-DreamWorks_Channel_Logo.svg.png" group-title="Kids",DreamWorks Channel
 http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/23.m3u8
 #EXTINF:-1 tvg-id="NickelodeonAsia.sg" tvg-name="Nick" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Nick_Logo_2017.svg/512px-Nick_Logo_2017.svg.png" group-title="Kids",Nick
-http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=115747&extension=ts&play_token=sWL7KJZ8sz
+http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/28.m3u8
 #EXTINF:-1 tvg-id="NickJrEast.us" tvg-name="Nick Jr." tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Nick_Jr._Channel_logo.svg/512px-Nick_Jr._Channel_logo.svg.png" group-title="Kids",Nick Jr.
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/34494
 #EXTINF:-1 tvg-id="NickJrAsia.sg" tvg-name="Nick Jr. Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Nick_Jr._Channel_logo.svg/512px-Nick_Jr._Channel_logo.svg.png" group-title="Kids",Nick Jr. Asia
