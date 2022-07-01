@@ -169,7 +169,7 @@ http://iptvtree.net:8080/ce1eb8b3/fd28c06f6f/713
 http://iptvtree.net:8080/ce1eb8b3/fd28c06f6f/755
 #EXTINF:-1 tvg-id="HistoryEast.us" tvg-name="History" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="Documentary",History
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86031
-#EXTINF:-1 tvg-id="HistoryAsia.us" tvg-name="History Philippines" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="Documentary",History Philippines
+#EXTINF:-1 tvg-id="HistoryAsia.us" tvg-name="History Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="Documentary",History Asia
 http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/53.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicEast.us" tvg-name="National Geographic Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic Channel
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86047
@@ -233,7 +233,7 @@ http://iptvtree.net:8080/Miglioriptv/9meicgdec6/2281
 http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/30.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkEast.us" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Cartoon_Network.svg/512px-Cartoon_Network.svg.png" group-title="Kids",Cartoon Network
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/30990
-#EXTINF:-1 tvg-id="CartoonNetworkAsia.sg" tvg-name="Cartoon Network Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Cartoon_Network.svg/512px-Cartoon_Network.svg.png" group-title="Kids",Cartoon Network Asia
+#EXTINF:-1 tvg-id="CartoonNetworkAsia.sg" tvg-name="Cartoon Network Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Cartoon_Network.svg/512px-Cartoon_Network.svg.png" tvg-shift="1" group-title="Kids",Cartoon Network Asia
 http://103.105.213.251:8443/live/-dufdE1R42mDVA7bzjToFQ/1656764966/29.m3u8
 #EXTINF:-1 tvg-id="DisneyChannelEast.us" tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Disney_Channel_2014_HD.png/512px-Disney_Channel_2014_HD.png" group-title="Kids",Disney Channel
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/30901
