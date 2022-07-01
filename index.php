@@ -76,7 +76,7 @@
     $imported_channels = array();
 
     //for each match, process them individually as a channel
-    foreach($channels[0] as $channel) {
+    foreach ($channels[0] as $channel) {
       //rematch the channel pattern on each match to pluck its attributes
       preg_match($channel_pattern, $channel, $match_list);
 
@@ -85,7 +85,7 @@
       $stream_url = preg_replace('/\s+/', '', $stream_url);
 
       //initialize final list of imported channel info with the stream url already included 
-      $channel_info =  array('stream_url' => $stream_url);
+      $channel_info = array('stream_url' => $stream_url);
 
       //pluck channel attributes
       preg_match_all($channel_attributes, $channel, $channels, PREG_SET_ORDER);
