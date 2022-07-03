@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml,https://iptv-org.github.io/epg/guides/ca/tvhebdo.com.epg.xml,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml,https://iptv-org.github.io/epg/guides/au/ontvtonight.com.epg.xml,https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml,https://iptv-org.github.io/epg/guides/in/startv.com.epg.xml,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml"
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml,https://iptv-org.github.io/epg/guides/ca/tvhebdo.com.epg.xml,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml,https://iptv-org.github.io/epg/guides/au/ontvtonight.com.epg.xml,https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml,https://iptv-org.github.io/epg/guides/in/startv.com.epg.xml,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml,https://raw.githubusercontent.com/AqFad2811/myiptv/main/astro.xml"
 
 #EXTINF:-1 tvg-id="KapamilyaChannel.ph" tvg-name="Kapamilya Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/ABS-CBN_(2013).svg/512px-ABS-CBN_(2013).svg.png" group-title="Local TV",Kapamilya Channel
 https://abscbn-ono.akamaized.net/midroll/amagi_hls_data_abscbnAAA-abscbn-kapcha/CDN/playlist.m3u8
@@ -6,13 +6,24 @@ https://abscbn-ono.akamaized.net/midroll/amagi_hls_data_abscbnAAA-abscbn-kapcha/
 #EXTINF:-1 tvg-id="TheFilipinoChannelAsia.us" tvg-name="TFC" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/The_Filipino_Channel_2011_logo.svg/512px-The_Filipino_Channel_2011_logo.svg.png" group-title="Local TV",TFC
 http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=41224&extension=ts&play_token=CFtsNf5dfQ
 
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla&Referrer=https%3A%2F%2Ftfc.tv%2F&X-Forwarded-For=175.176.0.236
+#EXTVLCOPT:http-referrer=https://tfc.tv/
+#EXTVLCOPT:http-user-agent=Mozilla
+#EXTINF:-1 tvg-id="KnowledgeChannel.ph" tvg-name="Knowledge Channel" tvg-logo="https://i.ibb.co/kBQSvsJ/IMG-20201226-104652.png" group-title="Local TV",Knowledge Channel
+https://amdottlive.akamaized.net/hls/live/2018990/iwantknowledge/master480p.m3u8
+
 #EXTINF:-1 tvg-id="AMCEast.us" tvg-name="AMC" tvg-logo="https://i.imgur.com/CTOvVcN.png" group-title="Movies",AMC
 https://bcovlive-a.akamaihd.net/ebf15ff84e98490e8b00209ed77c77f5/us-east-1/6240731308001/playlist.m3u8
 
-#EXTINF:-1 tvg-id="CinemaxAsia.sg" tvg-name="Cinemax Asia" tvg-logo="https://i.imgur.com/AvCUtC4.png" group-title="Movies",Cinemax Asia
+#EXTINF:-1 tvg-id="CinemaOneGlobal.ph" tvg-name="Cinema One" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Cinema_One_2013_logo.svg/512px-Cinema_One_2013_logo.svg.png" group-title="Movies",Cinema One
+https://cinemaone-abscbn-ono.amagi.tv/index_2.m3u8
+
+#EXTINF:-1 tvg-id="CinemaxSingapore.sg" tvg-name="Cinemax" tvg-logo="https://i.imgur.com/AvCUtC4.png" group-title="Movies",Cinemax
 https://livecdn.fptplay.net/hda1/cinemax_hls.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="HBOAsia.sg" tvg-name="HBO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7d/Hbo-tp.png" group-title="Movies",HBO
+#EXTINF:-1 tvg-id="HBOSingapore.sg" tvg-name="HBO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7d/Hbo-tp.png" group-title="Movies",HBO
 http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=40763&extension=ts&play_token=09BNfamMLv
 
 #EXTINF:-1 tvg-id="HitsMovies.sg" tvg-name="Hits Movies" tvg-logo="https://movies.hitstv.com/img/hits-movies-logo.png" group-title="Movies",Hits Movies
@@ -60,7 +71,7 @@ http://210.210.155.35/dr9445/h/h16/index.m3u8
 #EXTINF:-1 tvg-id="RockExtreme.sg" tvg-name="Rock Extreme" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d4/RockExtreme.png/revision/latest?cb=20210911032825" group-title="Lifestyle & Entertainment",Rock Extreme
 http://210.210.155.37/dr9445/h/h15/index.m3u8
 
-#EXTINF:-1 tvg-id="TLCEast.us" tvg-name="TLC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/512px-TLC_Logo.svg.png" group-title="Lifestyle & Entertainment",TLC
+#EXTINF:-1 tvg-id="TLCPhilippines.ph" tvg-name="TLC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/512px-TLC_Logo.svg.png" group-title="Lifestyle & Entertainment",TLC
 http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=8243&extension=ts&play_token=kHdj7InD68
 
 #EXTINF:-1 tvg-id="ABCTV.au" tvg-name="ABC TV" tvg-logo="https://i.imgur.com/rLCHYCs.png" group-title="News & Culture",ABC TV
@@ -111,6 +122,9 @@ http://210.210.155.37/dr9445/h/h20/index.m3u8
 #EXTINF:-1 tvg-id="HistoryPhilippines.ph" tvg-name="History Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/History_Logo.svg/512px-History_Logo.svg.png" group-title="Documentary",History Channel
 http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=115715&extension=ts&play_token=mqWcCWYKlM
 
+#EXTINF:-1 tvg-id="LoveNature.ca" tvg-name=""Love Nature" tvg-logo="https://i.ibb.co/X8hFFP4/Love-Nature-Type-Mask-FINAL-highres-removebg-preview-1.png" group-title="Documentary",Love Nature
+http://bamus-eng-roku.amagi.tv/playlist1080p.m3u8
+
 #EXTINF:-1 tvg-id="NationalGeographicAsia.us" tvg-name="National Geographic Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/National_Geographic_Channel.svg/512px-National_Geographic_Channel.svg.png" group-title="Documentary",National Geographic Channel
 https://livecdn.fptplay.net/hda2/natgeohd_vhls.smil/chunklist.m3u8
 
@@ -123,7 +137,7 @@ https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
 #EXTINF:-1 tvg-id="SmithsonianChannelAsia.us" tvg-name="Smithsonian Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b6/Smithsonian_Channel_current_logo.png" group-title="Documentary",Smithsonian Channel
 https://smithsonianaus-samsungau.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="Eurosport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Eurosport_Logo_2015.svg/512px-Eurosport_Logo_2015.svg.png" group-title="Sports",Eurosport
+#EXTINF:-1 tvg-id="Eurosport" tvg-name="Eurosport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Eurosport_Logo_2015.svg/512px-Eurosport_Logo_2015.svg.png" group-title="Sports",Eurosport
 http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=141598&extension=ts&play_token=yofOklZ6OX
 
 #EXTINF:-1 tvg-id="redbulltv.us" tvg-name="RedBull TV" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",RedBull TV
