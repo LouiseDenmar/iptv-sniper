@@ -6,7 +6,7 @@ http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/76.m3u8
 #EXTINF:-1 tvg-id="KapamilyaChannel.ph" tvg-name="Kapamilya Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Kapamilya_Channel.png/512px-Kapamilya_Channel.png" group-title="Local TV",Kapamilya Channel
 https://rotf.lol/kapchacdn
 
-#EXTINF:-1 tvg-id="TheFilipinoChannelAsia.us" tvg-name="TFC" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/The_Filipino_Channel_2011_logo.svg/512px-The_Filipino_Channel_2011_logo.svg.png" group-title="Local TV",TFC
+#EXTINF:-1 tvg-id="TheFilipinoChannelAsia.us" tvg-name="TFC" tvg-logo="https://i.imgur.com/waE1BeJ.png" group-title="Local TV",TFC
 https://tfcguam2-abscbn-ono.amagi.tv/index_5.m3u8
 
 #EXTINF:-1 tvg-id="KapatidTV5.ph" tvg-name="Kapatid TV 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TV5_(Philippines)_logo.svg/512px-TV5_(Philippines)_logo.svg.png" group-title="Local TV",Kapatid TV 5
@@ -29,7 +29,7 @@ http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/7.m3u8
 #EXTINF:-1 tvg-id="KnowledgeChannel.ph" tvg-name="Knowledge Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Knowledge-channel.png/512px-Knowledge-channel.png" group-title="Local TV",Knowledge Channel
 https://amdottlive.akamaized.net/hls/live/2018990/iwantknowledge/master480p.m3u8
 
-#EXTINF:-1 tvg-id="AMCEast.us" tvg-name="AMC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/512px-AMC_logo_2019.svg.png" group-title="Movies",AMC
+#EXTINF:-1 tvg-id="AMCEast.us" tvg-name="AMC" tvg-logo="https://i.imgur.com/RBKx6Fx.png" group-title="Movies",AMC
 https://bcovlive-a.akamaihd.net/ebf15ff84e98490e8b00209ed77c77f5/us-east-1/6240731308001/playlist.m3u8
 
 #EXTINF:-1 tvg-id="AMCPlus.us" tvg-name="AMC+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/AMC%2B_logo.png/512px-AMC%2B_logo.png" group-title="Movies",AMC+
@@ -50,10 +50,10 @@ http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/31044
 #EXTINF:-1 tvg-id="HallmarkMoviesMysteriesEast.us" tvg-name="Hallmark Movies & Mysteries" tvgr-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Hallmark_movies_mysteries.png/512px-Hallmark_movies_mysteries.png" group-title="Movies",Hallmark Movies & Mysteries
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/30896
 
-#EXTINF:-1 tvg-id="HBOSingapore.sg" tvg-name="HBO Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7d/Hbo-tp.png" group-title="Movies",HBO Asia
+#EXTINF:-1 tvg-id="HBOSingapore.sg" tvg-name="HBO Asia" tvg-logo="https://i.imgur.com/EnA2RcD.png" group-title="Movies",HBO Asia
 http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/15.m3u8
 
-#EXTINF:-1 tvg-id="HBOEast.us" tvg-name="HBO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7d/Hbo-tp.png" group-title="Movies",HBO
+#EXTINF:-1 tvg-id="HBOEast.us" tvg-name="HBO" tvg-logo="https://i.imgur.com/EnA2RcD.png" group-title="Movies",HBO
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/115820
 
 #EXTINF:-1 tvg-id="HBO2East.us" tvg-name="HBO 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png" group-title="Movies",HBO 2
@@ -107,16 +107,16 @@ https://amc-amcpresents-1.imdbtv.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="AsianFoodNetwork.sg" tvg-name="Asian Food Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Asian_Food_Network.svg/512px-Asian_Food_Network.svg.png" group-title="Lifestyle & Entertainment",Asian Food Network
 http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/63.m3u8
 
-#EXTINF:-1 tvg-id="AXNPhilippines.ph" tvg-name="AXN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_(2015).svg/512px-AXN_logo_(2015).svg.png" group-title="Lifestyle & Entertainment",AXN
+#EXTINF:-1 tvg-id="AXNPhilippines.ph" tvg-name="AXN" tvg-logo="https://i.imgur.com/OO6mWTx.png" group-title="Lifestyle & Entertainment",AXN
 http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/62.m3u8
 
 #EXTINF:-1 tvg-id="BETEast.us" tvg-name="BET" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/BET-2021Logo.svg/512px-BET-2021Logo.svg.png" group-title="Lifestyle & Entertainment",BET
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86000
 
-#EXTINF:-1 tvg-id="CrimePlusInvestigationNetworkUSA.us" tvg-name="Crime + Investigation" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg/512px-Crime_%2B_Investigation_Logo_10.2019.svg.png" group-title="Lifestyle & Entertainment",Crime + Investigation
+#EXTINF:-1 tvg-id="CrimePlusInvestigationNetworkUSA.us" tvg-name="Crime + Investigation" tvg-logo="https://i.imgur.com/KeM5KlR.png" group-title="Lifestyle & Entertainment",Crime + Investigation
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86009
 
-#EXTINF:-1 tvg-id="CrimePlusInvestigationAsia.us" tvg-name="Crime + Investigation Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg/512px-Crime_%2B_Investigation_Logo_10.2019.svg.png" group-title="Lifestyle & Entertainment",Crime + Investigation Asia
+#EXTINF:-1 tvg-id="CrimePlusInvestigationAsia.us" tvg-name="Crime + Investigation Asia" tvg-logo="https://i.imgur.com/KeM5KlR.png" group-title="Lifestyle & Entertainment",Crime + Investigation Asia
 http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/35.m3u8
 
 #EXTINF:-1 tvg-id="CWEast.us" tvg-name="CW" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/The_CW.svg/512px-The_CW.svg.png" group-title="Lifestyle & Entertainment",CW
@@ -192,7 +192,7 @@ http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/32474
 #EXTINF:-1 tvg-id="BBCWorldNewsAsiaPacific.uk" tvg-name="BBC World News" tvg-logo="https://i.imgur.com/rPzH88J.png" group-title="News & Culture",BBC World News
 http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/40.m3u8
 
-#EXTINF:-1 tvg-id="BloombergTelevision.us" tvg-name="Bloomberg TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/512px-New_Bloomberg_Logo.svg.png" group-title="News & Culture",Bloomberg TV
+#EXTINF:-1 tvg-id="BloombergTelevision.us" tvg-name="Bloomberg TV" tvg-logo="https://i.imgur.com/2r7utRt.png" group-title="News & Culture",Bloomberg TV
 https://bloomberg-bloomberg-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="BloombergTVAsiaPacific.hk" tvg-name="Bloomberg TV Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/512px-New_Bloomberg_Logo.svg.png" group-title="News & Culture",Bloomberg TV
@@ -224,7 +224,7 @@ https://streaming.cnnphilippines.com/live/myStream/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
 https://v-px.mybtv.net/event/160/768x432.m3u8?start_time=2022-07-04T02&end_time=2022-07-04T10
 
-#EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/512px-Deutsche_Welle_symbol_2012.svg.png" group-title="News & Culture",DW
+#EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW" tvg-logo="https://i.imgur.com/1B4XjYf.png" group-title="News & Culture",DW
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 
 #EXTINF:-1 tvg-id="WNYWDT1.us" tvg-name="Fox 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Fts-new-york-a.svg/512px-Fts-new-york-a.svg.png" group-title="News & Culture",Fox 5
@@ -275,13 +275,13 @@ http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/49.m3u8
 #EXTINF:-1 tvg-id="BBCEarthAsia.uk" tvg-name="BBC Earth Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/44/BBC_Earth_logo.png" group-title="Documentary",BBC Earth
 http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/33.m3u8
 
-#EXTINF:-1 tvg-id="DiscoveryAsiaHongKong.hk" tvg-name="Discovery Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/de/Discovery_asia.jpg" group-title="Documentary",Discovery Asia
+#EXTINF:-1 tvg-id="DiscoveryAsiaHongKong.hk" tvg-name="Discovery Asia" tvg-logo="https://i.imgur.com/l87dZmI.png" group-title="Documentary",Discovery Asia
 http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/46.m3u8
 
-#EXTINF:-1 tvg-id="DiscoveryChannelEast.us" tvg-name="Discovery Channel" tvg-logo="https://i.imgur.com/8Z8bUvw.png" group-title="Documentary",Discovery Channel
+#EXTINF:-1 tvg-id="DiscoveryChannelEast.us" tvg-name="Discovery Channel" tvg-logo="https://i.imgur.com/t6iJj37.png" group-title="Documentary",Discovery Channel
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/31094
 
-#EXTINF:-1 tvg-id="DiscoveryChannelHongKong.hk" tvg-name="Discovery Channel Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/2016_Discovery_logo.svg/512px-2016_Discovery_logo.svg.png" group-title="Documentary",Discovery Channel Asia
+#EXTINF:-1 tvg-id="DiscoveryChannelHongKong.hk" tvg-name="Discovery Channel Asia" tvg-logo="https://i.imgur.com/t6iJj37.png" group-title="Documentary",Discovery Channel Asia
 http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/45.m3u8
 
 #EXTINF:-1 tvg-id="DiscoveryScienceUK.uk" tvg-name="Discovery Science" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/512px-Discovery_Science_2017_Logo.svg.png" group-title="Documentary",Discovery Science
@@ -299,22 +299,22 @@ http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/53.m3u8
 #EXTINF:-1 tvg-id="LoveNature.ca" tvg-name=""Love Nature" tvg-logo="https://i.ibb.co/X8hFFP4/Love-Nature-Type-Mask-FINAL-highres-removebg-preview-1.png" group-title="Documentary",Love Nature
 http://bamus-eng-roku.amagi.tv/playlist1080p.m3u8
 
-#EXTINF:-1 tvg-id="NationalGeographicEast.us" tvg-name="National Geographic Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic Channel
+#EXTINF:-1 tvg-id="NationalGeographicEast.us" tvg-name="National Geographic Channel" tvg-logo="https://i.imgur.com/vKEqKFS.png" group-title="Documentary",National Geographic Channel
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86047
 
-#EXTINF:-1 tvg-id="NationalGeographicHDSingapore.sg" tvg-name="National Geographic Channel Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic Channel Asia
+#EXTINF:-1 tvg-id="NationalGeographicHDSingapore.sg" tvg-name="National Geographic Channel Asia" tvg-logo="https://i.imgur.com/vKEqKFS.png" group-title="Documentary",National Geographic Channel Asia
 http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/64.m3u8
 
-#EXTINF:-1 tvg-id="NationalGeographicWildUK.uk" tvg-name="Nat Geo Wild" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",Nat Geo Wild
+#EXTINF:-1 tvg-id="NationalGeographicWildUK.uk" tvg-name="Nat Geo Wild" tvg-logo="https://i.imgur.com/2DIGjSm.png" group-title="Documentary",Nat Geo Wild
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86046
 
-#EXTINF:-1 tvg-id="NationalGeographicWildHDSingapore.sg" tvg-name="Nat Geo Wild Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",Nat Geo Wild Asia
+#EXTINF:-1 tvg-id="NationalGeographicWildHDSingapore.sg" tvg-name="Nat Geo Wild Asia" tvg-logo="https://i.imgur.com/2DIGjSm.png" group-title="Documentary",Nat Geo Wild Asia
 http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/51.m3u8
 
 #EXTINF:-1 tvg-id="RTDocumentary.ru" tvg-name="RT Documentary" tvg-logo="https://i.imgur.com/1Ltaei8.png" group-title="Documentary",RT Documentary
 https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
 
-#EXTINF:-1 tvg-id="SmithsonianChannelAsia.us" tvg-name="Smithsonian Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b6/Smithsonian_Channel_current_logo.png" group-title="Documentary",Smithsonian Channel
+#EXTINF:-1 tvg-id="SmithsonianChannelAsia.us" tvg-name="Smithsonian Channel" tvg-logo="https://i.imgur.com/ZQZwXY0.png" group-title="Documentary",Smithsonian Channel
 https://smithsonianaus-samsungau.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="FoxSports1.us" tvg-name="Fox Sports 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2015_Fox_Sports_1_logo.svg/512px-2015_Fox_Sports_1_logo.svg.png" group-title="Sports",Fox Sports 1
@@ -362,7 +362,7 @@ http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/8110
 #EXTINF:-1 tvg-id="TSN5.ca" tvg-name="TSN5" tvg-logo="https://i.imgur.com/R1GycDb.png" group-title="Sports",TSN5
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/8109
 
-#EXTINF:-1 tvg-id="MTVEast.us" tvg-name="MTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_(brand_version).svg/512px-MTV_2021_(brand_version).svg.png" group-title="Music",MTV
+#EXTINF:-1 tvg-id="MTVEast.us" tvg-name="MTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png" group-title="Music",MTV
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86043
 
 #EXTINF:-1 tvg-id="MTVBiggestPop.us" tvg-name="MTV Biggest Pop" tvg-logo="https://images.pluto.tv/channels/5d14fd1a252d35decbc4080c/featuredImage.jpg?auto=&fill=blur&fit=fill&ixlib=react-9.1.5&h=185&w=512" group-title="Music",MTV Biggest Pop
