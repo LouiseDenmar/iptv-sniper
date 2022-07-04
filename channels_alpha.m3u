@@ -1,13 +1,13 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml.gz,https://iptv-org.github.io/epg/guides/us/tvguide.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml.gz,https://iptv-org.github.io/epg/guides/ar/directv.com.ar.epg.xml.gz,https://iptv-org.github.io/epg/guides/rs/mts.rs.epg.xml.gz,https://i.mjh.nz/Stirr/all.xml.gz,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ca/tvhebdo.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/au/ontvtonight.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/in/startv.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml.gz,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml.gz,https://raw.githubusercontent.com/AqFad2811/myiptv/main/astro.xml"
 
-#EXTINF:-1 tvg-id="JeepneyTV.ph" tvg-name="Jeppney TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/7c/Jeepneytvnewlogo2015.jpg" group-title="Local TV",JeepneyTV
+#EXTINF:-1 tvg-id="JeepneyTV.ph" tvg-name="Jeppney TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Jeepneytvnewlogo2015.jpg/512px-Jeepneytvnewlogo2015.jpg" group-title="Local TV",Jeepney TV
 http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/76.m3u8
 
-#EXTINF:-1 tvg-id="KapamilyaChannel.ph" tvg-name="Kapamilya Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/ABS-CBN_(2013).svg/512px-ABS-CBN_(2013).svg.png" group-title="Local TV",Kapamilya Channel
+#EXTINF:-1 tvg-id="KapamilyaChannel.ph" tvg-name="Kapamilya Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Kapamilya_Channel.png/512px-Kapamilya_Channel.png" group-title="Local TV",Kapamilya Channel
 https://rotf.lol/kapchacdn
 
 #EXTINF:-1 tvg-id="TheFilipinoChannelAsia.us" tvg-name="TFC" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/The_Filipino_Channel_2011_logo.svg/512px-The_Filipino_Channel_2011_logo.svg.png" group-title="Local TV",TFC
-http://iptvtree.net:8080/Miglioriptv/9meicgdec6/121795
+https://tfcguam2-abscbn-ono.amagi.tv/index_5.m3u8
 
 #EXTINF:-1 tvg-id="KapatidTV5.ph" tvg-name="Kapatid TV 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TV5_(Philippines)_logo.svg/512px-TV5_(Philippines)_logo.svg.png" group-title="Local TV",Kapatid TV 5
 http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/8.m3u8
@@ -18,7 +18,7 @@ http://iptvtree.net:8080/Miglioriptv/9meicgdec6/144867
 #EXTINF:-1 tvg-id="GMATV.ph" tvg-name="GMA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/GMA_Network_Logo_Vector.svg/512px-GMA_Network_Logo_Vector.svg.png" group-title="Local TV",GMA TV
 http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/5.m3u8
 
-#EXTINF:-1 tvg-id="GTV.ph" tvg-name="GTV" tvg-logo="https://i.imgur.com/rWhamwh.png" group-title="Local TV",GTV
+#EXTINF:-1 tvg-id="GTV.ph" tvg-name="GTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/40/GTV_Philippines_Logo_Vector.svg/512px-GTV_Philippines_Logo_Vector.svg.png" group-title="Local TV",GTV
 http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/7.m3u8
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -26,10 +26,10 @@ http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/7.m3u8
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla&Referrer=https%3A%2F%2Ftfc.tv%2F&X-Forwarded-For=175.176.0.236
 #EXTVLCOPT:http-referrer=https://tfc.tv/
 #EXTVLCOPT:http-user-agent=Mozilla
-#EXTINF:-1 tvg-id="KnowledgeChannel.ph" tvg-name="Knowledge Channel" tvg-logo="https://i.ibb.co/kBQSvsJ/IMG-20201226-104652.png" group-title="Local TV",Knowledge Channel
+#EXTINF:-1 tvg-id="KnowledgeChannel.ph" tvg-name="Knowledge Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Knowledge-channel.png/512px-Knowledge-channel.png" group-title="Local TV",Knowledge Channel
 https://amdottlive.akamaized.net/hls/live/2018990/iwantknowledge/master480p.m3u8
 
-#EXTINF:-1 tvg-id="AMCEast.us" tvg-name="AMC" tvg-logo="https://i.imgur.com/CTOvVcN.png" group-title="Movies",AMC
+#EXTINF:-1 tvg-id="AMCEast.us" tvg-name="AMC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/512px-AMC_logo_2019.svg.png" group-title="Movies",AMC
 https://bcovlive-a.akamaihd.net/ebf15ff84e98490e8b00209ed77c77f5/us-east-1/6240731308001/playlist.m3u8
 
 #EXTINF:-1 tvg-id="AMCPlus.us" tvg-name="AMC+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/AMC%2B_logo.png/512px-AMC%2B_logo.png" group-title="Movies",AMC+
@@ -173,6 +173,10 @@ http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/30914
 #EXTINF:-1 tvg-id="ViceTV.us" tvg-name="Vice" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Vice_TV_logo.svg/512px-Vice_TV_logo.svg.png" group-title="Lifestyle & Entertainment",Vice
 http://titanlivetv.com:8080/8cEW8XH37tDT/GP4qLxWhcCkd/86067
 
+#EXTINF:-1 tvg-id="WABCDT1.us" tvg-name="ABC 7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/WABC_TV_New_2021.svg/512px-WABC_TV_New_2021.svg.png" group-title="News & Culture",ABC 7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://v-ny.mybtv.net/event/554/768x432.m3u8?start_time=2022-07-04T02&end_time=2022-07-04T10
+
 #EXTINF:-1 tvg-id="ABCTV.au" tvg-name="ABC TV" tvg-logo="https://i.imgur.com/rLCHYCs.png" group-title="News & Culture",ABC TV
 https://c.mjh.nz/101002510251/
 
@@ -194,6 +198,10 @@ https://bloomberg-bloomberg-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="BloombergTVAsiaPacific.hk" tvg-name="Bloomberg TV Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/New_Bloomberg_Logo.svg/512px-New_Bloomberg_Logo.svg.png" group-title="News & Culture",Bloomberg TV
 http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/44.m3u8
 
+#EXTINF:-1 tvg-id="WCBSDT1.us" tvg-name="CBS 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/CBS_2.svg/512px-CBS_2.svg.png" group-title="News & Entertainment",CBS 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://v-ny.mybtv.net/event/545/768x432.m3u8?start_time=2022-07-04T02&end_time=2022-07-04T10
+
 #EXTINF:-1 tvg-id="CGTN.cn" tvg-name="CGTN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="News & Culture",CGTN
 https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
 
@@ -212,8 +220,16 @@ https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_4_
 #EXTINF:-1 tvg-id="CNNPhilippines.ph" tvg-name="CNN Philippines" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/CNN_Philippines_Logo.svg/512px-CNN_Philippines_Logo.svg.png" group-title="News & Culture",CNN Philippines
 https://streaming.cnnphilippines.com/live/myStream/playlist.m3u8
 
+#EXTINF:-1 tvg-id="WPIXDT1.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/The_CW.svg/512px-The_CW.svg.png" group-title="News & Culture",CW
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://v-px.mybtv.net/event/160/768x432.m3u8?start_time=2022-07-04T02&end_time=2022-07-04T10
+
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/512px-Deutsche_Welle_symbol_2012.svg.png" group-title="News & Culture",DW
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+
+#EXTINF:-1 tvg-id="WNYWDT1.us" tvg-name="Fox 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Fts-new-york-a.svg/512px-Fts-new-york-a.svg.png" group-title="News & Culture",Fox 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://v-ny.mybtv.net/event/550/768x432.m3u8?start_time=2022-07-04T02&end_time=2022-07-04T10
 
 #EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="Fox News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/512px-Fox_News_Channel_logo.svg.png" group-title="News & Culture",Fox News
 http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/39.m3u8
@@ -221,8 +237,16 @@ http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/39.m3u8
 #EXTINF:-1 tvg-id="GMANewsTV.ph" tvg-name="GMA News TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/GMA_News_TV_Logo_Vector.svg/512px-GMA_News_TV_Logo_Vector.svg.png" group-title="News & Culture",GMA News TV
 http://iptvtree.net:8080/Miglioriptv/9meicgdec6/144859
 
+#EXTINF:-1 tvg-id="KCALDT1.us" tvg-name="KCAL 9" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/KCAL-TV_Logo..png/512px-KCAL-TV_Logo..png" group-title="News & Culture",KCAL 9
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://v-la.mybtv.net/event/164/768x432.m3u8?start_time=2022-07-04T02&end_time=2022-07-04T10
+
 #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="MSNBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/MSNBC_2021.svg/512px-MSNBC_2021.svg.png" group-title="News & Culture",MSNBC
 http://38.127.211.18/live/c2eds/MSNBC/HLS/index.m3u8
+
+#EXTINF:-1 tvg-id="WNBCDT1.us" tvg-id="NBC" tvg-logo="https://github.com/Tapiosinn/tv-logos/raw/master/countries/united-states/us-local/nbc-4-wnbc-us.png" group-title="News & Culture",NBC
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36
+https://v-ny.mybtv.net/event/548/768x432.m3u8?start_time=2022-07-04T03&end_time=2022-07-04T11
 
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-name="NHK World Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" group-title="News & Culture",NHK World Japan
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
@@ -350,7 +374,7 @@ http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/66.m3u8
 #EXTINF:-1 tvg-id="YoMTV.us" tvg-name="Yo! MTV" tvg-logo="https://images.pluto.tv/channels/5d14fc31252d35decbc4080b/colorLogoPNG.png" group-title="Music",Yo! MTV
 http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS01/master.m3u8
 
-#EXTINF:-1 tvg-id="MyxPhilippines.ph" tvg-name="Myx Philippines" tvg-logo="https://i.imgur.com/Bv8iTjn.png" group-title="Music",Myx Philippines
+#EXTINF:-1 tvg-id="MyxPhilippines.ph" tvg-name="Myx" tvg-logo="https://i.imgur.com/Bv8iTjn.png" group-title="Music",Myx
 http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/75.m3u8
 
 #EXTINF:-1 tvg-id="MyxUSA.us" tvg-name="Myx USA" tvg-logo="https://i.imgur.com/Bv8iTjn.png" group-title="Music",Myx USA
@@ -400,3 +424,6 @@ http://103.105.213.251:8443/live/ZAGFvm0n0NE3IDDgw6-bvg/1657025705/42.m3u8
 
 #EXTINF:-1 tvg-id="SuperRadyoDZBB.ph" tvg-name="Super Radyo DZBB" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/DZBB594.svg/512px-DZBB594.svg.png" group-title="Local Radio",Super Radyo DZBB
 http://stream.gmanews.tv/ioslive/livestream/chunklist.m3u8?wowzasessionid=693701106
+
+#EXTINF:-1 tvg-id="TeleRadyo.ph" tvg-name="TeleRadyo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/TeleRadyo_Logo.svg/512px-TeleRadyo_Logo.svg.png" group-title="Local Radio",TeleRadyo
+https://abscbn-ono.akamaized.net/midroll/amagi_hls_data_abscbnAAA-abscbn-teleradyo-oando/CDN/playlist.m3u8
