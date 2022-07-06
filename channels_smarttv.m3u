@@ -9,16 +9,31 @@ https://tfcguam2-abscbn-ono.amagi.tv/index_5.m3u8
 #EXTINF:-1 tvg-id="KnowledgeChannel.ph" tvg-name="Knowledge Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Knowledge-channel.png/512px-Knowledge-channel.png" group-title="Local TV",Knowledge Channel
 https://amdottlive.akamaized.net/hls/live/2018990/iwantknowledge/master480p.m3u8
 
-#EXTINF:-1 tvg-id="AMCEast.us" tvg-name="AMC" tvg-logo="https://i.imgur.com/RBKx6Fx.png" group-title="Movies",AMC
+#EXTINF:-1 tvg-id="AMCEast.us" tvg-name="AMC" tvg-logo="https://i.imgur.com/RBKx6Fx.png" group-title="Movies & Series",AMC
 https://bcovlive-a.akamaihd.net/ebf15ff84e98490e8b00209ed77c77f5/us-east-1/6240731308001/playlist.m3u8
 
-#EXTINF:-1 tvg-id="CinemaOneGlobal.ph" tvg-name="Cinema One" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Cinema_One_2013_logo.svg/512px-Cinema_One_2013_logo.svg.png" group-title="Movies",Cinema One
+#EXTINF:-1 tvg-id="CinemaOneGlobal.ph" tvg-name="Cinema One" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Cinema_One_2013_logo.svg/512px-Cinema_One_2013_logo.svg.png" group-title="Movies & Series",Cinema One
 https://cinemaone-abscbn-ono.amagi.tv/index_2.m3u8
 
-#EXTINF:-1 tvg-id="Rialto.nz" tvg-name="Rialto" tvg-logo="https://i.imgur.com/RnzWT9C.jpg" group-title="Movies",Rialto
+#EXTINF:-1 tvg-id="CineLife.us" tvg-name="CineLife" tvg-logo="https://play-lh.googleusercontent.com/TRj4zx_xl4QA3JO7DwqalxZwshmhxEzg0QzP1sT3Uv99p4izfj9S_yPZD4oVkFUxMNA" group-title="Movies & Series",CineLife
+https://magselect-stirr.amagi.tv/playlist1080p.m3u8
+
+#EXTINF:-1 tvg-id="HBOSingapore.sg" tvg-name="HBO" tvg-logo="https://i.imgur.com/EnA2RcD.png" group-title="Movies & Series",HBO
+http://ip2121.com:8081/web1/hbo/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Hits.sg" tvg-name="Hits" tvg-logo="https://i.imgur.com/YeqyD9W.png" group-title="Movies & Series",Hits
+http://210.210.155.35/session/1204b13c-a86a-11ec-baed-ab3e95131f5a/dr9445/h/h37/01.m3u8
+
+#EXTINF:-1 tvg-id="MovieSphere.us" tvg-name="MovieSphere" tvg-logo="https://od.lk/s/MF8yMjM1Njg1NTFf/MovieSphere_400x400.png" group-title="Movies & Series",MovieSphere
+https://moviesphere-plex.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MyTimemovienetwork.us" tvg-name="MyTime movie network" tvg-logo="https://od.lk/s/MF8yMjU5ODE1MzJf/MyTime_260x260.png" group-title="Movies & Series",MyTime movie network
+https://moviesphere-plex.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Rialto.nz" tvg-name="Rialto" tvg-logo="https://i.imgur.com/RnzWT9C.jpg" group-title="Movies & Series",Rialto
 https://rialto-rialto-samsungaustralia.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="STIRRMovies.us" tvg-name="STIRR Movies" tvg-logo="https://i.imgur.com/ec3yTaI.png" group-title="Movies",STIRR Movies
+#EXTINF:-1 tvg-id="STIRRMovies.us" tvg-name="STIRR Movies" tvg-logo="https://i.imgur.com/ec3yTaI.png" group-title="Movies & Series",STIRR Movies
 https://dai.google.com/linear/hls/event/f-zA7b21Squ7M1_sabGfjA/master.m3u8
 
 #EXTINF:-1 tvg-id="C31Melbourne.au" tvg-name="C31 Melbourne" tvg-logo="https://i.imgur.com/Ge1EutY.png" group-title="Lifestyle & Entertainment",C31 Melbourne
@@ -30,8 +45,17 @@ http://fash1043.cloudycdn.services/slive/_definst_/ftv_midnite_secrets_adaptive.
 #EXTINF:-1 tvg-id="GustoTV.au" tvg-name="Gusto TV" tvg-logo="https://i.imgur.com/ygVGi3s.png" group-title="Lifestyle & Entertainment",Gusto TV
 https://gustotv-samsung-gb.samsung.wurl.com/manifest/playlist.m3u8
 
+#EXTINF:-1 tvg-id="RushbyAMC.us" tvg-name="Rush by AMC" tvg-logo="https://i.imgur.com/yngqRL8.png" group-title="Movies & Series",Rush by AMC
+https://amc-rushbyamc-1.imdbtv.wurl.com/manifest/playlist.m3u8
+
 #EXTINF:-1 tvg-id="StoriesbyAMC.us" tvg-name="Stories by AMC" tvg-logo="https://images.pluto.tv/channels/5e8254118601b80007b4b7ae/colorLogoPNG.png" group-title="Lifestyle & Entertainment",Stories by AMC
 https://amc-amcpresents-1.imdbtv.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AXNAsia.sg" tvg-name="AXN" tvg-logo="https://i.imgur.com/OO6mWTx.png" group-title="Lifestyle & Entertainment",AXN
+http://210.210.155.35/session/d2a76230-4245-11ec-9d75-ba5db79caa16/dr9445/h/h141/01.m3u8
+
+#EXTINF:-1 tvg-id="GameShowCentral.us" tvg-name="Game Show Central" tvg-logo="https://images.pluto.tv/channels/5e54187aae660e00093561d6/colorLogoPNG.png" group-title="Lifestyle & Entertainment",Game Show Central
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e54187aae660e00093561d6/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5e54187aae660e00093561d6&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=167&terminate=false&userId=
 
 #EXTINF:-1 tvg-id="TimeLineAustralia.au" tvg-name="Time Line Australia" tvg-logo="https://i.imgur.com/J8qVUjM.png" group-title="Lifestyle & Entertainment",Time Line Australia
 https://lds-timeline-samsungau.amagi.tv/playlist.m3u8
@@ -40,7 +64,7 @@ https://lds-timeline-samsungau.amagi.tv/playlist.m3u8
 https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-name="Al Jazeera" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/512px-Aljazeera_eng.svg.png" group-title="News & Culture",Al Jazeera
-http://ott-cdn.ucom.am/s23/index.m3u8
+https://live-hls-web-aje.getaj.net/AJE/01.m3u8
 
 #EXTINF:-1 tvg-id="ANC.ph" tvg-name="ANC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/ANClogo2014.svg/512px-ANClogo2014.svg.png" group-title="News & Culture",ANC
 https://ancglobal-abscbn-ono.amagi.tv/playlist360_p.m3u8
@@ -51,11 +75,17 @@ https://austchannel-live.akamaized.net/hls/live/2002729/austchannel-news/master.
 #EXTINF:-1 tvg-id="BloombergTelevision.us" tvg-name="Bloomberg TV" tvg-logo="https://i.imgur.com/2r7utRt.png" group-title="News & Culture",Bloomberg TV
 https://bloomberg-bloomberg-1-eu.rakuten.wurl.tv/playlist.m3u8
 
+#EXTINF:-1 tvg-id="Cheddar.us" tvg-name="Cheddar" tvg-logo="https://i.imgur.com/YN7O7aI.png" group-title="News & Culture",Cheddar
+https://live.chdrstatic.com/cheddar/primary/index.m3u8
+
+#EXTINF:-1 tvg-id="CGTN.cn" tvg-name="CGTN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="News & Culture",CGTN
+https://live.cgtn.com/1000/prog_index.m3u8
+
 #EXTINF:-1 tvg-id="CNA.sg" tvg-name="CNA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/512px-CNA_new_logo.svg.png" group-title="News & Culture",CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 
 #EXTINF:-1 tvg-id="CNN.us" tvg-name="CNN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/512px-CNN.svg.png" group-title="News & Culture",CNN
-https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_4_1064000.m3u8
+https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 
 #EXTINF:-1 tvg-id="CNNPhilippines.ph" tvg-name="CNN Philippines" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/CNN_Philippines_Logo.svg/512px-CNN_Philippines_Logo.svg.png" group-title="News & Culture",CNN Philippines
 https://streaming.cnnphilippines.com/live/myStream/playlist.m3u8
@@ -63,17 +93,29 @@ https://streaming.cnnphilippines.com/live/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW" tvg-logo="https://i.imgur.com/1B4XjYf.png" group-title="News & Culture",DW
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 
+#EXTINF:-1 tvg-id="HLN.us" tvg-name="HLN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/HLN_%28TV_network%29_2017_logo.svg/512px-HLN_%28TV_network%29_2017_logo.svg.png" group-title="News & Culture",HLN
+https://tve-live-lln.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
+
+#EXTINF:-1 tvg-id="NewsmaxTV.us" tvg-name="Newsmax TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Newsmax2021.svg/512px-Newsmax2021.svg.png" group-title="News & Culture",Newsmax TV
+https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-name="NHK World Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png" group-title="News & Culture",NHK World Japan
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 
 #EXTINF:-1 tvg-id="BreezeTV.nz" tvg-name="Breeze TV" tvg-logo="https://i.imgur.com/3dpH9XF.jpg" group-title="Music",Breeze TV
 https://livestreamdirect-breezetv.mediaworks.nz/breezetv.m3u8
 
+#EXTINF:-1 tvg-id="ChannelVChina.cn" tvg-name="Channel V" tvg-logo="https://i.imgur.com/NR0ukWu.png" group-title="Music",Channel V
+http://61.19.242.134/feed/202105171329/LC14/index.m3u8
+
 #EXTINF:-1 tvg-id="MTVBiggestPop.us" tvg-name="MTV Biggest Pop" tvg-logo="https://images.pluto.tv/channels/5d14fd1a252d35decbc4080c/featuredImage.jpg?auto=&fill=blur&fit=fill&ixlib=react-9.1.5&h=185&w=512" group-title="Music",MTV Biggest Pop
-http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8
+https://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8
+
+#EXTINF:-1 tvg-id="MTVSpankinNew.us" tvg-name="MTV Spankin' New" tvg-logo="https://images.pluto.tv/channels/6047ff2e5e61cf000784e4da/colorLogoPNG.png" group-title="Music",MTV Spankin' New
+https://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS07/master.m3u8
 
 #EXTINF:-1 tvg-id="PlutoTVYoMTV.us" tvg-name="Yo! MTV" tvg-logo="https://images.pluto.tv/channels/5d14fc31252d35decbc4080b/colorLogoPNG.png" group-title="Music",Yo! MTV
-http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS01/master.m3u8
+https://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS01/master.m3u8
 
 #EXTINF:-1 tvg-id="MyxUSA.us" tvg-name="Myx" tvg-logo="https://i.imgur.com/Bv8iTjn.png" group-title="Music",Myx
 https://myxnola-abscbn-ono.amagi.tv/index_2.m3u8
@@ -93,11 +135,20 @@ https://smithsonianaus-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TimeLineAustralia.au" tvg-name="Time Line Australia" tvg-logo="https://i.imgur.com/J8qVUjM.png" group-title="Documentary",Time Line Australia
 https://lds-timeline-samsungau.amagi.tv/playlist.m3u8
 
+#EXTINF:-1 tvg-id="EDGEsport.uk" tvg-name="EDGEsport" tvg-logo="https://i.imgur.com/zRugmb9.png" group-title="Sports",EDGEsport
+http://210.210.155.35/uq2663/h/h22/index.m3u8
+
 #EXTINF:-1 tvg-id="HorseandCountry.au" tvg-name="Horse and Country" tvg-logo="https://i.imgur.com/r5Ip3P0.png" group-title="Sports",Horse and Country
 https://hncfree-samsungau.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="redbulltv.us" tvg-name="RedBull TV" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",RedBull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
+
+#EXTINF:-1 tvg-id="CONtvAnime.us" tvg-name="CONtv Anime" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5fa1b7168f9c26008859a893" group-title="Kids",CONtv Anime
+https://contvanime.cinedigm.com/conapp-ssai/amagi_hls_data_xumo-host-contvanime-junction/CDN/playlist.m3u8
+
+#EXTINF:-1 tvg-id="NickPlutoTV.us" tvg-name="Nick Pluto TV" tvg-logo="https://images.pluto.tv/channels/5ede448d3d50590007a4419e/colorLogoPNG.png" group-title="Kids",Nick Pluto TV
+https://siloh.pluto.tv/lilo/production/Nick/01/master_1.m3u8
 
 #EXTINF:-1 tvg-id="ZooMooAustralia.au" tvg-name="ZooMoo Australia" tvg-logo="https://i.imgur.com/1wYnA2i.jpg" group-title="Kids",ZooMoo Australia
 https://zoomoo-samsungau.amagi.tv/playlist.m3u8
