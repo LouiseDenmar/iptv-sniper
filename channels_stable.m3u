@@ -44,6 +44,9 @@ https://moviesphere-plex.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ParamountNetworkHDEast.us" tvg-name="Paramount Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png" group-title="Movies & Series",Paramount Network
 http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=17305&extension=ts&play_token=iyRDVm2pof
 
+#EXTINF:-1 tvg-id="PlutoTVAction.us" tvg-name="Pluto TV Action" tvg-logo="http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/561d7d484dc7c8770484914a/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=54&deviceId=561d7d484dc7c8770484914a&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false" group-title="Movies & Series",Pluto TV Action
+https://rialto-rialto-samsungaustralia.amagi.tv/playlist.m3u8
+
 #EXTINF:-1 tvg-id="Rialto.nz" tvg-name="Rialto" tvg-logo="https://i.imgur.com/RnzWT9C.jpg" group-title="Movies & Series",Rialto
 https://rialto-rialto-samsungaustralia.amagi.tv/playlist.m3u8
 
@@ -52,6 +55,9 @@ https://amc-rushbyamc-1.imdbtv.wurl.com/manifest/playlist.m3u8
 
 #EXTINF:-1 tvg-id="STIRRMovies.us" tvg-name="STIRR Movies" tvg-logo="https://i.imgur.com/ec3yTaI.png" group-title="Movies & Series",STIRR Movies
 https://dai.google.com/linear/hls/event/f-zA7b21Squ7M1_sabGfjA/master.m3u8
+
+#EXTINF:-1 tvg-id="Thrill.hk" tvg-name="Thrill" tvg-logo="https://i.imgur.com/isr5jto.png" group-title="Movies & Series",Thrill
+http://61.19.242.134/feed/202105171329/LC26/index.m3u8
 
 #EXTINF:-1 tvg-id="WarnerTVAsia.us" tvg-name="Warner TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies & Series",Warner TV
 http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=115823&extension=ts&play_token=DeYV0qiYzd
@@ -140,6 +146,9 @@ https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 #EXTINF:-1 tvg-id="RTNews.ru" tvg-name="RT News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/RT_America_Logo.png/512px-RT_America_Logo.png" group-title="News & Culture",RT News
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 
+#EXTINF:-1 tvg-id="TRTWorld.tr" tvg-name="TRT World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png" group-title="News & Culture",TRT World
+https://tv-trtworld.live.trt.com.tr/master.m3u8
+
 #EXTINF:-1 tvg-id="UNTV.ph" tvg-name="UNTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/99/UNTV-Logo-2016.svg/512px-UNTV-Logo-2016.svg.png" group-title="News & Culture",UNTV
 https://utube2.fotvnetwork.workers.dev/stream/UC3XaG-7UVi2vD8ZZEMNnnpw/master.m3u8
 
@@ -150,7 +159,7 @@ http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist
 https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TVNAsia.hk" tvg-name="tvN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/512px-Logo_tvN.svg.png" group-title="Korean Entertainment",tvN
-http://210.210.155.37/dr9445/h/h20/index.m3u8
+http://210.210.155.35/session/38a5c2c2-6620-11ec-87e1-c81f66f89318/dr9445/h/h20/01.m3u8
 
 #EXTINF:-1 tvg-id="HistoryPhilippines.ph" tvg-name="History Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/History_Logo.svg/512px-History_Logo.svg.png" group-title="Documentary",History Channel
 http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=115715&extension=ts&play_token=mqWcCWYKlM
@@ -182,8 +191,11 @@ https://smithsonianaus-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TimeLineAustralia.au" tvg-name="Time Line Australia" tvg-logo="https://i.imgur.com/J8qVUjM.png" group-title="Documentary",Time Line Australia
 https://lds-timeline-samsungau.amagi.tv/playlist.m3u8
 
+#EXTINF:-1 tvg-id="Xplore.us" tvg-name="Xplore" tvg-logo="https://od.lk/s/MF8yMjU5MDAzNDRf/Xplore_307x307.png" group-title="Documentary",Xplore
+https://xplore-roku.amagi.tv/playlist1080-p.m3u8
+
 #EXTINF:-1 tvg-id="EDGEsport.uk" tvg-name="EDGEsport" tvg-logo="https://i.imgur.com/zRugmb9.png" group-title="Sports",EDGEsport
-http://210.210.155.35/uq2663/h/h22/index.m3u8
+http://edgesport-samsungus.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="eGGNetwork.my" tvg-name="eGG Network" tvg-logo="https://i.ibb.co/0Vbn8Jk/e-GGNetwork-White.png" group-title="Sports",eGG Network
 http://210.210.155.35/uq2663/h/h22/index.m3u8
@@ -202,9 +214,6 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
 
 #EXTINF:-1 tvg-id="BreezeTV.nz" tvg-name="Breeze TV" tvg-logo="https://i.imgur.com/3dpH9XF.jpg" group-title="Music",Breeze TV
 https://livestreamdirect-breezetv.mediaworks.nz/breezetv.m3u8
-
-#EXTINF:-1 tvg-id="ChannelVChina.cn" tvg-name="Channel V" tvg-logo="https://i.imgur.com/NR0ukWu.png" group-title="Music",Channel V
-http://61.19.242.134/feed/202105171329/LC14/index.m3u8
 
 #EXTINF:-1 tvg-id="MTVBiggestPop.us" tvg-name="MTV Biggest Pop" tvg-logo="https://images.pluto.tv/channels/5d14fd1a252d35decbc4080c/featuredImage.jpg?auto=&fill=blur&fit=fill&ixlib=react-9.1.5&h=185&w=512" group-title="Music",MTV Biggest Pop
 https://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8
@@ -232,6 +241,9 @@ http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=115747&exten
 
 #EXTINF:-1 tvg-id="NickPlutoTV.us" tvg-name="Nick Pluto TV" tvg-logo="https://images.pluto.tv/channels/5ede448d3d50590007a4419e/colorLogoPNG.png" group-title="Kids",Nick Pluto TV
 https://siloh.pluto.tv/lilo/production/Nick/01/master_1.m3u8
+
+#EXTINF:-1 tvg-id="PBSKidsEasternCentral.us" tvg-name="PBS Kids" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Kids",PBS Kids
+https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ZooMooAustralia.au" tvg-name="ZooMoo Australia" tvg-logo="https://i.imgur.com/1wYnA2i.jpg" group-title="Kids",ZooMoo Australia
 https://zoomoo-samsungau.amagi.tv/playlist.m3u8
