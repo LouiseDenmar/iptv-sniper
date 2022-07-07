@@ -57,7 +57,7 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=16
 https://iptv-sniper.herokuapp.com/localtv.php?channel=15
 
 #EXTINF:-1 tvg-id="HBO2East.us" tvg-name="HBO 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png" group-title="Movies & Series",HBO 2
-http://iptvtree.net:8080/Unplugged83/F75DCxx397DMKop5388mM/5844
+http://moontools.me:8080//FNmdP2U7ey/HZQzvGgaPe/28781
 
 #EXTINF:-1 tvg-id="Hits.sg" tvg-name="Hits" tvg-logo="https://i.imgur.com/YeqyD9W.png" group-title="Movies & Series",Hits
 http://210.210.155.35/session/1204b13c-a86a-11ec-baed-ab3e95131f5a/dr9445/h/h37/01.m3u8
@@ -239,8 +239,8 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=46
 #EXTINF:-1 tvg-id="DiscoveryChannelHongKong.hk" tvg-name="Discovery Channel Asia" tvg-logo="https://i.imgur.com/t6iJj37.png" group-title="Documentary",Discovery Channel Asia
 https://iptv-sniper.herokuapp.com/localtv.php?channel=45
 
-#EXTINF:-1 tvg-id="DiscoveryScienceUK.uk" tvg-name="Discovery Science" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/512px-Discovery_Science_2017_Logo.svg.png" group-title="Documentary",Discovery Science
-http://iptvtree.net:8080/Unplugged83/F75DCxx397DMKop5388mM/713
+#EXTINF:-1 tvg-id="DiscoveryScience.us" tvg-name="Discovery Science" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/512px-Discovery_Science_2017_Logo.svg.png" group-title="Documentary",Discovery Science
+http://moontools.me:8080//FNmdP2U7ey/HZQzvGgaPe/28860
 
 #EXTINF:-1 tvg-id="DiscoveryWorldHDPanregional.us" tvg-name="Discovery World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/World_Discovery_HD_logo.svg/512px-World_Discovery_HD_logo.svg.png" group-title="Documentary",Discovery World
 http://iptvtree.net:8080/Unplugged83/F75DCxx397DMKop5388mM/755
@@ -300,10 +300,10 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=50
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
 
 #EXTINF:-1 tvg-id="SkySportsArena.uk" tvg-name="Sky Sports Arena" tvg-logo="https://i.imgur.com/XBMm9XT.png" group-title="Sports",Sky Sports Arena
-http://iptvtree.net:8080/Unplugged83/F75DCxx397DMKop5388mM/267
+http://iptvstream.es:8080/Pilsen/Movicer/506144
 
 #EXTINF:-1 tvg-id="SkySportsF1.uk" tvg-name="Sky Sports F1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Sky_Sports_F1_logo_2020.svg/512px-Sky_Sports_F1_logo_2020.svg.png" group-title="Sports",Sky Sports F1
-http://iptvtree.net:8080/Unplugged83/F75DCxx397DMKop5388mM/265
+http://iptvstream.es:8080/Pilsen/Movicer/506145
 
 #EXTINF:-1 tvg-id="TAPSports.ph" tvg-name="TAP Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6e/TAP_Sports_channel_logo.png" group-title="Sports",TAP Sports
 https://iptv-sniper.herokuapp.com/localtv.php?channel=31
@@ -339,7 +339,7 @@ http://sverigeplay.tv/play/live.php?mac=00:1A:79:ab:98:86&stream=115609&extensio
 https://iptv-sniper.herokuapp.com/localtv.php?channel=86
 
 #EXTINF:-1 tvg-id="Boomerang.us" tvg-name="Boomerang" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/512px-Boomerang_2014_logo.svg.png" group-title="Kids",Boomerang
-http://iptvtree.net:8080/Unplugged83/F75DCxx397DMKop5388mM/2281
+http://moontools.me:8080//FNmdP2U7ey/HZQzvGgaPe/25440
 
 #EXTINF:-1 tvg-id="BoomerangAsia.sg" tvg-name="Boomerang Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/512px-Boomerang_2014_logo.svg.png" group-title="Kids",Boomerang Asia
 https://iptv-sniper.herokuapp.com/localtv.php?channel=30
