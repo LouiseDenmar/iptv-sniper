@@ -311,6 +311,9 @@ https://myxnola-abscbn-ono.amagi.tv/index_2.m3u8
 #EXTINF:-1 tvg-id="AnimaxPhilippines.ph" tvg-name="Animax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Animax.svg/512px-Animax.svg.png" group-title="Kids",Animax
 http://103.105.213.251:8443/live/8UImczLjMzb5gttSJFVELQ/1657205967/24.m3u8
 
+#EXTINF:-1 tvg-id="AniplusAsia.sg" tvg-name="Aniplus" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Aniplus_Asia_Logo.png/512px-Aniplus_Asia_Logo.png" group-title="Kids",Aniplus
+http://sverigeplay.tv/play/live.php?mac=00:1A:79:ab:98:86&stream=115609&extension=ts&play_token=PhWmd1D0if
+
 #EXTINF:-1 tvg-id="Boomerang.us" tvg-name="Boomerang" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/512px-Boomerang_2014_logo.svg.png" group-title="Kids",Boomerang
 http://iptvtree.net:8080/Unplugged83/F75DCxx397DMKop5388mM/2281
 
