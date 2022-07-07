@@ -1,5 +1,8 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml,https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml,https://iptv-org.github.io/epg/guides/ca/tvhebdo.com.epg.xml,https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml,https://iptv-org.github.io/epg/guides/au/ontvtonight.com.epg.xml,https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml,https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml,https://iptv-org.github.io/epg/guides/in/startv.com.epg.xml,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml,https://raw.githubusercontent.com/AqFad2811/myiptv/main/astro.xml"
 
+#EXTINF:-1 tvg-id="PTV.ph" tvg-name="PTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/PTVLogo2017.svg/1200px-PTVLogo2017.svg.png" group-title="Local TV",PTV
+https://utube2.fotvnetwork.workers.dev/stream/UCJCUbMaY593_4SN1QPG7NFQ/master.m3u8
+
 #EXTINF:-1 tvg-id="KapamilyaChannel.ph" tvg-name="Kapamilya Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Kapamilya_Channel.png/512px-Kapamilya_Channel.png" group-title="Local TV",Kapamilya Channel
 https://rotf.lol/kapchacdn
 
@@ -25,6 +28,9 @@ https://bcovlive-a.akamaihd.net/ebf15ff84e98490e8b00209ed77c77f5/us-east-1/62407
 
 #EXTINF:-1 tvg-id="CinemaOneGlobal.ph" tvg-name="Cinema One" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Cinema_One_2013_logo.svg/512px-Cinema_One_2013_logo.svg.png" group-title="Movies & Series",Cinema One
 https://cinemaone-abscbn-ono.amagi.tv/index_2.m3u8
+
+#EXTINF:-1 tvg-id="CineMoGlobal.ph" tvg-name="Cine Mo!" tvg-logo="https://cms.cignal.tv/Upload/Images/Cinemo.jpg" group-title="Movies & Series",Cine Mo!
+https://rotf.lol/cinemocdn
 
 #EXTINF:-1 tvg-id="CineLife.us" tvg-name="CineLife" tvg-logo="https://play-lh.googleusercontent.com/TRj4zx_xl4QA3JO7DwqalxZwshmhxEzg0QzP1sT3Uv99p4izfj9S_yPZD4oVkFUxMNA" group-title="Movies & Series",CineLife
 https://magselect-stirr.amagi.tv/playlist1080p.m3u8
