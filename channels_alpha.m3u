@@ -194,6 +194,9 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="Fox News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/512px-Fox_News_Channel_logo.svg.png" group-title="News & Culture",Fox News
 https://iptv-sniper.herokuapp.com/localtv.php?channel=39
 
+#EXTINF:-1 tvg-id="France24English.fr" tvg-name="France 24" tvg-logo="https://www.mncvision.id/userfiles/image/channel/france_150px.jpg" group-title="News & Culture",France 24
+https://iptv-sniper.herokuapp.com/localtv.php?channel=95
+
 #EXTINF:-1 tvg-id="HLN.us" tvg-name="HLN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/HLN_%28TV_network%29_2017_logo.svg/512px-HLN_%28TV_network%29_2017_logo.svg.png" group-title="News & Culture",HLN
 https://tve-live-lln.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 
@@ -266,6 +269,9 @@ https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8
 #EXTINF:-1 tvg-id="SmithsonianChannelAsia.us" tvg-name="Smithsonian Channel" tvg-logo="https://i.imgur.com/ZQZwXY0.png" group-title="Documentary",Smithsonian Channel
 https://smithsonianaus-samsungau.amagi.tv/playlist.m3u8
 
+#EXTINF:-1 tvg-id="TechStorm.sg" tvg-name="TechStorm" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Techstorm-logo.jpg/512px-Techstorm-logo.jpg" group-title="Documentary",TechStorm
+https://iptv-sniper.herokuapp.com/localtv.php?channel=78
+
 #EXTINF:-1 tvg-id="TimeLineAustralia.au" tvg-name="Time Line Australia" tvg-logo="https://i.imgur.com/J8qVUjM.png" group-title="Documentary",Time Line Australia
 https://lds-timeline-samsungau.amagi.tv/playlist.m3u8
 
@@ -299,6 +305,9 @@ http://iptvtree.net:8080/Unplugged83/F75DCxx397DMKop5388mM/267
 #EXTINF:-1 tvg-id="SkySportsF1.uk" tvg-name="Sky Sports F1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Sky_Sports_F1_logo_2020.svg/512px-Sky_Sports_F1_logo_2020.svg.png" group-title="Sports",Sky Sports F1
 http://iptvtree.net:8080/Unplugged83/F75DCxx397DMKop5388mM/265
 
+#EXTINF:-1 tvg-id="TAPSports.ph" tvg-name="TAP Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6e/TAP_Sports_channel_logo.png" group-title="Sports",TAP Sports
+https://iptv-sniper.herokuapp.com/localtv.php?channel=31
+
 #EXTINF:-1 tvg-id="BreezeTV.nz" tvg-name="Breeze TV" tvg-logo="https://i.imgur.com/3dpH9XF.jpg" group-title="Music",Breeze TV
 https://livestreamdirect-breezetv.mediaworks.nz/breezetv.m3u8
 
@@ -325,6 +334,9 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=24
 
 #EXTINF:-1 tvg-id="AniplusAsia.sg" tvg-name="Aniplus" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Aniplus_Asia_Logo.png/512px-Aniplus_Asia_Logo.png" group-title="Kids",Aniplus
 http://sverigeplay.tv/play/live.php?mac=00:1A:79:ab:98:86&stream=115609&extension=ts&play_token=PhWmd1D0if
+
+#EXTINF:-1 tvg-id="BabyTV.uk" tvg-name="BabyTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png" group-title="Kids",BabyTV
+https://iptv-sniper.herokuapp.com/localtv.php?channel=86
 
 #EXTINF:-1 tvg-id="Boomerang.us" tvg-name="Boomerang" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/512px-Boomerang_2014_logo.svg.png" group-title="Kids",Boomerang
 http://iptvtree.net:8080/Unplugged83/F75DCxx397DMKop5388mM/2281
