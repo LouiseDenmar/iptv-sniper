@@ -29,6 +29,12 @@ http://103.105.213.251:8443/live/8UImczLjMzb5gttSJFVELQ/1657205967/7.m3u8
 #EXTINF:-1 tvg-id="KnowledgeChannel.ph" tvg-name="Knowledge Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Knowledge-channel.png/512px-Knowledge-channel.png" group-title="Local TV",Knowledge Channel
 https://amdottlive.akamaized.net/hls/live/2018990/iwantknowledge/master480p.m3u8
 
+#EXTINF:-1 tvg-id="SariSariChannel.ph" tvg-name="Sari Sari Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/22/Sari-Sari_Channel_logo.png" group-title="Local TV",Sari Sari Channel
+http://fortv.cc:8080/live/jsc/jsc/101824.m3u8
+
+#EXTINF:-1 tvg-id="SMNI.ph" tvg-name="SMNI" tvg-logo="https://i.imgur.com/l2JSQme.png" group-title="Local TV",SMNI
+https://api.new.livestream.com/accounts/19079954/events/7831871/live.m3u8
+
 #EXTINF:-1 tvg-id="AMCEast.us" tvg-name="AMC" tvg-logo="https://i.imgur.com/RBKx6Fx.png" group-title="Movies & Series",AMC
 https://bcovlive-a.akamaihd.net/ebf15ff84e98490e8b00209ed77c77f5/us-east-1/6240731308001/playlist.m3u8
 
