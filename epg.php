@@ -1,33 +1,5 @@
 <?php
-	$epgs = array(
-		array(
-			"url"      => "https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml",
-			"channels" => array(
-				"JeepneyTV.ph",
-				"KapamilyaChannel.ph",
-				"PTV.ph",
-				"GMATV.ph",
-				"GTV.ph",
-				"CinemaOneGlobal.ph",
-				"CinemaxSingapore.sg",
-				"HBOSingapore.sg",
-				"PBO.ph",
-				"VivaCinema.ph",
-				"AXNPhilippines.ph",
-				"RockEntertainment.sg",
-				"RockExtreme.sg",
-				"ANC.ph",
-				"CNNPhilippines.ph",
-				"AnimaxPhilippines.ph"
-			)
-		),
-		array(
-			"url"      => "https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml",
-			"channels" => array(
-				"CinemaxMalaysia.my"
-			)
-		)
-	);
+	$epgs = json_decode(file_get_contents($_GET["json"] . ".json"));
 
 	require 'EpgParser.php';
 
@@ -71,7 +43,7 @@
 	}
 
 	foreach ($programme_list as $programme) {
-  		$xml .= "  <programme start=\"" . $programme["start_raw"] . "\" stop=\"" . $programme["stop"] . "\" channel=\"" . $programme["channel"] . "\">\n";
+  		$xml .= "  <programme start=\"" . $programme["start_raw"] . "\" stop=\"" . $programme["stop_raw"] . "\" channel=\"" . $programme["channel"] . "\">\n";
     	$xml .= "    <title lang=\"en\">" . htmlspecialchars($programme["title"]) . "</title>\n";
     	$xml .= "    <desc lang=\"en\">" . htmlspecialchars($programme["desc"]) . "</desc>\n";
     	$xml .= "    <category lang=\"en\">" . htmlspecialchars($programme["category"]) . "</category>\n";
@@ -79,5 +51,5 @@
 	}
 
 	$xml .= "</tv>";
-	file_put_contents("cryogenix.xml", $xml);
+	file_put_contents("iptv-sniper.xml", $xml);
 //end epg.php

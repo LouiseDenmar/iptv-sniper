@@ -1,0 +1,29 @@
+[
+    {
+        "url": "https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml",
+        "channels": [
+            "JeepneyTV.ph",
+            "KapamilyaChannel.ph",
+            "PTV.ph",
+            "GMATV.ph",
+            "GTV.ph",
+            "CinemaOneGlobal.ph",
+            "CinemaxSingapore.sg",
+            "HBOSingapore.sg",
+            "PBO.ph",
+            "VivaCinema.ph",
+            "AXNPhilippines.ph",
+            "RockEntertainment.sg",
+            "RockExtreme.sg",
+            "ANC.ph",
+            "CNNPhilippines.ph",
+            "AnimaxPhilippines.ph"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml",
+        "channels": [
+            "CinemaxMalaysia.my"
+        ]
+    }
+]
