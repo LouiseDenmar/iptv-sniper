@@ -5,8 +5,20 @@
 			"channels" => array(
 			    "JeepneyTV.ph",
 			    "KapamilyaChannel.ph",
-				"AnimaxPhilippines.ph",
-				"AXNPhilippines.ph"
+				"PTV.ph",
+				"GMATV.ph",
+				"GTV.ph",
+				"CinemaOneGlobal.ph",
+				"CinemaxSingapore.sg",
+				"HBOSingapore.sg",
+				"PBO.ph",
+				"VivaCinema.ph",
+				"AXNPhilippines.ph",
+				"RockEntertainment.sg",
+				"RockExtreme.sg",
+				"ANC.ph",
+				"CNNPhilippines.ph",
+				"AnimaxPhilippines.ph"
 			)
 		),
 		array(
@@ -48,7 +60,7 @@
 	}
 
     $xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
-	$xml .= "<tv date=\"" . date('Ymd') . "\">";
+	$xml .= "<tv generator-info-name=\"IPTV-Sniper\">";
 
 	foreach ($channel_list as $channel) {
     	$xml .= "<channel id=\"" . $channel["id"] . "\">";
