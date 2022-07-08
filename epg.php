@@ -3,8 +3,8 @@
 		array(
 			"url"      => "https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml",
 			"channels" => array(
-			    "JeepneyTV.ph",
-			    "KapamilyaChannel.ph",
+				"JeepneyTV.ph",
+				"KapamilyaChannel.ph",
 				"PTV.ph",
 				"GMATV.ph",
 				"GTV.ph",
