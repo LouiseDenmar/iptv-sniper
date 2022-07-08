@@ -295,6 +295,7 @@ class EpgParser {
 					'start_raw'   => (string)$element->attributes()->start,
 					'channel'     => (string)$element->attributes()->channel,
 					'stop'        => $stopString,
+					'stop_raw'    => (string)$element->attributes()->stop,
 					'title'       => (string)$element->title,
 					'sub-title'   => (string)$element->{'sub-title'},
 					'desc'        => $this->filterDescr((string)$element->desc),
