@@ -60,22 +60,22 @@
 	}
 
     $xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
-	$xml .= "<tv generator-info-name=\"IPTV-Sniper\">";
+	$xml .= "<tv generator-info-name=\"IPTV-Sniper\">\n";
 
 	foreach ($channel_list as $channel) {
-    	$xml .= "<channel id=\"" . $channel["id"] . "\">";
-        $xml .= "<display-name>". htmlspecialchars($channel["display-name"]) . "</display-name>";
-        $xml .= "<icon src=\"" . $channel["icon"] . "\" />";
-        $xml .= "<url>" . $channel["url"] . "</url>";
-    	$xml .= "</channel>";
+    	$xml .= "  <channel id=\"" . $channel["id"] . "\">\n";
+        $xml .= "    <display-name>". htmlspecialchars($channel["display-name"]) . "</display-name>\n";
+        $xml .= "    <icon src=\"" . $channel["icon"] . "\" />\n";
+        $xml .= "    <url>" . $channel["url"] . "</url>\n";
+    	$xml .= "  </channel>\n";
 	}
 
 	foreach ($programme_list as $programme) {
-  		$xml .= "<programme start=\"" . $programme["start_raw"] . "\" stop=\"" . $programme["stop"] . "\" channel=\"" . $programme["channel"] . "\">";
-    	$xml .= "<title lang=\"en\">" . htmlspecialchars($programme["title"]) . "</title>";
-    	$xml .= "<desc lang=\"en\">" . htmlspecialchars($programme["desc"]) . "</desc>";
-    	$xml .= "<category lang=\"en\">" . htmlspecialchars($programme["category"]) . "</category>";
-		$xml .= "</programme>";
+  		$xml .= "  <programme start=\"" . $programme["start_raw"] . "\" stop=\"" . $programme["stop"] . "\" channel=\"" . $programme["channel"] . "\">\n";
+    	$xml .= "    <title lang=\"en\">" . htmlspecialchars($programme["title"]) . "</title>\n";
+    	$xml .= "    <desc lang=\"en\">" . htmlspecialchars($programme["desc"]) . "</desc>\n";
+    	$xml .= "    <category lang=\"en\">" . htmlspecialchars($programme["category"]) . "</category>\n";
+		$xml .= "  </programme>\n";
 	}
 
 	$xml .= "</tv>";
