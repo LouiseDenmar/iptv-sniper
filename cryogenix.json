@@ -2,12 +2,8 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml",
         "channels": [
-            "TheFilipinoChannelAsia.us",
             "EuronewsEnglish.fr",
-            "HBOFamilyAsia.sg",
-            "HBOHitsAsia.sg",
             "HBOSignatureAsia.sg",
-            "Thrill.hk",
             "WarnerTVSoutheastAsia.us",
             "AsianFoodNetwork.sg",
             "BBCLifestyleAsia.uk",
@@ -22,36 +18,26 @@
             "BloombergTVAsiaPacific.hk",
             "CNA.sg",
             "RTNews.ru",
-            "TVNAsia.hk",
             "TV5MondeAsia.fr",
             "AnimalPlanetHongKong.hk",
             "BBCEarthAsia.uk",
             "DiscoveryAsiaHongKong.hk",
             "DiscoveryChannelHongKong.hk",
             "HistoryAsia.us",
-            "FightSports.us",
-            "AnimaxAsia.sg",
-            "CBeebiesAsia.uk"
+            "AnimaxAsia.sg"
         ]
     },
     {
         "url": "https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml",
         "channels": [
-            "Galaxy.id",
-            "GalaxyPremium.id",
-            "Kix.hk",
-            "TVNMovies.hk",
-            "CGTNDocumentary.cn"
+            "Kix.hk"
         ]
     },
     {
         "url": "https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml",
         "channels": [
-            "CinemaxMalaysia.my",
             "eGGNetwork.my",
             "ParamountNetworkMalaysia.my",
-            "ShowcaseMovies.my",
-            "KPlus.sg",
             "WWENetwork.us",
             "MTVAsia.sg",
             "MoonbugKids.uk",
@@ -82,25 +68,16 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml",
         "channels" : [
-            "HBOSingapore.sg",
+            "TheFilipinoChannelAsia.us",
             "Hits.sg",
-            "HitsMovies.sg",
             "CrimePlusInvestigationAsia.us",
             "CGTN.cn",
-            "ArirangTV.kr",
-            "KBSWorld.kr",
             "OneTVAsia.sg",
-            "CelestialMovies.hk",
-            "CelestialClassicMovies.hk",
             "LoveNature.ca",
             "NationalGeographicHDSingapore.sg",
             "NationalGeographicWildHDSingapore.sg",
             "SmithsonianChannelAsia.us",
-            "PremierSportsAsia.ie",
-            "CartoonNetworkAsia.sg",
-            "BoomerangAsia.sg",
-            "NickelodeonAsia.sg",
-            "NickJrAsia.sg"
+            "PremierSportsAsia.ie"
         ]
     },
     {
@@ -115,8 +92,7 @@
             "KapatidTV5.ph",
             "SariSariChannel.ph",
             "CinemaOneGlobal.ph",
-            "MyxUSA.us",
-            "BabyTV.uk"
+            "MyxUSA.us"
         ]
     },
     {
@@ -125,24 +101,51 @@
             "AMCEast.us",
             "CNBCAsia.sg",
             "CNN.us",
-            "DWEnglish.de",
-            "FoxNewsChannel.us",
-            "France24English.fr",
-            "NHKWorldJapan.jp",
-            "OutdoorChannel.us",
-            "GolfChannelMalaysia.my",
             "MTVLive.uk"
         ]
     },
     {
         "url": "https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml",
         "channels": [
+            "ArirangTV",
+            "BabyTVAsia.uk",
             "beINSports",
             "beINSports2",
             "beINSports3",
+            "BoomerangSouthEastAsia.us",
+            "CartoonNetworkAsia.us",
+            "CBeebiesAsia.uk",
+            "CCM",
+            "CelestialMovies.hk",
+            "CGTNDocumentary",
+            "CinemaxAsia.us",
+            "CTIAsia",
+            "DWEnglish",
             "Eurosport",
+            "FightSports",
+            "FOXNews",
+            "France24English",
+            "GALAXY",
+            "GALAXYPremium",
+            "GolfChannel",
+            "HBOAsia.us",
+            "HBOFamilyAsia.us",
+            "HBOHits.us",
+            "HBOSignatureAsia.us",
+            "HITSMovies",
+            "KBSWorld",
+            "K-Plus",
+            "NickelodeonSouthEastAsia.us",
+            "NickJrAsia.us",
+            "NHKWorldJapan",
+            "NHKWorldPremium",
+            "OutdoorChannel",
+            "ShowcaseMovies",
             "SPOTVAsia",
-            "SPOTV2"
+            "SPOTV2",
+            "Thrill.hk",
+            "tvN",
+            "tvNMovies"
         ]
     }
 ]
