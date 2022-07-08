@@ -31,10 +31,7 @@
             "HistoryAsia.us",
             "FightSports.us",
             "AnimaxAsia.sg",
-            "CartoonNetworkAsia.sg",
-            "CBeebiesAsia.uk",
-            "NickelodeonAsia.sg",
-            "NickJrAsia.sg"
+            "CBeebiesAsia.uk"
         ]
     },
     {
@@ -77,6 +74,12 @@
         ]
     },
     {
+        "url": "https://iptv-org.github.io/epg/guides/rs/mts.rs.epg.xml",
+        "channels": [
+            "RTDocumentary.ru"
+        ]
+    },
+    {
         "url": "https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml",
         "channels" : [
             "HBOSingapore.sg",
@@ -85,6 +88,7 @@
             "CrimePlusInvestigationAsia.us",
             "CGTN.cn",
             "ArirangTV.kr",
+            "KBSWorld.kr",
             "OneTVAsia.sg",
             "CelestialMovies.hk",
             "CelestialClassicMovies.hk",
@@ -93,7 +97,10 @@
             "NationalGeographicWildHDSingapore.sg",
             "SmithsonianChannelAsia.us",
             "PremierSportsAsia.ie",
-            "SPOTV2.kr"
+            "CartoonNetworkAsia.sg",
+            "BoomerangAsia.sg",
+            "NickelodeonAsia.sg",
+            "NickJrAsia.sg"
         ]
     },
     {
@@ -108,7 +115,6 @@
             "KapatidTV5.ph",
             "SariSariChannel.ph",
             "CinemaOneGlobal.ph",
-            "KBSWorld.kr",
             "MyxUSA.us",
             "BabyTV.uk"
         ]
@@ -125,14 +131,18 @@
             "NHKWorldJapan.jp",
             "OutdoorChannel.us",
             "GolfChannelMalaysia.my",
-            "MTVLive.uk",
-            "BoomerangAsia.sg"
+            "MTVLive.uk"
         ]
     },
     {
         "url": "https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml",
         "channels": [
-            "Eurosport"
+            "beINSports",
+            "beINSports2",
+            "beINSports3",
+            "Eurosport",
+            "SPOTVAsia",
+            "SPOTV2"
         ]
     }
 ]
