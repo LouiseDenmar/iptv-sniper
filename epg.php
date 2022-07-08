@@ -1,9 +1,8 @@
 <?php
-	$epgs = json_decode(file_get_contents($_GET["json"] . ".json"));
-
 	require 'EpgParser.php';
 
-	$Parser = new \buibr\xmlepg\EpgParser();
+	$Parser       = new \buibr\xmlepg\EpgParser();
+	$epgs         = json_decode(file_get_contents($_GET["json"]));
 	$channel_list = array();
 
 	foreach ($epgs as $epg) {
