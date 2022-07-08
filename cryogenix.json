@@ -1,0 +1,138 @@
+[
+    {
+        "url": "https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml",
+        "channels": [,
+            "TheFilipinoChannelAsia.us",
+            "EuronewsEnglish.fr",
+            "HBOFamilyAsia.sg",
+            "HBOHitsAsia.sg",
+            "HBOSignatureAsia.sg",
+            "Thrill.hk",
+            "WarnerTVSoutheastAsia.us",
+            "AsianFoodNetwork.sg",
+            "BBCLifestyleAsia.uk",
+            "DMAXAsia.sg",
+            "FoodNetworkAsia.sg",
+            "HGTVAsia.us",
+            "LifetimeAsia.us",
+            "TLCSoutheastAsia.us",
+            "ABCAustraliaAsia.au",
+            "AlJazeeraEnglish.qa",
+            "BBCWorldNewsAsiaPacific.uk",
+            "BloombergTVAsiaPacific.hk",
+            "CNA.sg",
+            "RTNews.ru",
+            "TVNAsia.hk",
+            "TV5MondeAsia.fr",
+            "AnimalPlanetHongKong.hk",
+            "BBCEarthAsia.uk",
+            "DiscoveryAsiaHongKong.hk",
+            "DiscoveryChannelHongKong.hk",
+            "HistoryAsia.us",
+            "FightSports.us",
+            "AnimaxAsia.sg",
+            "CartoonNetworkAsia.sg",
+            "CBeebiesAsia.uk",
+            "NickelodeonAsia.sg",
+            "NickJrAsia.sg"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml",
+        "channels": [
+            "Galaxy.id",
+            "GalaxyPremium.id",
+            "Kix.hk",
+            "TVNMovies.hk",
+            "CGTNDocumentary.cn"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml",
+        "channels": [
+            "CinemaxMalaysia.my",
+            "eGGNetwork.my",
+            "ParamountNetworkMalaysia.my",
+            "ShowcaseMovies.my",
+            "KPlus.sg",
+            "WWENetwork.us",
+            "MTVAsia.sg",
+            "MoonbugKids.uk",
+            "TADAA.my"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml",
+        "channels": [
+            "A2ZChannel11.ph",
+            "KapamilyaChannel.ph",
+            "PTV.ph",
+            "GMATV.ph",
+            "GTV.ph",
+            "AXNPhilippines.ph",
+            "RockEntertainment.sg",
+            "RockExtreme.sg",
+            "ANC.ph",
+            "CNNPhilippines.ph"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml",
+        "channels" : [
+            "HBOSingapore.sg",
+            "Hits.sg",
+            "HitsMovies.sg",
+            "CrimePlusInvestigationAsia.us",
+            "CGTN.cn",
+            "ArirangTV.kr",
+            "OneTVAsia.sg",
+            "CelestialMovies.hk",
+            "CelestialClassicMovies.hk",
+            "LoveNature.ca",
+            "NationalGeographicHDSingapore.sg",
+            "NationalGeographicWildHDSingapore.sg",
+            "SmithsonianChannelAsia.us",
+            "PremierSportsAsia.ie",
+            "SPOTV2.kr"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml",
+        "channels": [
+            "TRTWorld.tr"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml",
+        "channels": [
+            "KapatidTV5.ph",
+            "SariSariChannel.ph",
+            "CinemaOneGlobal.ph",
+            "KBSWorld.kr",
+            "MyxUSA.us",
+            "BabyTV.uk"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml",
+        "channels": [
+            "AMCEast.us",
+            "CNBCAsia.sg",
+            "CNN.us",
+            "DWEnglish.de",
+            "FoxNewsChannel.us",
+            "France24English.fr",
+            "NHKWorldJapan.jp",
+            "OutdoorChannel.us",
+            "GolfChannelMalaysia.my",
+            "MTVLive.uk",
+            "BoomerangAsia.sg"
+        ]
+    },
+    {
+        "url": "https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml",
+        "channels": [
+            "Eurosport"
+        ]
+    }
+]
