@@ -50,5 +50,6 @@
 	}
 
 	$xml .= "</tv>";
-	file_put_contents("iptv-sniper.xml", $xml);
+	$filename = ($_GET["json"] == "epg-config.json") ? "iptv-sniper.xml" : "cryogenix.xml";
+	file_put_contents($filename, $xml);
 //end epg.php

@@ -1,0 +1,150 @@
+[
+    {
+        "url": "https://iptv-org.github.io/epg/guides/au/ontvtonight.com.epg.xml",
+        "channels": [
+            "ABCTV.au"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml",
+        "channels": [
+            "GMALifeTV.ph",
+            "HitsMovies.sg",
+            "Thrill.hk",
+            "AsianFoodNetwork.sg",
+            "HGTVAsia.us",
+            "TLCSoutheastAsia.us",
+            "AlJazeeraEnglish.qa",
+            "France24English.fr",
+            "AnimalPlanetHongKong.hk",
+            "DiscoveryAsiaHongKong.hk",
+            "DiscoveryChannelHongKong.hk"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml",
+        "channels": [
+            "eGGNetwork.my",
+            "ParamountNetworkMalaysia.my"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml",
+        "channels": [
+            "JeepneyTV.ph",
+            "KapamilyaChannel.ph",
+            "PTV.ph",
+            "GMATV.ph",
+            "GTV.ph",
+            "CinemaOneGlobal.ph",
+            "CinemaxSingapore.sg",
+            "HBOSingapore.sg",
+            "PBO.ph",
+            "VivaCinema.ph",
+            "AXNPhilippines.ph",
+            "RockEntertainment.sg",
+            "RockExtreme.sg",
+            "ANC.ph",
+            "CNNPhilippines.ph",
+            "AnimaxPhilippines.ph"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/rs/mts.rs.epg.xml",
+        "channels": [
+            "RTDocumentary.ru"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml",
+        "channels" : [
+            "TheFilipinoChannelAsia.us",
+            "Hits.sg",
+            "CrimePlusInvestigationAsia.us",
+            "FashionTVAsia.fr",
+            "LifetimeAsia.us",
+            "BBCWorldNewsAsiaPacific.uk",
+            "BloombergTVAsiaPacific.hk",
+            "CGTN.cn",
+            "CNA.sg",
+            "CNBCAsia.sg",
+            "DWEnglish.de",
+            "FoxNewsChannel.us",
+            "NHKWorldJapan.jp",
+            "RTNews.ru",
+            "ArirangTV.kr",
+            "KBSWorld.kr",
+            "TVNAsia.hk",
+            "BBCEarthAsia.uk",
+            "HistoryAsia.us",
+            "LoveNature.ca",
+            "NationalGeographicHDSingapore.sg",
+            "NationalGeographicWildHDSingapore.sg",
+            "SmithsonianChannelAsia.us",
+            "BoomerangAsia.sg",
+            "CartoonNetworkAsia.sg",
+            "DreamWorksChannelAsia.us",
+            "NickelodeonAsia.sg",
+            "NickJrAsia.sg"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml",
+        "channels": [
+            "WarnerTVSoutheastAsia.us"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml",
+        "channels": [
+            "SkySportsArena.uk",
+            "SkySportsF1.uk"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml",
+        "channels": [
+            "AMCEast.us",
+            "HBO2East.us",
+            "GameShowCentral.us",
+            "BloombergTelevision.us",
+            "Cheddar.us",
+            "CNN.us",
+            "HLN.us",
+            "MSNBC.us",
+            "NewsmaxTV.us",
+            "OutdoorChannel.us",
+            "ESPN.us",
+            "MTVLive.uk",
+            "Boomerang.us",
+            "PBSKidsEasternCentral.us"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml",
+        "channels": [
+            "KapatidTV5.ph",
+            "SariSariChannel.ph",
+            "MyxUSA.us",
+            "BabyTV.uk"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml",
+        "channels": [
+            "ParamountMovieChannel.us",
+            "PlutoTVAction.us",
+            "StoriesbyAMC.us",
+            "MTVBiggestPop.us",
+            "MTVSpankinNew.us",
+            "YoMTV.us",
+            "NickPlutoTV.us"
+        ]
+    },
+    {
+        "url": "https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml",
+        "channels": [
+            "Eurosport"
+        ]
+    }
+]
