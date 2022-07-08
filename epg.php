@@ -6,10 +6,10 @@
 	$channel_list = array();
 
 	foreach ($epgs as $epg) {
-		$Parser->setUrl($epg["url"]);
+		$Parser->setUrl($epg->url);
 		$Parser->setTargetTimeZone('Asia/Singapore');
 
-		foreach ($epg["channels"] as $channel)
+		foreach ($epg->channels as $channel)
 			$Parser->setChannelfilter($channel);
 
 		try {
@@ -20,7 +20,7 @@
 
         $channels = array_values($Parser->getChannels());
 
-        foreach ($epg["channels"] as $channel) {
+        foreach ($epg->channels as $channel) {
             $key = array_search($channel, array_column($channels, "id"));
 
             if ($key !== false)
@@ -50,5 +50,6 @@
 	}
 
 	$xml .= "</tv>";
-	file_put_contents("iptv-sniper.xml", $xml);
+	$filename = ($_GET["json"] == "epg-config.json") ? "iptv-sniper.xml" : "cryogenix.xml";
+	file_put_contents($filename, $xml);
 //end epg.php
