@@ -15,9 +15,6 @@ https://utube2.fotvnetwork.workers.dev/stream/UCJCUbMaY593_4SN1QPG7NFQ/master.m3
 #EXTINF:-1 tvg-id="KapatidTV5.ph" tvg-name="Kapatid TV 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TV5_(Philippines)_logo.svg/512px-TV5_(Philippines)_logo.svg.png" group-title="Local TV",Kapatid TV 5
 https://iptv-sniper.herokuapp.com/localtv.php?channel=8
 
-#EXTINF:-1 tvg-id="GMALifeTV.ph" tvg-name="GMA Life TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ae/Gma_life_tv.png" group-title="Local TV",GMA Life TV
-http://iptvtree.net:8080/Unplugged83/F75DCxx397DMKop5388mM/144867
-
 #EXTINF:-1 tvg-id="GMATV.ph" tvg-name="GMA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/GMA_Network_Logo_Vector.svg/512px-GMA_Network_Logo_Vector.svg.png" group-title="Local TV",GMA TV
 https://iptv-sniper.herokuapp.com/localtv.php?channel=5
 
@@ -50,7 +47,7 @@ https://rotf.lol/cinemocdn
 #EXTINF:-1 tvg-id="CineLife.us" tvg-name="CineLife" tvg-logo="https://play-lh.googleusercontent.com/TRj4zx_xl4QA3JO7DwqalxZwshmhxEzg0QzP1sT3Uv99p4izfj9S_yPZD4oVkFUxMNA" group-title="Movies & Series",CineLife
 https://magselect-stirr.amagi.tv/playlist1080p.m3u8
 
-#EXTINF:-1 tvg-id="CinemaxMalaysia.my" tvg-name="Cinemax Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png" group-title="Movies & Series",Cinemax Asia
+#EXTINF:-1 tvg-id="CinemaxSingapore.sg" tvg-name="Cinemax Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png" group-title="Movies & Series",Cinemax Asia
 https://iptv-sniper.herokuapp.com/localtv.php?channel=16
 
 #EXTINF:-1 tvg-id="HBOMalaysia.my" tvg-name="HBO Asia" tvg-logo="https://i.imgur.com/EnA2RcD.png" group-title="Movies & Series",HBO Asia
@@ -95,7 +92,7 @@ https://dai.google.com/linear/hls/event/f-zA7b21Squ7M1_sabGfjA/master.m3u8
 #EXTINF:-1 tvg-id="VivaCinema.ph" tvg-name="Viva" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/96/Viva_TV_logo.jpg" group-title="Movies & Series",VivaCinema
 https://iptv-sniper.herokuapp.com/localtv.php?channel=13
 
-#EXTINF:-1 tvg-id="WarnerTVAsia.us" tvg-name="Warner TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies & Series",Warner TV
+#EXTINF:-1 tvg-id="WarnerTVSoutheastAsia.us" tvg-name="Warner TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies & Series",Warner TV
 https://iptv-sniper.herokuapp.com/localtv.php?channel=21
 
 #EXTINF:-1 tvg-id="StoriesbyAMC.us" tvg-name="Stories by AMC" tvg-logo="https://images.pluto.tv/channels/5e8254118601b80007b4b7ae/colorLogoPNG.png" group-title="Lifestyle & Entertainment",Stories by AMC
@@ -332,7 +329,7 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=75
 #EXTINF:-1 tvg-id="MyxUSA.us" tvg-name="Myx USA" tvg-logo="https://i.imgur.com/Bv8iTjn.png" group-title="Music",Myx USA
 https://myxnola-abscbn-ono.amagi.tv/index_2.m3u8
 
-#EXTINF:-1 tvg-id="AnimaxPhilippines.ph" tvg-name="Animax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Animax.svg/512px-Animax.svg.png" group-title="Kids",Animax
+#EXTINF:-1 tvg-id="AnimaxAsia.sg" tvg-name="Animax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Animax.svg/512px-Animax.svg.png" group-title="Kids",Animax
 https://iptv-sniper.herokuapp.com/localtv.php?channel=24
 
 #EXTINF:-1 tvg-id="AniplusAsia.sg" tvg-name="Aniplus" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Aniplus_Asia_Logo.png/512px-Aniplus_Asia_Logo.png" group-title="Kids",Aniplus
@@ -347,7 +344,7 @@ http://moontools.me:8080//FNmdP2U7ey/HZQzvGgaPe/25440
 #EXTINF:-1 tvg-id="BoomerangSouthEastAsia.us" tvg-name="Boomerang Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/512px-Boomerang_2014_logo.svg.png" group-title="Kids",Boomerang Asia
 https://iptv-sniper.herokuapp.com/localtv.php?channel=30
 
-#EXTINF:-1 tvg-id="CartoonNetworkAsia.us" tvg-name="Cartoon Network Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Cartoon_Network.svg/512px-Cartoon_Network.svg.png" group-title="Kids",Cartoon Network Asia
+#EXTINF:-1 tvg-id="CartoonNetworkAsia.sg" tvg-name="Cartoon Network Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Cartoon_Network.svg/512px-Cartoon_Network.svg.png" group-title="Kids",Cartoon Network Asia
 https://iptv-sniper.herokuapp.com/localtv.php?channel=29
 
 #EXTINF:-1 tvg-id="CONtvAnime.us" tvg-name="CONtv Anime" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5fa1b7168f9c26008859a893" group-title="Kids",CONtv Anime
