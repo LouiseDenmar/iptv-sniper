@@ -27,8 +27,7 @@
             "HitsMovies.sg",
             "HGTVAsia.us",
             "Thrill.hk",
-            "TheFilipinoChannelAsia.us",
-            "WarnerTVSoutheastAsia.us"
+            "TheFilipinoChannelAsia.us"
         ]
     },
     {
@@ -49,8 +48,7 @@
             "eGGNetwork.my",
             "HBOMalaysia.my",
             "NationalGeographicMalaysia.my",
-            "NationalGeographicWildMalaysia.my",
-            "TLCSoutheastAsia.us"
+            "NationalGeographicWildMalaysia.my"
         ]
     },
     {
@@ -110,7 +108,9 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml",
         "channels": [
-            "TVNAsia.hk"
+            "TLCSoutheastAsia.us",
+            "TVNAsia.hk",
+            "WarnerTVSoutheastAsia.us"
         ]
     },
     {
@@ -162,7 +162,6 @@
             "MTVSpankinNew.us",
             "YoMTV.us",
             "NickPlutoTV.us",
-            "ParamountMovieChannel.us",
             "PlutoTVAction.us",
             "StoriesbyAMC.us"
         ]
