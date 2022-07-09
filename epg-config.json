@@ -17,6 +17,7 @@
             "AlJazeeraEnglish.qa",
             "AnimalPlanetHongKong.hk",
             "AnimaxAsia.sg",
+            "AXNHongKong.hk",
             "BloombergTVAsiaPacific.hk",
             "DiscoveryAsiaHongKong.hk",
             "DiscoveryChannelHongKong.hk",
@@ -27,14 +28,15 @@
             "Thrill.hk",
             "HGTVAsia.us",
             "TheFilipinoChannelAsia.us",
-            "TLCSoutheastAsia.us",
-            "WarnerTVSoutheastAsia.us"
+            "TLCSoutheastAsia.us"
         ]
     },
     {
         "url": "https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml",
         "channels": [
+            "CinemaxMalaysia.my",
             "eGGNetwork.my",
+            "HBOMalaysia.my",
             "NationalGeographicMalaysia.my",
             "NationalGeographicWildMalaysia.my"
         ]
@@ -49,9 +51,9 @@
         "url": "https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml",
         "channels": [
             "ANC.ph",
-            "AXNPhilippines.ph",
             "CinemaOneGlobal.ph",
             "CNNPhilippines.ph",
+            "CrimePlusInvestigationAsia.us",
             "GMATV.ph",
             "GTV.ph",
             "JeepneyTV.ph",
@@ -77,11 +79,8 @@
             "BBCEarthAsia.uk",
             "BBCWorldNewsAsiaPacific.uk",
             "CGTN.cn",
-            "CinemaxSingapore.sg",
             "CNA.sg",
             "CNBCAsia.sg",
-            "HBOSingapore.sg",
-            "CrimePlusInvestigationAsia.us",
             "DWEnglish.de",
             "FoxNewsChannel.us",
             "FashionTVAsia.fr",
@@ -92,7 +91,8 @@
             "NHKWorldJapan.jp",
             "ParamountNetworkSingapore.sg",
             "RTNews.ru",
-            "SmithsonianChannelAsia.us"
+            "SmithsonianChannelAsia.us",
+            "WarnerTVAsia.us"
         ]
     },
     {
