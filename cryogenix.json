@@ -2,34 +2,37 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml",
         "channels": [
-            "EuronewsEnglish.fr",
-            "HBOSignatureAsia.sg",
-            "WarnerTVSoutheastAsia.us",
-            "AsianFoodNetwork.sg",
-            "BBCLifestyleAsia.uk",
-            "DMAXAsia.sg",
-            "FoodNetworkAsia.sg",
-            "HGTVAsia.us",
-            "LifetimeAsia.us",
-            "TLCSoutheastAsia.us",
             "ABCAustraliaAsia.au",
             "AlJazeeraEnglish.qa",
+            "AnimalPlanetHongKong.hk",
+            "AnimaxAsia.sg",
+            "AsianFoodNetwork.sg",
+            "BBCEarthAsia.uk",
+            "BBCLifestyleAsia.uk",
             "BBCWorldNewsAsiaPacific.uk",
             "BloombergTVAsiaPacific.hk",
+            "CinemaxSingapore.sg",
             "CNA.sg",
-            "RTNews.ru",
-            "TV5MondeAsia.fr",
-            "AnimalPlanetHongKong.hk",
-            "BBCEarthAsia.uk",
             "DiscoveryAsiaHongKong.hk",
             "DiscoveryChannelHongKong.hk",
+            "DMAXAsia.sg",
+            "EuronewsEnglish.fr",
+            "FoodNetworkAsia.sg",
+            "HBOSignatureAsia.sg",
+            "HGTVAsia.us",
             "HistoryAsia.us",
-            "AnimaxAsia.sg"
+            "LifetimeAsia.us",
+            "RTNews.ru",
+            "TLCSoutheastAsia.us",
+            "TV5MondeAsia.fr",
+            "WarnerTVSoutheastAsia.us"
         ]
     },
     {
         "url": "https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml",
         "channels": [
+            "Galaxy.id",
+            "GalaxyPremium.id",
             "Kix.hk"
         ]
     },
@@ -37,26 +40,26 @@
         "url": "https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml",
         "channels": [
             "eGGNetwork.my",
-            "ParamountNetworkMalaysia.my",
-            "WWENetwork.us",
             "MTVAsia.sg",
             "MoonbugKids.uk",
-            "TADAA.my"
+            "ParamountNetworkMalaysia.my",
+            "TADAA.my",
+            "WWENetwork.us"
         ]
     },
     {
         "url": "https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml",
         "channels": [
             "A2ZChannel11.ph",
-            "KapamilyaChannel.ph",
-            "PTV.ph",
+            "ANC.ph",
+            "AXNPhilippines.ph",
+            "CNNPhilippines.ph",
             "GMATV.ph",
             "GTV.ph",
-            "AXNPhilippines.ph",
+            "KapamilyaChannel.ph",
+            "PTV.ph",
             "RockEntertainment.sg",
-            "RockExtreme.sg",
-            "ANC.ph",
-            "CNNPhilippines.ph"
+            "RockExtreme.sg"
         ]
     },
     {
@@ -68,16 +71,16 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml",
         "channels" : [
-            "TheFilipinoChannelAsia.us",
-            "Hits.sg",
-            "CrimePlusInvestigationAsia.us",
             "CGTN.cn",
-            "OneTVAsia.sg",
+            "CrimePlusInvestigationAsia.us",
+            "Hits.sg",
             "LoveNature.ca",
             "NationalGeographicHDSingapore.sg",
             "NationalGeographicWildHDSingapore.sg",
+            "OneTVAsia.sg",
+            "PremierSportsAsia.ie",
             "SmithsonianChannelAsia.us",
-            "PremierSportsAsia.ie"
+            "TheFilipinoChannelAsia.us"
         ]
     },
     {
@@ -89,10 +92,10 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml",
         "channels": [
-            "KapatidTV5.ph",
-            "SariSariChannel.ph",
             "CinemaOneGlobal.ph",
-            "MyxUSA.us"
+            "KapatidTV5.ph",
+            "MyxUSA.us",
+            "SariSariChannel.ph"
         ]
     },
     {
@@ -118,23 +121,20 @@
             "CCM",
             "CelestialMovies.hk",
             "CGTNDocumentary",
-            "CinemaxAsia.us",
             "CTIAsia",
             "DWEnglish",
             "Eurosport",
             "FightSports",
             "FOXNews",
             "France24English",
-            "GALAXY",
-            "GALAXYPremium",
             "GolfChannel",
             "HBOAsia.us",
             "HBOFamilyAsia.us",
             "HBOHits.us",
             "HBOSignatureAsia.us",
             "HITSMovies",
-            "KBSWorld",
             "K-Plus",
+            "KBSWorld",
             "NickelodeonSouthEastAsia.us",
             "NickJrAsia.us",
             "NHKWorldJapan",
