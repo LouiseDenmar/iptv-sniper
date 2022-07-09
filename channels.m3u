@@ -290,8 +290,17 @@ http://38.127.211.18/live/c2eds/ESPN1USA/HLS/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport" tvg-name="Eurosport 1" tvg-logo="https://epg.eurosport-tv.com/Images/LOGO_H208_TRP.png" group-title="Sports",Eurosport
 http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=141598&extension=ts&play_token=yofOklZ6OX
 
+#EXTINF:-1 tvg-id="FoxSports1.us" tvg-name="Fox Sports 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2015_Fox_Sports_1_logo.svg/512px-2015_Fox_Sports_1_logo.svg.png" group-title="Sports",Fox Sports 1
+http://iptvtree.net:8080/Fullitalia/52806fdf/280450
+
+#EXTINF:-1 tvg-id="FoxSports2.us" tvg-name="Fox Sports 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/FS2_logo_2015.svg/512px-FS2_logo_2015.svg.png" group-title="Sports",Fox Sports 2
+http://iptvtree.net:8080/Fullitalia/52806fdf/757
+
 #EXTINF:-1 tvg-id="HorseandCountry.au" tvg-name="Horse and Country" tvg-logo="https://i.imgur.com/r5Ip3P0.png" group-title="Sports",Horse and Country
 https://hncfree-samsungau.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="NBATV.us" tvg-name="NBA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/512px-NBA_TV.svg.png" group-title="Sports",NBA TV
+http://iptvtree.net:8080/Fullitalia/52806fdf/762
 
 #EXTINF:-1 tvg-id="OneSports.ph" tvg-name="One Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/One_Sports_logo.svg/512px-One_Sports_logo.svg.png" group-title="Sports",One Sports
 https://iptv-sniper.herokuapp.com/localtv.php?channel=50
@@ -335,16 +344,16 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=24
 #EXTINF:-1 tvg-id="AniplusAsia.sg" tvg-name="Aniplus" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Aniplus_Asia_Logo.png/512px-Aniplus_Asia_Logo.png" group-title="Kids",Aniplus
 http://sverigeplay.tv/play/live.php?mac=00:1A:79:ab:98:86&stream=115609&extension=ts&play_token=PhWmd1D0if
 
-#EXTINF:-1 tvg-id="BabyTV.uk" tvg-name="BabyTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png" group-title="Kids",BabyTV
+#EXTINF:-1 tvg-id="BabyTVAsia.uk" tvg-name="BabyTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png" group-title="Kids",BabyTV
 https://iptv-sniper.herokuapp.com/localtv.php?channel=86
 
 #EXTINF:-1 tvg-id="Boomerang.us" tvg-name="Boomerang" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/512px-Boomerang_2014_logo.svg.png" group-title="Kids",Boomerang
 http://moontools.me:8080//FNmdP2U7ey/HZQzvGgaPe/25440
 
-#EXTINF:-1 tvg-id="BoomerangAsia.sg" tvg-name="Boomerang Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/512px-Boomerang_2014_logo.svg.png" group-title="Kids",Boomerang Asia
+#EXTINF:-1 tvg-id="BoomerangSouthEastAsia.us" tvg-name="Boomerang Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/512px-Boomerang_2014_logo.svg.png" group-title="Kids",Boomerang Asia
 https://iptv-sniper.herokuapp.com/localtv.php?channel=30
 
-#EXTINF:-1 tvg-id="CartoonNetworkAsia.sg" tvg-name="Cartoon Network Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Cartoon_Network.svg/512px-Cartoon_Network.svg.png" group-title="Kids",Cartoon Network Asia
+#EXTINF:-1 tvg-id="CartoonNetworkAsia.us" tvg-name="Cartoon Network Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Cartoon_Network.svg/512px-Cartoon_Network.svg.png" group-title="Kids",Cartoon Network Asia
 https://iptv-sniper.herokuapp.com/localtv.php?channel=29
 
 #EXTINF:-1 tvg-id="CONtvAnime.us" tvg-name="CONtv Anime" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5fa1b7168f9c26008859a893" group-title="Kids",CONtv Anime
@@ -353,10 +362,10 @@ https://contvanime.cinedigm.com/conapp-ssai/amagi_hls_data_xumo-host-contvanime-
 #EXTINF:-1 tvg-id="DreamWorksChannelAsia.us" tvg-name="DreamWorks Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/DreamWorks_Channel_Logo.svg/512px-DreamWorks_Channel_Logo.svg.png" group-title="Kids",DreamWorks Channel
 https://iptv-sniper.herokuapp.com/localtv.php?channel=23
 
-#EXTINF:-1 tvg-id="NickelodeonAsia.sg" tvg-name="Nick" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Nick_Logo_2017.svg/512px-Nick_Logo_2017.svg.png" group-title="Kids",Nick
+#EXTINF:-1 tvg-id="NickelodeonSouthEastAsia.us" tvg-name="Nick" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Nick_Logo_2017.svg/512px-Nick_Logo_2017.svg.png" group-title="Kids",Nick
 https://iptv-sniper.herokuapp.com/localtv.php?channel=28
 
-#EXTINF:-1 tvg-id="NickJrAsia.sg" tvg-name="Nick Jr. Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Nick_Jr._Channel_logo.svg/512px-Nick_Jr._Channel_logo.svg.png" group-title="Kids",Nick Jr. Asia
+#EXTINF:-1 tvg-id="NickJrAsia.us" tvg-name="Nick Jr. Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Nick_Jr._Channel_logo.svg/512px-Nick_Jr._Channel_logo.svg.png" group-title="Kids",Nick Jr. Asia
 https://iptv-sniper.herokuapp.com/localtv.php?channel=27
 
 #EXTINF:-1 tvg-id="NickPlutoTV.us" tvg-name="Nick Pluto TV" tvg-logo="https://images.pluto.tv/channels/5ede448d3d50590007a4419e/colorLogoPNG.png" group-title="Kids",Nick Pluto TV
