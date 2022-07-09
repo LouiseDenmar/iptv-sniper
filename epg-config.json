@@ -72,14 +72,14 @@
     },
     {
         "url": "https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml",
-        "channels" : [
+        "channels": [
             "AsianFoodNetwork.sg",
             "BBCEarthAsia.uk",
             "BBCWorldNewsAsiaPacific.uk",
             "CGTN.cn",
             "CinemaxSingapore.sg",
             "CNA.sg",
-            "CNBCAsia.sg",,
+            "CNBCAsia.sg",
             "HBOSingapore.sg",
             "CrimePlusInvestigationAsia.us",
             "DWEnglish.de",
