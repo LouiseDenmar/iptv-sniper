@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptv-sniper-beta.herokuapp.com/iptv-sniper.xml"
+#EXTM3U url-tvg="https://iptv-sniper.herokuapp.com/iptv-sniper.xml"
 
 #EXTINF:-1 tvg-id="JeepneyTV.ph" tvg-name="Jeppney TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Jeepneytvnewlogo2015.jpg/512px-Jeepneytvnewlogo2015.jpg" group-title="Local TV",Jeepney TV
 https://iptv-sniper.herokuapp.com/localtv.php?channel=76
