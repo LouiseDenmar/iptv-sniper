@@ -1,5 +1,11 @@
 [
     {
+        "url": "https://iptv-org.github.io/epg/guides/ae-en/osn.com.epg.xml",
+        "channels": [
+            "CineMo.ph"
+        ]
+    },
+    {
         "url": "https://iptv-org.github.io/epg/guides/au/ontvtonight.com.epg.xml",
         "channels": [
             "ABCTV.au"
@@ -10,9 +16,11 @@
         "channels": [
             "AlJazeeraEnglish.qa",
             "AnimalPlanetHongKong.hk",
-            "AsianFoodNetwork.sg",
+            "AnimaxAsia.sg",
+            "BloombergTVAsiaPacific.hk",
             "DiscoveryAsiaHongKong.hk",
             "DiscoveryChannelHongKong.hk",
+            "DreamWorksChannelAsia.us",
             "France24English.fr",
             "GMALifeTV.ph",
             "HitsMovies.sg",
@@ -27,23 +35,28 @@
         "url": "https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml",
         "channels": [
             "eGGNetwork.my",
-            "ParamountNetworkMalaysia.my"
+            "NationalGeographicMalaysia.my",
+            "NationalGeographicWildMalaysia.my"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/nl/ziggogo.tv.epg.xml",
+        "channels": [
+            "HorseCountryTV.uk"
         ]
     },
     {
         "url": "https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml",
         "channels": [
             "ANC.ph",
-            "AnimaxPhilippines.ph",
             "AXNPhilippines.ph",
             "CinemaOneGlobal.ph",
-            "CinemaxSingapore.sg",
             "CNNPhilippines.ph",
             "GMATV.ph",
             "GTV.ph",
-            "HBOSingapore.sg",
             "JeepneyTV.ph",
             "KapamilyaChannel.ph",
+            "MyxPhilippines.ph",
             "PBO.ph",
             "PTV.ph",
             "RockEntertainment.sg",
@@ -60,12 +73,14 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml",
         "channels" : [
+            "AsianFoodNetwork.sg",
             "BBCEarthAsia.uk",
             "BBCWorldNewsAsiaPacific.uk",
-            "BloombergTVAsiaPacific.hk",
             "CGTN.cn",
+            "CinemaxSingapore.sg",
             "CNA.sg",
-            "CNBCAsia.sg",
+            "CNBCAsia.sg",,
+            "HBOSingapore.sg",
             "CrimePlusInvestigationAsia.us",
             "DWEnglish.de",
             "FoxNewsChannel.us",
@@ -74,12 +89,16 @@
             "Hits.sg",
             "LifetimeAsia.us",
             "LoveNature.ca",
-            "NationalGeographicHDSingapore.sg",
-            "NationalGeographicWildHDSingapore.sg",
             "NHKWorldJapan.jp",
+            "ParamountNetworkSingapore.sg",
             "RTNews.ru",
-            "SmithsonianChannelAsia.us",
-            "DreamWorksChannelAsia.us"
+            "SmithsonianChannelAsia.us"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml",
+        "channels": [
+            "EDGEsport.uk"
         ]
     },
     {
@@ -98,12 +117,13 @@
             "Cheddar.us",
             "CNN.us",
             "ESPN.us",
+            "FoxSports1.us",
+            "FoxSports2.us",
             "GameShowCentral.us",
             "HBO2East.us",
             "HLN.us",
             "MSNBC.us",
             "MTVLive.uk",
-            "NBATV.us",
             "NewsmaxTV.us",
             "OutdoorChannel.us",
             "PBSKidsEasternCentral.us"
@@ -112,10 +132,9 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml",
         "channels": [
-            "FoxSports1.us",
-            "FoxSports2.us",
             "KapatidTV5.ph",
             "MyxUSA.us",
+            "NBATV.us",
             "SariSariChannel.ph"
         ]
     },
