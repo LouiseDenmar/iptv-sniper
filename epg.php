@@ -4,6 +4,7 @@
 	$Parser       = new \buibr\xmlepg\EpgParser();
 	$epgs         = json_decode(file_get_contents($_GET["json"]));
 	$channel_list = array();
+	$programme_list = array();
 
 	foreach ($epgs as $epg) {
 		$Parser->setUrl($epg->url);
@@ -27,11 +28,11 @@
 		        $channel_list[] = $channels[$key];
         }
 
-		$programme_list = $Parser->getEpgdata();
+		$programme_list = array_merge($programme_list, $Parser->getEpgdata());
 	}
 
     $xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
-	$xml .= "<tv generator-info-name=\"IPTV-Sniper\">\n";
+	$xml .= "<tv date=\"" . date('Ymd') . "\" generator-info-name=\"IPTV-Sniper\">\n";
 
 	foreach ($channel_list as $channel) {
     	$xml .= "  <channel id=\"" . $channel["id"] . "\">\n";
