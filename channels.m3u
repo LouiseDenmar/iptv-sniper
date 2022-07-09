@@ -4,7 +4,7 @@
 https://iptv-sniper.herokuapp.com/localtv.php?channel=76
 
 #EXTINF:-1 tvg-id="KapamilyaChannel.ph" tvg-name="Kapamilya Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Kapamilya_Channel.png/512px-Kapamilya_Channel.png" group-title="Local TV",Kapamilya Channel
-https://rotf.lol/kapchacdn
+https://tiny.one/kapchacdn
 
 #EXTINF:-1 tvg-id="TheFilipinoChannelAsia.us" tvg-name="TFC" tvg-logo="https://i.imgur.com/waE1BeJ.png" group-title="Local TV",TFC
 https://tfcguam-abscbn-ono.amagi.tv/index_6.m3u8
@@ -42,7 +42,7 @@ https://bcovlive-a.akamaihd.net/ebf15ff84e98490e8b00209ed77c77f5/us-east-1/62407
 https://cinemaone-abscbn-ono.amagi.tv/index_3.m3u8
 
 #EXTINF:-1 tvg-id="CineMoGlobal.ph" tvg-name="Cine Mo!" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Cinemo_logo_vectorized.svg/512px-Cinemo_logo_vectorized.svg.png" group-title="Movies & Series",Cine Mo!
-https://rotf.lol/cinemocdn
+https://tiny.one/cinemocdn1
 
 #EXTINF:-1 tvg-id="CineLife.us" tvg-name="CineLife" tvg-logo="https://play-lh.googleusercontent.com/TRj4zx_xl4QA3JO7DwqalxZwshmhxEzg0QzP1sT3Uv99p4izfj9S_yPZD4oVkFUxMNA" group-title="Movies & Series",CineLife
 https://magselect-stirr.amagi.tv/playlist1080p.m3u8
@@ -52,6 +52,9 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=16
 
 #EXTINF:-1 tvg-id="HBOMalaysia.my" tvg-name="HBO Asia" tvg-logo="https://i.imgur.com/EnA2RcD.png" group-title="Movies & Series",HBO Asia
 https://iptv-sniper.herokuapp.com/localtv.php?channel=15
+
+#EXTINF:-1 tvg-id="HBOSignature.sg" tvg-name="HBO Signature Asia" tvg-logo="https://www.mncvision.id/userfiles/image/channel/hbo_signature.png" group-title="Movies & Series",HBO Signature Asia
+https://liveanevia.mncnow.id/live/eds/HBOSignature2/sa_dash_vmx/HBOSignature2.mpd
 
 #EXTINF:-1 tvg-id="HBO2East.us" tvg-name="HBO 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png" group-title="Movies & Series",HBO 2
 http://moontools.me:8080//FNmdP2U7ey/HZQzvGgaPe/28781
@@ -275,20 +278,23 @@ http://210.210.155.35/uq2663/h/h22/index.m3u8
 #EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="Sports",ESPN
 http://38.127.211.18/live/c2eds/ESPN1USA/HLS/index.m3u8
 
+#EXTINF:-1 tvg-id="ESPN2.us" tvg-name="ESPN 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/2560px-ESPN2_logo.svg.png" group-title="Sports",ESPN 2
+http://38.127.211.18/live/c2eds/ESPN2USA/HLS/index.m3u8
+
 #EXTINF:-1 tvg-id="Eurosport" tvg-name="Eurosport 1" tvg-logo="https://epg.eurosport-tv.com/Images/LOGO_H208_TRP.png" group-title="Sports",Eurosport
 http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=141598&extension=ts&play_token=yofOklZ6OX
 
 #EXTINF:-1 tvg-id="FoxSports1.us" tvg-name="Fox Sports 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2015_Fox_Sports_1_logo.svg/512px-2015_Fox_Sports_1_logo.svg.png" group-title="Sports",Fox Sports 1
-http://iptvtree.net:8080/Fullitalia/52806fdf/280450
+http://38.127.211.18/live/c2eds/FoxSports1/HLS/index.m3u8
 
 #EXTINF:-1 tvg-id="FoxSports2.us" tvg-name="Fox Sports 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/FS2_logo_2015.svg/512px-FS2_logo_2015.svg.png" group-title="Sports",Fox Sports 2
-http://iptvtree.net:8080/Fullitalia/52806fdf/757
+http://38.127.211.18/live/c2eds/FoxSports2/HLS/index.m3u8
 
 #EXTINF:-1 tvg-id="HorseCountryTV.uk" tvg-name="Horse and Country" tvg-logo="https://i.imgur.com/r5Ip3P0.png" group-title="Sports",Horse and Country
 https://hncfree-samsungau.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="NBATV.us" tvg-name="NBA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/512px-NBA_TV.svg.png" group-title="Sports",NBA TV
-http://iptvtree.net:8080/Fullitalia/52806fdf/762
+http://sverigeplay.tv/play/live.php?mac=00:1A:79:AB:98:86&stream=115738&extension=ts&play_token=1abiaJReWZ
 
 #EXTINF:-1 tvg-id="OneSports.ph" tvg-name="One Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/One_Sports_logo.svg/512px-One_Sports_logo.svg.png" group-title="Sports",One Sports
 https://iptv-sniper.herokuapp.com/localtv.php?channel=50
