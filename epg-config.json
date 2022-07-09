@@ -19,16 +19,16 @@
             "AXNHongKong.hk",
             "BloombergTVAsiaPacific.hk",
             "CartoonNetworkAsia.sg",
+            "CinemaxSingapore.sg",
             "DiscoveryAsiaHongKong.hk",
             "DiscoveryChannelHongKong.hk",
             "DreamWorksChannelAsia.us",
             "France24English.fr",
-            "GMALifeTV.ph",
             "HitsMovies.sg",
             "HGTVAsia.us",
             "Thrill.hk",
-            "TVNAsia.hk",
-            "TheFilipinoChannelAsia.us"
+            "TheFilipinoChannelAsia.us",
+            "WarnerTVSoutheastAsia.us"
         ]
     },
     {
@@ -38,9 +38,14 @@
         ]
     },
     {
+        "url": "https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml",
+        "channels": [
+            "AnimaxAsia.sg"
+        ]
+    },
+    {
         "url": "https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml",
         "channels": [
-            "CinemaxMalaysia.my",
             "eGGNetwork.my",
             "HBOMalaysia.my",
             "NationalGeographicMalaysia.my",
@@ -51,7 +56,6 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/nl/ziggogo.tv.epg.xml",
         "channels": [
-            "DiscoveryScience.us",
             "HorseCountryTV.uk"
         ]
     },
@@ -100,8 +104,13 @@
             "NHKWorldJapan.jp",
             "ParamountNetworkSingapore.sg",
             "RTNews.ru",
-            "SmithsonianChannelAsia.us",
-            "WarnerTVAsia.us"
+            "SmithsonianChannelAsia.us"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml",
+        "channels": [
+            "TVNAsia.hk"
         ]
     },
     {
