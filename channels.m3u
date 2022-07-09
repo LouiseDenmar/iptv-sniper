@@ -53,7 +53,7 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=16
 #EXTINF:-1 tvg-id="HBOMalaysia.my" tvg-name="HBO Asia" tvg-logo="https://i.imgur.com/EnA2RcD.png" group-title="Movies & Series",HBO Asia
 https://iptv-sniper.herokuapp.com/localtv.php?channel=15
 
-#EXTINF:-1 tvg-id="HBOSignature.my" tvg-name="HBO Signature Asia" group-title="Movies" tvg-logo="https://www.mncvision.id/userfiles/image/channel/hbo_signature.png",HBO Signature Asia
+#EXTINF:-1 tvg-id="HBOSignature.sg" tvg-name="HBO Signature Asia" tvg-logo="https://www.mncvision.id/userfiles/image/channel/hbo_signature.png" group-title="Movies & Series",HBO Signature Asia
 https://liveanevia.mncnow.id/live/eds/HBOSignature2/sa_dash_vmx/HBOSignature2.mpd
 
 #EXTINF:-1 tvg-id="HBO2East.us" tvg-name="HBO 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png" group-title="Movies & Series",HBO 2
