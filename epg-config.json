@@ -8,17 +8,19 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml",
         "channels": [
+            "AlJazeeraEnglish.qa",
+            "AnimalPlanetHongKong.hk",
+            "AsianFoodNetwork.sg",
+            "DiscoveryAsiaHongKong.hk",
+            "DiscoveryChannelHongKong.hk",
+            "France24English.fr",
             "GMALifeTV.ph",
             "HitsMovies.sg",
             "Thrill.hk",
-            "AsianFoodNetwork.sg",
             "HGTVAsia.us",
+            "TheFilipinoChannelAsia.us",
             "TLCSoutheastAsia.us",
-            "AlJazeeraEnglish.qa",
-            "France24English.fr",
-            "AnimalPlanetHongKong.hk",
-            "DiscoveryAsiaHongKong.hk",
-            "DiscoveryChannelHongKong.hk"
+            "WarnerTVSoutheastAsia.us"
         ]
     },
     {
@@ -31,22 +33,22 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml",
         "channels": [
-            "JeepneyTV.ph",
-            "KapamilyaChannel.ph",
-            "PTV.ph",
-            "GMATV.ph",
-            "GTV.ph",
+            "ANC.ph",
+            "AnimaxPhilippines.ph",
+            "AXNPhilippines.ph",
             "CinemaOneGlobal.ph",
             "CinemaxSingapore.sg",
+            "CNNPhilippines.ph",
+            "GMATV.ph",
+            "GTV.ph",
             "HBOSingapore.sg",
+            "JeepneyTV.ph",
+            "KapamilyaChannel.ph",
             "PBO.ph",
-            "VivaCinema.ph",
-            "AXNPhilippines.ph",
+            "PTV.ph",
             "RockEntertainment.sg",
             "RockExtreme.sg",
-            "ANC.ph",
-            "CNNPhilippines.ph",
-            "AnimaxPhilippines.ph"
+            "VivaCinema.ph"
         ]
     },
     {
@@ -58,40 +60,26 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml",
         "channels" : [
-            "TheFilipinoChannelAsia.us",
-            "Hits.sg",
-            "CrimePlusInvestigationAsia.us",
-            "FashionTVAsia.fr",
-            "LifetimeAsia.us",
+            "BBCEarthAsia.uk",
             "BBCWorldNewsAsiaPacific.uk",
             "BloombergTVAsiaPacific.hk",
             "CGTN.cn",
             "CNA.sg",
             "CNBCAsia.sg",
+            "CrimePlusInvestigationAsia.us",
             "DWEnglish.de",
             "FoxNewsChannel.us",
-            "NHKWorldJapan.jp",
-            "RTNews.ru",
-            "ArirangTV.kr",
-            "KBSWorld.kr",
-            "TVNAsia.hk",
-            "BBCEarthAsia.uk",
+            "FashionTVAsia.fr",
             "HistoryAsia.us",
+            "Hits.sg",
+            "LifetimeAsia.us",
             "LoveNature.ca",
             "NationalGeographicHDSingapore.sg",
             "NationalGeographicWildHDSingapore.sg",
+            "NHKWorldJapan.jp",
+            "RTNews.ru",
             "SmithsonianChannelAsia.us",
-            "BoomerangAsia.sg",
-            "CartoonNetworkAsia.sg",
-            "DreamWorksChannelAsia.us",
-            "NickelodeonAsia.sg",
-            "NickJrAsia.sg"
-        ]
-    },
-    {
-        "url": "https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml",
-        "channels": [
-            "WarnerTVSoutheastAsia.us"
+            "DreamWorksChannelAsia.us"
         ]
     },
     {
@@ -105,28 +93,30 @@
         "url": "https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml",
         "channels": [
             "AMCEast.us",
-            "HBO2East.us",
-            "GameShowCentral.us",
             "BloombergTelevision.us",
+            "Boomerang.us",
             "Cheddar.us",
             "CNN.us",
+            "ESPN.us",
+            "GameShowCentral.us",
+            "HBO2East.us",
             "HLN.us",
             "MSNBC.us",
+            "MTVLive.uk",
+            "NBATV.us",
             "NewsmaxTV.us",
             "OutdoorChannel.us",
-            "ESPN.us",
-            "MTVLive.uk",
-            "Boomerang.us",
             "PBSKidsEasternCentral.us"
         ]
     },
     {
         "url": "https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml",
         "channels": [
+            "FoxSports1.us",
+            "FoxSports2.us",
             "KapatidTV5.ph",
-            "SariSariChannel.ph",
             "MyxUSA.us",
-            "BabyTV.uk"
+            "SariSariChannel.ph"
         ]
     },
     {
@@ -144,7 +134,15 @@
     {
         "url": "https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml",
         "channels": [
-            "Eurosport"
+            "ArirangTV",
+            "BabyTVAsia.uk",
+            "BoomerangSouthEastAsia.us",
+            "CartoonNetworkAsia.sg",
+            "Eurosport",
+            "KBSWorld",
+            "NickelodeonSouthEastAsia.us",
+            "NickJrAsia.us",
+            "tvN"
         ]
     }
 ]
