@@ -50,10 +50,10 @@ https://rotf.lol/cinemocdn
 #EXTINF:-1 tvg-id="CineLife.us" tvg-name="CineLife" tvg-logo="https://play-lh.googleusercontent.com/TRj4zx_xl4QA3JO7DwqalxZwshmhxEzg0QzP1sT3Uv99p4izfj9S_yPZD4oVkFUxMNA" group-title="Movies & Series",CineLife
 https://magselect-stirr.amagi.tv/playlist1080p.m3u8
 
-#EXTINF:-1 tvg-id="CinemaxSingapore.sg" tvg-name="Cinemax Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png" group-title="Movies & Series",Cinemax Asia
+#EXTINF:-1 tvg-id="CinemaxMalaysia.my" tvg-name="Cinemax Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png" group-title="Movies & Series",Cinemax Asia
 https://iptv-sniper.herokuapp.com/localtv.php?channel=16
 
-#EXTINF:-1 tvg-id="HBOSingapore.sg" tvg-name="HBO Asia" tvg-logo="https://i.imgur.com/EnA2RcD.png" group-title="Movies & Series",HBO Asia
+#EXTINF:-1 tvg-id="HBOMalaysia.my" tvg-name="HBO Asia" tvg-logo="https://i.imgur.com/EnA2RcD.png" group-title="Movies & Series",HBO Asia
 https://iptv-sniper.herokuapp.com/localtv.php?channel=15
 
 #EXTINF:-1 tvg-id="HBO2East.us" tvg-name="HBO 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png" group-title="Movies & Series",HBO 2
@@ -98,7 +98,7 @@ http://61.19.242.134/feed/202105171329/LC26/index.m3u8
 #EXTINF:-1 tvg-id="VivaCinema.ph" tvg-name="Viva" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/96/Viva_TV_logo.jpg" group-title="Movies & Series",VivaCinema
 https://iptv-sniper.herokuapp.com/localtv.php?channel=13
 
-#EXTINF:-1 tvg-id="WarnerTVSoutheastAsia.us" tvg-name="Warner TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies & Series",Warner TV
+#EXTINF:-1 tvg-id="WarnerTVAsia.us" tvg-name="Warner TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies & Series",Warner TV
 https://iptv-sniper.herokuapp.com/localtv.php?channel=21
 
 #EXTINF:-1 tvg-id="StoriesbyAMC.us" tvg-name="Stories by AMC" tvg-logo="https://images.pluto.tv/channels/5e8254118601b80007b4b7ae/colorLogoPNG.png" group-title="Lifestyle & Entertainment",Stories by AMC
@@ -107,7 +107,7 @@ https://amc-amcpresents-1.imdbtv.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="AsianFoodNetwork.sg" tvg-name="Asian Food Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Asian_Food_Network.svg/512px-Asian_Food_Network.svg.png" group-title="Lifestyle & Entertainment",Asian Food Network
 https://iptv-sniper.herokuapp.com/localtv.php?channel=63
 
-#EXTINF:-1 tvg-id="AXNPhilippines.ph" tvg-name="AXN" tvg-logo="https://i.imgur.com/OO6mWTx.png" group-title="Lifestyle & Entertainment",AXN
+#EXTINF:-1 tvg-id="AXNHongKong.hk" tvg-name="AXN" tvg-logo="https://i.imgur.com/OO6mWTx.png" group-title="Lifestyle & Entertainment",AXN
 https://iptv-sniper.herokuapp.com/localtv.php?channel=62
 
 #EXTINF:-1 tvg-id="C31Melbourne.au" tvg-name="C31 Melbourne" tvg-logo="https://i.imgur.com/Ge1EutY.png" group-title="Lifestyle & Entertainment",C31 Melbourne
