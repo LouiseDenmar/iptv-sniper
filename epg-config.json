@@ -16,19 +16,25 @@
         "channels": [
             "AlJazeeraEnglish.qa",
             "AnimalPlanetHongKong.hk",
-            "AnimaxAsia.sg",
             "AXNHongKong.hk",
             "BloombergTVAsiaPacific.hk",
+            "CartoonNetworkAsia.sg",
             "DiscoveryAsiaHongKong.hk",
             "DiscoveryChannelHongKong.hk",
             "DreamWorksChannelAsia.us",
             "France24English.fr",
             "GMALifeTV.ph",
             "HitsMovies.sg",
-            "Thrill.hk",
             "HGTVAsia.us",
-            "TheFilipinoChannelAsia.us",
-            "TLCSoutheastAsia.us"
+            "Thrill.hk",
+            "TVNAsia.hk",
+            "TheFilipinoChannelAsia.us"
+        ]
+    },
+    {
+        "url": "https://iptv-org.github.io/epg/guides/id/vidio.com.epg.xml",
+        "channels": [
+            "ZooMooAsia.nz"
         ]
     },
     {
@@ -38,12 +44,14 @@
             "eGGNetwork.my",
             "HBOMalaysia.my",
             "NationalGeographicMalaysia.my",
-            "NationalGeographicWildMalaysia.my"
+            "NationalGeographicWildMalaysia.my",
+            "TLCSoutheastAsia.us"
         ]
     },
     {
         "url": "https://iptv-org.github.io/epg/guides/nl/ziggogo.tv.epg.xml",
         "channels": [
+            "DiscoveryScience.us",
             "HorseCountryTV.uk"
         ]
     },
@@ -51,9 +59,9 @@
         "url": "https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml",
         "channels": [
             "ANC.ph",
+            "AnimaxPhilippines.ph",
             "CinemaOneGlobal.ph",
             "CNNPhilippines.ph",
-            "CrimePlusInvestigationAsia.us",
             "GMATV.ph",
             "GTV.ph",
             "JeepneyTV.ph",
@@ -81,6 +89,7 @@
             "CGTN.cn",
             "CNA.sg",
             "CNBCAsia.sg",
+            "CrimePlusInvestigationAsia.us",
             "DWEnglish.de",
             "FoxNewsChannel.us",
             "FashionTVAsia.fr",
@@ -125,7 +134,6 @@
             "MSNBC.us",
             "MTVLive.uk",
             "NewsmaxTV.us",
-            "OutdoorChannel.us",
             "PBSKidsEasternCentral.us"
         ]
     },
@@ -141,13 +149,13 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml",
         "channels": [
-            "ParamountMovieChannel.us",
-            "PlutoTVAction.us",
-            "StoriesbyAMC.us",
             "MTVBiggestPop.us",
             "MTVSpankinNew.us",
             "YoMTV.us",
-            "NickPlutoTV.us"
+            "NickPlutoTV.us",
+            "ParamountMovieChannel.us",
+            "PlutoTVAction.us",
+            "StoriesbyAMC.us",
         ]
     },
     {
@@ -156,12 +164,11 @@
             "ArirangTV",
             "BabyTVAsia.uk",
             "BoomerangSouthEastAsia.us",
-            "CartoonNetworkAsia.sg",
             "Eurosport",
             "KBSWorld",
             "NickelodeonSouthEastAsia.us",
             "NickJrAsia.us",
-            "tvN"
+            "OutdoorChannel"
         ]
     }
 ]

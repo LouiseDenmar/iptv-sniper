@@ -92,9 +92,6 @@ https://amc-rushbyamc-1.imdbtv.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="STIRRMovies.us" tvg-name="STIRR Movies" tvg-logo="https://i.imgur.com/ec3yTaI.png" group-title="Movies & Series",STIRR Movies
 https://dai.google.com/linear/hls/event/f-zA7b21Squ7M1_sabGfjA/master.m3u8
 
-#EXTINF:-1 tvg-id="Thrill.hk" tvg-name="Thrill" tvg-logo="https://i.imgur.com/isr5jto.png" group-title="Movies & Series",Thrill
-http://61.19.242.134/feed/202105171329/LC26/index.m3u8
-
 #EXTINF:-1 tvg-id="VivaCinema.ph" tvg-name="Viva" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/96/Viva_TV_logo.jpg" group-title="Movies & Series",VivaCinema
 https://iptv-sniper.herokuapp.com/localtv.php?channel=13
 
@@ -242,9 +239,6 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=45
 #EXTINF:-1 tvg-id="DiscoveryScience.us" tvg-name="Discovery Science" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/512px-Discovery_Science_2017_Logo.svg.png" group-title="Documentary",Discovery Science
 http://moontools.me:8080//FNmdP2U7ey/HZQzvGgaPe/28860
 
-#EXTINF:-1 tvg-id="DiscoveryWorldHDPanregional.us" tvg-name="Discovery World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/World_Discovery_HD_logo.svg/512px-World_Discovery_HD_logo.svg.png" group-title="Documentary",Discovery World
-http://iptvtree.net:8080/Unplugged83/F75DCxx397DMKop5388mM/755
-
 #EXTINF:-1 tvg-id="HistoryAsia.us" tvg-name="History Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="Documentary",History Asia
 https://iptv-sniper.herokuapp.com/localtv.php?channel=53
 
@@ -257,7 +251,7 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=64
 #EXTINF:-1 tvg-id="NationalGeographicWildMalaysia.my" tvg-name="Nat Geo Wild Asia" tvg-logo="https://i.imgur.com/2DIGjSm.png" group-title="Documentary",Nat Geo Wild Asia
 https://iptv-sniper.herokuapp.com/localtv.php?channel=51
 
-#EXTINF:-1 tvg-id="OutdoorChannel.us" tvg-name="Outdoor Channel" tvg-logo="https://i.imgur.com/Kh4MWaY.png" group-title="Documentary",Outdoor Channel
+#EXTINF:-1 tvg-id="OutdoorChannel" tvg-name="Outdoor Channel" tvg-logo="https://i.imgur.com/Kh4MWaY.png" group-title="Documentary",Outdoor Channel
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
 
 #EXTINF:-1 tvg-id="RealStories.au" tvg-name="Real Stories" tvg-logo="https://i.imgur.com/KOkWP6i.jpg" group-title="Documentary",Real Stories
@@ -374,7 +368,7 @@ https://siloh.pluto.tv/lilo/production/Nick/01/master_1.m3u8
 #EXTINF:-1 tvg-id="PBSKidsEasternCentral.us" tvg-name="PBS Kids" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Kids",PBS Kids
 https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ZooMooAustralia.au" tvg-name="ZooMoo Australia" tvg-logo="https://i.imgur.com/1wYnA2i.jpg" group-title="Kids",ZooMoo Australia
+#EXTINF:-1 tvg-id="ZooMooAsia.nz" tvg-name="ZooMoo Australia" tvg-logo="https://i.imgur.com/1wYnA2i.jpg" group-title="Kids",ZooMoo Australia
 https://zoomoo-samsungau.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="OnePH.ph" tvg-name="One PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/OnePHCignal.svg/512px-OnePHCignal.svg.png" group-title="Local Radio",One PH
