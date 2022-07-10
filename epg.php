@@ -63,13 +63,11 @@
   if (is_object($event)) {
     $event_start = DateTime::createFromFormat('ga F j, Y', $event->start);
     $event_start->setTimezone(new DateTimeZone($event->timezone));
-    $event_start->format("YmdHis P");
 
     $event_end = DateTime::createFromFormat('ga F j, Y', $event->start);
     $event_end->setTimezone(new DateTimeZone($event->timezone));
-    $event_end->format("YmdHis P");
 
-    $xml .= "  <programme start=\"" . $event_end . "\" stop=\"" . $event_end . "\" channel=\"SpecialEvents\">\n";
+    $xml .= "  <programme start=\"" . $event_end->format("YmdHis P") . "\" stop=\"" . $event_end->format("YmdHis P") . "\" channel=\"SpecialEvents\">\n";
     $xml .= "    <title lang=\"en\">" . htmlspecialchars($event->title) . "</title>\n";
     $xml .= "    <desc lang=\"en\">" . htmlspecialchars($event->description) . "</desc>\n";
     $xml .= "    <category lang=\"en\">" . htmlspecialchars($event->category) . "</category>\n";
