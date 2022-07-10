@@ -42,11 +42,37 @@
     $xml .= "  </channel>\n";
   }
 
+  $event = json_decode(file_get_contents("special_event.json"));
+
+  if (is_object($event)) {
+    $xml .= "  <channel id=\"SpecialEvents\">\n";
+    $xml .= "    <display-name>Special Events</display-name>\n";
+    $xml .= "    <icon src=\"https://i.imgur.com/vRlLmha.png\" />\n";
+    $xml .= "    <url>https://iptv-sniper.herokuapp.com/</url>\n";
+    $xml .= "  </channel>\n";
+  }
+
   foreach ($programme_list as $programme) {
     $xml .= "  <programme start=\"" . $programme["start_raw"] . "\" stop=\"" . $programme["stop_raw"] . "\" channel=\"" . $programme["channel"] . "\">\n";
     $xml .= "    <title lang=\"en\">" . htmlspecialchars($programme["title"]) . "</title>\n";
     $xml .= "    <desc lang=\"en\">" . htmlspecialchars($programme["desc"]) . "</desc>\n";
     $xml .= "    <category lang=\"en\">" . htmlspecialchars($programme["category"]) . "</category>\n";
+    $xml .= "  </programme>\n";
+  }
+
+  if (is_object($event)) {
+    $event_start = DateTime::createFromFormat('ga F j, Y', $event->start);
+    $event_start->setTimezone(new DateTimeZone($event->timezone));
+    $event_start->format("YmdHis P");
+
+    $event_end = DateTime::createFromFormat('ga F j, Y', $event->start);
+    $event_end->setTimezone(new DateTimeZone($event->timezone));
+    $event_end->format("YmdHis P");
+
+    $xml .= "  <programme start=\"" . $event_end . "\" stop=\"" . $event_end . "\" channel=\"SpecialEvents\">\n";
+    $xml .= "    <title lang=\"en\">" . htmlspecialchars($event->title) . "</title>\n";
+    $xml .= "    <desc lang=\"en\">" . htmlspecialchars($event->description) . "</desc>\n";
+    $xml .= "    <category lang=\"en\">" . htmlspecialchars($event->category) . "</category>\n";
     $xml .= "  </programme>\n";
   }
 
