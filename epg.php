@@ -61,12 +61,14 @@
   }
 
   if (is_object($event)) {
+    date_default_timezone_set($event->timezone);
+
     $event_start = DateTime::createFromFormat('ga F j, Y', $event->start)
-                           ->setTimezone(new DateTimeZone($event->timezone))
+                           ->setTimezone(new DateTimeZone("Asia/Singapore"))
                            ->format("YmdHis O");
 
     $event_end   = DateTime::createFromFormat('ga F j, Y', $event->end)
-                           ->setTimezone(new DateTimeZone($event->timezone))
+                           ->setTimezone(new DateTimeZone("Asia/Singapore"))
                            ->format("YmdHis O");
 
     $xml .= "  <programme start=\"" . $event_start . "\" stop=\"" . $event_end . "\" channel=\"SpecialEvents\">\n";
