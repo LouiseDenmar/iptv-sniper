@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptv-sniper-beta.herokuapp.com/iptv-sniper.xml"
+#EXTM3U url-tvg="https://iptv-sniper.herokuapp.com/iptv-sniper.xml"
 
 #EXTINF:-1 tvg-id="JeepneyTV.ph" tvg-name="Jeppney TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Jeepneytvnewlogo2015.jpg/512px-Jeepneytvnewlogo2015.jpg" group-title="Local TV",Jeepney TV
 https://iptv-sniper.herokuapp.com/localtv.php?channel=76
@@ -314,7 +314,7 @@ http://iptvstream.es:8080/Pilsen/Movicer/506145
 #EXTVLCOPT:http-referrer=https://vikistream.com/
 #EXTVLCOPT:http-user-agent=Mozilla
 #EXTINF:-1 tvg-id="SpecialEvents" tvg-name="Special Events" tvg-logo="https://i.imgur.com/vRlLmha.png" group-title="Sports",Special Events
-https://s8.vikistream.com:999/hls/do5.m3u8?md5=KGcHqK9HzedeLDBIeAHPxQ&expires=1657424995
+https://raw.githubusercontent.com/fotvnetwork/iptv-free/master/TV%20Static.mp4
 
 #EXTINF:-1 tvg-id="TAPSports.ph" tvg-name="TAP Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6e/TAP_Sports_channel_logo.png" group-title="Sports",TAP Sports
 https://iptv-sniper.herokuapp.com/localtv.php?channel=31
