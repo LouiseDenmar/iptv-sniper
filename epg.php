@@ -64,7 +64,7 @@
     $event_start = DateTime::createFromFormat('ga F j, Y', $event->start);
     $event_start->setTimezone(new DateTimeZone($event->timezone));
 
-    $event_end = DateTime::createFromFormat('ga F j, Y', $event->start);
+    $event_end = DateTime::createFromFormat('ga F j, Y', $event->end);
     $event_end->setTimezone(new DateTimeZone($event->timezone));
 
     $xml .= "  <programme start=\"" . $event_end->format("YmdHis O") . "\" stop=\"" . $event_end->format("YmdHis O") . "\" channel=\"SpecialEvents\">\n";
