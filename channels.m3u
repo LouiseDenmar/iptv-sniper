@@ -308,6 +308,9 @@ http://iptvstream.es:8080/Pilsen/Movicer/506144
 #EXTINF:-1 tvg-id="SkySportsF1.uk" tvg-name="Sky Sports F1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Sky_Sports_F1_logo_2020.svg/512px-Sky_Sports_F1_logo_2020.svg.png" group-title="Sports",Sky Sports F1
 http://iptvstream.es:8080/Pilsen/Movicer/506145
 
+#EXTINF:-1 tvg-id="SpecialEvents" tvg-name="Special Events" tvg-logo="https://i.imgur.com/vRlLmha.png" group-title="Sports",Special Events
+http://sasllwpspw.azureedge.net/live/BX2/playlist.m3u8
+
 #EXTINF:-1 tvg-id="TAPSports.ph" tvg-name="TAP Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6e/TAP_Sports_channel_logo.png" group-title="Sports",TAP Sports
 https://iptv-sniper.herokuapp.com/localtv.php?channel=31
 
