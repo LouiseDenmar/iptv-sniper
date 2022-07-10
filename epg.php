@@ -45,11 +45,6 @@
   $event = json_decode(file_get_contents("special_event.json"));
 
   if (is_object($event)) {
-    date_default_timezone_set($event->timezone);
-
-    $event_start = date('YmdHis',strtotime("$event->start UTC")) . " +0000";
-    $event_end = date('YmdHis',strtotime("$event->end UTC")) . " +0000";    
-
     $xml .= "  <channel id=\"SpecialEvents\">\n";
     $xml .= "    <display-name>Special Events</display-name>\n";
     $xml .= "    <icon src=\"https://i.imgur.com/vRlLmha.png\" />\n";
@@ -66,6 +61,14 @@
   }
 
   if (is_object($event)) {
+    $event_start = DateTime::createFromFormat('ga F j, Y', $event->start);
+    $event_start->setTimezone(new DateTimeZone($event->timezone));
+    $event_start->format("YmdHis P");
+
+    $event_end = DateTime::createFromFormat('ga F j, Y', $event->start);
+    $event_end->setTimezone(new DateTimeZone($event->timezone));
+    $event_end->format("YmdHis P");
+
     $xml .= "  <programme start=\"" . $event_end . "\" stop=\"" . $event_end . "\" channel=\"SpecialEvents\">\n";
     $xml .= "    <title lang=\"en\">" . htmlspecialchars($event->title) . "</title>\n";
     $xml .= "    <desc lang=\"en\">" . htmlspecialchars($event->description) . "</desc>\n";
