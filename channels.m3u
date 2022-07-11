@@ -15,6 +15,12 @@ https://utube2.fotvnetwork.workers.dev/stream/UCJCUbMaY593_4SN1QPG7NFQ/master.m3
 #EXTINF:-1 tvg-id="KapatidTV5.ph" tvg-name="Kapatid TV 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TV5_(Philippines)_logo.svg/512px-TV5_(Philippines)_logo.svg.png" group-title="Local TV",Kapatid TV 5
 https://iptv-sniper.herokuapp.com/localtv.php?channel=8
 
+#EXTINF:-1 tvg-id="GMALifeTV.ph" tvg-name="GMA Life TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ae/Gma_life_tv.png" group-title="Local TV",GMA Life TV
+http://sverigeplay.tv/play/live.php?mac=00:1A:79:AB:98:86&stream=41228&extension=ts&play_token=OtpXkMLTQR
+
+#EXTINF:-1 tvg-id="GMAPinoyTV.ph" tvg-name="GMA Pinoy TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/af/GMA_Pinoy_TV_logo.png" group-title="Local TV",GMA Pinoy TV
+http://sverigeplay.tv/play/live.php?mac=00:1A:79:AB:98:86&stream=33269&extension=ts&play_token=o99Hf0NZEo
+
 #EXTINF:-1 tvg-id="GMATV.ph" tvg-name="GMA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/GMA_Network_Logo_Vector.svg/512px-GMA_Network_Logo_Vector.svg.png" group-title="Local TV",GMA TV
 https://iptv-sniper.herokuapp.com/localtv.php?channel=5
 
@@ -32,8 +38,14 @@ https://amdottlive.akamaized.net/hls/live/2018990/iwantknowledge/master480p.m3u8
 #EXTINF:-1 tvg-id="SariSariChannel.ph" tvg-name="Sari Sari Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/22/Sari-Sari_Channel_logo.png" group-title="Local TV",Sari Sari Channel
 http://fortv.cc:8080/live/jsc/jsc/101824.m3u8
 
-#EXTINF:-1 tvg-id="SMNI.ph" tvg-name="SMNI" tvg-logo="https://i.imgur.com/l2JSQme.png" group-title="Local TV",SMNI
+#EXTINF:-1 tvg-id="SMNI.ph" tvg-name="SMNI" tvg-logo="https://i.imgur.com/p3KeNAm.png" group-title="Local TV",SMNI
 https://api.new.livestream.com/accounts/19079954/events/7831871/live.m3u8
+
+#EXTINF:-1 tvg-id="Andflix.in" tvg-name="&flix HD" tvg-logo="https://i.imgur.com/K8FJgai.png" group-title="Movies & Series",&Flix HD
+http://qualityoverquantity.site:8880/play/live.php?mac=00:1A:79:91:db:9c&stream=862616&extension=ts&play_token=s4jLZ6jSzd
+
+#EXTINF:-1 tvg-id="AndpriveHD.in" tvg-name="&privé HD" tvg-logo="https://i.imgur.com/qyyUlg3.png" group-title="Movies & Series",&privé HD
+http://qualityoverquantity.site:8880/play/live.php?mac=00:1A:79:91:db:9c&stream=862618&extension=ts&play_token=mPp0f8PKx4
 
 #EXTINF:-1 tvg-id="AMCEast.us" tvg-name="AMC" tvg-logo="https://i.imgur.com/RBKx6Fx.png" group-title="Movies & Series",AMC
 https://bcovlive-a.akamaihd.net/ebf15ff84e98490e8b00209ed77c77f5/us-east-1/6240731308001/playlist.m3u8
@@ -190,6 +202,9 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=39
 
 #EXTINF:-1 tvg-id="France24English.fr" tvg-name="France 24" tvg-logo="https://www.mncvision.id/userfiles/image/channel/france_150px.jpg" group-title="News & Culture",France 24
 https://iptv-sniper.herokuapp.com/localtv.php?channel=95
+
+#EXTINF:-1 tvg-id="GMANewsTV.ph" tvg-name="GMA News TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/GMA_News_TV_Logo_Vector.svg/512px-GMA_News_TV_Logo_Vector.svg.png" group-title="News & Culture",GMA News TV
+http://sverigeplay.tv/play/live.php?mac=00:1A:79:ab:98:86&stream=33270&extension=ts&play_token=wY4LMv3TMk
 
 #EXTINF:-1 tvg-id="HLN.us" tvg-name="HLN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/HLN_%28TV_network%29_2017_logo.svg/512px-HLN_%28TV_network%29_2017_logo.svg.png" group-title="News & Culture",HLN
 https://tve-live-lln.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8

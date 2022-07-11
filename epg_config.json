@@ -38,6 +38,13 @@
         ]
     },
     {
+        "url": "https://iptv-org.github.io/epg/guides/in/dishtv.in.epg.xml",
+        "channels": [
+            "Andflix.in",
+            "AndpriveHD.in"
+        ]
+    },
+    {
         "url": "https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml",
         "channels": [
             "AnimaxAsia.sg"
@@ -65,6 +72,7 @@
             "AnimaxPhilippines.ph",
             "CinemaOneGlobal.ph",
             "CNNPhilippines.ph",
+            "GMANewsTV.ph",
             "GMATV.ph",
             "GTV.ph",
             "JeepneyTV.ph",
@@ -96,6 +104,8 @@
             "DWEnglish.de",
             "FoxNewsChannel.us",
             "FashionTVAsia.fr",
+            "GMALifeTV.ph",
+            "GMAPinoyTV.ph",
             "HistoryAsia.us",
             "Hits.sg",
             "LifetimeAsia.us",
