@@ -284,7 +284,7 @@ https://lds-timeline-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Xplore.us" tvg-name="Xplore" tvg-logo="https://od.lk/s/MF8yMjU5MDAzNDRf/Xplore_307x307.png" group-title="Documentary",Xplore
 https://xplore-roku.amagi.tv/playlist1080-p.m3u8
 
-#EXTINF:-1 tvg-id="Billiard TV" tvg-name="TFC" tvg-logo="https://streamstak.com/billiardtv/wp-content/uploads/sites/2/2021/08/billiardtv-logo-yellow.png" group-title="Sports",Billiard TV
+#EXTINF:-1 tvg-id="BilliardTV" tvg-name="Billiard TV" tvg-logo="https://streamstak.com/billiardtv/wp-content/uploads/sites/2/2021/08/billiardtv-logo-yellow.png" group-title="Sports",Billiard TV
 https://1621590671.rsc.cdn77.org/HLS/BILLIARDTV_SCTE.m3u8
 
 #EXTINF:-1 tvg-id="BoxNation.uk" tvg-name="Box Nation" tvg-logo="https://i.imgur.com/XCIBf7u.png" group-title="Sports",Box Nation
