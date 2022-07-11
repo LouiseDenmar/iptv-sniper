@@ -24,7 +24,6 @@
             "DiscoveryChannelHongKong.hk",
             "DreamWorksChannelAsia.us",
             "France24English.fr",
-            "HBOSignature.sg",
             "HitsMovies.sg",
             "HGTVAsia.us",
             "Thrill.hk",
@@ -78,6 +77,7 @@
             "JeepneyTV.ph",
             "KapamilyaChannel.ph",
             "MyxPhilippines.ph",
+            "Net25.ph",
             "PBO.ph",
             "PTV.ph",
             "RockEntertainment.sg",
@@ -141,8 +141,6 @@
         "url": "https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml",
         "channels": [
             "AMCEast.us",
-            "BloombergTelevision.us",
-            "Boomerang.us",
             "Cheddar.us",
             "CNN.us",
             "ESPN.us",
@@ -174,7 +172,6 @@
             "MTVSpankinNew.us",
             "YoMTV.us",
             "NickPlutoTV.us",
-            "PlutoTVAction.us",
             "StoriesbyAMC.us"
         ]
     },
@@ -185,6 +182,7 @@
             "BabyTVAsia.uk",
             "BoomerangSouthEastAsia.us",
             "Eurosport",
+            "FightSports",
             "KBSWorld",
             "NickelodeonSouthEastAsia.us",
             "NickJrAsia.us",
