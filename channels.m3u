@@ -47,7 +47,7 @@ http://fortv.cc:8080/live/jsc/jsc/101824.m3u8
 #EXTINF:-1 tvg-id="SMNI.ph" tvg-name="SMNI" tvg-logo="https://i.imgur.com/p3KeNAm.png" group-title="Local TV",SMNI
 https://api.new.livestream.com/accounts/19079954/events/7831871/live.m3u8
 
-#EXTINF:-1 tvg-id="Andflix.in" tvg-name="&flix HD" tvg-logo="https://i.imgur.com/K8FJgai.png" group-title="Movies & Series",&Flix HD
+#EXTINF:-1 tvg-id="Andflix.in" tvg-name="&flix HD" tvg-logo="https://i.imgur.com/K8FJgai.png" group-title="Movies & Series",&flix HD
 http://qualityoverquantity.site:8880/play/live.php?mac=00:1A:79:91:db:9c&stream=862616&extension=ts&play_token=s4jLZ6jSzd
 
 #EXTINF:-1 tvg-id="AndpriveHD.in" tvg-name="&privé HD" tvg-logo="https://i.imgur.com/qyyUlg3.png" group-title="Movies & Series",&privé HD
