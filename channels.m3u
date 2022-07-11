@@ -101,6 +101,9 @@ https://amc-rushbyamc-1.imdbtv.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="STIRRMovies.us" tvg-name="STIRR Movies" tvg-logo="https://i.imgur.com/ec3yTaI.png" group-title="Movies & Series",STIRR Movies
 https://dai.google.com/linear/hls/event/f-zA7b21Squ7M1_sabGfjA/master.m3u8
 
+#EXTINF:-1 tvg-id="USANetworkEast.us" tvg-name="USA Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/512px-USA_Network_logo_%282016%29.svg.png" group-title="Movies & Series",USA Network
+http://38.127.211.18/live/c2eds/USA/HLS/index.m3u8
+
 #EXTINF:-1 tvg-id="VivaCinema.ph" tvg-name="Viva" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/96/Viva_TV_logo.jpg" group-title="Movies & Series",VivaCinema
 https://iptv-sniper.herokuapp.com/localtv.php?channel=13
 
@@ -151,6 +154,9 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=47
 
 #EXTINF:-1 tvg-id="" tvg-name="TMC" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/512px-TMC_logo.svg.png" group-title="Movies & Series",TMC
 https://iptv-sniper.herokuapp.com/localtv.php?channel=9
+
+#EXTINF:-1 tvg-id="TNTEast.us" tvg-name="TNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Lifestyle & Entertainment",TNT
+http://38.127.211.18/live/c2eds/TNTLA/HLS/index.m3u8
 
 #EXTINF:-1 tvg-id="ABCTV.au" tvg-name="ABC TV" tvg-logo="https://i.imgur.com/rLCHYCs.png" group-title="News & Culture",ABC TV
 https://c.mjh.nz/101002510251/
@@ -277,6 +283,9 @@ https://lds-timeline-samsungau.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Xplore.us" tvg-name="Xplore" tvg-logo="https://od.lk/s/MF8yMjU5MDAzNDRf/Xplore_307x307.png" group-title="Documentary",Xplore
 https://xplore-roku.amagi.tv/playlist1080-p.m3u8
+
+#EXTINF:-1 tvg-id="BilliardTV" tvg-name="Billiard TV" tvg-logo="https://streamstak.com/billiardtv/wp-content/uploads/sites/2/2021/08/billiardtv-logo-yellow.png" group-title="Sports",Billiard TV
+https://1621590671.rsc.cdn77.org/HLS/BILLIARDTV_SCTE.m3u8
 
 #EXTINF:-1 tvg-id="BoxNation.uk" tvg-name="Box Nation" tvg-logo="https://i.imgur.com/XCIBf7u.png" group-title="Sports",Box Nation
 http://185.53.88.211:8070/live/ce1eb8b3/fd28c06f6f/4719.ts
