@@ -55,7 +55,8 @@
             "eGGNetwork.my",
             "HBOMalaysia.my",
             "NationalGeographicMalaysia.my",
-            "NationalGeographicWildMalaysia.my"
+            "NationalGeographicWildMalaysia.my",
+            "WWENetwork.us"
         ]
     },
     {
@@ -112,6 +113,7 @@
             "LoveNature.ca",
             "NHKWorldJapan.jp",
             "ParamountNetworkSingapore.sg",
+            "PremierSportsAsia.ie",
             "RTNews.ru",
             "SmithsonianChannelAsia.us"
         ]
@@ -133,6 +135,7 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml",
         "channels": [
+            "BoxNation.uk",
             "SkySportsArena.uk",
             "SkySportsF1.uk"
         ]
@@ -160,6 +163,7 @@
         "url": "https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml",
         "channels": [
             "KapatidTV5.ph",
+            "MLBNetwork.us",
             "MyxUSA.us",
             "NBATV.us",
             "SariSariChannel.ph"
