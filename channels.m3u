@@ -278,6 +278,9 @@ https://lds-timeline-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Xplore.us" tvg-name="Xplore" tvg-logo="https://od.lk/s/MF8yMjU5MDAzNDRf/Xplore_307x307.png" group-title="Documentary",Xplore
 https://xplore-roku.amagi.tv/playlist1080-p.m3u8
 
+#EXTINF:-1 tvg-id="BoxNation.uk" tvg-name="Box Nation" tvg-logo="https://i.imgur.com/XCIBf7u.png" group-title="Sports",Box Nation
+http://edgesport-samsungus.amagi.tv/playlist.m3u8
+
 #EXTINF:-1 tvg-id="EDGEsport.uk" tvg-name="EDGEsport" tvg-logo="https://i.imgur.com/zRugmb9.png" group-title="Sports",EDGEsport
 http://edgesport-samsungus.amagi.tv/playlist.m3u8
 
@@ -305,11 +308,17 @@ http://38.127.211.18/live/c2eds/FoxSports2/HLS/index.m3u8
 #EXTINF:-1 tvg-id="HorseCountryTV.uk" tvg-name="Horse and Country" tvg-logo="https://i.imgur.com/r5Ip3P0.png" group-title="Sports",Horse and Country
 https://hncfree-samsungau.amagi.tv/playlist.m3u8
 
+#EXTINF:-1 tvg-id="MLBNetwork.us" tvg-name="MLB Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/MLBNetworkLogo.svg/512px-MLBNetworkLogo.svg.png" group-title="Sports",MLB Network
+http://ky-iptv.com:25461/live/abc123456/abc123456/1284154.ts
+
 #EXTINF:-1 tvg-id="NBATV.us" tvg-name="NBA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/512px-NBA_TV.svg.png" group-title="Sports",NBA TV
 http://sverigeplay.tv/play/live.php?mac=00:1A:79:AB:98:86&stream=115738&extension=ts&play_token=1abiaJReWZ
 
 #EXTINF:-1 tvg-id="OneSports.ph" tvg-name="One Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/One_Sports_logo.svg/512px-One_Sports_logo.svg.png" group-title="Sports",One Sports
 https://iptv-sniper.herokuapp.com/localtv.php?channel=50
+
+#EXTINF:-1 tvg-id="PremierSportsAsia.ie" tvg-name="Premier Sports" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/393_144.png" group-title="Sports",Premier Sports
+https://iptv-sniper.herokuapp.com/localtv.php?channel=36
 
 #EXTINF:-1 tvg-id="redbulltv.us" tvg-name="RedBull TV" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",RedBull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
@@ -330,6 +339,9 @@ https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na
 
 #EXTINF:-1 tvg-id="TAPSports.ph" tvg-name="TAP Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6e/TAP_Sports_channel_logo.png" group-title="Sports",TAP Sports
 https://iptv-sniper.herokuapp.com/localtv.php?channel=31
+
+#EXTINF:-1 tvg-id="WWENetwork.us" tvg-name="WWE Network" tvg-logo="https://i.postimg.cc/wxDcjfB2/WWENetwork-White.png" group-title="Sports",WWE Network 
+http://185.53.88.211:8070/live/Unplugged83/F75DCxx397DMKop5388mM/2373.ts
 
 #EXTINF:-1 tvg-id="BreezeTV.nz" tvg-name="Breeze TV" tvg-logo="https://i.imgur.com/3dpH9XF.jpg" group-title="Music",Breeze TV
 https://livestreamdirect-breezetv.mediaworks.nz/breezetv.m3u8
