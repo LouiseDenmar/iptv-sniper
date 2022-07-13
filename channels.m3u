@@ -56,8 +56,8 @@ http://qualityoverquantity.site:8880/play/live.php?mac=00:1A:79:91:db:9c&stream=
 #EXTINF:-1 tvg-id="AMCEast.us" tvg-name="AMC" tvg-logo="https://i.imgur.com/RBKx6Fx.png" group-title="Movies & Series",AMC
 https://bcovlive-a.akamaihd.net/ebf15ff84e98490e8b00209ed77c77f5/us-east-1/6240731308001/playlist.m3u8
 
-#EXTINF:-1 tvg-id="CelestialMovPinoy.ph" tvg-name="Celestial Mov Pinoy" tvg-logo="https://cmpinoy.com.ph/storage/images/c4ca4238a0b923820dcc509a6f75849b/c/logo-default.png" group-title="Movies & Series",Celestial Mov Pinoy
-http://user.scalecdn.co:8080/live/movie/movie/567699.ts
+#EXTINF:-1 tvg-id="CelestialMoviesPinoy.hk" tvg-name="Celestial Movies Pinoy" tvg-logo="https://cmpinoy.com.ph/storage/images/c4ca4238a0b923820dcc509a6f75849b/c/logo-default.png" group-title="Movies & Series",Celestial Movies Pinoy
+http://tiny.one/celestialpinoy
 
 #EXTINF:-1 tvg-id="CinemaOneGlobal.ph" tvg-name="Cinema One" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Cinema_One_2013_logo.svg/512px-Cinema_One_2013_logo.svg.png" group-title="Movies & Series",Cinema One
 https://cinemaone-abscbn-ono.amagi.tv/index_3.m3u8
