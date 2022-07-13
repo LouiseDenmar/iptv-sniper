@@ -395,7 +395,7 @@ class EpgParser {
 
 
 	/**
-	 * Save content to temp file from ulr or from content.
+	 * Save content to temp file from url or from content.
 	 */
 	public function saveTemp( ) : void
 	{
