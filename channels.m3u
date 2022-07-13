@@ -56,6 +56,9 @@ http://qualityoverquantity.site:8880/play/live.php?mac=00:1A:79:91:db:9c&stream=
 #EXTINF:-1 tvg-id="AMCEast.us" tvg-name="AMC" tvg-logo="https://i.imgur.com/RBKx6Fx.png" group-title="Movies & Series",AMC
 https://bcovlive-a.akamaihd.net/ebf15ff84e98490e8b00209ed77c77f5/us-east-1/6240731308001/playlist.m3u8
 
+#EXTINF:-1 tvg-id="CelestialMoviesPinoy.hk" tvg-name="Celestial Movies Pinoy" tvg-logo="https://cmpinoy.com.ph/storage/images/c4ca4238a0b923820dcc509a6f75849b/c/logo-default.png" group-title="Movies & Series",Celestial Movies Pinoy
+http://tiny.one/celestialpinoy
+
 #EXTINF:-1 tvg-id="CinemaOneGlobal.ph" tvg-name="Cinema One" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Cinema_One_2013_logo.svg/512px-Cinema_One_2013_logo.svg.png" group-title="Movies & Series",Cinema One
 https://cinemaone-abscbn-ono.amagi.tv/index_3.m3u8
 
@@ -154,6 +157,9 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=47
 
 #EXTINF:-1 tvg-id="" tvg-name="TMC" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/512px-TMC_logo.svg.png" group-title="Movies & Series",TMC
 https://iptv-sniper.herokuapp.com/localtv.php?channel=9
+
+#EXTINF:-1 tvg-id="" tvg-name=""Celestial Pinoy tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3f/Celesy.jpg" group-title="",Celestial Pinoy
+http://tiny.one/celestialpinoy
 
 #EXTINF:-1 tvg-id="TNTEast.us" tvg-name="TNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Lifestyle & Entertainment",TNT
 http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/769
