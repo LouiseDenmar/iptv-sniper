@@ -335,7 +335,7 @@ class EpgParser {
 			throw new \RuntimeException('Url invalid: ' . $this->url);
 		}
 
-		$this->content = @$this->file_get_contents_curl( $this->url );
+		$this->content = $this->file_get_contents_curl( $this->url );
 
 		if (!strpos($http_response_header[0], "200")) { 
 			throw new \RuntimeException("Invalid response headers: ". $http_response_header[0], 1);
