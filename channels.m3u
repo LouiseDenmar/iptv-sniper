@@ -156,7 +156,7 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=47
 https://iptv-sniper.herokuapp.com/localtv.php?channel=9
 
 #EXTINF:-1 tvg-id="TNTEast.us" tvg-name="TNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Lifestyle & Entertainment",TNT
-http://appleiptv.com:80/live/4242/4242/27537.ts
+http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/769
 
 #EXTINF:-1 tvg-id="ABCTV.au" tvg-name="ABC TV" tvg-logo="https://i.imgur.com/rLCHYCs.png" group-title="News & Culture",ABC TV
 https://c.mjh.nz/101002510251/
