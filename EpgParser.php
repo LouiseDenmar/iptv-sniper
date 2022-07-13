@@ -336,11 +336,6 @@ class EpgParser {
 		}
 
 		$this->content = $this->file_get_contents_curl( $this->url );
-
-		if (!strpos($http_response_header[0], "200")) { 
-			throw new \RuntimeException("Invalid response headers: ". $http_response_header[0], 1);
-		}
-
 		$this->checkXml();
 		$this->saveTemp(); // will save the file.
 		$this->parseFile();
