@@ -347,7 +347,7 @@ class EpgParser {
 
 	}
 
-	function file_get_contents_curl($url, $retries=5)
+	public function file_get_contents_curl($url, $retries=5)
 	{
 		$ua = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36';
 
