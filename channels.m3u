@@ -251,6 +251,9 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=45
 #EXTINF:-1 tvg-id="DiscoveryScience.us" tvg-name="Discovery Science" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/512px-Discovery_Science_2017_Logo.svg.png" group-title="Documentary",Discovery Science
 http://moontools.me:8080//FNmdP2U7ey/HZQzvGgaPe/28860
 
+#EXTINF:-1 tvg-id="DMAXAsia.sg" tvg-name="DMAX" tvg-logo="https://i.ibb.co/3YHs0W9/image-removebg-preview.png" group-title="Lifestyle & Entertainment",DMAX
+http://ky-iptv.com:80/Peaches1/Peaches1/2063022.ts
+
 #EXTINF:-1 tvg-id="HistoryAsia.us" tvg-name="History" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="Documentary",History
 https://iptv-sniper.herokuapp.com/localtv.php?channel=53
 
