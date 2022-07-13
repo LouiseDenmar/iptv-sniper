@@ -102,7 +102,7 @@ https://amc-rushbyamc-1.imdbtv.wurl.com/manifest/playlist.m3u8
 https://dai.google.com/linear/hls/event/f-zA7b21Squ7M1_sabGfjA/master.m3u8
 
 #EXTINF:-1 tvg-id="USANetworkEast.us" tvg-name="USA Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/512px-USA_Network_logo_%282016%29.svg.png" group-title="Movies & Series",USA Network
-http://38.127.211.18/live/c2eds/USA/HLS/index.m3u8
+http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/3390
 
 #EXTINF:-1 tvg-id="VivaCinema.ph" tvg-name="Viva" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/96/Viva_TV_logo.jpg" group-title="Movies & Series",VivaCinema
 https://iptv-sniper.herokuapp.com/localtv.php?channel=13
@@ -210,7 +210,7 @@ http://sverigeplay.tv/play/live.php?mac=00:1A:79:ab:98:86&stream=33270&extension
 https://tve-live-lln.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 
 #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="MSNBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/MSNBC_2021.svg/512px-MSNBC_2021.svg.png" group-title="News & Culture",MSNBC
-http://38.127.211.18/live/c2eds/MSNBC/HLS/index.m3u8
+http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/406
 
 #EXTINF:-1 tvg-id="NewsmaxTV.us" tvg-name="Newsmax TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Newsmax2021.svg/512px-Newsmax2021.svg.png" group-title="News & Culture",Newsmax TV
 https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
@@ -250,9 +250,6 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=45
 
 #EXTINF:-1 tvg-id="DiscoveryScience.us" tvg-name="Discovery Science" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/512px-Discovery_Science_2017_Logo.svg.png" group-title="Documentary",Discovery Science
 http://moontools.me:8080//FNmdP2U7ey/HZQzvGgaPe/28860
-
-#EXTINF:-1 tvg-id="DMAXAsia.sg" tvg-name="DMAX" tvg-logo="https://i.ibb.co/3YHs0W9/image-removebg-preview.png" group-title="Lifestyle & Entertainment",DMAX
-http://ky-iptv.com:80/Peaches1/Peaches1/2063022.ts
 
 #EXTINF:-1 tvg-id="HistoryAsia.us" tvg-name="History" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="Documentary",History
 https://iptv-sniper.herokuapp.com/localtv.php?channel=53
@@ -300,10 +297,10 @@ http://edgesport-samsungus.amagi.tv/playlist.m3u8
 http://210.210.155.35/uq2663/h/h22/index.m3u8
 
 #EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="Sports",ESPN
-http://38.127.211.18/live/c2eds/ESPN1USA/HLS/index.m3u8
+http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/747
 
 #EXTINF:-1 tvg-id="ESPN2.us" tvg-name="ESPN 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/2560px-ESPN2_logo.svg.png" group-title="Sports",ESPN 2
-http://38.127.211.18/live/c2eds/ESPN2USA/HLS/index.m3u8
+http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/41918
 
 #EXTINF:-1 tvg-id="Eurosport" tvg-name="Eurosport 1" tvg-logo="https://epg.eurosport-tv.com/Images/LOGO_H208_TRP.png" group-title="Sports",Eurosport
 http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=141598&extension=ts&play_token=yofOklZ6OX
@@ -312,10 +309,10 @@ http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=141598&exten
 https://iptv-sniper.herokuapp.com/localtv.php?channel=18
 
 #EXTINF:-1 tvg-id="FoxSports1.us" tvg-name="Fox Sports 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2015_Fox_Sports_1_logo.svg/512px-2015_Fox_Sports_1_logo.svg.png" group-title="Sports",Fox Sports 1
-http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5a74b8e1e22a61737979c6bf/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/150797
 
 #EXTINF:-1 tvg-id="FoxSports2.us" tvg-name="Fox Sports 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/FS2_logo_2015.svg/512px-FS2_logo_2015.svg.png" group-title="Sports",Fox Sports 2
-http://38.127.211.18/live/c2eds/FoxSports2/HLS/index.m3u8
+http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/757
 
 #EXTINF:-1 tvg-id="HorseCountryTV.uk" tvg-name="Horse and Country" tvg-logo="https://i.imgur.com/r5Ip3P0.png" group-title="Sports",Horse and Country
 https://hncfree-samsungau.amagi.tv/playlist.m3u8
