@@ -155,6 +155,9 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=47
 #EXTINF:-1 tvg-id="" tvg-name="TMC" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/512px-TMC_logo.svg.png" group-title="Movies & Series",TMC
 https://iptv-sniper.herokuapp.com/localtv.php?channel=9
 
+#EXTINF:-1 tvg-id="" tvg-name=""Celestial Pinoy tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3f/Celesy.jpg" group-title="",Celestial Pinoy
+http://tiny.one/celestialpinoy
+
 #EXTINF:-1 tvg-id="TNTEast.us" tvg-name="TNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Lifestyle & Entertainment",TNT
 http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/769
 
