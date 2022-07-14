@@ -87,7 +87,7 @@ http://210.210.155.35/session/1204b13c-a86a-11ec-baed-ab3e95131f5a/dr9445/h/h37/
 https://iptv-sniper.herokuapp.com/localtv.php?channel=22
 
 #EXTINF:-1 tvg-id="MovieSphere.us" tvg-name="MovieSphere" tvg-logo="https://od.lk/s/MF8yMjM1Njg1NTFf/MovieSphere_400x400.png" group-title="Movies & Series",MovieSphere
-https://moviesphere-roku.amagi.tv/playlist720lp.m3u8
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/samsungus-moviesphere-samsung-samsungus/playlist.m3u8
 
 #EXTINF:-1 tvg-id="MyTimemovienetwork.us" tvg-name="MyTime movie network" tvg-logo="https://od.lk/s/MF8yMjU5ODE1MzJf/MyTime_260x260.png" group-title="Movies & Series",MyTime movie network
 https://mytime-tcl.amagi.tv/playlist.m3u8
@@ -239,6 +239,9 @@ https://utube2.fotvnetwork.workers.dev/stream/UC3XaG-7UVi2vD8ZZEMNnnpw/master.m3
 #EXTINF:-1 tvg-id="ArirangTV.kr" tvg-name="Arirang" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Arirang.svg/512px-Arirang.svg.png" group-title="Korean Entertainment",Arirang
 http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-id="KContentbyCJENM.us" tvg-name="CJ ENM" tvg-logo="https://images.pluto.tv/channels/6176ff3ba00900000763710f/colorLogoPNG.png" group-title="Korean Entertainment",CJ ENM
+https://d50a1g0nh14ou.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/CJ-ENM-prod/e91c6419_2e45_4f6c_a646_b912658d73b8/hls/playlist.m3u8
+
 #EXTINF:-1 tvg-id="KBSWorld.kr" tvg-name="KBS World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_(2009).svg/512px-KBS_World_(2009).svg.png" group-title="Korean Entertainment",KBS World
 https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8
 
@@ -294,7 +297,7 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=78
 https://lds-timeline-samsungau.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Xplore.us" tvg-name="Xplore" tvg-logo="https://od.lk/s/MF8yMjU5MDAzNDRf/Xplore_307x307.png" group-title="Science & Documentaries",Xplore
-https://xplore-roku.amagi.tv/playlist1080-p.m3u8
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/samsungus-xplore-samsungus/playlist.m3u8
 
 #EXTINF:-1 tvg-id="BilliardTV" tvg-name="Billiard TV" tvg-logo="https://streamstak.com/billiardtv/wp-content/uploads/sites/2/2021/08/billiardtv-logo-yellow.png" group-title="Sports",Billiard TV
 https://1621590671.rsc.cdn77.org/HLS/BILLIARDTV_SCTE.m3u8
@@ -388,6 +391,9 @@ https://myxnola-abscbn-ono.amagi.tv/index_2.m3u8
 #EXTINF:-1 tvg-id="AnimaxAsia.sg" tvg-name="Animax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Animax.svg/512px-Animax.svg.png" group-title="Kids",Animax
 https://iptv-sniper.herokuapp.com/localtv.php?channel=24
 
+#EXTINF:-1 tvg-id="AnimeAllDay.us" tvg-name="Anime All Day" tvg-logo="https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG.png" group-title="Kids",Anime All Day
+http://service-stitcher-ipv4.clusters.pluto.tv/v1/stitch/embed/hls/channel/5be4c6311843b56328bce619/master.m3u8
+
 #EXTINF:-1 tvg-id="AniplusAsia.sg" tvg-name="Aniplus" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Aniplus_Asia_Logo.png/512px-Aniplus_Asia_Logo.png" group-title="Kids",Aniplus
 http://sverigeplay.tv/play/live.php?mac=00:1A:79:ab:98:86&stream=115609&extension=ts&play_token=PhWmd1D0if
 
@@ -419,7 +425,7 @@ https://siloh.pluto.tv/lilo/production/Nick/01/master_1.m3u8
 https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ZooMooAsia.nz" tvg-name="ZooMoo" tvg-logo="https://i.imgur.com/1wYnA2i.jpg" group-title="Kids",ZooMoo
-https://zoomoo-samsungau.amagi.tv/playlist.m3u8
+https://8e3b9b86a94645d8b36c7722967c0086.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_Zoomoo/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Jam883.ph" tvg-name="Jam 88.3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Jam_88.3_logo_2012.png/800px-Jam_88.3_logo_2012.png" group-title="Local Radio",Jam 88.3
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://twitch.tv/jam883ph
