@@ -27,6 +27,9 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=5
 #EXTINF:-1 tvg-id="GTV.ph" tvg-name="GTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/4/40/GTV_Philippines_Logo_Vector.svg/512px-GTV_Philippines_Logo_Vector.svg.png" group-title="Local TV",GTV
 https://iptv-sniper.herokuapp.com/localtv.php?channel=7
 
+#EXTINF:-1 tvg-id="IBC13.ph" tvg-name="IBC 13" tvg-logo="https://www.lyngsat.com/logo/tv/ii/ibc_13_ph.png" group-title="Local TV",IBC 13
+http://user.scalecdn.co:8080/live/Alicia/Alicia/567720.m3u8
+
 #EXTINF:-1 tvg-id="INCTV.ph" tvg-name="INC TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c9/INCTV-Logo-2012.png" group-title="Local TV",INC TV
 https://cocphil.akamaized.net/hls/live/2042846/inctv/playlist.m3u8
 
@@ -163,6 +166,9 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=9
 
 #EXTINF:-1 tvg-id="TNTEast.us" tvg-name="TNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Lifestyle & Entertainment",TNT
 http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/769
+
+#EXTINF:-1 tvg-id="TravelChannelAsia.uk" tvg-name="Travel Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2018_Travel_Channel_logo.svg/512px-2018_Travel_Channel_logo.svg.png" group-title="Lifestyle & Entertainment",Travel Channel
+http://user.scalecdn.co:8080/live/Alicia/Alicia/567747.m3u8
 
 #EXTINF:-1 tvg-id="ViceTV.us" tvg-name="Vice" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Vice_TV_logo.svg/512px-Vice_TV_logo.svg.png" group-title="Lifestyle & Entertainment",Vice
 https://d2do1g43aq7264.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/Vice-prod/playlist.m3u8
