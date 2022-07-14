@@ -6,14 +6,9 @@
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/au/ontvtonight.com.epg.xml",
-        "channels": [
-            "ABCTV.au"
-        ]
-    },
-    {
         "url": "https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml",
         "channels": [
+            "ABCAustraliaAsia.au",
             "AlJazeeraEnglish.qa",
             "AnimalPlanetHongKong.hk",
             "AXNHongKong.hk",
