@@ -8,7 +8,7 @@
 
   foreach ($epgs as $epg) {
     $Parser->setUrl($epg->url);
-    $Parser->setTargetTimeZone('Asia/Singapore');
+    // $Parser->setTargetTimeZone('Asia/Singapore');
 
     foreach ($epg->channels as $channel)
       $Parser->setChannelfilter($channel);
@@ -32,7 +32,7 @@
   }
 
   $xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
-  $xml .= "<tv generator-info-name=\"IPTV-Sniper\">\n";
+  $xml .= "<tv date=\"" . date('Ymd') . "\" generator-info-name=\"IPTV-Sniper\">\n";
 
   foreach ($channel_list as $channel) {
     $xml .= "  <channel id=\"" . $channel["id"] . "\">\n";
