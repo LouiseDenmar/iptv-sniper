@@ -9,5 +9,5 @@
   curl_close($ch);
 
   $epgs = new EpgParser($tvg);
-  die("<pre>" . print_r($epgs[0]->tv, true) . "</pre>");
+  var_dump(get_object_vars($epgs));
 //end epg.php
