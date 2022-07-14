@@ -9,5 +9,5 @@
   curl_close($ch);
 
   $epgs = new EpgParser($tvg);
-  die("<pre>" . print_r($epgs->array, true) . "</pre>");
+  die("<pre>" . print_r($epgs->array["tv"], true) . "</pre>");
 //end epg.php
