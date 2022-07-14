@@ -173,7 +173,7 @@ http://user.scalecdn.co:8080/live/Alicia/Alicia/567747.m3u8
 #EXTINF:-1 tvg-id="ViceTV.us" tvg-name="Vice" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Vice_TV_logo.svg/512px-Vice_TV_logo.svg.png" group-title="Lifestyle & Entertainment",Vice
 https://d2do1g43aq7264.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/Vice-prod/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ABCTV.au" tvg-name="ABC TV" tvg-logo="https://i.imgur.com/rLCHYCs.png" group-title="News & Culture",ABC TV
+#EXTINF:-1 tvg-id="ABCAustraliaAsia.au" tvg-name="ABC TV" tvg-logo="https://i.imgur.com/rLCHYCs.png" group-title="News & Culture",ABC TV
 https://c.mjh.nz/101002510251/
 
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-name="Al Jazeera" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/512px-Aljazeera_eng.svg.png" group-title="News & Culture",Al Jazeera
