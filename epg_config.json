@@ -176,6 +176,8 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml",
         "channels": [
+            "AnimeAllDay.us",
+            "KContentbyCJENM.us",
             "MTVBiggestPop.us",
             "MTVSpankinNew.us",
             "YoMTV.us",
