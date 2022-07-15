@@ -113,7 +113,7 @@
         ]
     },
     {
-        "url": "https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml.gz",
+        "url": "https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml",
         "channels": [
             "ArirangTV",
             "BabyTVAsia.uk",
