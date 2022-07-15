@@ -30,7 +30,8 @@
   }
 
   $xml .= "</tv>";
-  echo $xml;
+  $filename = ($_GET["json"] == "epg_config.json") ? "iptv-sniper.xml" : "cryogenix.xml";
+  file_put_contents("compress.zlib://$filename.gz", $xml);
 
   function getChannels($url, $channels) {
     $xml = new XMLReader();
