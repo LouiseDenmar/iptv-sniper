@@ -5,6 +5,7 @@
   use Inspirum\XML\Builder\DefaultDOMDocumentFactory;
   use Inspirum\XML\Reader\DefaultReaderFactory;
   use Inspirum\XML\Reader\DefaultXMLReaderFactory;
+  use Inspirum\XML\Reader\XMLReaderFactory;
 
   // $channel_list   = array();
   // $programme_list = array();
