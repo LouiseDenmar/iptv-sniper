@@ -18,10 +18,16 @@
       $xml .= "  </channel>\n";
     }
 
+    foreach ($programmes_list[$ctr] as $programme) {
+      $xml .= "  <programme start=\"" . $programme["start"] . "\" stop=\"" . $programme["stop"] . "\" channel=\"" . $programme["channel"] . "\">\n";
+      $xml .= "    <title lang=\"en\">" . htmlspecialchars($programme["title"]) . "</title>\n";
+      $xml .= "    <desc lang=\"en\">" . htmlspecialchars($programme["desc"]) . "</desc>\n";
+      $xml .= "    <category lang=\"en\">" . htmlspecialchars($programme["category"]) . "</category>\n";
+      $xml .= "  </programme>\n";
+    }
+
     $ctr++;
   }
-
-  die("<pre>" . print_r($programmes_list, true) . "</pre>");
 
   $xml .= "</tv>";
   echo $xml;
