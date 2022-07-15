@@ -17,7 +17,7 @@
 
     $file = file_put_contents("temp_xml", file_get_contents("https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml"));
 
-    $factory = new ReaderFactory;
+    $factory = new ReaderFactory();
     $reader = $factory->create("temp_xml");
     $node = $reader->nextNode('tv');
     unlink("temp_xml");
