@@ -1,5 +1,5 @@
 {
     "require": {
-        "ext-intl": "*"
+        "inspirum/xml": "^2.0"
     }
 }

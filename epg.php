@@ -1,5 +1,4 @@
 <?php
-  require 'EpgParser.php';
   $channel_list   = array();
   $programme_list = array();
 
