@@ -1,5 +1,133 @@
 {
-    "packages": [],
+    "packages": [
+        {
+            "name": "inspirum/arrayable",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inspirum/arrayable-php.git",
+                "reference": "65a80869f99e3fcbfe0745c55fa6c6b9c945bd27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inspirum/arrayable-php/zipball/65a80869f99e3fcbfe0745c55fa6c6b9c945bd27",
+                "reference": "65a80869f99e3fcbfe0745c55fa6c6b9c945bd27",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "inspirum/coding-standard": "^1.1",
+                "phpstan/phpstan": "^1.8",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.7"
+            },
+            "time": "2022-07-04T19:36:52+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "core/helpers.php"
+                ],
+                "psr-4": {
+                    "Inspirum\\Arrayable\\": "src"
+                },
+                "classmap": [
+                    "core"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tomáš Novotný",
+                    "email": "tomas.novotny@inspirum.cz",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP arrayable interface for handling casting to an array",
+            "homepage": "https://github.com/inspirum/arrayable-php",
+            "keywords": [
+                "arrayable",
+                "inspirum",
+                "object-to-array"
+            ],
+            "support": {
+                "issues": "https://github.com/inspirum/arrayable-php/issues",
+                "source": "https://github.com/inspirum/arrayable-php/tree/v1.0.0"
+            },
+            "install-path": "../inspirum/arrayable"
+        },
+        {
+            "name": "inspirum/xml",
+            "version": "v2.1.0",
+            "version_normalized": "2.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inspirum/xml-php.git",
+                "reference": "380b3a1b5572357db2f2f7e7213b68c404689cae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inspirum/xml-php/zipball/380b3a1b5572357db2f2f7e7213b68c404689cae",
+                "reference": "380b3a1b5572357db2f2f7e7213b68c404689cae",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-xmlreader": "*",
+                "inspirum/arrayable": "^1.0",
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "inspirum/coding-standard": "^1.1",
+                "phpstan/phpstan": "^1.8",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.7"
+            },
+            "time": "2022-07-04T20:05:33+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Inspirum\\XML\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tomáš Novotný",
+                    "email": "tomas.novotny@inspirum.cz",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple XML writer and memory efficient XML reader with powerful xml-to-array cast",
+            "homepage": "https://github.com/inspirum/xml-php",
+            "keywords": [
+                "inspirum",
+                "xml",
+                "xml-builder",
+                "xml-parser",
+                "xml-reader",
+                "xml-to-array",
+                "xml-writer"
+            ],
+            "support": {
+                "issues": "https://github.com/inspirum/xml-php/issues",
+                "source": "https://github.com/inspirum/xml-php/tree/v2.1.0"
+            },
+            "install-path": "../inspirum/xml"
+        }
+    ],
     "dev": true,
     "dev-package-names": []
 }

@@ -6,4 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Inspirum\\XML\\' => array($vendorDir . '/inspirum/xml/src'),
+    'Inspirum\\Arrayable\\' => array($vendorDir . '/inspirum/arrayable/src'),
 );

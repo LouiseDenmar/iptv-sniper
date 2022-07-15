@@ -6,13 +6,39 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit19da7c3c6fc1f93fb9a725a7795b0247
 {
+    public static $files = array (
+        '2eaac50b980300dba2b88b8562a14e52' => __DIR__ . '/..' . '/inspirum/arrayable/core/helpers.php',
+    );
+
+    public static $prefixLengthsPsr4 = array (
+        'I' => 
+        array (
+            'Inspirum\\XML\\' => 13,
+            'Inspirum\\Arrayable\\' => 19,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'Inspirum\\XML\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/inspirum/xml/src',
+        ),
+        'Inspirum\\Arrayable\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/inspirum/arrayable/src',
+        ),
+    );
+
     public static $classMap = array (
+        'Arrayable' => __DIR__ . '/..' . '/inspirum/arrayable/core/Arrayable.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit19da7c3c6fc1f93fb9a725a7795b0247::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit19da7c3c6fc1f93fb9a725a7795b0247::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInit19da7c3c6fc1f93fb9a725a7795b0247::$classMap;
 
         }, null, ClassLoader::class);
