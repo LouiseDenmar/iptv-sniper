@@ -1,6 +1,7 @@
 <?php
   require __DIR__ . '/vendor/autoload.php';
 
+  use Inspirum\XML\Reader\DefaultReaderFactory;
   // $channel_list   = array();
   // $programme_list = array();
 
