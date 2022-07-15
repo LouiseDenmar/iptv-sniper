@@ -1,30 +1,31 @@
 <?php
-  require __DIR__ . '/vendor/autoload.php';
+  $channel_list   = array();
+  $programme_list = array();
 
-  use Inspirum\XML\Builder\DefaultDocumentFactory;
-  use Inspirum\XML\Builder\DefaultDOMDocumentFactory;
-  use Inspirum\XML\Reader\DefaultReaderFactory;
-  use Inspirum\XML\Reader\DefaultXMLReaderFactory;
-  use Inspirum\XML\Reader\Reader;
-  use Inspirum\XML\Reader\XMLReaderFactory;
+  $epgs_json = json_decode(file_get_contents($_GET["json"]));
 
-  // $channel_list   = array();
-  // $programme_list = array();
+  foreach ($epgs_json as $epg_json) {
+    $xml = new XMLReader();
+    $xml->open("compress.zlib://" . $epg_json->url);
 
-  // $epgs_json = json_decode(file_get_contents($_GET["json"]));
+    while ($xml->read() && $xml->name !== 'channel') {
+    }
 
-  // foreach ($epgs_json as $epg_json) {
-    // $ch = curl_init();
-    // curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    // curl_setopt($ch, CURLOPT_URL, $epg_json->url);
-    // $epg_json_contents = curl_exec($ch);
-    // curl_close($ch);
+    while ($xml->name === 'programme') {
+      $element = new SimpleXMLElement($xml->readOuterXML());
 
-    $file = file_put_contents("temp_xml", file_get_contents("https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml"));
-    $reader = newReader("temp_xml");
-    $node = $reader->nextNode('channel')->toArray();
-    unlink("temp_xml");
+      $key = array_search(strval($element->attributes()->channel), $epg_json->channels);
 
+      if ($key !== false)
+        $programme_list[] = $programme_list[$key];
+      // $channel_list[$channel_id] = [
+			// 	'id'=>(string)$element->attributes()->id,
+			// 	'display-name'=>(string)$element->{'display-name'},
+			// 	'url'=>(string)$element->{'url'},
+			// 	'email'=>(string)$element->{'email'},
+			// 	'icon'=> null,
+			// ];
+    }
     // $epg_xml = new EpgParser($epg_json_contents);
     // $epg_xml_channels = $epg_xml->array["tv"]["channel"];
     // $epg_xml_programmes = $epg_xml->array["tv"]["programme"];
@@ -41,21 +42,7 @@
     //     }
     //   }
     // }
-  // }
-
-  die("<pre>" . print_r($node, true) . "</pre>");
-
-  function newReader(
-    string $filepath,
-    ?string $version = null,
-    ?string $encoding = null,
-    ?XMLReaderFactory $readerFactory = null
-  ): Reader {
-      $readerFactory = new DefaultReaderFactory(
-          $readerFactory ?? new DefaultXMLReaderFactory(),
-          new DefaultDocumentFactory(new DefaultDOMDocumentFactory()),
-      );
-
-      return $readerFactory->create($filepath, $version, $encoding);
   }
+
+  die("<pre>" . print_r($programme_list, true) . "</pre>");
 //end epg.php
