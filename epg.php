@@ -24,7 +24,9 @@
 			// 	'url'=>(string)$element->{'url'},
 			// 	'email'=>(string)$element->{'email'},
 			// 	'icon'=> null,
-			// ];
+      // ];
+      $xml->next('programme');
+      unset($element);
     }
     // $epg_xml = new EpgParser($epg_json_contents);
     // $epg_xml_channels = $epg_xml->array["tv"]["channel"];
