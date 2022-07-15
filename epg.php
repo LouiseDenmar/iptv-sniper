@@ -3,6 +3,7 @@
 
   use Inspirum\XML\Builder\DefaultDocumentFactory;
   use Inspirum\XML\Builder\DefaultDOMDocumentFactory;
+  use Inspirum\XML\Builder\Node;
   use Inspirum\XML\Reader\DefaultReaderFactory;
   use Inspirum\XML\Reader\DefaultXMLReaderFactory;
   use Inspirum\XML\Reader\Reader;
