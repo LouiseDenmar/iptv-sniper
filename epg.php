@@ -18,8 +18,10 @@
     // $epg_json_contents = curl_exec($ch);
     // curl_close($ch);
 
-    $reader = newReader(file_get_contents("https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml"));
+    $file = file_put_contents("temp_xml", file_get_contents("https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml"));
+    $reader = newReader("temp_xml");
     $node = $reader->nextNode('tv');
+    unlink("temp_xml");
 
     // $epg_xml = new EpgParser($epg_json_contents);
     // $epg_xml_channels = $epg_xml->array["tv"]["channel"];
