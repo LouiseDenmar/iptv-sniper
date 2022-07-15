@@ -18,9 +18,12 @@
 
       if ($key !== false)
         $programme_list[] = [
-          "id" => strval($element->attributes()->channel),
-          "display-name" => strval($element->{'display-name'}),
-          "url" => strval($element->{'url'})
+          "start"       => strval($element->attributes()->start),
+          "stop"        => strval($element->attributes()->stop),
+          "channel"     => strval($element->attributes()->channel),
+          "title"       => strval($element->title),
+          "description" => strval($element->desc),
+          "category"    => strval($element->category)
         ];
       // $channel_list[$channel_id] = [
 			// 	'id'=>(string)$element->attributes()->id,
@@ -32,6 +35,8 @@
       $xml->next('programme');
       unset($element);
     }
+
+    $xml->close();
     // $epg_xml = new EpgParser($epg_json_contents);
     // $epg_xml_channels = $epg_xml->array["tv"]["channel"];
     // $epg_xml_programmes = $epg_xml->array["tv"]["programme"];
