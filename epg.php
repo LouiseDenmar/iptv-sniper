@@ -10,7 +10,7 @@
     $channels_list[] = getChannels($epg->url, $epg->channels);
     $programme_list[] = getProgrammes($epg->url, $epg->channels);
 
-    foreach ($channel_list[$ctr] as $channel) {
+    foreach ($channels_list[$ctr] as $channel) {
       $xml .= "  <channel id=\"" . $channel["id"] . "\">\n";
       $xml .= "    <display-name>". htmlspecialchars($channel["display-name"]) . "</display-name>\n";
       $xml .= "    <icon src=\"" . $channel["icon"] . "\" />\n";
