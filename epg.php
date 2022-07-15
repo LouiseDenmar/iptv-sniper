@@ -1,13 +1,7 @@
 <?php
   require __DIR__ . '/vendor/autoload.php';
 
-  use Inspirum\XML\Builder\DefaultDocumentFactory;
-  use Inspirum\XML\Builder\DefaultDOMDocumentFactory;
-  use Inspirum\XML\Builder\Node;
-  use Inspirum\XML\Reader\DefaultReaderFactory;
-  use Inspirum\XML\Reader\DefaultXMLReaderFactory;
-  use Inspirum\XML\Reader\Reader;
-  use Inspirum\XML\Reader\XMLReaderFactory;
+  use Inspirum\XML\Reader\ReaderFactory;
 
   // $channel_list   = array();
   // $programme_list = array();
@@ -22,7 +16,9 @@
     // curl_close($ch);
 
     $file = file_put_contents("temp_xml", file_get_contents("https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml"));
-    $reader = newReader("temp_xml");
+
+    $factory = new ReaderFactory;
+    $reader = $factory->create("temp_xml");
     $node = $reader->nextNode('tv');
     unlink("temp_xml");
 
