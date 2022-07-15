@@ -1,5 +1,12 @@
 <?php
+  namespace Inspirum\XML\Reader;
+
+  use Inspirum\XML\Builder\DefaultDOMDocumentFactory;
   use Inspirum\XML\Builder\DefaultDocumentFactory;
+  use Inspirum\XML\Reader\DefaultReaderFactory;
+  use Inspirum\XML\Reader\DefaultXMLReaderFactory;
+  use Inspirum\XML\Reader\Reader;
+  use Inspirum\XML\Reader\XMLReaderFactory;
 
   // $channel_list   = array();
   // $programme_list = array();
@@ -13,8 +20,8 @@
     // $epg_json_contents = curl_exec($ch);
     // curl_close($ch);
 
-    $factory = new DefaultDocumentFactory();
-    $data = $factory->createForFile(file_get_contents("https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml"))->toArray();
+    $reader = newReader(file_get_contents("https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml"));
+    $node = $reader->nextNode('tv');
 
     // $epg_xml = new EpgParser($epg_json_contents);
     // $epg_xml_channels = $epg_xml->array["tv"]["channel"];
@@ -34,5 +41,19 @@
     // }
   // }
 
-  die("<pre>" . print_r($data, true) . "</pre>");
+  die("<pre>" . print_r($node, true) . "</pre>");
+
+  function newReader(
+    string $filepath,
+    ?string $version = null,
+    ?string $encoding = null,
+    ?XMLReaderFactory $readerFactory = null
+  ): Reader {
+      $readerFactory = new DefaultReaderFactory(
+          $readerFactory ?? new DefaultXMLReaderFactory(),
+          new DefaultDocumentFactory(new DefaultDOMDocumentFactory()),
+      );
+
+      return $readerFactory->create($filepath, $version, $encoding);
+  }
 //end epg.php
