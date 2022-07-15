@@ -12,10 +12,10 @@
     // curl_setopt($ch, CURLOPT_URL, $epg_json->url);
     // $epg_json_contents = curl_exec($ch);
     // curl_close($ch);
-  
-  $factory = new DefaultDocumentFactory();
-  
-  $data = $factory->createForFile(file_get_contents("https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml"))->toArray();
+
+    $factory = new DefaultDocumentFactory();
+    $data = $factory->createForFile(file_get_contents("https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml"))->toArray();
+
     // $epg_xml = new EpgParser($epg_json_contents);
     // $epg_xml_channels = $epg_xml->array["tv"]["channel"];
     // $epg_xml_programmes = $epg_xml->array["tv"]["programme"];
