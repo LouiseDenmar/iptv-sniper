@@ -72,7 +72,7 @@
           continue;
         }
         else {
-          $channels_list[$ctr]['icon'] = strval($attributes->src;)
+          $channels_list[$ctr]['icon'] = strval($attributes->src);
         }
       }
 
