@@ -1,12 +1,12 @@
 [
     {
-        "url": "https://iptv-org.github.io/epg/guides/au/ontvtonight.com.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/au/ontvtonight.com.epg.xml.gz",
         "channels": [
             "ABCTV.au"
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz",
         "channels": [
             "AlJazeeraEnglish.qa",
             "AnimalPlanetHongKong.hk",
@@ -34,7 +34,7 @@
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml.gz",
         "channels": [
             "Galaxy.id",
             "GalaxyPremium.id",
@@ -42,7 +42,7 @@
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz",
         "channels": [
             "eGGNetwork.my",
             "MTVAsia.sg",
@@ -53,7 +53,7 @@
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml.gz",
         "channels": [
             "A2ZChannel11.ph",
             "ANC.ph",
@@ -68,13 +68,13 @@
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/rs/mts.rs.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/rs/mts.rs.epg.xml.gz",
         "channels": [
             "RTDocumentary.ru"
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml.gz",
         "channels" : [
             "CGTN.cn",
             "CNBCAsia.sg",
@@ -90,13 +90,13 @@
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml.gz",
         "channels": [
             "TRTWorld.tr"
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml.gz",
         "channels": [
             "CinemaOneGlobal.ph",
             "KapatidTV5.ph",
@@ -105,7 +105,7 @@
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml.gz",
         "channels": [
             "AMCEast.us",
             "CNN.us",
@@ -113,7 +113,7 @@
         ]
     },
     {
-        "url": "https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml",
+        "url": "https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml.gz",
         "channels": [
             "ArirangTV",
             "BabyTVAsia.uk",
