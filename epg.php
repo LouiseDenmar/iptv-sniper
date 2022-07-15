@@ -2,6 +2,10 @@
   require __DIR__ . '/vendor/autoload.php';
 
   use Inspirum\XML\Reader\DefaultReaderFactory;
+  use Inspirum\XML\Reader\DefaultXMLReaderFactory;
+  use Inspirum\XML\Reader\DefaultDocumentFactory;
+  use Inspirum\XML\Reader\DefaultDOMDocumentFactory;
+
   // $channel_list   = array();
   // $programme_list = array();
 
