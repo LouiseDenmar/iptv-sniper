@@ -2,7 +2,7 @@
   $epgs = json_decode(file_get_contents($_GET["json"]));
 
   foreach ($epgs as $epg) {
-    $channels_list = getChannels($epg->url, $epg->channes);
+    $channels_list = getChannels($epg->url, $epg->channels);
     $programme_list = getProgrammes($epg->url, $epg->channels);
   }
 
