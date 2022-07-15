@@ -16,8 +16,11 @@
   $ctr = 0;
 
   foreach ($epgs as $epg) {
-    $channels_list[]   = getChannels($epg->url, $epg->channels);
-    $programmes_list[] = getProgrammes($epg->url, $epg->channels);
+    $filename = pathinfo($epg->url, PATHINFO_EXTENSION);
+    $epg_url = ($filename['extension'] == "gz")? "compress.zlib://" . $epg_url : $epg_url;
+
+    $channels_list[]   = getChannels($epg_url, $epg->channels);
+    $programmes_list[] = getProgrammes($epg_url, $epg->channels);
 
     foreach ($channels_list[$ctr] as $channel) {
       $xml .= "  <channel id=\"" . $channel["id"] . "\">\n";
@@ -62,7 +65,7 @@
 
   function getChannels($url, $channels) {
     $xml = new XMLReader();
-    $xml->open("compress.zlib://" . $url);
+    $xml->open($url);
     $channels_list = array();
 
     while ($xml->read() && $xml->name !== 'channel') {}
@@ -115,7 +118,7 @@
 
   function getProgrammes($url, $channels) {
     $xml = new XMLReader();
-    $xml->open("compress.zlib://" . $url);
+    $xml->open($url);
     $programme_list = array();
 
     while ($xml->read() && $xml->name !== 'programme') {}
