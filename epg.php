@@ -7,8 +7,8 @@
   $ctr = 0;
 
   foreach ($epgs as $epg) {
-    $channels_list[] = getChannels($epg->url, $epg->channels);
-    $programme_list[] = getProgrammes($epg->url, $epg->channels);
+    $channels_list[]   = getChannels($epg->url, $epg->channels);
+    $programmes_list[] = getProgrammes($epg->url, $epg->channels);
 
     foreach ($channels_list[$ctr] as $channel) {
       $xml .= "  <channel id=\"" . $channel["id"] . "\">\n";
@@ -21,19 +21,17 @@
     $ctr++;
   }
 
-  // die("<pre>" . print_r($channels_list, true) . "</pre>");
+  die("<pre>" . print_r($programmes_list, true) . "</pre>");
 
   $xml .= "</tv>";
   echo $xml;
 
   function getChannels($url, $channels) {
-    $channels_list = array();
-
     $xml = new XMLReader();
     $xml->open("compress.zlib://" . $url);
+    $channels_list = array();
 
-    while ($xml->read() && $xml->name !== 'channel') {
-    }
+    while ($xml->read() && $xml->name !== 'channel') {}
 
     while ($xml->name === 'channel') {
       $channel = new SimpleXMLElement($xml->readOuterXML());
@@ -82,13 +80,11 @@
   }
 
   function getProgrammes($url, $channels) {
-    $programme_list = array();
-
     $xml = new XMLReader();
     $xml->open("compress.zlib://" . $url);
+    $programme_list = array();
 
-    while ($xml->read() && $xml->name !== 'programme') {
-    }
+    while ($xml->read() && $xml->name !== 'programme') {}
 
     while ($xml->name === 'programme') {
       $programme = new SimpleXMLElement($xml->readOuterXML());
