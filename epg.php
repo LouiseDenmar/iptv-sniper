@@ -8,7 +8,7 @@
     $xml = new XMLReader();
     $xml->open("compress.zlib://" . $epg_json->url);
 
-    while ($xml->read() && $xml->name !== 'channel') {
+    while ($xml->read() && $xml->name !== 'programme') {
     }
 
     while ($xml->name === 'programme') {
