@@ -17,7 +17,11 @@
       $key = array_search(strval($element->attributes()->channel), $epg_json->channels);
 
       if ($key !== false)
-        $programme_list[] = $programme_list[$key];
+        $programme_list[] = [
+          "id" => strval($element->attributes()->channel),
+          "display-name" => strval($element->{'display-name'}),
+          "url" => strval($element->{'url'})
+        ];
       // $channel_list[$channel_id] = [
 			// 	'id'=>(string)$element->attributes()->id,
 			// 	'display-name'=>(string)$element->{'display-name'},
