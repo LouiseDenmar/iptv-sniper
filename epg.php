@@ -1,12 +1,5 @@
 <?php
-  namespace Inspirum\XML\Reader;
-
-  use Inspirum\XML\Builder\DefaultDOMDocumentFactory;
-  use Inspirum\XML\Builder\DefaultDocumentFactory;
-  use Inspirum\XML\Reader\DefaultReaderFactory;
-  use Inspirum\XML\Reader\DefaultXMLReaderFactory;
-  use Inspirum\XML\Reader\Reader;
-  use Inspirum\XML\Reader\XMLReaderFactory;
+  require __DIR__ . '/vendor/autoload.php';
 
   // $channel_list   = array();
   // $programme_list = array();
