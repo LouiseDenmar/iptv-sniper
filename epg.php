@@ -1,5 +1,5 @@
 <?php
-  namespace Inspirum\XML\Reader;
+  namespace Inspirum\XML;
 
   use Inspirum\XML\Builder\DefaultDOMDocumentFactory;
   use Inspirum\XML\Builder\DefaultDocumentFactory;
