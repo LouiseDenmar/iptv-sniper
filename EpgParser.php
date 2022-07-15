@@ -1,102 +1,38 @@
 <?php
-/**
-*  XML to Associative Array Class
-*
-*  Usage:
-*     $domObj = new EpgParser($xml);
-*     $domArr = $domObj->array;
-*    
-*     if($domObj->parse_error) echo $domObj->get_xml_error();
-*     else print_r($domArr);
-*
-*     On Success:
-*     eg. $domArr['top']['element2']['attrib']['var2'] => val2
-*
-*     On Error:
-*     eg. Error Code [76] "Mismatched tag", at char 58 on line 3
-*/
+  class EpgParser {
+    $file = "data.xml";
+    $depth = 0;
 
-/**
-* Convert an xml file or string to an associative array (including the tag attributes):
-* $domObj = new EpgParser($xml);
-* $elemVal = $domObj->array['element']
-* Or:  $domArr=$domObj->array;  $elemVal = $domArr['element'].
-*
-* @version  2.0
-* @param Str $xml file/string.
-*/
-class EpgParser {
-  /** The array created by the parser can be assigned to any variable: $anyVarArr = $domObj->array.*/
-  public  $array = array();
-  public  $parse_error = false;
-  private $parser;
-  private $pointer;
- 
-  /** Constructor: $domObj = new EpgParser($xml); */
-  public function __construct($xml) {
-    $this->pointer =& $this->array;
-    $this->parser = xml_parser_create("UTF-8");
-    xml_set_object($this->parser, $this);
-    xml_parser_set_option($this->parser, XML_OPTION_CASE_FOLDING, false);
-    xml_set_element_handler($this->parser, "tag_open", "tag_close");
-    xml_set_character_data_handler($this->parser, "cdata");
-    $this->parse_error = xml_parse($this->parser, ltrim($xml))? false : true;
-  }
- 
-  /** Free the parser. */
-  public function __destruct() { xml_parser_free($this->parser);}
+    function startElement($parser, $name, $attrs)
+    {
+        global $depth;
 
-  /** Get the xml error if an an error in the xml file occured during parsing. */
-  public function get_xml_error() {
-    if($this->parse_error) {
-      $errCode = xml_get_error_code ($this->parser);
-      $thisError =  "Error Code [". $errCode ."] \"<strong style='color:red;'>" . xml_error_string($errCode)."</strong>\",
-                            at char ".xml_get_current_column_number($this->parser) . "
-                            on line ".xml_get_current_line_number($this->parser)."";
-    }else $thisError = $this->parse_error;
-    return $thisError;
-  }
- 
-  private function tag_open($parser, $tag, $attributes) {
-    $this->convert_to_array($tag, 'attrib');
-    $idx=$this->convert_to_array($tag, 'cdata');
-    if(isset($idx)) {
-      $this->pointer[$tag][$idx] = Array('@idx' => $idx,'@parent' => &$this->pointer);
-      $this->pointer =& $this->pointer[$tag][$idx];
-    }else {
-      $this->pointer[$tag] = Array('@parent' => &$this->pointer);
-      $this->pointer =& $this->pointer[$tag];
+        for ($i = 0; $i < $depth; $i++) {
+            echo "  ";
+        }
+        echo "$name\n";
+        $depth++;
     }
-    if (!empty($attributes)) { $this->pointer['attrib'] = $attributes; }
-  }
 
-  /** Adds the current elements content to the current pointer[cdata] array. */
-  private function cdata($parser, $cdata) { $this->pointer['cdata'] = trim($cdata); }
+    function endElement($parser, $name)
+    {
+        global $depth;
+        $depth--;
+    }
 
-  private function tag_close($parser, $tag) {
-    $current = & $this->pointer;
-    if(isset($this->pointer['@idx'])) {unset($current['@idx']);}
-   
-    $this->pointer = & $this->pointer['@parent'];
-    unset($current['@parent']);
-   
-    if(isset($current['cdata']) && count($current) == 1) { $current = $current['cdata'];}
-    else if(empty($current['cdata'])) {unset($current['cdata']);}
-  }
- 
-  /** Converts a single element item into array(element[0]) if a second element of the same name is encountered. */
-  private function convert_to_array($tag, $item) {
-    if(isset($this->pointer[$tag][$item])) {
-      $content = $this->pointer[$tag];
-      $this->pointer[$tag] = array((0) => $content);
-      $idx = 1;
-    }else if (isset($this->pointer[$tag])) {
-      $idx = count($this->pointer[$tag]);
-      if(!isset($this->pointer[$tag][0])) {
-        foreach ($this->pointer[$tag] as $key => $value) {
-            unset($this->pointer[$tag][$key]);
-            $this->pointer[$tag][0][$key] = $value;
-    }}}else $idx = null;
-    return $idx;
-  }
+    $xml_parser = xml_parser_create();
+    xml_set_element_handler($xml_parser, "startElement", "endElement");
+    if (!($fp = fopen($file, "r"))) {
+        die("could not open XML input");
+    }
+
+    while ($data = fread($fp, 4096)) {
+        if (!xml_parse($xml_parser, $data, feof($fp))) {
+            die(sprintf("XML error: %s at line %d",
+                        xml_error_string(xml_get_error_code($xml_parser)),
+                        xml_get_current_line_number($xml_parser)));
+        }
+    }
+    xml_parser_free($xml_parser);
 }
+//end EpgParser.php
