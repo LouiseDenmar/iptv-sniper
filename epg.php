@@ -4,11 +4,13 @@
   $xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
   $xml .= "<tv date=\"" . date('Ymd') . "\" generator-info-name=\"IPTV-Sniper\">\n";
 
+  $ctr = 0;
+
   foreach ($epgs as $epg) {
     $channels_list[] = getChannels($epg->url, $epg->channels);
     $programme_list[] = getProgrammes($epg->url, $epg->channels);
 
-    foreach ($channels_list as $channel) {
+    foreach ($channels_list[$ctr] as $channel) {
       $xml .= "  <channel id=\"" . $channel["id"] . "\">\n";
       $xml .= "    <display-name>". htmlspecialchars($channel["display-name"]) . "</display-name>\n";
       $xml .= "    <icon src=\"" . $channel["icon"] . "\" />\n";
@@ -16,6 +18,7 @@
       $xml .= "  </channel>\n";
     }
 
+    $ctr++;
   }
 
   // die("<pre>" . print_r($channels_list, true) . "</pre>");
