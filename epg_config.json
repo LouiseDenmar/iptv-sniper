@@ -1,12 +1,12 @@
 [
     {
-        "url": "https://iptv-org.github.io/epg/guides/ae-en/osn.com.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/ae-en/osn.com.epg.xml.gz",
         "channels": [
             "CineMo.ph"
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz",
         "channels": [
             "ABCAustraliaAsia.au",
             "AlJazeeraEnglish.qa",
@@ -28,20 +28,20 @@
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/in/dishtv.in.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/in/dishtv.in.epg.xml.gz",
         "channels": [
             "Andflix.in",
             "AndpriveHD.in"
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml.gz",
         "channels": [
             "AnimaxAsia.sg"
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz",
         "channels": [
             "eGGNetwork.my",
             "HBOMalaysia.my",
@@ -51,13 +51,13 @@
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/nl/ziggogo.tv.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/nl/ziggogo.tv.epg.xml.gz",
         "channels": [
             "HorseCountryTV.uk"
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml.gz",
         "channels": [
             "ANC.ph",
             "AnimaxPhilippines.ph",
@@ -80,13 +80,13 @@
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/rs/mts.rs.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/rs/mts.rs.epg.xml.gz",
         "channels": [
             "RTDocumentary.ru"
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml.gz",
         "channels": [
             "AsianFoodNetwork.sg",
             "BBCEarthAsia.uk",
@@ -112,7 +112,7 @@
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz",
         "channels": [
             "TLCSoutheastAsia.us",
             "TVNAsia.hk",
@@ -120,13 +120,13 @@
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml.gz",
         "channels": [
             "EDGEsport.uk"
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/uk/sky.com.epg.xml.gz",
         "channels": [
             "BoxNation.uk",
             "SkySportsArena.uk",
@@ -134,7 +134,7 @@
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml.gz",
         "channels": [
             "AMCEast.us",
             "Cheddar.us",
@@ -156,7 +156,7 @@
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml.gz",
         "channels": [
             "KapatidTV5.ph",
             "MLBNetwork.us",
@@ -167,7 +167,7 @@
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml",
+        "url": "https://iptv-org.github.io/epg/guides/us-pluto/i.mjh.nz.epg.xml.gz",
         "channels": [
             "AnimeAllDay.us",
             "KContentbyCJENM.us",
