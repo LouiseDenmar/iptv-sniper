@@ -6,21 +6,7 @@
     $programme_list[] = getProgrammes($epg->url, $epg->channels);
   }
 
-  $xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
-  $xml .= "<tv date=\"" . date('Ymd') . "\" generator-info-name=\"IPTV-Sniper\">\n";
-
-  foreach ($epgs as $epg) {
-    foreach ($channels_list as $channel) {
-      $xml .= "  <channel id=\"" . $channel["id"] . "\">\n";
-      $xml .= "    <display-name>". htmlspecialchars($channel["display-name"]) . "</display-name>\n";
-      $xml .= "    <icon src=\"" . $channel["icon"] . "\" />\n";
-      $xml .= "    <url>" . $channel["url"] . "</url>\n";
-      $xml .= "  </channel>\n";
-    }
-  }
-
-  $xml .= "</tv>";
-  echo $xml;
+  die("<pre>" . print_r($channels_list, true) . "</pre>");
 
   function getChannels($url, $channels) {
     $channels_list = array();
