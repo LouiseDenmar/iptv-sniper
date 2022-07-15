@@ -36,7 +36,7 @@
       $key = array_search(strval($channel->attributes()->id), $channels);
 
       if ($key !== false)
-        $channels_list[strval($channel->attributes()->id)] = [
+        $channels_list[] = [
           "id"           => strval($channel->attributes()->id),
           "display-name" => strval($channel->{'display-name'}),
           "icon"         => strval($channel->{'icon'}->attributes->src),
@@ -65,7 +65,7 @@
       $key = array_search(strval($programme->attributes()->channel), $channels);
 
       if ($key !== false)
-        $programme_list[strval($programme->attributes()->channel)] = [
+        $programme_list[] = [
           "start"       => strval($programme->attributes()->start),
           "stop"        => strval($programme->attributes()->stop),
           "channel"     => strval($programme->attributes()->channel),
