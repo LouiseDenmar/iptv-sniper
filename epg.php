@@ -30,7 +30,7 @@
     foreach ($programmes_list[$ctr] as $programme) {
       $xml .= "  <programme start=\"" . $programme["start"] . "\" stop=\"" . $programme["stop"] . "\" channel=\"" . $programme["channel"] . "\">\n";
       $xml .= "    <title lang=\"en\">" . htmlspecialchars($programme["title"]) . "</title>\n";
-      $xml .= "    <desc lang=\"en\">" . htmlspecialchars($programme["desc"]) . "</desc>\n";
+      $xml .= "    <desc lang=\"en\">" . htmlspecialchars($programme["description"]) . "</desc>\n";
       $xml .= "    <category lang=\"en\">" . htmlspecialchars($programme["category"]) . "</category>\n";
       $xml .= "  </programme>\n";
     }
