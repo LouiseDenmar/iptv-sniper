@@ -35,8 +35,6 @@
     while ($xml->read() && $xml->name !== 'channel') {
     }
 
-    $ctr = -1;
-
     while ($xml->name === 'channel') {
       $channel = new SimpleXMLElement($xml->readOuterXML());
       $channel_id = strval($channel->attributes()->id);
@@ -55,26 +53,24 @@
           $pathinfo 	= pathinfo($attributes->src);
   
           if (empty($attributes->src)) {
-            $channels_list[$ctr]['icon'] = strval($channel->{'icon'});
+            $channels_list[$channel_id]['icon'] = strval($channel->{'icon'});
             $xml->next('channel');
             unset($channel);
           } 
           elseif (!filter_var($attributes->src, FILTER_VALIDATE_URL)) {
-            $channels_list[$ctr]['icon'] = strval($channel->{'icon'});
+            $channels_list[$channel_id]['icon'] = strval($channel->{'icon'});
             $xml->next('channel');
             unset($channel);
           }
           elseif (empty($pathinfo['extension'])) {
-            $channels_list[$ctr]['icon'] = strval($channel->{'icon'});
+            $channels_list[$channel_id]['icon'] = strval($channel->{'icon'});
             $xml->next('channel');
             unset($channel);
             continue;
           }
           else
-            $channels_list[$ctr]['icon'] = strval($attributes->src);
+            $channels_list[$channel_id]['icon'] = strval($attributes->src);
         }
-
-        $ctr++;
       }
 
       $xml->next('channel');
