@@ -50,33 +50,31 @@
           "url"          => strval($channel->{'url'})
         ];
 
+        if (isset($channel->{'icon'}) && $channel->{'icon'} instanceof SimpleXMLElement) {
+          $attributes = $channel->{'icon'}->attributes();
+          $pathinfo 	= pathinfo($attributes->src);
+  
+          if (empty($attributes->src)) {
+            $channels_list[$ctr]['icon'] = strval($channel->{'icon'});
+            $xml->next('channel');
+            unset($channel);
+          } 
+          elseif (!filter_var($attributes->src, FILTER_VALIDATE_URL)) {
+            $channels_list[$ctr]['icon'] = strval($channel->{'icon'});
+            $xml->next('channel');
+            unset($channel);
+          }
+          elseif (empty($pathinfo['extension'])) {
+            $channels_list[$ctr]['icon'] = strval($channel->{'icon'});
+            $xml->next('channel');
+            unset($channel);
+            continue;
+          }
+          else
+            $channels_list[$ctr]['icon'] = strval($attributes->src);
+        }
+
         $ctr++;
-      }
-
-      if(isset($channel->{'icon'}) && $channel->{'icon'} instanceof SimpleXMLElement)
-      {
-        $attributes = $channel->{'icon'}->attributes();
-        $pathinfo 	= pathinfo($attributes->src);
-
-        if(empty($attributes->src)){
-          $channels_list[$ctr]['icon'] = strval($channel->{'icon'});
-          $xml->next('channel');
-          unset($channel);
-        } 
-        elseif(!filter_var($attributes->src, FILTER_VALIDATE_URL)){
-          $channels_list[$ctr]['icon'] = strval($channel->{'icon'});
-          $xml->next('channel');
-          unset($channel);
-        }
-        elseif(empty($pathinfo['extension'])){
-          $channels_list[$ctr]['icon'] = strval($channel->{'icon'});
-          $xml->next('channel');
-          unset($channel);
-          continue;
-        }
-        else {
-          $channels_list[$ctr]['icon'] = strval($attributes->src);
-        }
       }
 
       $xml->next('channel');
