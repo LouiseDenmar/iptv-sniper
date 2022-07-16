@@ -1,29 +1,42 @@
 <?php
-//   header ("Content-Type: video/vnd.mpegurl");
-//   header ("Content-Disposition: attachment;filename=tv_channels.m3u");
-//   header ("Pragma: no-cache");
-//   header ("Expires: 0");
+  require __DIR__ . '/vendor/autoload.php';
+  $m3u_source = json_decode(file_get_contents("channels.json"));
 
-  $m3u = json_decode(file_get_contents("channels.json"));
-  ini_set('default_socket_timeout', 1);
-?>
-#EXTM3U url-tvg="<?php echo $m3u->epg; ?>"
+  $m3u = "#EXTM3U url-tvg=\"$m3u_source->epg\"\n\n";
+  file_put_contents("tv_channels.m3u", $m3u);
 
-<?php foreach ($m3u->channels as $channel): ?>
-#EXTINF:-1 tvg-id="<?php echo $channel->id; ?>" tvg-name="<?php echo $channel->name; ?>" tvg-logo="<?php echo $channel->logo; ?>" group-title="<?php echo $channel->group; ?>",<?php echo $channel->name . "\n"; ?>
-<?php
-  $ctr = 0;
+  foreach ($m3u_source->channels as $channel) {
+    $m3u = "#EXTINF:-1 tvg-id=\"$channel->id\" tvg-name=\"$channel->name\" tvg-logo=\"$channel->logo\" group-title=\"$channel->group\",$channel->name\n";
 
-  foreach ($channel->sources as $source) {
-    if ($fp = @fopen($source, "r")){
-      echo $source . "\n";
-      break;
+    foreach ($channel->sources as $source) {
+      $threader = new \cs\simplemultithreader\Threader(["arguments" => ["source" => $source, "m3u" => $m3u]]);
+
+      $jobId = $threader->thread(function($arguments) {
+        $curl = curl_init();
+        curl_setopt($curl, CURLOPT_URL, $arguments["source"]);
+        curl_setopt($curl, CURLOPT_NOBODY, true);
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+        curl_exec($curl);
+
+        $result = curl_getinfo($curl);
+
+        curl_close($curl);
+
+        if ($result["http_code"] == "302") {
+          $curl = curl_init();
+          curl_setopt($curl, CURLOPT_URL, $result["redirect_url"]);
+          curl_setopt($curl, CURLOPT_NOBODY, true);
+          curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+          curl_exec($curl);
+
+          $result = curl_getinfo($curl);
+
+          curl_close($curl);
+        }
+
+        $arguments["m3u"] .= ($result["http_code"] == "200") ? $arguments["source"] . "\n\n" : "https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na.m3u\n\n";
+        file_put_contents("tv_channels.m3u", $arguments["m3u"]);
+      });
     }
-    else {
-      $ctr++;
-      continue;
-    }
-    echo $ctr . "\n";
   }
-?>
-<?php endforeach; ?>
+//end tv_channels.php
