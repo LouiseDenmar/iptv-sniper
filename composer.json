@@ -1,2 +1,6 @@
 {
+    "require": {
+        "amphp/parallel": "^1.4",
+        "nette/safe-stream": "^2.5"
+    }
 }
