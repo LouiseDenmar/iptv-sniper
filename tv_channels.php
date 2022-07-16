@@ -1,5 +1,5 @@
 <?php
-  require __DIR__ . '/vendor/autoload.php';
+  // require __DIR__ . '/vendor/autoload.php';
   $m3u_source = json_decode(file_get_contents("channels.json"));
 
   $m3u = "#EXTM3U url-tvg=\"$m3u_source->epg\"\n\n";
