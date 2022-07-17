@@ -1,0 +1,1319 @@
+{
+    "epg": "https://iptv-sniper.herokuapp.com/iptv-sniper.xml.gz",
+    "channels": [
+        {
+            "id": "JeepneyTV.ph",
+            "name": "Jeppney TV",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Jeepneytvnewlogo2015.jpg/512px-Jeepneytvnewlogo2015.jpg",
+            "group": "Local TV",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=76"
+            ]
+        },
+        {
+            "id": "KapamilyaChannel.ph",
+            "name": "Kapamilya Channel",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Kapamilya_Channel.png/512px-Kapamilya_Channel.png",
+            "group": "Local TV",
+            "sources": [
+                "https://tiny.one/kapchacdn"
+            ]
+        },
+        {
+            "id": "TheFilipinoChannelAsia.us",
+            "name": "TFC",
+            "logo": "https://i.imgur.com/waE1BeJ.png",
+            "group": "Local TV",
+            "sources": [
+                "https://tfcguam-abscbn-ono.amagi.tv/index_6.m3u8"
+            ]
+        },
+        {
+            "id": "PTV.ph",
+            "name": "PTV",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/People%27s_Televsion_Network_Incorporated_%28PTV%29.svg/512px-People%27s_Televsion_Network_Incorporated_%28PTV%29.svg.png",
+            "group": "Local TV",
+            "sources": [
+                "https://utube2.fotvnetwork.workers.dev/stream/UCJCUbMaY593_4SN1QPG7NFQ/master.m3u8"
+            ]
+        },
+        {
+            "id": "KapatidTV5.ph",
+            "name": "Kapatid TV 5",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TV5_(Philippines)_logo.svg/512px-TV5_(Philippines)_logo.svg.png",
+            "group": "Local TV",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=8"
+            ]
+        },
+        {
+            "id": "GMALifeTV.ph",
+            "name": "GMA Life TV",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/a/ae/Gma_life_tv.png",
+            "group": "Local TV",
+            "sources": [
+                "http://sverigeplay.tv/play/live.php?mac=00:1A:79:AB:98:86&stream=41228&extension=ts&play_token=OtpXkMLTQR"
+            ]
+        },
+        {
+            "id": "GMAPinoyTV.ph",
+            "name": "GMA Pinoy TV",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/a/af/GMA_Pinoy_TV_logo.png",
+            "group": "Local TV",
+            "sources": [
+                "http://sverigeplay.tv/play/live.php?mac=00:1A:79:AB:98:86&stream=33269&extension=ts&play_token=o99Hf0NZEo"
+            ]
+        },
+        {
+            "id": "GMATV.ph",
+            "name": "GMA TV",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/GMA_Network_Logo_Vector.svg/512px-GMA_Network_Logo_Vector.svg.png",
+            "group": "Local TV",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=5"
+            ]
+        },
+        {
+            "id": "GTV.ph",
+            "name": "GTV",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/GTV_Philippines_Logo_Vector.svg/512px-GTV_Philippines_Logo_Vector.svg.png",
+            "group": "Local TV",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=7"
+            ]
+        },
+        {
+            "id": "IBC13.ph",
+            "name": "IBC 13",
+            "logo": "https://www.lyngsat.com/logo/tv/ii/ibc_13_ph.png",
+            "group": "Local TV",
+            "sources": [
+                "http://user.scalecdn.co:8080/live/Alicia/Alicia/567720.m3u8"
+            ]
+        },
+        {
+            "id": "INCTV.ph",
+            "name": "INC TV",
+            "logo": "https://static.wikia.nocookie.net/logopedia/images/c/c9/INCTV-Logo-2012.png",
+            "group": "Local TV",
+            "sources": [
+                "https://cocphil.akamaized.net/hls/live/2042846/inctv/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "KnowledgeChannel.ph",
+            "name": "Knowledge Channel",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Knowledge-channel.png/512px-Knowledge-channel.png",
+            "group": "Local TV",
+            "sources": [
+                "https://amdottlive.akamaized.net/hls/live/2018990/iwantknowledge/master480p.m3u8"
+            ]
+        },
+        {
+            "id": "Net25.ph",
+            "name": "Net 25",
+            "logo": "https://i.imgur.com/dkDV4UZ.png",
+            "group": "Local TV",
+            "sources": [
+                "http://ky-iptv.com:25461/live/abc123456/abc123456/1806799.ts"
+            ]
+        },
+        {
+            "id": "OnePH.ph",
+            "name": "One PH",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/OnePHCignal.svg/512px-OnePHCignal.svg.png",
+            "group": "Local TV",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=42"
+            ]
+        },
+        {
+            "id": "SariSariChannel.ph",
+            "name": "Sari Sari Channel",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/2/22/Sari-Sari_Channel_logo.png",
+            "group": "Local TV",
+            "sources": [
+                "http://fortv.cc:8080/live/jsc/jsc/101824.m3u8"
+            ]
+        },
+        {
+            "id": "SMNI.ph",
+            "name": "SMNI",
+            "logo": "https://i.imgur.com/p3KeNAm.png",
+            "group": "Local TV",
+            "sources": [
+                "https://api.new.livestream.com/accounts/19079954/events/7831871/live.m3u8"
+            ]
+        },
+        {
+            "id": "Andflix.in",
+            "name": "&flix HD",
+            "logo": "https://i.imgur.com/K8FJgai.png",
+            "group": "Movies & Series",
+            "sources": [
+                "http://qualityoverquantity.site:8880/play/live.php?mac=00:1A:79:91:db:9c&stream=862616&extension=ts&play_token=s4jLZ6jSzd"
+            ]
+        },
+        {
+            "id": "AndpriveHD.in",
+            "name": "&priv\u00e9 HD",
+            "logo": "https://i.imgur.com/qyyUlg3.png",
+            "group": "Movies & Series",
+            "sources": [
+                "http://qualityoverquantity.site:8880/play/live.php?mac=00:1A:79:91:db:9c&stream=862618&extension=ts&play_token=mPp0f8PKx4"
+            ]
+        },
+        {
+            "id": "AMCEast.us",
+            "name": "AMC",
+            "logo": "https://i.imgur.com/RBKx6Fx.png",
+            "group": "Movies & Series",
+            "sources": [
+                "https://bcovlive-a.akamaihd.net/ebf15ff84e98490e8b00209ed77c77f5/us-east-1/6240731308001/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "CelestialMoviesPinoy.hk",
+            "name": "Celestial Movies Pinoy",
+            "logo": "https://cmpinoy.com.ph/storage/images/c4ca4238a0b923820dcc509a6f75849b/c/logo-default.png",
+            "group": "Movies & Series",
+            "sources": [
+                "http://tiny.one/celestialpinoy"
+            ]
+        },
+        {
+            "id": "CinemaOneGlobal.ph",
+            "name": "Cinema One",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Cinema_One_2013_logo.svg/512px-Cinema_One_2013_logo.svg.png",
+            "group": "Movies & Series",
+            "sources": [
+                "https://cinemaone-abscbn-ono.amagi.tv/index_3.m3u8"
+            ]
+        },
+        {
+            "id": "CineMoGlobal.ph",
+            "name": "Cine Mo!",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Cinemo_logo_vectorized.svg/512px-Cinemo_logo_vectorized.svg.png",
+            "group": "Movies & Series",
+            "sources": [
+                "https://tiny.one/cinemocdn1"
+            ]
+        },
+        {
+            "id": "CineLife.us",
+            "name": "CineLife",
+            "logo": "https://play-lh.googleusercontent.com/TRj4zx_xl4QA3JO7DwqalxZwshmhxEzg0QzP1sT3Uv99p4izfj9S_yPZD4oVkFUxMNA",
+            "group": "Movies & Series",
+            "sources": [
+                "https://magselect-stirr.amagi.tv/playlist1080p.m3u8"
+            ]
+        },
+        {
+            "id": "CinemaxSingapore.sg",
+            "name": "Cinemax",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png",
+            "group": "Movies & Series",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=16"
+            ]
+        },
+        {
+            "id": "HBOMalaysia.my",
+            "name": "HBO",
+            "logo": "https://i.imgur.com/EnA2RcD.png",
+            "group": "Movies & Series",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=15"
+            ]
+        },
+        {
+            "id": "HBO2East.us",
+            "name": "HBO 2",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png",
+            "group": "Movies & Series",
+            "sources": [
+                "http://moontools.me:8080//FNmdP2U7ey/HZQzvGgaPe/28781"
+            ]
+        },
+        {
+            "id": "Hits.sg",
+            "name": "Hits",
+            "logo": "https://i.imgur.com/YeqyD9W.png",
+            "group": "Movies & Series",
+            "sources": [
+                "http://210.210.155.35/session/1204b13c-a86a-11ec-baed-ab3e95131f5a/dr9445/h/h37/01.m3u8"
+            ]
+        },
+        {
+            "id": "HitsMovies.sg",
+            "name": "Hits Movies",
+            "logo": "https://movies.hitstv.com/img/hits-movies-logo.png",
+            "group": "Movies & Series",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=22"
+            ]
+        },
+        {
+            "id": "MovieSphere.us",
+            "name": "MovieSphere",
+            "logo": "https://od.lk/s/MF8yMjM1Njg1NTFf/MovieSphere_400x400.png",
+            "group": "Movies & Series",
+            "sources": [
+                "https://cdn-ue1-prod.tsv2.amagi.tv/linear/samsungus-moviesphere-samsung-samsungus/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "MyTimemovienetwork.us",
+            "name": "MyTime movie network",
+            "logo": "https://od.lk/s/MF8yMjU5ODE1MzJf/MyTime_260x260.png",
+            "group": "Movies & Series",
+            "sources": [
+                "https://mytime-tcl.amagi.tv/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "ParamountNetworkSingapore.sg",
+            "name": "Paramount Network",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png",
+            "group": "Movies & Series",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=59"
+            ]
+        },
+        {
+            "id": "PBO.ph",
+            "name": "PBO",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/f/f6/Pinoy_Box_Office_logo.png",
+            "group": "Movies & Series",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=12"
+            ]
+        },
+        {
+            "id": "Rialto.nz",
+            "name": "Rialto",
+            "logo": "https://i.imgur.com/RnzWT9C.jpg",
+            "group": "Movies & Series",
+            "sources": [
+                "https://rialto-rialto-samsungaustralia.amagi.tv/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "RushbyAMC.us",
+            "name": "Rush by AMC",
+            "logo": "https://i.imgur.com/yngqRL8.png",
+            "group": "Movies & Series",
+            "sources": [
+                "https://amc-rushbyamc-1.imdbtv.wurl.com/manifest/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "STIRRMovies.us",
+            "name": "STIRR Movies",
+            "logo": "https://i.imgur.com/ec3yTaI.png",
+            "group": "Movies & Series",
+            "sources": [
+                "https://dai.google.com/linear/hls/event/f-zA7b21Squ7M1_sabGfjA/master.m3u8"
+            ]
+        },
+        {
+            "id": "USANetworkEast.us",
+            "name": "USA Network",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/512px-USA_Network_logo_%282016%29.svg.png",
+            "group": "Movies & Series",
+            "sources": [
+                "http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/3390"
+            ]
+        },
+        {
+            "id": "VivaCinema.ph",
+            "name": "Viva",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/9/96/Viva_TV_logo.jpg",
+            "group": "Movies & Series",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=13"
+            ]
+        },
+        {
+            "id": "WarnerTVSoutheastAsia.us",
+            "name": "Warner TV",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png",
+            "group": "Movies & Series",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=21"
+            ]
+        },
+        {
+            "id": "StoriesbyAMC.us",
+            "name": "Stories by AMC",
+            "logo": "https://images.pluto.tv/channels/5e8254118601b80007b4b7ae/colorLogoPNG.png",
+            "group": "Lifestyle & Entertainment",
+            "sources": [
+                "https://fe0423aba9c44b9e92576576e4d3189a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_AMCPresentsClean/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "AsianFoodNetwork.sg",
+            "name": "Asian Food Network",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Asian_Food_Network.svg/512px-Asian_Food_Network.svg.png",
+            "group": "Lifestyle & Entertainment",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=63"
+            ]
+        },
+        {
+            "id": "AXNHongKong.hk",
+            "name": "AXN",
+            "logo": "https://i.imgur.com/OO6mWTx.png",
+            "group": "Lifestyle & Entertainment",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=62"
+            ]
+        },
+        {
+            "id": "C31Melbourne.au",
+            "name": "C31 Melbourne",
+            "logo": "https://i.imgur.com/Ge1EutY.png",
+            "group": "Lifestyle & Entertainment",
+            "sources": [
+                "https://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8"
+            ]
+        },
+        {
+            "id": "CrimePlusInvestigationAsia.us",
+            "name": "Crime + Investigation",
+            "logo": "https://i.imgur.com/KeM5KlR.png",
+            "group": "Lifestyle & Entertainment",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=35"
+            ]
+        },
+        {
+            "id": "FashionTVAsia.fr",
+            "name": "FashionTV",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png",
+            "group": "Lifestyle & Entertainment",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=96"
+            ]
+        },
+        {
+            "id": "GameShowCentral.us",
+            "name": "Game Show Central",
+            "logo": "https://images.pluto.tv/channels/5e54187aae660e00093561d6/colorLogoPNG.png",
+            "group": "Lifestyle & Entertainment",
+            "sources": [
+                "https://855649d1dca1413dad89e627e1727d97.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_GameShowCentral/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "GustoTV.au",
+            "name": "Gusto TV",
+            "logo": "https://i.imgur.com/ygVGi3s.png",
+            "group": "Lifestyle & Entertainment",
+            "sources": [
+                "https://gustotv-samsung-gb.samsung.wurl.com/manifest/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "HGTVAsia.us",
+            "name": "HGTV",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/HGTV_2010.svg/512px-HGTV_2010.svg.png",
+            "group": "Lifestyle & Entertainment",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=87"
+            ]
+        },
+        {
+            "id": "LifetimeAsia.us",
+            "name": "Lifetime",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png",
+            "group": "Lifestyle & Entertainment",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=55"
+            ]
+        },
+        {
+            "id": "MetroChannel.ph",
+            "name": "Metro Channel",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/c/c2/Metro_Channel_logo.png",
+            "group": "Lifestyle & Entertainment",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=58"
+            ]
+        },
+        {
+            "id": "RockEntertainment.sg",
+            "name": "Rock Entertainment",
+            "logo": "https://static.wikia.nocookie.net/logopedia/images/d/db/ROCK_entertainment_UHD.png/revision/latest/scale-to-width-down/1000?cb=20210911032942",
+            "group": "Lifestyle & Entertainment",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=56"
+            ]
+        },
+        {
+            "id": "RockExtreme.sg",
+            "name": "Rock Extreme",
+            "logo": "https://static.wikia.nocookie.net/logopedia/images/d/d4/RockExtreme.png/revision/latest?cb=20210911032825",
+            "group": "Lifestyle & Entertainment",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=57"
+            ]
+        },
+        {
+            "id": "TLCSoutheastAsia.us",
+            "name": "TLC",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/TLC-Logo_2016.svg/512px-TLC-Logo_2016.svg.png",
+            "group": "Lifestyle & Entertainment",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=47"
+            ]
+        },
+        {
+            "id": "",
+            "name": "TMC",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/TMC_logo.svg/512px-TMC_logo.svg.png",
+            "group": "Movies & Series",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=9"
+            ]
+        },
+        {
+            "id": "TNTEast.us",
+            "name": "TNT",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png",
+            "group": "Lifestyle & Entertainment",
+            "sources": [
+                "http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/769"
+            ]
+        },
+        {
+            "id": "TravelChannelAsia.uk",
+            "name": "Travel Channel",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2018_Travel_Channel_logo.svg/512px-2018_Travel_Channel_logo.svg.png",
+            "group": "Lifestyle & Entertainment",
+            "sources": [
+                "http://user.scalecdn.co:8080/live/Alicia/Alicia/567747.m3u8"
+            ]
+        },
+        {
+            "id": "ViceTV.us",
+            "name": "Vice",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Vice_TV_logo.svg/512px-Vice_TV_logo.svg.png",
+            "group": "Lifestyle & Entertainment",
+            "sources": [
+                "https://d2do1g43aq7264.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/Vice-prod/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "ABCAustraliaAsia.au",
+            "name": "ABC TV",
+            "logo": "https://i.imgur.com/rLCHYCs.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://c.mjh.nz/101002510251/"
+            ]
+        },
+        {
+            "id": "AlJazeeraEnglish.qa",
+            "name": "Al Jazeera",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/512px-Aljazeera_eng.svg.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://live-hls-web-aje.getaj.net/AJE/01.m3u8"
+            ]
+        },
+        {
+            "id": "ANC.ph",
+            "name": "ANC",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/ANClogo2014.svg/512px-ANClogo2014.svg.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://ancglobal-abscbn-ono.amagi.tv/playlist360_p.m3u8"
+            ]
+        },
+        {
+            "id": "AustraliaChannel.au",
+            "name": "Australia Channel",
+            "logo": "https://i.imgur.com/NI0AeNH.png",
+            "group": "News",
+            "sources": [
+                "https://austchannel-live.akamaized.net/hls/live/2002729/austchannel-news/master.m3u8"
+            ]
+        },
+        {
+            "id": "BBCWorldNewsAsiaPacific.uk",
+            "name": "BBC World News",
+            "logo": "https://i.imgur.com/rPzH88J.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=40"
+            ]
+        },
+        {
+            "id": "BloombergTVAsiaPacific.hk",
+            "name": "Bloomberg TV",
+            "logo": "https://i.imgur.com/2r7utRt.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=44"
+            ]
+        },
+        {
+            "id": "Cheddar.us",
+            "name": "Cheddar",
+            "logo": "https://i.imgur.com/YN7O7aI.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://bcf66772c67a40ec839611926b59b041.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_Cheddar/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "CGTN.cn",
+            "name": "CGTN",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://live.cgtn.com/1000/prog_index.m3u8"
+            ]
+        },
+        {
+            "id": "CNA.sg",
+            "name": "CNA",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/512px-CNA_new_logo.svg.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8"
+            ]
+        },
+        {
+            "id": "CNBCAsia.sg",
+            "name": "CNBC",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/512px-CNBC_logo.svg.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=43"
+            ]
+        },
+        {
+            "id": "CNN.us",
+            "name": "CNN",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/512px-CNN.svg.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "CNNPhilippines.ph",
+            "name": "CNN Philippines",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/CNN_Philippines_Logo.svg/512px-CNN_Philippines_Logo.svg.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://streaming.cnnphilippines.com/live/myStream/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "DWEnglish.de",
+            "name": "DW",
+            "logo": "https://i.imgur.com/1B4XjYf.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8"
+            ]
+        },
+        {
+            "id": "FoxNewsChannel.us",
+            "name": "Fox News",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/512px-Fox_News_Channel_logo.svg.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=39"
+            ]
+        },
+        {
+            "id": "France24English.fr",
+            "name": "France 24",
+            "logo": "https://www.mncvision.id/userfiles/image/channel/france_150px.jpg",
+            "group": "News & Culture",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=95"
+            ]
+        },
+        {
+            "id": "GMANewsTV.ph",
+            "name": "GMA News TV",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/GMA_News_TV_Logo_Vector.svg/512px-GMA_News_TV_Logo_Vector.svg.png",
+            "group": "News & Culture",
+            "sources": [
+                "http://sverigeplay.tv/play/live.php?mac=00:1A:79:ab:98:86&stream=33270&extension=ts&play_token=wY4LMv3TMk"
+            ]
+        },
+        {
+            "id": "HLN.us",
+            "name": "HLN",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/HLN_%28TV_network%29_2017_logo.svg/512px-HLN_%28TV_network%29_2017_logo.svg.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://tve-live-lln.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8"
+            ]
+        },
+        {
+            "id": "MSNBC.us",
+            "name": "MSNBC",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/MSNBC_2021.svg/512px-MSNBC_2021.svg.png",
+            "group": "News & Culture",
+            "sources": [
+                "http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/406"
+            ]
+        },
+        {
+            "id": "NewsmaxTV.us",
+            "name": "Newsmax TV",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Newsmax2021.svg/512px-Newsmax2021.svg.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://cdn-ue1-prod.tsv2.amagi.tv/linear/samsungus-newsmax/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "NHKWorldJapan.jp",
+            "name": "NHK World Japan",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/512px-NHK_World-Japan_TV.svg.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8"
+            ]
+        },
+        {
+            "id": "RTNews.ru",
+            "name": "RT News",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/RT_America_Logo.png/512px-RT_America_Logo.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "TRTWorld.tr",
+            "name": "TRT World",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/512px-TRT_World.svg.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://tv-trtworld.live.trt.com.tr/master.m3u8"
+            ]
+        },
+        {
+            "id": "UNTV.ph",
+            "name": "UNTV",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/UNTV-Logo-2016.svg/512px-UNTV-Logo-2016.svg.png",
+            "group": "News & Culture",
+            "sources": [
+                "https://utube2.fotvnetwork.workers.dev/stream/UC3XaG-7UVi2vD8ZZEMNnnpw/master.m3u8"
+            ]
+        },
+        {
+            "id": "ArirangTV",
+            "name": "Arirang",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Arirang.svg/512px-Arirang.svg.png",
+            "group": "Korean Entertainment",
+            "sources": [
+                "http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "KContentbyCJENM.us",
+            "name": "CJ ENM",
+            "logo": "https://images.pluto.tv/channels/6176ff3ba00900000763710f/colorLogoPNG.png",
+            "group": "Korean Entertainment",
+            "sources": [
+                "https://d50a1g0nh14ou.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/CJ-ENM-prod/e91c6419_2e45_4f6c_a646_b912658d73b8/hls/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "KBSWorld",
+            "name": "KBS World",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_(2009).svg/512px-KBS_World_(2009).svg.png",
+            "group": "Korean Entertainment",
+            "sources": [
+                "https://wms4-kortv.akamaized.net/a_live/63719963/smil:20ch011.smil/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "TVNAsia.hk",
+            "name": "tvN",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/512px-Logo_tvN.svg.png",
+            "group": "Korean Entertainment",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=85"
+            ]
+        },
+        {
+            "id": "AnimalPlanetHongKong.hk",
+            "name": "Animal Planet",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/512px-2018_Animal_Planet_logo.svg.png",
+            "group": "Science & Documentaries",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=49"
+            ]
+        },
+        {
+            "id": "BBCEarthAsia.uk",
+            "name": "BBC Earth",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/4/44/BBC_Earth_logo.png",
+            "group": "Science & Documentaries",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=33"
+            ]
+        },
+        {
+            "id": "DiscoveryAsiaHongKong.hk",
+            "name": "Discovery Asia",
+            "logo": "https://i.imgur.com/l87dZmI.png",
+            "group": "Science & Documentaries",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=46"
+            ]
+        },
+        {
+            "id": "DiscoveryChannelHongKong.hk",
+            "name": "Discovery Channel",
+            "logo": "https://i.imgur.com/t6iJj37.png",
+            "group": "Science & Documentaries",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=45"
+            ]
+        },
+        {
+            "id": "DiscoveryScience.us",
+            "name": "Discovery Science",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/512px-Discovery_Science_2017_Logo.svg.png",
+            "group": "Science & Documentaries",
+            "sources": [
+                "http://moontools.me:8080//FNmdP2U7ey/HZQzvGgaPe/28860"
+            ]
+        },
+        {
+            "id": "DMAXAsia.sg",
+            "name": "DMAX",
+            "logo": "https://i.ibb.co/3YHs0W9/image-removebg-preview.png",
+            "group": "Science & Documentaries",
+            "sources": [
+                "http://ky-iptv.com:80/Peaches1/Peaches1/2063022.ts"
+            ]
+        },
+        {
+            "id": "HistoryAsia.us",
+            "name": "History",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png",
+            "group": "Science & Documentaries",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=53"
+            ]
+        },
+        {
+            "id": "LoveNature.ca",
+            "name": "",
+            "logo": "https://i.ibb.co/X8hFFP4/Love-Nature-Type-Mask-FINAL-highres-removebg-preview-1.png",
+            "group": "Science & Documentaries",
+            "sources": [
+                "http://bamus-eng-roku.amagi.tv/playlist1080p.m3u8"
+            ]
+        },
+        {
+            "id": "NationalGeographicMalaysia.my",
+            "name": "National Geographic Channel",
+            "logo": "https://i.imgur.com/vKEqKFS.png",
+            "group": "Science & Documentaries",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=64"
+            ]
+        },
+        {
+            "id": "NationalGeographicWildMalaysia.my",
+            "name": "Nat Geo Wild",
+            "logo": "https://i.imgur.com/2DIGjSm.png",
+            "group": "Science & Documentaries",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=51"
+            ]
+        },
+        {
+            "id": "OutdoorChannel",
+            "name": "Outdoor Channel",
+            "logo": "https://i.imgur.com/Kh4MWaY.png",
+            "group": "Science & Documentaries",
+            "sources": [
+                "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "RealStories.au",
+            "name": "Real Stories",
+            "logo": "https://i.imgur.com/KOkWP6i.jpg",
+            "group": "Science & Documentaries",
+            "sources": [
+                "https://lds-realstories-samsungau.amagi.tv/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "RTDocumentary.ru",
+            "name": "RT Documentary",
+            "logo": "https://i.imgur.com/1Ltaei8.png",
+            "group": "Science & Documentaries",
+            "sources": [
+                "https://rt-rtd.rttv.com/live/rtdoc/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "SmithsonianChannelAsia.us",
+            "name": "Smithsonian Channel",
+            "logo": "https://i.imgur.com/ZQZwXY0.png",
+            "group": "Science & Documentaries",
+            "sources": [
+                "https://smithsonianaus-samsungau.amagi.tv/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "TechStorm.sg",
+            "name": "TechStorm",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Techstorm-logo.jpg/512px-Techstorm-logo.jpg",
+            "group": "Science & Documentaries",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=78"
+            ]
+        },
+        {
+            "id": "TimeLineAustralia.au",
+            "name": "Time Line Australia",
+            "logo": "https://i.imgur.com/J8qVUjM.png",
+            "group": "Science & Documentaries",
+            "sources": [
+                "https://lds-timeline-samsungau.amagi.tv/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "Xplore.us",
+            "name": "Xplore",
+            "logo": "https://od.lk/s/MF8yMjU5MDAzNDRf/Xplore_307x307.png",
+            "group": "Science & Documentaries",
+            "sources": [
+                "https://cdn-ue1-prod.tsv2.amagi.tv/linear/samsungus-xplore-samsungus/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "BilliardTV",
+            "name": "Billiard TV",
+            "logo": "https://streamstak.com/billiardtv/wp-content/uploads/sites/2/2021/08/billiardtv-logo-yellow.png",
+            "group": "Sports",
+            "sources": [
+                "https://1621590671.rsc.cdn77.org/HLS/BILLIARDTV_SCTE.m3u8"
+            ]
+        },
+        {
+            "id": "BoxNation.uk",
+            "name": "Box Nation",
+            "logo": "https://i.imgur.com/XCIBf7u.png",
+            "group": "Sports",
+            "sources": [
+                "http://185.53.88.211:8070/live/ce1eb8b3/fd28c06f6f/4719.ts"
+            ]
+        },
+        {
+            "id": "EDGEsport.uk",
+            "name": "EDGEsport",
+            "logo": "https://i.imgur.com/zRugmb9.png",
+            "group": "Sports",
+            "sources": [
+                "https://cdn-ue1-prod.tsv2.amagi.tv/linear/samsungus-edgesportusa-samsungtv-us/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "eGGNetwork.my",
+            "name": "eGG Network",
+            "logo": "https://i.ibb.co/0Vbn8Jk/e-GGNetwork-White.png",
+            "group": "Sports",
+            "sources": [
+                "http://210.210.155.35/uq2663/h/h22/index.m3u8"
+            ]
+        },
+        {
+            "id": "ESPN.us",
+            "name": "ESPN",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png",
+            "group": "Sports",
+            "sources": [
+                "http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/747"
+            ]
+        },
+        {
+            "id": "ESPN2.us",
+            "name": "ESPN 2",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/2560px-ESPN2_logo.svg.png",
+            "group": "Sports",
+            "sources": [
+                "http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/41918"
+            ]
+        },
+        {
+            "id": "Eurosport",
+            "name": "Eurosport 1",
+            "logo": "https://epg.eurosport-tv.com/Images/LOGO_H208_TRP.png",
+            "group": "Sports",
+            "sources": [
+                "http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=141598&extension=ts&play_token=yofOklZ6OX"
+            ]
+        },
+        {
+            "id": "FightSports",
+            "name": "Fight Sports",
+            "logo": "https://i.imgur.com/nV55veq.png",
+            "group": "Sports",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=18"
+            ]
+        },
+        {
+            "id": "FoxSports1.us",
+            "name": "Fox Sports 1",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2015_Fox_Sports_1_logo.svg/512px-2015_Fox_Sports_1_logo.svg.png",
+            "group": "Sports",
+            "sources": [
+                "http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/150797"
+            ]
+        },
+        {
+            "id": "FoxSports2.us",
+            "name": "Fox Sports 2",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/FS2_logo_2015.svg/512px-FS2_logo_2015.svg.png",
+            "group": "Sports",
+            "sources": [
+                "http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/757"
+            ]
+        },
+        {
+            "id": "HorseCountryTV.uk",
+            "name": "Horse and Country",
+            "logo": "https://i.imgur.com/r5Ip3P0.png",
+            "group": "Sports",
+            "sources": [
+                "https://hncfree-samsungau.amagi.tv/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "MLBNetwork.us",
+            "name": "MLB Network",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/MLBNetworkLogo.svg/512px-MLBNetworkLogo.svg.png",
+            "group": "Sports",
+            "sources": [
+                "http://ky-iptv.com:25461/live/abc123456/abc123456/1284154.ts"
+            ]
+        },
+        {
+            "id": "NBATV.us",
+            "name": "NBA TV",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/512px-NBA_TV.svg.png",
+            "group": "Sports",
+            "sources": [
+                "http://sverigeplay.tv/play/live.php?mac=00:1A:79:AB:98:86&stream=115738&extension=ts&play_token=1abiaJReWZ"
+            ]
+        },
+        {
+            "id": "OneSports.ph",
+            "name": "One Sports",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/One_Sports_logo.svg/512px-One_Sports_logo.svg.png",
+            "group": "Sports",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=50"
+            ]
+        },
+        {
+            "id": "PremierSports.ph",
+            "name": "Premier Sports",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/c/cb/PremierSports-ph.png",
+            "group": "Sports",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=36"
+            ]
+        },
+        {
+            "id": "redbulltv.us",
+            "name": "RedBull TV",
+            "logo": "https://i.imgur.com/7NeBmWX.jpg",
+            "group": "Sports",
+            "sources": [
+                "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8"
+            ]
+        },
+        {
+            "id": "SkySportsArena.uk",
+            "name": "Sky Sports Arena",
+            "logo": "https://i.imgur.com/XBMm9XT.png",
+            "group": "Sports",
+            "sources": [
+                "http://iptvstream.es:8080/Pilsen/Movicer/506144"
+            ]
+        },
+        {
+            "id": "SkySportsF1.uk",
+            "name": "Sky Sports F1",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Sky_Sports_F1_logo_2020.svg/512px-Sky_Sports_F1_logo_2020.svg.png",
+            "group": "Sports",
+            "sources": [
+                "http://iptvstream.es:8080/Pilsen/Movicer/506145"
+            ]
+        },
+        {
+            "id": "SpecialEvents",
+            "name": "Special Events",
+            "logo": "https://i.imgur.com/vRlLmha.png",
+            "group": "Sports",
+            "sources": [
+                "https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na.m3u"
+            ]
+        },
+        {
+            "id": "TAPSports.ph",
+            "name": "TAP Sports",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/6/6e/TAP_Sports_channel_logo.png",
+            "group": "Sports",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=31"
+            ]
+        },
+        {
+            "id": "WWENetwork.us",
+            "name": "WWE Network",
+            "logo": "https://i.postimg.cc/wxDcjfB2/WWENetwork-White.png",
+            "group": "Sports",
+            "sources": [
+                "http://185.53.88.211:8070/live/Unplugged83/F75DCxx397DMKop5388mM/2373.ts"
+            ]
+        },
+        {
+            "id": "BreezeTV.nz",
+            "name": "Breeze TV",
+            "logo": "https://i.imgur.com/3dpH9XF.jpg",
+            "group": "Music",
+            "sources": [
+                "https://livestreamdirect-breezetv.mediaworks.nz/breezetv.m3u8"
+            ]
+        },
+        {
+            "id": "MTVBiggestPop.us",
+            "name": "MTV Biggest Pop",
+            "logo": "https://images.pluto.tv/channels/5d14fd1a252d35decbc4080c/featuredImage.jpg?auto=&fill=blur&fit=fill&ixlib=react-9.1.5&h=185&w=512",
+            "group": "Music",
+            "sources": [
+                "https://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8"
+            ]
+        },
+        {
+            "id": "MTVLive.uk",
+            "name": "MTV Live",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/MTV_Live_2021_logo.svg/512px-MTV_Live_2021_logo.svg.png",
+            "group": "Music",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=66"
+            ]
+        },
+        {
+            "id": "MTVSpankinNew.us",
+            "name": "MTV Spankin' New",
+            "logo": "https://images.pluto.tv/channels/6047ff2e5e61cf000784e4da/colorLogoPNG.png",
+            "group": "Music",
+            "sources": [
+                "https://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS07/master.m3u8"
+            ]
+        },
+        {
+            "id": "YoMTV.us",
+            "name": "Yo! MTV",
+            "logo": "https://images.pluto.tv/channels/5d14fc31252d35decbc4080b/colorLogoPNG.png",
+            "group": "Music",
+            "sources": [
+                "https://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS01/master.m3u8"
+            ]
+        },
+        {
+            "id": "MyxPhilippines.ph",
+            "name": "Myx PH",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Myxphlogo.svg/512px-Myxphlogo.svg.png",
+            "group": "Music",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=75"
+            ]
+        },
+        {
+            "id": "MyxUSA.us",
+            "name": "Myx USA",
+            "logo": "https://i.imgur.com/Bv8iTjn.png",
+            "group": "Music",
+            "sources": [
+                "https://myxnola-abscbn-ono.amagi.tv/index_2.m3u8"
+            ]
+        },
+        {
+            "id": "AnimaxAsia.sg",
+            "name": "Animax",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Animax.svg/512px-Animax.svg.png",
+            "group": "Kids",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=24"
+            ]
+        },
+        {
+            "id": "AnimeAllDay.us",
+            "name": "Anime All Day",
+            "logo": "https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG.png",
+            "group": "Kids",
+            "sources": [
+                "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus"
+            ]
+        },
+        {
+            "id": "AniplusAsia.sg",
+            "name": "Aniplus",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Aniplus_Asia_Logo.png/512px-Aniplus_Asia_Logo.png",
+            "group": "Kids",
+            "sources": [
+                "http://sverigeplay.tv/play/live.php?mac=00:1A:79:ab:98:86&stream=115609&extension=ts&play_token=PhWmd1D0if"
+            ]
+        },
+        {
+            "id": "BabyTVAsia.uk",
+            "name": "BabyTV",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png",
+            "group": "Kids",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=86"
+            ]
+        },
+        {
+            "id": "BoomerangSouthEastAsia.us",
+            "name": "Boomerang",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/512px-Boomerang_2014_logo.svg.png",
+            "group": "Kids",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=30"
+            ]
+        },
+        {
+            "id": "CartoonNetworkAsia.sg",
+            "name": "Cartoon Network",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Cartoon_Network.svg/512px-Cartoon_Network.svg.png",
+            "group": "Kids",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=29"
+            ]
+        },
+        {
+            "id": "CONtvAnime.us",
+            "name": "CONtv Anime",
+            "logo": "https://f9q4g5j6.ssl.hwcdn.net/5fa1b7168f9c26008859a893",
+            "group": "Kids",
+            "sources": [
+                "https://contvanime.cinedigm.com/conapp-ssai/amagi_hls_data_xumo-host-contvanime-junction/CDN/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "DreamWorksChannelAsia.us",
+            "name": "DreamWorks Channel",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/DreamWorks_Channel_Logo.svg/512px-DreamWorks_Channel_Logo.svg.png",
+            "group": "Kids",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=23"
+            ]
+        },
+        {
+            "id": "NickelodeonSouthEastAsia.us",
+            "name": "Nick",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Nick_Logo_2017.svg/512px-Nick_Logo_2017.svg.png",
+            "group": "Kids",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=28"
+            ]
+        },
+        {
+            "id": "NickJrAsia.us",
+            "name": "Nick Jr.",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Nick_Jr._Channel_logo.svg/512px-Nick_Jr._Channel_logo.svg.png",
+            "group": "Kids",
+            "sources": [
+                "https://iptv-sniper.herokuapp.com/localtv.php?channel=27"
+            ]
+        },
+        {
+            "id": "NickPlutoTV.us",
+            "name": "Nick Pluto TV",
+            "logo": "https://images.pluto.tv/channels/5ede448d3d50590007a4419e/colorLogoPNG.png",
+            "group": "Kids",
+            "sources": [
+                "https://siloh.pluto.tv/lilo/production/Nick/01/master_1.m3u8"
+            ]
+        },
+        {
+            "id": "PBSKidsEasternCentral.us",
+            "name": "PBS Kids",
+            "logo": "https://i.imgur.com/ambc9le.png",
+            "group": "Kids",
+            "sources": [
+                "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "ZooMooLatinAmerica.nz",
+            "name": "ZooMoo",
+            "logo": "https://i.imgur.com/1wYnA2i.jpg",
+            "group": "Kids",
+            "sources": [
+                "https://8e3b9b86a94645d8b36c7722967c0086.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_Zoomoo/playlist.m3u8"
+            ]
+        },
+        {
+            "id": "Jam883.ph",
+            "name": "Jam 88.3",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Jam_88.3_logo_2012.png/800px-Jam_88.3_logo_2012.png",
+            "group": "Local Radio",
+            "sources": [
+                "http://free.fullspeed.tv/iptv-query?streaming-ip=https://twitch.tv/jam883ph"
+            ]
+        },
+        {
+            "id": "907LoveRadio.ph",
+            "name": "90.7 Love Radio",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Love_Radio_%28Philippine_radio_station%29_logo.png/793px-Love_Radio_%28Philippine_radio_station%29_logo.png",
+            "group": "Local Radio",
+            "sources": [
+                "https://s3.radio.co/sd43d6cc6d/listen"
+            ]
+        },
+        {
+            "id": "915WinRadio.ph",
+            "name": "91.5 Win Radio",
+            "logo": "https://winradioph.net/wp-content/uploads/Manila.jpg",
+            "group": "Local Radio",
+            "sources": [
+                "https://node-22.zeno.fm/7r5de9h96nhvv?zs=yL_62hnuRJSvNTB12NHgnw&zs=iZR7wIbCTYOp1uDqRGfyGA&rj-ttl=5&rj-tok=AAABgfs21scAvxjFA2IsU9lIYA"
+            ]
+        },
+        {
+            "id": "SuperRadyoDZBB.ph",
+            "name": "Super Radyo DZBB",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/DZBB594.svg/512px-DZBB594.svg.png",
+            "group": "Local Radio",
+            "sources": [
+                "http://stream.gmanews.tv/ioslive/livestream/chunklist.m3u8?wowzasessionid=693701106"
+            ]
+        },
+        {
+            "id": "TeleRadyo.ph",
+            "name": "TeleRadyo",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/TeleRadyo_Logo.svg/512px-TeleRadyo_Logo.svg.png",
+            "group": "Local Radio",
+            "sources": [
+                "https://abscbn-ono.akamaized.net/midroll/amagi_hls_data_abscbnAAA-abscbn-teleradyo-oando/CDN/playlist.m3u8"
+            ]
+        }
+    ]
+}
