@@ -2,7 +2,6 @@
   require __DIR__ . '/vendor/autoload.php';
 
   use Amp\Parallel\Worker;
-  use Amp\Promise;
   use Tasks\UrlTester;
 
   $m3u_source = json_decode(file_get_contents("nette.safe://channels.json"));
