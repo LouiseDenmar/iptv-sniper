@@ -6,6 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Tasks\\' => array($baseDir . '/tasks'),
     'Amp\\Sync\\' => array($vendorDir . '/amphp/sync/src'),
     'Amp\\Serialization\\' => array($vendorDir . '/amphp/serialization/src'),
     'Amp\\Process\\' => array($vendorDir . '/amphp/process/lib'),

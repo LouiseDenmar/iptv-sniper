@@ -21,6 +21,10 @@ class ComposerStaticInit19da7c3c6fc1f93fb9a725a7795b0247
     );
 
     public static $prefixLengthsPsr4 = array (
+        'T' => 
+        array (
+            'Tasks\\' => 6,
+        ),
         'A' => 
         array (
             'Amp\\Sync\\' => 9,
@@ -34,6 +38,10 @@ class ComposerStaticInit19da7c3c6fc1f93fb9a725a7795b0247
     );
 
     public static $prefixDirsPsr4 = array (
+        'Tasks\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tasks',
+        ),
         'Amp\\Sync\\' => 
         array (
             0 => __DIR__ . '/..' . '/amphp/sync/src',
