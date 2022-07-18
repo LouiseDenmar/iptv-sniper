@@ -1,5 +1,2 @@
 {
-    "require": {
-        "nette/safe-stream": "^2.5"
-    }
 }

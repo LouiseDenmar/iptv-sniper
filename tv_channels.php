@@ -1,9 +1,8 @@
 <?php
-  require __DIR__ . '/vendor/autoload.php';
   set_time_limit(0);
 
-  $m3u_source = json_decode(file_get_contents("nette.safe://channels.json"));
-  file_put_contents("nette.safe://tv_channels.m3u", "#EXTM3U url-tvg=\"$m3u_source->epg\"\n\n");
+  $m3u_source = json_decode(file_get_contents("channels.json"));
+  file_put_contents(__DIR__ . "/tv_channels.m3u", "#EXTM3U url-tvg=\"$m3u_source->epg\"\n\n");
 
   foreach ($m3u_source->channels as $channel) {
     foreach ($channel->sources as $source) {
@@ -21,7 +20,7 @@
       $m3u = "#EXTINF:-1 ch-number=\"$channel->number\" tvg-id=\"$channel->id\" tvg-name=\"$channel->name\" tvg-logo=\"$channel->logo\" group-title=\"$channel->group\",$status$channel->name\n";
       $m3u .= $source . "\n\n";
 
-      file_put_contents("nette.safe://tv_channels.m3u", $m3u, FILE_APPEND);
+      file_put_contents(__DIR__ . "/tv_channels.m3u", $m3u, FILE_APPEND);
       echo "[M3U Generator] Testing $channel->name\n$source - " . $result["http_code"] . "\n";
     }
   }
