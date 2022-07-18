@@ -12,7 +12,7 @@ https://tfcguam-abscbn-ono.amagi.tv/index_6.m3u8
 #EXTINF:-1 tvg-id="PTV.ph" tvg-name="PTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/People%27s_Televsion_Network_Incorporated_%28PTV%29.svg/512px-People%27s_Televsion_Network_Incorporated_%28PTV%29.svg.png" group-title="Local TV",PTV
 https://utube2.fotvnetwork.workers.dev/stream/UCJCUbMaY593_4SN1QPG7NFQ/master.m3u8
 
-#EXTINF:-1 tvg-id="KapatidTV5.ph" tvg-name="Kapatid TV 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TV5_(Philippines)_logo.svg/512px-TV5_(Philippines)_logo.svg.png" group-title="Local TV",Kapatid TV 5
+#EXTINF:-1 tvg-id="tv5.com.ph" tvg-name="TV5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TV5_(Philippines)_logo.svg/512px-TV5_(Philippines)_logo.svg.png" group-title="Local TV",TV5
 https://iptv-sniper.herokuapp.com/localtv.php?channel=8
 
 #EXTINF:-1 tvg-id="GMALifeTV.ph" tvg-name="GMA Life TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/ae/Gma_life_tv.png" group-title="Local TV",GMA Life TV
