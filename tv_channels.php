@@ -1,4 +1,5 @@
 <?php
+  require __DIR__ . '/vendor/autoload.php';
   set_time_limit(0);
 
   $m3u_source = json_decode(file_get_contents("nette.safe://channels.json"));
