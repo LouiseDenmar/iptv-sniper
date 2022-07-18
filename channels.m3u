@@ -42,7 +42,7 @@ https://cocphil.akamaized.net/hls/live/2042846/inctv/playlist.m3u8
 https://amdottlive.akamaized.net/hls/live/2018990/iwantknowledge/master480p.m3u8
 
 #EXTINF:-1 tvg-id="Net25.ph" tvg-name="Net 25" tvg-logo="https://i.imgur.com/dkDV4UZ.png" group-title="Local TV",Net 25
-http://ky-iptv.com:25461/live/Peaches1/Peaches1/1806799.ts
+http://ky-iptv.com:25461/live/Mouse/Mouse/1806799.ts
 
 #EXTINF:-1 tvg-id="OnePH.ph" tvg-name="One PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/OnePHCignal.svg/512px-OnePHCignal.svg.png" group-title="Local TV",One PH
 https://iptv-sniper.herokuapp.com/localtv.php?channel=42
