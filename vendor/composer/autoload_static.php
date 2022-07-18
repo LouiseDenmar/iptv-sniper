@@ -6,10 +6,6 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit19da7c3c6fc1f93fb9a725a7795b0247
 {
-    public static $files = array (
-        'a1d067aa2e53d6b47171c03cfc0ea5be' => __DIR__ . '/..' . '/nette/safe-stream/src/loader.php',
-    );
-
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
