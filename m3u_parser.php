@@ -1,8 +1,7 @@
 <?php
   header('Content-Type: application/json');
 
-  $url = $_GET["url"];
-  $m3ufile = (isset($url)) ? file_get_contents($url) : file_get_contents("https://raw.githubusercontent.com/jmvbambico/iptv-sniper/master/channels.m3u");
+  $m3ufile = (isset($_GET["url"])) ? file_get_contents($_GET["url"]) : file_get_contents("https://raw.githubusercontent.com/jmvbambico/iptv-sniper/master/channels.m3u");
 
   $re = '/#EXTINF:(.+?)[,]\s?(.+?)[\r\n]+?((?:https?|rtmp):\/\/(?:\S*?\.\S*?)(?:[\s)\[\]{};"\'<]|\.\s|$))/';
   $attributes = '/([a-zA-Z0-9\-\_]+?)="([^"]*)"/';
