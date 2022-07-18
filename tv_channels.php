@@ -9,5 +9,5 @@
 
   foreach ($m3u_source->channels as $channel)
     foreach ($channel->sources as $source)
-      Worker\enqueue(new UrlTester($source, $channel));
+      echo Worker\enqueue(new UrlTester($source, $channel));
 //end tv_channels.php
