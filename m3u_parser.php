@@ -41,5 +41,5 @@
       "channels" => $items
   );
 
-  echo json_encode($globalist, JSON_UNESCAPED_SLASHES|JSON_PRETTY_PRINT);
+  file_put_contents("channels.json", json_encode($globalist, JSON_UNESCAPED_SLASHES|JSON_PRETTY_PRINT));
 //end m3u_parser.php
