@@ -20,7 +20,6 @@
       $m3u .= "#EXTINF:-1 ch-number=\"$channel->number\" tvg-id=\"$channel->id\" tvg-name=\"$channel->name\" tvg-logo=\"$channel->logo\" group-title=\"$channel->group\",$status$channel->name\n";
       $m3u .= $source . "\n\n";
 
-      // file_put_contents(__DIR__ . "/tv_channels.m3u", $m3u, FILE_APPEND);
       echo "[M3U Generator] Testing $channel->name\n$source - " . $result["http_code"] . "\n";
     }
   }
@@ -30,8 +29,9 @@
   if ($conn->connect_error)
     die("Connection failed: " . $conn->connect_error);
 
-  $sql = "INSERT INTO files (filename, file) VALUES ('tv_channels.m3u', '" . gzcompress($m3u, 9) . "')";
+  $file = gzcompress($m3u, 9);
+  $sql = "INSERT INTO files (id, filename, file) VALUES (1, 'tv_channels.m3u', '" . $file . "') ON DUPLICATE KEY UPDATE file='" . $file . "';";
 
   echo ($conn->query($sql) === TRUE) ? "[M3U Generator] Playlist has been updated successfully!" : "[M3U Generator] An error occured while trying to update the playlist: " . $conn->error;
   $conn->close();
-//end tv_channels.php
+//end link_checker.php
