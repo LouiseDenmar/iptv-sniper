@@ -6,10 +6,11 @@ use Amp\Parallel\Worker\Task;
 
 class UrlTester implements Task
 {
-  private $url, $channel_id, $channel_name, $channel_logo, $channel_group;
+  private $url, $channel_number, $channel_id, $channel_name, $channel_logo, $channel_group;
 
   public function __construct($url, $channel) {
     $this->url = $url;
+    $this->channel_number = $channel->number;
     $this->channel_id = $channel->id;
     $this->channel_name = $channel->name;
     $this->channel_logo = $channel->logo;
@@ -27,10 +28,11 @@ class UrlTester implements Task
     curl_close($curl);
 
     $status = ($result["http_code"] == "200") ? "[✓] " : "[✖] ";
-    $m3u = "#EXTINF:-1 tvg-id=\"$this->channel_id\" tvg-name=\"$this->channel_name\" tvg-logo=\"$this->channel_logo\" group-title=\"$this->channel_group\",$status$this->channel_name\n";
+    $m3u = "#EXTINF:-1 ch-number=\"$this->channel_number\" tvg-id=\"$this->channel_id\" tvg-name=\"$this->channel_name\" tvg-logo=\"$this->channel_logo\" group-title=\"$this->channel_group\",$status$this->channel_name\n";
     $m3u .= $this->url . "\n\n";
 
     file_put_contents("nette.safe://tv_channels.m3u", $m3u, FILE_APPEND);
     return "M3U processing for $this->url complete.\n";
   }
 }
+//end UrlTester.php
