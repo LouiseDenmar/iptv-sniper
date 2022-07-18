@@ -7,7 +7,7 @@
   $sql = "CREATE TABLE files (
     id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     filename VARCHAR(30) NOT NULL,
-    file BLOB NOT NULL
+    file text NOT NULL
   )";
 
   echo ($conn->query($sql) === TRUE) ? "Table files created successfully!" : "Error creating table: " . $conn->error;
