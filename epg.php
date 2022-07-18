@@ -1,6 +1,7 @@
 <?php
-  $epgs = json_decode(file_get_contents($_GET["json"]));
-  $event = json_decode(file_get_contents("special_event.json"));
+  require __DIR__ . '/vendor/autoload.php';
+  $epgs = json_decode(file_get_contents("nette.safe://" . $_GET["json"]));
+  $event = json_decode(file_get_contents("nette.safe://special_event.json"));
 
   $xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
   $xml .= "<tv date=\"" . date('Ymd') . "\" generator-info-name=\"IPTV-Sniper\">\n";
@@ -59,7 +60,7 @@
 
   $xml .= "</tv>";
   $filename = ($_GET["json"] == "epg_config.json") ? "iptv-sniper.xml" : "cryogenix.xml";
-  $result = file_put_contents("compress.zlib://$filename.gz", $xml);
+  $result = file_put_contents("nette.safe://$filename.gz", gzcompress($xml, 9));
   echo "[EPG Updater] $filename.gz was updated with a total of " . $result . " bytes written.";
 
   function getChannels($url, $channels) {
