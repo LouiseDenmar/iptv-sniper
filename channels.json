@@ -42,8 +42,8 @@
             ]
         },
         {
-            "id": "KapatidTV5.ph",
-            "name": "Kapatid TV 5",
+            "id": "tv5.com.ph",
+            "name": "TV5",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TV5_(Philippines)_logo.svg/512px-TV5_(Philippines)_logo.svg.png",
             "group": "Local TV",
             "number": 5,
@@ -128,7 +128,7 @@
             "group": "Local TV",
             "number": 13,
             "sources": [
-                "http://ky-iptv.com:25461/live/abc123456/abc123456/1806799.ts"
+                "http://ky-iptv.com:25461/live/Mouse/Mouse/1806799.ts"
             ]
         },
         {
@@ -903,7 +903,7 @@
         },
         {
             "id": "LoveNature.ca",
-            "name": "",
+            "name": "Love Nature",
             "logo": "https://i.ibb.co/X8hFFP4/Love-Nature-Type-Mask-FINAL-highres-removebg-preview-1.png",
             "group": "Science & Documentaries",
             "number": 91,
@@ -1193,11 +1193,33 @@
             "tvf-name": "Fight Sports"
         },
         {
+            "id": "SPOTV.sk",
+            "name": "SPOTV",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/SPOTV_logo.svg/800px-SPOTV_logo.svg.png",
+            "group": "Sports",
+            "number": 119,
+            "sources": [
+                "https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/6271486521001/profile_0/chunklist.m3u8"
+            ],
+            "tvf-name": "Fight Sports"
+        },
+        {
+            "id": "SPOTV2.sk",
+            "name": "SPOTV2",
+            "logo": "https://assetsmysky.blob.core.windows.net/assetsmysky/production/media-upload/1634257305_thumb-spotv-2.png",
+            "group": "Sports",
+            "number": 120,
+            "sources": [
+                "https://bcovlive-a.akamaihd.net/48eee16919834d3b97df1082a649bcfa/ap-northeast-1/6271486521001/profile_0/chunklist.m3u8"
+            ],
+            "tvf-name": "Fight Sports"
+        },
+        {
             "id": "SpecialEvents",
             "name": "Special Events",
             "logo": "https://i.imgur.com/vRlLmha.png",
             "group": "Sports",
-            "number": 119,
+            "number": 121,
             "sources": [
                 "https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na.m3u"
             ],
@@ -1208,7 +1230,7 @@
             "name": "TAP Sports",
             "logo": "https://upload.wikimedia.org/wikipedia/en/6/6e/TAP_Sports_channel_logo.png",
             "group": "Sports",
-            "number": 120,
+            "number": 122,
             "sources": [
                 "https://iptv-sniper.herokuapp.com/localtv.php?channel=31"
             ],
@@ -1219,7 +1241,7 @@
             "name": "WWE Network",
             "logo": "https://i.postimg.cc/wxDcjfB2/WWENetwork-White.png",
             "group": "Sports",
-            "number": 121,
+            "number": 123,
             "sources": [
                 "http://185.53.88.211:8070/live/Unplugged83/F75DCxx397DMKop5388mM/2373.ts"
             ],
@@ -1230,7 +1252,7 @@
             "name": "Breeze TV",
             "logo": "https://i.imgur.com/3dpH9XF.jpg",
             "group": "Music",
-            "number": 122,
+            "number": 124,
             "sources": [
                 "https://livestreamdirect-breezetv.mediaworks.nz/breezetv.m3u8"
             ],
@@ -1241,7 +1263,7 @@
             "name": "MTV Biggest Pop",
             "logo": "https://images.pluto.tv/channels/5d14fd1a252d35decbc4080c/featuredImage.jpg?auto=&fill=blur&fit=fill&ixlib=react-9.1.5&h=185&w=512",
             "group": "Music",
-            "number": 123,
+            "number": 125,
             "sources": [
                 "https://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8"
             ],
@@ -1252,7 +1274,7 @@
             "name": "MTV Live",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/MTV_Live_2021_logo.svg/512px-MTV_Live_2021_logo.svg.png",
             "group": "Music",
-            "number": 124,
+            "number": 126,
             "sources": [
                 "https://iptv-sniper.herokuapp.com/localtv.php?channel=66"
             ],
@@ -1263,7 +1285,7 @@
             "name": "MTV Spankin' New",
             "logo": "https://images.pluto.tv/channels/6047ff2e5e61cf000784e4da/colorLogoPNG.png",
             "group": "Music",
-            "number": 125,
+            "number": 127,
             "sources": [
                 "https://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS07/master.m3u8"
             ],
@@ -1274,7 +1296,7 @@
             "name": "Yo! MTV",
             "logo": "https://images.pluto.tv/channels/5d14fc31252d35decbc4080b/colorLogoPNG.png",
             "group": "Music",
-            "number": 126,
+            "number": 128,
             "sources": [
                 "https://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS01/master.m3u8"
             ],
@@ -1285,7 +1307,7 @@
             "name": "Myx PH",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Myxphlogo.svg/512px-Myxphlogo.svg.png",
             "group": "Music",
-            "number": 127,
+            "number": 129,
             "sources": [
                 "https://iptv-sniper.herokuapp.com/localtv.php?channel=75"
             ],
@@ -1296,7 +1318,7 @@
             "name": "Myx USA",
             "logo": "https://i.imgur.com/Bv8iTjn.png",
             "group": "Music",
-            "number": 128,
+            "number": 130,
             "sources": [
                 "https://myxnola-abscbn-ono.amagi.tv/index_2.m3u8"
             ],
@@ -1307,7 +1329,7 @@
             "name": "Animax",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Animax.svg/512px-Animax.svg.png",
             "group": "Kids",
-            "number": 129,
+            "number": 131,
             "sources": [
                 "https://iptv-sniper.herokuapp.com/localtv.php?channel=24"
             ],
@@ -1318,7 +1340,7 @@
             "name": "Anime All Day",
             "logo": "https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG.png",
             "group": "Kids",
-            "number": 130,
+            "number": 132,
             "sources": [
                 "http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus"
             ],
@@ -1329,7 +1351,7 @@
             "name": "Aniplus",
             "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Aniplus_Asia_Logo.png/512px-Aniplus_Asia_Logo.png",
             "group": "Kids",
-            "number": 131,
+            "number": 133,
             "sources": [
                 "http://sverigeplay.tv/play/live.php?mac=00:1A:79:ab:98:86&stream=115609&extension=ts&play_token=PhWmd1D0if"
             ],
@@ -1340,7 +1362,7 @@
             "name": "BabyTV",
             "logo": "https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png",
             "group": "Kids",
-            "number": 132,
+            "number": 134,
             "sources": [
                 "https://iptv-sniper.herokuapp.com/localtv.php?channel=86"
             ],
@@ -1351,7 +1373,7 @@
             "name": "Boomerang",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/512px-Boomerang_2014_logo.svg.png",
             "group": "Kids",
-            "number": 133,
+            "number": 135,
             "sources": [
                 "https://iptv-sniper.herokuapp.com/localtv.php?channel=30"
             ],
@@ -1362,7 +1384,7 @@
             "name": "Cartoon Network",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Cartoon_Network.svg/512px-Cartoon_Network.svg.png",
             "group": "Kids",
-            "number": 134,
+            "number": 136,
             "sources": [
                 "https://iptv-sniper.herokuapp.com/localtv.php?channel=29"
             ],
@@ -1373,7 +1395,7 @@
             "name": "CONtv Anime",
             "logo": "https://f9q4g5j6.ssl.hwcdn.net/5fa1b7168f9c26008859a893",
             "group": "Kids",
-            "number": 135,
+            "number": 137,
             "sources": [
                 "https://contvanime.cinedigm.com/conapp-ssai/amagi_hls_data_xumo-host-contvanime-junction/CDN/playlist.m3u8"
             ],
@@ -1384,7 +1406,7 @@
             "name": "DreamWorks Channel",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/DreamWorks_Channel_Logo.svg/512px-DreamWorks_Channel_Logo.svg.png",
             "group": "Kids",
-            "number": 136,
+            "number": 138,
             "sources": [
                 "https://iptv-sniper.herokuapp.com/localtv.php?channel=23"
             ],
@@ -1395,7 +1417,7 @@
             "name": "Nick",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Nick_Logo_2017.svg/512px-Nick_Logo_2017.svg.png",
             "group": "Kids",
-            "number": 137,
+            "number": 139,
             "sources": [
                 "https://iptv-sniper.herokuapp.com/localtv.php?channel=28"
             ],
@@ -1406,7 +1428,7 @@
             "name": "Nick Jr.",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Nick_Jr._Channel_logo.svg/512px-Nick_Jr._Channel_logo.svg.png",
             "group": "Kids",
-            "number": 138,
+            "number": 140,
             "sources": [
                 "https://iptv-sniper.herokuapp.com/localtv.php?channel=27"
             ],
@@ -1417,7 +1439,7 @@
             "name": "Nick Pluto TV",
             "logo": "https://images.pluto.tv/channels/5ede448d3d50590007a4419e/colorLogoPNG.png",
             "group": "Kids",
-            "number": 139,
+            "number": 141,
             "sources": [
                 "https://siloh.pluto.tv/lilo/production/Nick/01/master_1.m3u8"
             ],
@@ -1428,7 +1450,7 @@
             "name": "PBS Kids",
             "logo": "https://i.imgur.com/ambc9le.png",
             "group": "Kids",
-            "number": 140,
+            "number": 142,
             "sources": [
                 "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8"
             ],
@@ -1439,7 +1461,7 @@
             "name": "ZooMoo",
             "logo": "https://i.imgur.com/1wYnA2i.jpg",
             "group": "Kids",
-            "number": 141,
+            "number": 143,
             "sources": [
                 "https://8e3b9b86a94645d8b36c7722967c0086.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_Zoomoo/playlist.m3u8"
             ],
@@ -1450,7 +1472,7 @@
             "name": "Jam 88.3",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Jam_88.3_logo_2012.png/800px-Jam_88.3_logo_2012.png",
             "group": "Local Radio",
-            "number": 142,
+            "number": 144,
             "sources": [
                 "http://free.fullspeed.tv/iptv-query?streaming-ip=https://twitch.tv/jam883ph"
             ],
@@ -1461,7 +1483,7 @@
             "name": "90.7 Love Radio",
             "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Love_Radio_%28Philippine_radio_station%29_logo.png/793px-Love_Radio_%28Philippine_radio_station%29_logo.png",
             "group": "Local Radio",
-            "number": 143,
+            "number": 145,
             "sources": [
                 "https://s3.radio.co/sd43d6cc6d/listen"
             ],
@@ -1472,7 +1494,7 @@
             "name": "91.5 Win Radio",
             "logo": "https://winradioph.net/wp-content/uploads/Manila.jpg",
             "group": "Local Radio",
-            "number": 144,
+            "number": 146,
             "sources": [
                 "https://node-22.zeno.fm/7r5de9h96nhvv?zs=yL_62hnuRJSvNTB12NHgnw&zs=iZR7wIbCTYOp1uDqRGfyGA&rj-ttl=5&rj-tok=AAABgfs21scAvxjFA2IsU9lIYA"
             ],
@@ -1483,7 +1505,7 @@
             "name": "Super Radyo DZBB",
             "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/DZBB594.svg/512px-DZBB594.svg.png",
             "group": "Local Radio",
-            "number": 145,
+            "number": 147,
             "sources": [
                 "http://stream.gmanews.tv/ioslive/livestream/chunklist.m3u8?wowzasessionid=693701106"
             ],
@@ -1494,7 +1516,7 @@
             "name": "TeleRadyo",
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/TeleRadyo_Logo.svg/512px-TeleRadyo_Logo.svg.png",
             "group": "Local Radio",
-            "number": 146,
+            "number": 148,
             "sources": [
                 "https://abscbn-ono.akamaized.net/midroll/amagi_hls_data_abscbnAAA-abscbn-teleradyo-oando/CDN/playlist.m3u8"
             ],
