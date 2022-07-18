@@ -22,7 +22,7 @@
       $m3u .= $source . "\n\n";
 
       file_put_contents("nette.safe://tv_channels.m3u", $m3u, FILE_APPEND);
-      echo "Testing results for $channel->name\n$source - " . $result["http_code"] . "\n\n";
+      echo "[M3U Generator] Testing $channel->name\n$source - " . $result["http_code"] . "\n";
     }
   }
 //end tv_channels.php
