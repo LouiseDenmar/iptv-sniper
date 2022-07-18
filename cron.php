@@ -1,5 +1,5 @@
 <?php
-  $conn = new mysqli_connect("lcpbq9az4jklobvq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "nsvwm2u733p490gm", "kdj0cijcfrceu8gk", "ofagdoh1n25jv0tw");
+  $conn = new mysqli("lcpbq9az4jklobvq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "nsvwm2u733p490gm", "kdj0cijcfrceu8gk", "ofagdoh1n25jv0tw");
 
   if ($conn->connect_error)
     die("Connection failed: " . $conn->connect_error);
