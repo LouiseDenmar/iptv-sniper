@@ -19,7 +19,7 @@
 
       $status = ($result["http_code"] == "200") ? "[✓] " : "[✖] ";
       $m3u = "#EXTINF:-1 ch-number=\"$channel->number\" tvg-id=\"$channel->id\" tvg-name=\"$channel->name\" tvg-logo=\"$channel->logo\" group-title=\"$channel->group\",$status$channel->name\n";
-      $m3u .= $this->url . "\n\n";
+      $m3u .= $source . "\n\n";
 
       file_put_contents("nette.safe://tv_channels.m3u", $m3u, FILE_APPEND);
       echo "Testing results for $channel->name\n$source - " . $result["http_code"] . "\n\n";
