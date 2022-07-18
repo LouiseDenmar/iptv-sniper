@@ -32,7 +32,7 @@ class UrlTester implements Task
     $m3u .= $this->url . "\n\n";
 
     file_put_contents("nette.safe://tv_channels.m3u", $m3u, FILE_APPEND);
-    return yield "M3U processing for $this->url complete.\n";
+    return "M3U processing for $this->url complete.\n";
   }
 }
 //end UrlTester.php
