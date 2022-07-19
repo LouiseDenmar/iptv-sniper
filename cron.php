@@ -1,15 +1,18 @@
 <?php
-  $conn = new mysqli("lcpbq9az4jklobvq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "nsvwm2u733p490gm", "kdj0cijcfrceu8gk", "ofagdoh1n25jv0tw");
+  set_time_limit(0);
 
-  if ($conn->connect_error)
-    die("Connection failed: " . $conn->connect_error);
+  $app = (getenv("env") == "staging") ? "iptv-sniper-beta" : "iptv-sniper";
+  $url = "https://$app.herokuapp.com/";
 
-  $sql = "CREATE TABLE files (
-    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    filename VARCHAR(30) NOT NULL,
-    file text NOT NULL
-  )";
+  $jobs = array(
+    "epg.php?json=epg_config.json",
+    "epg.php?json=cryogenix.json",
+    "link_checker.php",
+  );
 
-  echo ($conn->query($sql) === TRUE) ? "Table files created successfully!" : "Error creating table: " . $conn->error;
-  $conn->close();
+  function fetch($ch, $url) {
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
+  }
 //end cron.php
