@@ -23,4 +23,4 @@
   }
 
   $conn->close();
-//end cron.php
+//end db_init.php
