@@ -7,7 +7,7 @@
   $jobs = array(
     $url . "epg.php?json=epg_config.json",
     $url . "epg.php?json=cryogenix.json",
-    $url . "link_checker.php",
+    $url . "link_checker.php"
   );
 
   $responses = check($jobs);
