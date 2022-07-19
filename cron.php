@@ -1,15 +1,51 @@
 <?php
-  $conn = new mysqli("lcpbq9az4jklobvq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com", "nsvwm2u733p490gm", "kdj0cijcfrceu8gk", "ofagdoh1n25jv0tw");
+  set_time_limit(0);
 
-  if ($conn->connect_error)
-    die("Connection failed: " . $conn->connect_error);
+  $app = (getenv("env") == "staging") ? "iptv-sniper-beta" : "iptv-sniper";
+  $url = "https://$app.herokuapp.com/";
 
-  $sql = "CREATE TABLE files (
-    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    filename VARCHAR(30) NOT NULL,
-    file text NOT NULL
-  )";
+  $jobs = array(
+    $url . "epg.php?json=epg_config.json",
+    $url . "epg.php?json=cryogenix.json",
+    $url . "link_checker.php",
+  );
 
-  echo ($conn->query($sql) === TRUE) ? "Table files created successfully!" : "Error creating table: " . $conn->error;
-  $conn->close();
+  $responses = check($jobs);
+
+  foreach ($responses as $response)
+    echo $response;
+
+  function check($urls) {
+    $mh = curl_multi_init();
+    $ch = array();
+    $rs = array();
+
+    foreach ($urls as $key => $url) {
+      $ch[$url] = curl_init($url);
+
+      curl_setopt($ch[$url], CURLOPT_NOBODY, true);
+      curl_setopt($ch[$url], CURLOPT_RETURNTRANSFER, true);
+      curl_setopt($ch[$url], CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
+      curl_setopt($ch[$url], CURLOPT_ENCODING , "");
+
+      curl_multi_add_handle($mh, $ch[$url]);
+    }
+
+    $running = null;
+    $index = 0;
+
+    do {
+      curl_multi_exec($mh, $running);
+    }
+    while ($running);
+
+    foreach ($ch as $handle) {
+      $rs[] = curl_multi_getcontent($handle);
+      curl_multi_remove_handle($mh, $handle);
+    }
+
+    curl_multi_close($mh);
+
+    return $rs;
+  }
 //end cron.php
