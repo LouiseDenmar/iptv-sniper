@@ -19,7 +19,8 @@
 
   foreach ($setup as $key => $sql) {
     $result = $conn->query($sql);
-    $conn->close();
     echo ($result === TRUE) ? "Success setting up: $key...<br>" : $conn->error;
   }
+
+  $conn->close();
 //end cron.php
