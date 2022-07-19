@@ -37,7 +37,7 @@
     }
   }
 
-  $sql = "INSERT INTO (id, filename, file) files VALUES (1, 'tv_channels.m3u', COMPRESS($m3u)) ON DUPLICATE KEY UPDATE id = VALUES(id)";
+  $sql = "INSERT INTO (id, filename, file) files VALUES (1, 'tv_channels.m3u', COMPRESS($m3u)) ON DUPLICATE KEY UPDATE id=VALUES(id),filename=VALUES(filename),file=COMPORESS($m3u)";
   echo query($sql);
 
   function save($channel, $source, $status) {
