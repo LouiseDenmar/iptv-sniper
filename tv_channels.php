@@ -13,6 +13,6 @@
     die("Connection failed: " . $conn->connect_error);
 
   $result = $conn->query("SELECT UNCOMPRESS(file) FROM files WHERE filename='tv_channels.m3u' LIMIT 1")->fetch_row();
-  echo ($result === TRUE) ? $result[0] : $conn->error;
+  var_dump($result);
   $conn->close();
 //end tv_channels.php
