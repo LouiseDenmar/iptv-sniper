@@ -1,8 +1,8 @@
 <?php
-  $sql = "SELECT file FROM files WHERE filename='tv_channels.m3u'";
+  $sql = "SELECT UNCOMPRESS(file) FROM files WHERE filename='tv_channels.m3u'";
   $result = query($sql);
   $m3u = $result->fetch_row();
-  echo gzuncompress($m3u[0]);
+  echo $m3u[0];
 
   function query($sql) {
     $url = getenv('JAWSDB_MARIA_URL');
