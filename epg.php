@@ -59,8 +59,9 @@
 
   $xml .= "</tv>";
   $filename = ($_GET["json"] == "epg_config.json") ? "iptv-sniper.xml" : "cryogenix.xml";
-  $result = file_put_contents("compress.zlib://$filename.gz", $xml);
-  echo "[EPG Updater] $filename.gz was updated with a total of " . $result . "bytes written.";
+
+  if (db_insert($xml))
+    echo "[EPG Updater] $filename was successfully saved in the database.\n";
 
   function getChannels($url, $channels) {
     $xml = new XMLReader();
@@ -142,5 +143,27 @@
 
     $xml->close();
     return $programme_list;
+  }
+
+  function db_insert($filename, $xml) {
+    $url = getenv('JAWSDB_MARIA_URL');
+    $dbparts = parse_url($url);
+
+    $hostname = $dbparts['host'];
+    $username = $dbparts['user'];
+    $password = $dbparts['pass'];
+    $database = ltrim($dbparts['path'],'/');
+
+    $conn = new mysqli($hostname, $username, $password, $database);
+
+    if ($conn->connect_error)
+      die("Connection failed: " . $conn->connect_error);
+
+    $id = ($filename == "iptv-sniper.xml") ? 2 : 3;
+    $file = mysqli_real_escape_string($conn, $xml);
+    $sql = "INSERT INTO files (id, filename, file) VALUES ($id, $filename, COMPRESS('$file')) ON DUPLICATE KEY UPDATE id=VALUES(id),filename=VALUES(filename),file=VALUES(file)";
+    $result = $conn->query($sql);
+    $conn->close();
+    return ($result === TRUE) ? $result : $conn->error;
   }
 //end epg.php
