@@ -59,8 +59,8 @@
 
   $xml .= "</tv>";
   $filename = ($_GET["json"] == "epg_config.json") ? "iptv-sniper.xml" : "cryogenix.xml";
-  $result = file_put_contents("compress.zlib://" . __DIR__ . "/$filename.gz", $xml);
-  echo "[EPG Updater] $filename.gz was updated with a total of " . $result . " bytes written.";
+  $result = file_put_contents("compress.zlib://$filename.gz", $xml);
+  echo "[EPG Updater] $filename.gz was updated with a total of " . $result . "bytes written.";
 
   function getChannels($url, $channels) {
     $xml = new XMLReader();
