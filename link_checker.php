@@ -37,7 +37,7 @@
     }
   }
 
-  echo db_insert(gzcompress($m3u, 9));
+  echo db_insert($m3u);
 
   function save($channel, $source, $status) {
     $status = ($status == "200") ? "[✓] " : "[✖] ";
@@ -105,7 +105,7 @@
       die("Connection failed: " . $conn->connect_error);
 
     $file = mysqli_real_escape_string($conn, $m3u);
-    $sql = "INSERT INTO (id, filename, file) files VALUES (1, 'tv_channels.m3u', '$file') ON DUPLICATE KEY UPDATE id=VALUES(id),filename=VALUES(filename),file='$file')";
+    $sql = "INSERT INTO (id, filename, file) files VALUES (1, 'tv_channels.m3u', COMPRESS('$file') ON DUPLICATE KEY UPDATE id=VALUES(id),filename=VALUES(filename),file=COMPRESS('$file'))";
     $result = $conn->query($sql);
     $conn->close();
     return ($result === TRUE) ? $result : $conn->error;
