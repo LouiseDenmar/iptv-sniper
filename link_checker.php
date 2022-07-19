@@ -37,9 +37,7 @@
     }
   }
 
-  $m3u = gzcompress($m3u, 9);
-  $sql = "INSERT INTO (id, filename, file) files VALUES (1, 'tv_channels.m3u', '" . mysqli_real_escape_string($m3u) . "') ON DUPLICATE KEY UPDATE id=VALUES(id),filename=VALUES(filename),file='" . mysqli_real_escape_string($m3u) . "')";
-  echo query($sql);
+  echo db_insert(gzcompress($m3u, 9));
 
   function save($channel, $source, $status) {
     $status = ($status == "200") ? "[✓] " : "[✖] ";
@@ -92,7 +90,7 @@
     return $rs;
   }
 
-  function query($sql) {
+  function db_insert($m3u) {
     $url = getenv('JAWSDB_MARIA_URL');
     $dbparts = parse_url($url);
 
@@ -106,6 +104,8 @@
     if ($conn->connect_error)
       die("Connection failed: " . $conn->connect_error);
 
+    $file = mysqli_real_escape_string($conn, $m3u);
+    $sql = "INSERT INTO (id, filename, file) files VALUES (1, 'tv_channels.m3u', '$file') ON DUPLICATE KEY UPDATE id=VALUES(id),filename=VALUES(filename),file='$file')";
     $result = $conn->query($sql);
     $conn->close();
     return ($result === TRUE) ? $result : $conn->error;
