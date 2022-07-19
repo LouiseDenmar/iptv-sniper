@@ -37,8 +37,8 @@
     }
   }
 
-  $m3u = mysql_real_escape_string(gzcompress($m3u, 9));
-  $sql = "INSERT INTO (id, filename, file) files VALUES (1, 'tv_channels.m3u', '$m3u') ON DUPLICATE KEY UPDATE id=VALUES(id),filename=VALUES(filename),file='$m3u')";
+  $m3u = gzcompress($m3u, 9);
+  $sql = "INSERT INTO (id, filename, file) files VALUES (1, 'tv_channels.m3u', '" . mysqli_real_escape_string($m3u) . "') ON DUPLICATE KEY UPDATE id=VALUES(id),filename=VALUES(filename),file='" . mysqli_real_escape_string($m3u) . "')";
   echo query($sql);
 
   function save($channel, $source, $status) {
