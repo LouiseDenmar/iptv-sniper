@@ -13,7 +13,7 @@
     die("Connection failed: " . $conn->connect_error);
 
   $setup = array(
-    "File Storage" => "CREATE TABLE files (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, filename VARCHAR(30) NOT NULL, file text NOT NULL)",
+    "File Storage" => "CREATE TABLE files (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, filename VARCHAR(30) NOT NULL, file BLOB NOT NULL)",
     "Token Manager" => "CREATE TABLE token (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, token VARCHAR(40) NOT NULL)"
   );
 
