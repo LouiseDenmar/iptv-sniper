@@ -37,7 +37,8 @@
     }
   }
 
-  echo db_insert($m3u);
+  if (db_insert($m3u))
+    echo "[M3U Generator] Channels were successfully saved in the database.\n";
 
   function save($channel, $source, $status) {
     $status = ($status == "200") ? "[✓] " : "[✖] ";
