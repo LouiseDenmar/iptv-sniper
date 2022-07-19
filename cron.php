@@ -5,20 +5,23 @@
   $url = "https://$app.herokuapp.com/";
 
   $jobs = array(
-    "epg.php?json=epg_config.json",
-    "epg.php?json=cryogenix.json",
-    "link_checker.php",
+    $url . "epg.php?json=epg_config.json",
+    $url . "epg.php?json=cryogenix.json",
+    $url . "link_checker.php",
   );
+
+  $responses = check($jobs);
+
+  foreach ($responses as $response)
+    echo $response;
 
   function check($urls) {
     $mh = curl_multi_init();
     $ch = array();
     $rs = array();
-    $keys = array();
 
     foreach ($urls as $key => $url) {
       $ch[$url] = curl_init($url);
-      $keys[] = $key;
 
       curl_setopt($ch[$url], CURLOPT_NOBODY, true);
       curl_setopt($ch[$url], CURLOPT_RETURNTRANSFER, true);
@@ -33,23 +36,13 @@
 
     do {
       curl_multi_exec($mh, $running);
-
-      if ($running)
-        curl_multi_select($mh);
-
-      while (($info = curl_multi_info_read($mh)) !== false) {
-        $rs[$keys[$index]] = array(
-          "status"   => curl_getinfo($info['handle'], CURLINFO_HTTP_CODE),
-          "redirect" => curl_getinfo($info['handle'], CURLINFO_REDIRECT_URL)
-        );
-
-        $index++;
-      }
     }
     while ($running);
 
-    foreach ($ch as $handle)
+    foreach ($ch as $handle) {
+      $rs[] = curl_multi_getcontent($handle);
       curl_multi_remove_handle($mh, $handle);
+    }
 
     curl_multi_close($mh);
 
