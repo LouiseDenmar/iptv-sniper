@@ -1,5 +1,4 @@
 <?php
-  header('Content-Encoding: gzip');
   header('Content-type: application/x-gzip');
   header('Content-Disposition: attachment; filename=adoboTV.xml.gz');
 
@@ -16,9 +15,10 @@
   if ($conn->connect_error)
     die("Connection failed: " . $conn->connect_error);
 
-  echo $conn->query("SELECT UNCOMPRESS(file) AS file FROM files WHERE filename='adoboTV.xml' LIMIT 1")
+  $xml = $conn->query("SELECT UNCOMPRESS(file) AS file FROM files WHERE filename='adoboTV.xml' LIMIT 1")
             ->fetch_object()
             ->file;
 
   $conn->close();
+  echo gzencode($xml, 9);
 //end adoboTV.php
