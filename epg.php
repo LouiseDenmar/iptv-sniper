@@ -160,7 +160,7 @@
       die("Connection failed: " . $conn->connect_error);
 
     $id = ($filename == "adoboTV.xml") ? 2 : 3;
-    $file = mysqli_real_escape_string($conn, gzcompress($xml, 9));
+    $file = mysqli_real_escape_string($conn, gzencode($xml, 9));
     $sql = "INSERT INTO files (id, filename, file) VALUES ($id, '$filename', COMPRESS('$file')) ON DUPLICATE KEY UPDATE file=VALUES(file)";
     $result = $conn->query($sql);
     $conn->close();
