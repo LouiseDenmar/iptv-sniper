@@ -1,7 +1,4 @@
 <?php
-  if (!file_exists("localtv_token.txt"))
-    include("localtv_auth.php");
-
   $token = get_token();
   $channel = "http://103.105.213.251:8443$token" . $_GET["channel"] . ".m3u8";
   $channel_headers = get_headers($channel);
@@ -11,7 +8,7 @@
     $token = get_token();
   }
 
-  header("Location: " . "http://103.105.213.251:8443$token" . $_GET["channel"] . ".m3u8");
+  header("Location: http://103.105.213.251:8443$token" . $_GET["channel"] . ".m3u8");
 
   function get_token() {
     $url = getenv("JAWSDB_MARIA_URL");
