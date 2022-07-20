@@ -161,7 +161,7 @@
 
     $id = ($filename == "adoboTV.xml") ? 2 : 3;
     $file = mysqli_real_escape_string($conn, gzencode($xml, 9));
-    $sql = "INSERT INTO files (id, filename, file) VALUES ($id, '$filename', '$file') ON DUPLICATE KEY UPDATE file=VALUES(file)";
+    $sql = "INSERT INTO files (id, filename, file) VALUES ($id, '$filename', COMPRESS('$file')) ON DUPLICATE KEY UPDATE file=VALUES(file)";
     $result = $conn->query($sql);
     $conn->close();
     return ($result === TRUE) ? $result : $conn->error;
