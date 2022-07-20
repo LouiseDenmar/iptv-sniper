@@ -2,7 +2,7 @@
   header('Content-type: application/x-gzip');
   header('Content-Disposition: attachment; filename=cryogenix.xml.gz');
 
-  $url = getenv('JAWSDB_MARIA_URL');
+  $url = getenv("JAWSDB_MARIA_URL");
   $dbparts = parse_url($url);
 
   $hostname = $dbparts['host'];
