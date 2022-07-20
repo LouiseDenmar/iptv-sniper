@@ -29,12 +29,10 @@
   if (!empty($redirects)) {
     $responses = check($redirects);
 
-    foreach ($m3u_source->channels as $channel) {
-      foreach ($channel->sources as $source) {
+    foreach ($m3u_source->channels as $channel)
+      foreach ($channel->sources as $source)
         if (array_key_exists($source, $responses))
           $m3u .= save($channel, $source, $responses[$source]["status"]);
-      }
-    }
   }
 
   if (db_insert($m3u))
@@ -46,10 +44,10 @@
     $re = '/#EXTINF:(.+?)[,]\s?(.+?)[\r\n]+?((?:https?|rtmp):\/\/(?:\S*?\.\S*?)(?:[\s)\[\]{};"\'<]|\.\s|$))/';
     $attributes = '/([a-zA-Z0-9\-\_]+?)="([^"]*)"/';
 
-    $m3ufile = str_replace('tvg-logo', 'logo', $m3ufile);
-    $m3ufile = str_replace('tvg-id', 'id', $m3ufile);
-    $m3ufile = str_replace('tvg-name', 'name', $m3ufile);
-    $m3ufile = str_replace('group-title', 'group', $m3ufile);
+    $m3ufile = str_replace("tvg-logo", "logo", $m3ufile);
+    $m3ufile = str_replace("tvg-id", "id", $m3ufile);
+    $m3ufile = str_replace("tvg-name", "name", $m3ufile);
+    $m3ufile = str_replace("group-title", "group", $m3ufile);
 
     preg_match_all($re, $m3ufile, $matches);
 
@@ -59,8 +57,8 @@
     foreach($matches[0] as $list) {
       preg_match($re, $list, $matchList);
 
-      $mediaURL = preg_replace("/[\n\r]/","",$matchList[3]);
-      $mediaURL = preg_replace('/\s+/', '', $mediaURL);
+      $mediaURL = preg_replace('/[\n\r]/', "", $matchList[3]);
+      $mediaURL = preg_replace('/\s+/', "", $mediaURL);
 
       preg_match_all($attributes, $list, $matches, PREG_SET_ORDER);
 
@@ -111,8 +109,8 @@
 
       while (($info = curl_multi_info_read($mh)) !== false) {
         $rs[$keys[$i]] = array(
-          "status"   => curl_getinfo($info['handle'], CURLINFO_HTTP_CODE),
-          "redirect" => curl_getinfo($info['handle'], CURLINFO_REDIRECT_URL)
+          "status"   => curl_getinfo($info["handle"], CURLINFO_HTTP_CODE),
+          "redirect" => curl_getinfo($info["handle"], CURLINFO_REDIRECT_URL)
         );
 
         $i++;
@@ -139,10 +137,10 @@
     $url = getenv("JAWSDB_MARIA_URL");
     $dbparts = parse_url($url);
 
-    $hostname = $dbparts['host'];
-    $username = $dbparts['user'];
-    $password = $dbparts['pass'];
-    $database = ltrim($dbparts['path'],'/');
+    $hostname = $dbparts["host"];
+    $username = $dbparts["user"];
+    $password = $dbparts["pass"];
+    $database = ltrim($dbparts["path"], "/");
 
     $conn = new mysqli($hostname, $username, $password, $database);
 

@@ -42,15 +42,15 @@
   if (is_object($event)) {
     date_default_timezone_set($event->timezone);
 
-    $event_start = DateTime::createFromFormat('ga F j, Y', $event->start)
+    $event_start = DateTime::createFromFormat("ga F j, Y", $event->start)
                            ->setTimezone(new DateTimeZone("Asia/Singapore"))
                            ->format("YmdHis O");
 
-    $event_end   = DateTime::createFromFormat('ga F j, Y', $event->end)
+    $event_end   = DateTime::createFromFormat("ga F j, Y", $event->end)
                            ->setTimezone(new DateTimeZone("Asia/Singapore"))
                            ->format("YmdHis O");
 
-    $xml .= "  <programme start=\"" . $event_start . "\" stop=\"" . $event_end . "\" channel=\"SpecialEvents\">\n";
+    $xml .= "  <programme start=\"$event_start\" stop=\"$event_end\" channel=\"SpecialEvents\">\n";
     $xml .= "    <title lang=\"en\">" . htmlspecialchars($event->title) . "</title>\n";
     $xml .= "    <desc lang=\"en\">" . htmlspecialchars($event->description) . "</desc>\n";
     $xml .= "    <category lang=\"en\">" . htmlspecialchars($event->category) . "</category>\n";
@@ -68,9 +68,9 @@
     $xml->open($url);
     $channels_list = array();
 
-    while ($xml->read() && $xml->name !== 'channel') {}
+    while ($xml->read() && $xml->name !== "channel") {}
 
-    while ($xml->name === 'channel') {
+    while ($xml->name === "channel") {
       $channel = new SimpleXMLElement($xml->readOuterXML());
       $channel_id = strval($channel->attributes()->id);
       $key = array_search($channel_id, $channels);
@@ -78,37 +78,37 @@
       if ($key !== false) {
         $channels_list[$channel_id] = [
           "id"           => $channel_id,
-          "display-name" => strval($channel->{'display-name'}),
+          "display-name" => strval($channel->{"display-name"}),
           "icon"         => null,
-          "url"          => strval($channel->{'url'})
+          "url"          => strval($channel->{"url"})
         ];
 
-        if (isset($channel->{'icon'}) && $channel->{'icon'} instanceof SimpleXMLElement) {
-          $attributes = $channel->{'icon'}->attributes();
+        if (isset($channel->{"icon"}) && $channel->{"icon"} instanceof SimpleXMLElement) {
+          $attributes = $channel->{"icon"}->attributes();
           $pathinfo 	= pathinfo($attributes->src);
   
           if (empty($attributes->src)) {
-            $channels_list[$channel_id]['icon'] = strval($channel->{'icon'});
-            $xml->next('channel');
+            $channels_list[$channel_id]["icon"] = strval($channel->{"icon"});
+            $xml->next("channel");
             unset($channel);
           } 
           elseif (!filter_var($attributes->src, FILTER_VALIDATE_URL)) {
-            $channels_list[$channel_id]['icon'] = strval($channel->{'icon'});
-            $xml->next('channel');
+            $channels_list[$channel_id]["icon"] = strval($channel->{"icon"});
+            $xml->next("channel");
             unset($channel);
           }
-          elseif (empty($pathinfo['extension'])) {
-            $channels_list[$channel_id]['icon'] = strval($channel->{'icon'});
-            $xml->next('channel');
+          elseif (empty($pathinfo["extension"])) {
+            $channels_list[$channel_id]["icon"] = strval($channel->{"icon"});
+            $xml->next("channel");
             unset($channel);
             continue;
           }
           else
-            $channels_list[$channel_id]['icon'] = strval($attributes->src);
+            $channels_list[$channel_id]["icon"] = strval($attributes->src);
         }
       }
 
-      $xml->next('channel');
+      $xml->next("channel");
       unset($channel);
     }
 
@@ -121,9 +121,9 @@
     $xml->open($url);
     $programme_list = array();
 
-    while ($xml->read() && $xml->name !== 'programme') {}
+    while ($xml->read() && $xml->name !== "programme") {}
 
-    while ($xml->name === 'programme') {
+    while ($xml->name === "programme") {
       $programme = new SimpleXMLElement($xml->readOuterXML());
       $key = array_search(strval($programme->attributes()->channel), $channels);
 
@@ -137,7 +137,7 @@
           "category"    => strval($programme->category)
         ];
 
-      $xml->next('programme');
+      $xml->next("programme");
       unset($programme);
     }
 
@@ -149,10 +149,10 @@
     $url = getenv("JAWSDB_MARIA_URL");
     $dbparts = parse_url($url);
 
-    $hostname = $dbparts['host'];
-    $username = $dbparts['user'];
-    $password = $dbparts['pass'];
-    $database = ltrim($dbparts['path'],'/');
+    $hostname = $dbparts["host"];
+    $username = $dbparts["user"];
+    $password = $dbparts["pass"];
+    $database = ltrim($dbparts["path"], "/");
 
     $conn = new mysqli($hostname, $username, $password, $database);
 
