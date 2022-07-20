@@ -3,7 +3,7 @@
   $event = json_decode(file_get_contents("special_event.json"));
 
   $xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
-  $xml .= "<tv date=\"" . date('Ymd') . "\" generator-info-name=\"IPTV-Sniper\">\n";
+  $xml .= "<tv date=\"" . date('Ymd') . "\" generator-info-name=\"AdoboTV\">\n";
 
   if (is_object($event)) {
     $xml .= "  <channel id=\"SpecialEvents\">\n";
@@ -58,9 +58,10 @@
   }
 
   $xml .= "</tv>";
-  $filename = ($_GET["json"] == "epg_config.json") ? "iptv-sniper.xml" : "cryogenix.xml";
-  $result = file_put_contents("compress.zlib://$filename.gz", $xml);
-  echo "[EPG Updater] $filename.gz was updated with a total of " . $result . "bytes written.";
+  $filename = ($_GET["json"] == "epg_config.json") ? "adoboTV.xml" : "cryogenix.xml";
+
+  if (db_insert($filename, $xml))
+    echo "[EPG Updater] $filename was successfully updated in the database.\n";
 
   function getChannels($url, $channels) {
     $xml = new XMLReader();
@@ -142,5 +143,27 @@
 
     $xml->close();
     return $programme_list;
+  }
+
+  function db_insert($filename, $xml) {
+    $url = getenv("JAWSDB_MARIA_URL");
+    $dbparts = parse_url($url);
+
+    $hostname = $dbparts['host'];
+    $username = $dbparts['user'];
+    $password = $dbparts['pass'];
+    $database = ltrim($dbparts['path'],'/');
+
+    $conn = new mysqli($hostname, $username, $password, $database);
+
+    if ($conn->connect_error)
+      die("Connection failed: " . $conn->connect_error);
+
+    $id = ($filename == "adoboTV.xml") ? 2 : 3;
+    $file = mysqli_real_escape_string($conn, $xml);
+    $sql = "INSERT INTO files (id, filename, file) VALUES ($id, '$filename', COMPRESS('$file')) ON DUPLICATE KEY UPDATE file=VALUES(file)";
+    $result = $conn->query($sql);
+    $conn->close();
+    return ($result === TRUE) ? $result : $conn->error;
   }
 //end epg.php
