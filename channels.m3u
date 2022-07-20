@@ -182,7 +182,7 @@ https://live-hls-web-aje.getaj.net/AJE/01.m3u8
 #EXTINF:-1 tvg-id="ANC.ph" tvg-name="ANC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/ANClogo2014.svg/512px-ANClogo2014.svg.png" group-title="News & Culture",ANC
 https://ancglobal-abscbn-ono.amagi.tv/playlist360_p.m3u8
 
-#EXTINF:-1 tvg-id="AustraliaChannel.au" tvg-name="Australia Channel" tvg-logo="https://i.imgur.com/NI0AeNH.png" group-title="News",Australia Channel
+#EXTINF:-1 tvg-id="AustraliaChannel.au" tvg-name="Australia Channel" tvg-logo="https://i.imgur.com/NI0AeNH.png" group-title="News & Culture",Australia Channel
 https://austchannel-live.akamaized.net/hls/live/2002729/austchannel-news/master.m3u8
 
 #EXTINF:-1 tvg-id="BBCWorldNewsAsiaPacific.uk" tvg-name="BBC World News" tvg-logo="https://i.imgur.com/rPzH88J.png" group-title="News & Culture",BBC World News
@@ -211,6 +211,18 @@ https://streaming.cnnphilippines.com/live/myStream/playlist.m3u8
 
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW" tvg-logo="https://i.imgur.com/1B4XjYf.png" group-title="News & Culture",DW
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+
+#EXTINF:-1 tvg-id="WNYWDT1.us" tvg-name="FOX 5" tvg-logo="https://i.imgur.com/zZd9Tkt.png" group-title="News & Culture",FOX 5
+https://v-ny.theus6tv.tk/hls/5.1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="KSAZDT1.us" tvg-name="FOX 10" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png" group-title="News & Culture",FOX 10
+https://v-px.mybtv.net/live/14.m3u8
+
+#EXTINF:-1 tvg-id="KTTVDT1.us" tvg-name="FOX 11" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png" group-title="News & Culture",FOX 11
+https://v-la.mybtv.net/live/166.m3u8
+
+#EXTINF:-1 tvg-id="WTXFDT1.us" tvg-name="FOX 29" tvg-logo="https://i.imgur.com/fRjmk5r.png" group-title="News & Culture",FOX 29
+https://v-pi.theus6tv.tk/hls/29.1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="Fox News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/512px-Fox_News_Channel_logo.svg.png" group-title="News & Culture",Fox News
 https://iptv-sniper.herokuapp.com/localtv.php?channel=39
