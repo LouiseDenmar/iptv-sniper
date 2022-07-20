@@ -3,7 +3,7 @@
   $event = json_decode(file_get_contents("special_event.json"));
 
   $xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
-  $xml .= "<tv date=\"" . date('Ymd') . "\" generator-info-name=\"IPTV-Sniper\">\n";
+  $xml .= "<tv date=\"" . date('Ymd') . "\" generator-info-name=\"AdoboTV\">\n";
 
   if (is_object($event)) {
     $xml .= "  <channel id=\"SpecialEvents\">\n";
@@ -58,10 +58,10 @@
   }
 
   $xml .= "</tv>";
-  $filename = ($_GET["json"] == "epg_config.json") ? "iptv-sniper.xml" : "cryogenix.xml";
+  $filename = ($_GET["json"] == "epg_config.json") ? "adoboTV.xml" : "cryogenix.xml";
 
   if (db_insert($xml))
-    echo "[EPG Updater] $filename was successfully saved in the database.\n";
+    echo "[EPG Updater] $filename was successfully updated in the database.\n";
 
   function getChannels($url, $channels) {
     $xml = new XMLReader();
@@ -159,7 +159,7 @@
     if ($conn->connect_error)
       die("Connection failed: " . $conn->connect_error);
 
-    $id = ($filename == "iptv-sniper.xml") ? 2 : 3;
+    $id = ($filename == "adoboTV.xml") ? 2 : 3;
     $file = mysqli_real_escape_string($conn, $xml);
     $sql = "INSERT INTO files (id, filename, file) VALUES ($id, $filename, COMPRESS('$file')) ON DUPLICATE KEY UPDATE id=VALUES(id),filename=VALUES(filename),file=VALUES(file)";
     $result = $conn->query($sql);
