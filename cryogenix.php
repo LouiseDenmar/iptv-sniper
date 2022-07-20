@@ -1,14 +1,14 @@
 <?php
-  header('Content-type: application/x-gzip');
-  header('Content-Disposition: attachment; filename=cryogenix.xml.gz');
+  header("Content-Type: application/x-gzip");
+  header("Content-Disposition: attachment; filename=cryogenix.xml.gz");
 
   $url = getenv("JAWSDB_MARIA_URL");
   $dbparts = parse_url($url);
 
-  $hostname = $dbparts['host'];
-  $username = $dbparts['user'];
-  $password = $dbparts['pass'];
-  $database = ltrim($dbparts['path'],'/');
+  $hostname = $dbparts["host"];
+  $username = $dbparts["user"];
+  $password = $dbparts["pass"];
+  $database = ltrim($dbparts["path"], "/");
 
   $conn = new mysqli($hostname, $username, $password, $database);
 
