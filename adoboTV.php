@@ -1,5 +1,6 @@
 <?php
   header('Content-Encoding: gzip');
+  header('Content-type: application/x-gzip');
   header('Content-Disposition: attachment; filename=adoboTV.xml.gz');
 
   $url = getenv('JAWSDB_MARIA_URL');
