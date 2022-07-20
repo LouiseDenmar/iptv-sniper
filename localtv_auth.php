@@ -20,5 +20,5 @@
   $sql = "INSERT INTO token (id, token) VALUES (1, '$token') ON DUPLICATE KEY UPDATE token=VALUES(token)";
   $result = $conn->query($sql);
   $conn->close();
-  echo ($result === TRUE) ? "[FPToken Updater] Auth token for local tv has been successfully updated.\n" : $conn->error;
+  echo ($result === TRUE) ? "[FP Token Updater] Auth token for local tv has been successfully updated.\n" : $conn->error;
 //end localtv_auth.php
