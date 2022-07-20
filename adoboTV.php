@@ -12,11 +12,9 @@
   if ($conn->connect_error)
     die("Connection failed: " . $conn->connect_error);
 
-  die("<pre>" . print_r($conn->query("SELECT * FROM files")->fetch_object(), true) . "</pre>");
-
-//   echo $conn->query("SELECT UNCOMPRESS(file) AS file FROM files WHERE filename='adoboTV.xml' LIMIT 1")
-//             ->fetch_object()
-//             ->file;
+  echo $conn->query("SELECT UNCOMPRESS(file) AS file FROM files WHERE filename='adoboTV.xml' LIMIT 1")
+            ->fetch_object()
+            ->file;
 
   $conn->close();
 //end adoboTV.php
