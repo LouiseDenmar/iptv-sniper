@@ -1,9 +1,10 @@
 <?php
-  $token = get_token();
+  $token   = get_token();
   $channel = "http://103.105.213.251:8443$token" . $_GET["channel"] . ".m3u8";
-  $channel_headers = get_headers($channel);
+  $headers = get_headers($channel);
 
-  if ($channel_headers[0] == "HTTP/1.1 410 Gone") {
+  if ($headers[0] == "HTTP/1.1 410 Gone") {
+    echo "[FP Token Updater] Current token has expired. Acquiring a new one...\n";
     include("localtv_auth.php");
     $token = get_token();
   }
