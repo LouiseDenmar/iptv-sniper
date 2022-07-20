@@ -150,7 +150,7 @@
       die("Connection failed: " . $conn->connect_error);
 
     $file = mysqli_real_escape_string($conn, $m3u);
-    $sql = "INSERT INTO files (id, filename, file) VALUES (1, 'tv_channels.m3u', COMPRESS('$file')) ON DUPLICATE KEY UPDATE id=VALUES(id),filename=VALUES(filename),file=VALUES(file)";
+    $sql = "INSERT INTO files (id, filename, file) VALUES (1, 'tv_channels.m3u', COMPRESS('$file')) ON DUPLICATE KEY UPDATE file=VALUES(file)";
     $result = $conn->query($sql);
     $conn->close();
     return ($result === TRUE) ? $result : $conn->error;
