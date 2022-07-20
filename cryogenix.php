@@ -12,9 +12,9 @@
   if ($conn->connect_error)
     die("Connection failed: " . $conn->connect_error);
 
-  echo $conn->query("SELECT UNCOMPRESS(file) AS file FROM files WHERE filename='tv_channels.m3u' LIMIT 1")
+  echo $conn->query("SELECT UNCOMPRESS(file) AS file FROM files WHERE filename='cryogenix.xml' LIMIT 1")
             ->fetch_object()
             ->file;
 
   $conn->close();
-//end tv_channels.php
+//end cryogenix.php

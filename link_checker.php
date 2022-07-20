@@ -4,7 +4,7 @@
   $responses = array();
   $redirects = array();
 
-  $m3u_source = json_decode(file_get_contents("channels.json"));
+  $m3u_source = json_decode(parse_m3u("https://raw.githubusercontent.com/jmvbambico/iptv-sniper/master/channels.m3u"));
   $m3u = "#EXTM3U url-tvg=\"$m3u_source->epg\"\n\n";
 
   foreach ($m3u_source->channels as $channel)
@@ -38,14 +38,50 @@
   }
 
   if (db_insert($m3u))
-    echo "[M3U Generator] Channels were successfully saved in the database.\n";
+    echo "[M3U Generator] Channel statuses were successfully saved in the database.\n";
 
-  function save($channel, $source, $status) {
-    $status = ($status == "200") ? "[✓] " : "[✖] ";
-    $m3u = "#EXTINF:-1 ch-number=\"$channel->number\" tvg-id=\"$channel->id\" tvg-name=\"$channel->name\" tvg-logo=\"$channel->logo\" group-title=\"$channel->group\",$status$channel->name\n";
-    $m3u .= $source . "\n\n";
-    echo "[M3U Generator] Finished checking $channel->name with a status of: " . $status . "\n";
-    return $m3u;
+  function parse_m3u($m3u) {
+    $m3ufile = file_get_contents($m3u);
+
+    $re = '/#EXTINF:(.+?)[,]\s?(.+?)[\r\n]+?((?:https?|rtmp):\/\/(?:\S*?\.\S*?)(?:[\s)\[\]{};"\'<]|\.\s|$))/';
+    $attributes = '/([a-zA-Z0-9\-\_]+?)="([^"]*)"/';
+
+    $m3ufile = str_replace('tvg-logo', 'logo', $m3ufile);
+    $m3ufile = str_replace('tvg-id', 'id', $m3ufile);
+    $m3ufile = str_replace('tvg-name', 'name', $m3ufile);
+    $m3ufile = str_replace('group-title', 'group', $m3ufile);
+
+    preg_match_all($re, $m3ufile, $matches);
+
+    $ctr = 1;
+    $items = array();
+
+    foreach($matches[0] as $list) {
+      preg_match($re, $list, $matchList);
+
+      $mediaURL = preg_replace("/[\n\r]/","",$matchList[3]);
+      $mediaURL = preg_replace('/\s+/', '', $mediaURL);
+
+      preg_match_all($attributes, $list, $matches, PREG_SET_ORDER);
+
+      foreach ($matches as $match)
+        $newdata[$match[1]] = $match[2];
+
+      foreach ($matches as $match) {
+        $newdata["number"] = $ctr;
+        $newdata["sources"] = array($mediaURL);
+      }
+
+      $items[] = $newdata;
+      $ctr++;
+    }
+
+    $globalist = array(
+        "epg" => "https://" . getenv('env') . ".herokuapp.com/adoboTV.php",
+        "channels" => $items
+    );
+
+    return json_encode($globalist, JSON_UNESCAPED_SLASHES|JSON_PRETTY_PRINT);
   }
 
   function check($urls) {
@@ -89,6 +125,14 @@
 
     curl_multi_close($mh);
     return $rs;
+  }
+
+  function save($channel, $source, $status) {
+    $status = ($status == "200") ? "[✓] " : "[✖] ";
+    $m3u = "#EXTINF:-1 ch-number=\"$channel->number\" tvg-id=\"$channel->id\" tvg-name=\"$channel->name\" tvg-logo=\"$channel->logo\" group-title=\"$channel->group\",$status$channel->name\n";
+    $m3u .= $source . "\n\n";
+    echo "[M3U Generator] Finished checking $channel->name with a status of: " . $status . "\n";
+    return $m3u;
   }
 
   function db_insert($m3u) {
