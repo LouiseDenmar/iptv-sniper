@@ -147,7 +147,6 @@
             "HBO2East.us",
             "HLN.us",
             "KSAZDT1.us",
-            "KTTVDT1.us",
             "MSNBC.us",
             "MTVLive.uk",
             "NewsmaxTV.us",
@@ -155,7 +154,6 @@
             "TNTEast.us",
             "USANetworkEast.us",
             "ViceTV.us",
-            "WNYWDT1.us",
             "WTXFDT1.us"
         ]
     },
@@ -163,10 +161,12 @@
         "url": "https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml.gz",
         "channels": [
             "KapatidTV5.ph",
+            "KTTVDT1.us",
             "MLBNetwork.us",
             "MyxUSA.us",
             "NBATV.us",
             "SariSariChannel.ph",
+            "WNYWDT1.us",
             "ZooMooLatinAmerica.nz"
         ]
     },
