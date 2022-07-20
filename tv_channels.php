@@ -1,5 +1,8 @@
 <?php
-  $url = getenv('JAWSDB_MARIA_URL');
+  header("Content-Type: video/vnd.mpegurl");
+  header("Content-Disposition: attachment; filename=tv_channels.m3u");
+
+  $url = getenv("JAWSDB_MARIA_URL");
   $dbparts = parse_url($url);
 
   $hostname = $dbparts['host'];

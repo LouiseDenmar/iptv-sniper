@@ -77,7 +77,7 @@
     }
 
     $globalist = array(
-        "epg" => "https://" . getenv('env') . ".herokuapp.com/adoboTV.xml.gz",
+        "epg" => "https://" . getenv("env") . ".herokuapp.com/adoboTV.php",
         "channels" => $items
     );
 
@@ -136,7 +136,7 @@
   }
 
   function db_insert($m3u) {
-    $url = getenv('JAWSDB_MARIA_URL');
+    $url = getenv("JAWSDB_MARIA_URL");
     $dbparts = parse_url($url);
 
     $hostname = $dbparts['host'];
