@@ -12,9 +12,12 @@
   if ($conn->connect_error)
     die("Connection failed: " . $conn->connect_error);
 
-  echo $conn->query("SELECT UNCOMPRESS(file) AS file FROM files WHERE filename='adoboTV.xml' LIMIT 1")
-            ->fetch_object()
-            ->file;
+  echo $conn->query("ALTER TABLE files MODIFY file MEDIUMBLOB;");
+//   die("<pre>" . print_r($conn->query("ALTER TABLE files MODIFY file MEDIUMBLOB;")->fetch_object(), true) . "</pre>");
+
+//   echo $conn->query("SELECT UNCOMPRESS(file) AS file FROM files WHERE filename='adoboTV.xml' LIMIT 1")
+//             ->fetch_object()
+//             ->file;
 
   $conn->close();
 //end adoboTV.php
