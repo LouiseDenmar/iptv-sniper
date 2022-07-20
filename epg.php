@@ -60,7 +60,7 @@
   $xml .= "</tv>";
   $filename = ($_GET["json"] == "epg_config.json") ? "adoboTV.xml" : "cryogenix.xml";
 
-  if (db_insert($xml))
+  if (db_insert($filename, $xml))
     echo "[EPG Updater] $filename was successfully updated in the database.\n";
 
   function getChannels($url, $channels) {
