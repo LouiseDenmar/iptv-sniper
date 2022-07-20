@@ -16,8 +16,8 @@
     die("Connection failed: " . $conn->connect_error);
 
   $xml = $conn->query("SELECT UNCOMPRESS(file) AS file FROM files WHERE filename='adoboTV.xml' LIMIT 1")
-            ->fetch_object()
-            ->file;
+              ->fetch_object()
+              ->file;
 
   $conn->close();
   echo gzencode($xml, 9);

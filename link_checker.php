@@ -77,7 +77,7 @@
     }
 
     $globalist = array(
-        "epg" => "https://" . getenv('env') . ".herokuapp.com/adoboTV.xml.gz",
+        "epg" => "https://" . getenv('env') . ".herokuapp.com/adoboTV.php",
         "channels" => $items
     );
 
