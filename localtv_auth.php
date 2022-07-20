@@ -17,7 +17,7 @@
     die("Connection failed: " . $conn->connect_error);
 
   $token = mysqli_real_escape_string($conn, $token);
-  $sql = "INSERT INTO token (id, token) VALUES (1, '$token')) ON DUPLICATE KEY UPDATE token=VALUES(token)";
+  $sql = "INSERT INTO token (id, token) VALUES (1, '$token') ON DUPLICATE KEY UPDATE token=VALUES(token)";
   $result = $conn->query($sql);
   $conn->close();
   echo ($result === TRUE) ? "[FPToken Updater] Auth token for local tv has been successfully updated.\n" : $conn->error;
