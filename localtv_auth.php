@@ -1,15 +1,15 @@
 <?php
   $auth_server = file_get_contents(getenv("FP_AUTH_URL"));
   preg_match('/103.105.213.251:8443(.*?)3.m3u8/s', $auth_server, $matches);
-  $token = preg_replace('/\\\\/', '', $matches[1]);
+  $token = preg_replace('/\\\\/', "", $matches[1]);
 
   $url = getenv("JAWSDB_MARIA_URL");
   $dbparts = parse_url($url);
 
-  $hostname = $dbparts['host'];
-  $username = $dbparts['user'];
-  $password = $dbparts['pass'];
-  $database = ltrim($dbparts['path'],'/');
+  $hostname = $dbparts["host"];
+  $username = $dbparts["user"];
+  $password = $dbparts["pass"];
+  $database = ltrim($dbparts["path"], "/");
 
   $conn = new mysqli($hostname, $username, $password, $database);
 
