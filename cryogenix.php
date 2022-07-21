@@ -1,6 +1,9 @@
 <?php
-  header("Content-Type: application/x-gzip");
-  header("Content-Disposition: attachment; filename=cryogenix.xml.gz");
+  $type = (isset($_GET["format"]) && $_GET["format"] == "xml") ? "application/xml" : "application/gzip";
+  header("Content-Type: $type");
+
+  if ($type == "application/gzip")
+    header("Content-Disposition: attachment; filename=cryogenix.xml.gz");
 
   $url = getenv("JAWSDB_MARIA_URL");
   $dbparts = parse_url($url);
@@ -20,5 +23,5 @@
               ->file;
 
   $conn->close();
-  echo gzencode($xml, 9);
+  echo ($type == "application/gzip") ? gzencode($xml, 9) : $xml;
 //end cryogenix.php
