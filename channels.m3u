@@ -384,10 +384,10 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=36
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
 
 #EXTINF:-1 tvg-id="SkySportsArena.uk" tvg-name="Sky Sports Arena" tvg-logo="https://i.imgur.com/XBMm9XT.png" group-title="Sports",Sky Sports Arena
-http://iptvstream.es:8080/Pilsen/Movicer/506144
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=623584&extension=ts&play_token=dP3nma5LZ5
 
 #EXTINF:-1 tvg-id="SkySportsF1.uk" tvg-name="Sky Sports F1" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Sky_Sports_F1_logo_2020.svg/512px-Sky_Sports_F1_logo_2020.svg.png" group-title="Sports",Sky Sports F1
-http://iptvstream.es:8080/Pilsen/Movicer/506145
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=623586&extension=ts&play_token=qda82ecDLx
 
 #EXTINF:-1 tvg-id="SPOTVAsia" tvg-name="SPOTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/SPOTV_logo.svg/800px-SPOTV_logo.svg.png" group-title="Sports",SPOTV
 https://bcovlive-a.akamaihd.net/99545824f51f4c1592b35314c6ece3b0/ap-northeast-1/6271486521001/profile_0/chunklist.m3u8
@@ -407,7 +407,7 @@ https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na
 https://iptv-sniper.herokuapp.com/localtv.php?channel=31
 
 #EXTINF:-1 tvg-id="WWENetwork.us" tvg-name="WWE Network" tvg-logo="https://i.postimg.cc/wxDcjfB2/WWENetwork-White.png" group-title="Sports",WWE Network 
-http://185.53.88.211:8070/live/Unplugged83/F75DCxx397DMKop5388mM/2373.ts
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=1018&extension=ts&play_token=dqykqcwyUG
 
 #EXTINF:-1 tvg-id="BreezeTV.nz" tvg-name="Breeze TV" tvg-logo="https://i.imgur.com/3dpH9XF.jpg" group-title="Music",Breeze TV
 https://livestreamdirect-breezetv.mediaworks.nz/breezetv.m3u8
