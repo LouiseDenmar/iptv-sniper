@@ -77,11 +77,17 @@ https://magselect-stirr.amagi.tv/playlist1080p.m3u8
 #EXTINF:-1 tvg-id="CinemaxSingapore.sg" tvg-name="Cinemax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/611-cinemax.png" group-title="Movies & Series",Cinemax
 https://iptv-sniper.herokuapp.com/localtv.php?channel=16
 
+#EXTINF:-1 tvg-id="FXEast.us" tvg-name="FX" tvg-logo="https://zap2it.tmsimg.com/h5/NowShowing/73681/s73681_h5_aa.png" group-title="Movies & Series",FX
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=860084&extension=ts&play_token=7rU1sOt0HK
+
 #EXTINF:-1 tvg-id="HBOMalaysia.my" tvg-name="HBO" tvg-logo="https://i.imgur.com/EnA2RcD.png" group-title="Movies & Series",HBO
 https://iptv-sniper.herokuapp.com/localtv.php?channel=15
 
 #EXTINF:-1 tvg-id="HBO2East.us" tvg-name="HBO 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png" group-title="Movies & Series",HBO 2
-http://moontools.me:8080//FNmdP2U7ey/HZQzvGgaPe/28781
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=863195&extension=ts&play_token=yg7L52QpeM
+
+#EXTINF:-1 tvg-id="HBOFamilyEast.us" tvg-name="HBO Family" tvg-logo="https://i.imgur.com/sDFfNjo.png" group-title="Movies & Series",HBO Family
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=860109&extension=ts&play_token=xlchl3dFfk
 
 #EXTINF:-1 tvg-id="Hits.sg" tvg-name="Hits" tvg-logo="https://i.imgur.com/YeqyD9W.png" group-title="Movies & Series",Hits
 http://210.210.155.35/session/1204b13c-a86a-11ec-baed-ab3e95131f5a/dr9445/h/h37/01.m3u8
@@ -107,8 +113,14 @@ https://rialto-rialto-samsungaustralia.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RushbyAMC.us" tvg-name="Rush by AMC" tvg-logo="https://i.imgur.com/yngqRL8.png" group-title="Movies & Series",Rush by AMC
 https://amc-rushbyamc-1.imdbtv.wurl.com/manifest/playlist.m3u8
 
+#EXTINF:-1 tvg-id="ShowtimeEast.us" tvg-name="Showtime" tvg-logo="https://i.imgur.com/F6rUoQ7.png" group-title="Movies & Series",Showtime
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=860283&extension=ts&play_token=3bJyPI6B9a
+
 #EXTINF:-1 tvg-id="STIRRMovies.us" tvg-name="STIRR Movies" tvg-logo="https://i.imgur.com/ec3yTaI.png" group-title="Movies & Series",STIRR Movies
 https://dai.google.com/linear/hls/event/f-zA7b21Squ7M1_sabGfjA/master.m3u8
+
+#EXTINF:-1 tvg-id="SyfyEast.us" tvg-name="Syfy" tvg-logo="https://i.imgur.com/4fMWhUE.png" group-title="Movies & Series",Syfy
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=860317&extension=ts&play_token=qUFDgWsenK
 
 #EXTINF:-1 tvg-id="USANetworkEast.us" tvg-name="USA Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/512px-USA_Network_logo_%282016%29.svg.png" group-title="Movies & Series",USA Network
 http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/3390
@@ -118,6 +130,9 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=13
 
 #EXTINF:-1 tvg-id="WarnerTVSoutheastAsia.us" tvg-name="Warner TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies & Series",Warner TV
 https://iptv-sniper.herokuapp.com/localtv.php?channel=21
+
+#EXTINF:-1 tvg-id="ABCEast.us" tvg-name="ABC" tvg-logo="https://i.imgur.com/waE1BeJ.png" group-title="Lifestyle & Entertainment",ABC
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=605019&extension=ts&play_token=yItKhn6D2l
 
 #EXTINF:-1 tvg-id="StoriesbyAMC.us" tvg-name="Stories by AMC" tvg-logo="https://images.pluto.tv/channels/5e8254118601b80007b4b7ae/colorLogoPNG.png" group-title="Lifestyle & Entertainment",Stories by AMC
 https://fe0423aba9c44b9e92576576e4d3189a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_AMCPresentsClean/playlist.m3u8
@@ -165,7 +180,7 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=47
 https://iptv-sniper.herokuapp.com/localtv.php?channel=9
 
 #EXTINF:-1 tvg-id="TNTEast.us" tvg-name="TNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/512px-TNT_Logo_2016.svg.png" group-title="Lifestyle & Entertainment",TNT
-http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/769
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=605021&extension=ts&play_token=4oQODlVlQI
 
 #EXTINF:-1 tvg-id="TravelChannelAsia.uk" tvg-name="Travel Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2018_Travel_Channel_logo.svg/512px-2018_Travel_Channel_logo.svg.png" group-title="Lifestyle & Entertainment",Travel Channel
 http://user.scalecdn.co:8080/live/Alicia/Alicia/567747.m3u8
@@ -225,7 +240,7 @@ http://sverigeplay.tv/play/live.php?mac=00:1A:79:ab:98:86&stream=33270&extension
 https://tve-live-lln.warnermediacdn.com/hls/live/586496/cnngo/hln/VIDEO_0_3564000.m3u8
 
 #EXTINF:-1 tvg-id="MSNBC.us" tvg-name="MSNBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/MSNBC_2021.svg/512px-MSNBC_2021.svg.png" group-title="News & Culture",MSNBC
-http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/406
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=860150&extension=ts&play_token=sCDJ0MU30D
 
 #EXTINF:-1 tvg-id="NewsmaxTV.us" tvg-name="Newsmax TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Newsmax2021.svg/512px-Newsmax2021.svg.png" group-title="News & Culture",Newsmax TV
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/samsungus-newsmax/playlist.m3u8
@@ -266,11 +281,14 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=46
 #EXTINF:-1 tvg-id="DiscoveryChannelHongKong.hk" tvg-name="Discovery Channel" tvg-logo="https://i.imgur.com/t6iJj37.png" group-title="Science & Documentaries",Discovery Channel
 https://iptv-sniper.herokuapp.com/localtv.php?channel=45
 
-#EXTINF:-1 tvg-id="DiscoveryScience.us" tvg-name="Discovery Science" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/512px-Discovery_Science_2017_Logo.svg.png" group-title="Science & Documentaries",Discovery Science
-http://moontools.me:8080//FNmdP2U7ey/HZQzvGgaPe/28860
+#EXTINF:-1 tvg-id="DiscoveryScienceUK.uk" tvg-name="Discovery Science" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Discovery_Science_2017_Logo.svg/512px-Discovery_Science_2017_Logo.svg.png" group-title="Science & Documentaries",Discovery Science
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=253170&extension=ts&play_token=2jcjaEkUPQ
 
-#EXTINF:-1 tvg-id="DMAXAsia.sg" tvg-name="DMAX" tvg-logo="https://i.ibb.co/3YHs0W9/image-removebg-preview.png" group-title="Science & Documentaries",DMAX
-http://ky-iptv.com:80/Peaches1/Peaches1/2063022.ts
+#EXTINF:-1 tvg-id="DiscoveryTurboUK.uk" tvg-name="Discovery Turbo" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb2409.png" group-title="Science & Documentaries",Discovery Turbo
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=930&extension=ts&play_token=n2hmJEmGpc
+
+#EXTINF:-1 tvg-id="DMAXUK.uk" tvg-name="DMAX" tvg-logo="https://i.ibb.co/3YHs0W9/image-removebg-preview.png" group-title="Science & Documentaries",DMAX
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=253167&extension=ts&play_token=lT0kvyR7TK
 
 #EXTINF:-1 tvg-id="HistoryAsia.us" tvg-name="History" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="Science & Documentaries",History
 https://iptv-sniper.herokuapp.com/localtv.php?channel=53
@@ -318,10 +336,10 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/samsungus-edgesportusa-samsungtv-us/pl
 http://210.210.155.35/uq2663/h/h22/index.m3u8
 
 #EXTINF:-1 tvg-id="ESPN.us" tvg-name="ESPN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/512px-ESPN_wordmark.svg.png" group-title="Sports",ESPN
-http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/747
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=605022&extension=ts&play_token=2TOa1TBQv3
 
 #EXTINF:-1 tvg-id="ESPN2.us" tvg-name="ESPN 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/2560px-ESPN2_logo.svg.png" group-title="Sports",ESPN 2
-http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/41918
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=860020&extension=ts&play_token=xGKhVGt3IM
 
 #EXTINF:-1 tvg-id="Eurosport" tvg-name="Eurosport 1" tvg-logo="https://epg.eurosport-tv.com/Images/LOGO_H208_TRP.png" group-title="Sports",Eurosport
 http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=141598&extension=ts&play_token=yofOklZ6OX
@@ -330,10 +348,10 @@ http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=141598&exten
 https://iptv-sniper.herokuapp.com/localtv.php?channel=18
 
 #EXTINF:-1 tvg-id="FoxSports1.us" tvg-name="Fox Sports 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2015_Fox_Sports_1_logo.svg/512px-2015_Fox_Sports_1_logo.svg.png" group-title="Sports",Fox Sports 1
-http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/150797
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=860061&extension=ts&play_token=329zFNX3So
 
 #EXTINF:-1 tvg-id="FoxSports2.us" tvg-name="Fox Sports 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/FS2_logo_2015.svg/512px-FS2_logo_2015.svg.png" group-title="Sports",Fox Sports 2
-http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/757
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=860062&extension=ts&play_token=InkGFQ4vVN
 
 #EXTINF:-1 tvg-id="HorseCountryTV.uk" tvg-name="Horse and Country" tvg-logo="https://i.imgur.com/r5Ip3P0.png" group-title="Sports",Horse and Country
 https://hncfree-samsungau.amagi.tv/playlist.m3u8
@@ -418,8 +436,14 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=30
 #EXTINF:-1 tvg-id="CartoonNetworkAsia.sg" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Cartoon_Network.svg/512px-Cartoon_Network.svg.png" group-title="Kids",Cartoon Network
 https://iptv-sniper.herokuapp.com/localtv.php?channel=29
 
+#EXTINF:-1 tvg-id="CartoonitoUK.uk" tvg-name="Cartoonito" tvg-logo="https://i.imgur.com/waE1BeJ.png" group-title="Kids",Cartoonito
+http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=1000&extension=ts&play_token=m1nLMNgNjP
+
 #EXTINF:-1 tvg-id="CONtvAnime.us" tvg-name="CONtv Anime" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5fa1b7168f9c26008859a893" group-title="Kids",CONtv Anime
 https://contvanime.cinedigm.com/conapp-ssai/amagi_hls_data_xumo-host-contvanime-junction/CDN/playlist.m3u8
+
+#EXTINF:-1 tvg-id="DisneyChannelEast.us" tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2019_Disney_Channel_logo.svg/512px-2019_Disney_Channel_logo.svg.png" group-title="Kids",Disney Channel
+http://ky-iptv.com:80/live/Peaches1/Peaches1/176246.ts
 
 #EXTINF:-1 tvg-id="DreamWorksChannelAsia.us" tvg-name="DreamWorks Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/DreamWorks_Channel_Logo.svg/512px-DreamWorks_Channel_Logo.svg.png" group-title="Kids",DreamWorks Channel
 https://iptv-sniper.herokuapp.com/localtv.php?channel=23
