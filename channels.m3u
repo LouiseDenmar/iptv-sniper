@@ -68,7 +68,7 @@ http://tiny.one/celestialpinoy
 #EXTINF:-1 tvg-id="CinemaOneGlobal.ph" tvg-name="Cinema One" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Cinema_One_2013_logo.svg/512px-Cinema_One_2013_logo.svg.png" group-title="Movies & Series",Cinema One
 https://cinemaone-abscbn-ono.amagi.tv/index_3.m3u8
 
-#EXTINF:-1 tvg-id="CineMoGlobal.ph" tvg-name="Cine Mo!" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Cinemo_logo_vectorized.svg/512px-Cinemo_logo_vectorized.svg.png" group-title="Movies & Series",Cine Mo!
+#EXTINF:-1 tvg-id="CineMo.ph" tvg-name="Cine Mo!" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Cinemo_logo_vectorized.svg/512px-Cinemo_logo_vectorized.svg.png" group-title="Movies & Series",Cine Mo!
 https://tiny.one/cinemocdn1
 
 #EXTINF:-1 tvg-id="CineLife.us" tvg-name="CineLife" tvg-logo="https://play-lh.googleusercontent.com/TRj4zx_xl4QA3JO7DwqalxZwshmhxEzg0QzP1sT3Uv99p4izfj9S_yPZD4oVkFUxMNA" group-title="Movies & Series",CineLife
@@ -107,9 +107,6 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=59
 #EXTINF:-1 tvg-id="PBO.ph" tvg-name="PBO" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f6/Pinoy_Box_Office_logo.png" group-title="Movies & Series",PBO
 https://iptv-sniper.herokuapp.com/localtv.php?channel=12
 
-#EXTINF:-1 tvg-id="Rialto.nz" tvg-name="Rialto" tvg-logo="https://i.imgur.com/RnzWT9C.jpg" group-title="Movies & Series",Rialto
-https://rialto-rialto-samsungaustralia.amagi.tv/playlist.m3u8
-
 #EXTINF:-1 tvg-id="RushbyAMC.us" tvg-name="Rush by AMC" tvg-logo="https://i.imgur.com/yngqRL8.png" group-title="Movies & Series",Rush by AMC
 https://amc-rushbyamc-1.imdbtv.wurl.com/manifest/playlist.m3u8
 
@@ -131,7 +128,7 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=13
 #EXTINF:-1 tvg-id="WarnerTVSoutheastAsia.us" tvg-name="Warner TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/512px-Warner2018LA.png" group-title="Movies & Series",Warner TV
 https://iptv-sniper.herokuapp.com/localtv.php?channel=21
 
-#EXTINF:-1 tvg-id="ABCEast.us" tvg-name="ABC" tvg-logo="https://i.imgur.com/waE1BeJ.png" group-title="Lifestyle & Entertainment",ABC
+#EXTINF:-1 tvg-id="ABCEast.us" tvg-name="ABC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC-2021-LOGO.svg/512px-ABC-2021-LOGO.svg.png" group-title="Lifestyle & Entertainment",ABC
 http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=605019&extension=ts&play_token=yItKhn6D2l
 
 #EXTINF:-1 tvg-id="StoriesbyAMC.us" tvg-name="Stories by AMC" tvg-logo="https://images.pluto.tv/channels/5e8254118601b80007b4b7ae/colorLogoPNG.png" group-title="Lifestyle & Entertainment",Stories by AMC
