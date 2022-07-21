@@ -1,6 +1,7 @@
 <?php
-  $epgs = json_decode(file_get_contents($_GET["json"]));
-  $event = json_decode(file_get_contents("special_event.json"));
+  $branch = (getenv("env") == "iptv-sniper") ? "master" : "staging";
+  $epgs = json_decode(file_get_contents("https://raw.githubusercontent.com/jmvbambico/iptv-sniper/$branch/" . $_GET["json"]));
+  $event = json_decode(file_get_contents("https://raw.githubusercontent.com/jmvbambico/iptv-sniper/$branch/special_event.json"));
 
   $xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
   $xml .= "<tv date=\"" . date('Ymd') . "\" generator-info-name=\"AdoboTV\">\n";
