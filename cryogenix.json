@@ -1,55 +1,25 @@
 [
     {
-        "url": "https://iptv-org.github.io/epg/guides/au/ontvtonight.com.epg.xml.gz",
-        "channels": [
-            "ABCTV.au"
-        ]
-    },
-    {
         "url": "https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz",
         "channels": [
-            "AlJazeeraEnglish.qa",
-            "AnimalPlanetHongKong.hk",
-            "AnimaxAsia.sg",
-            "AsianFoodNetwork.sg",
-            "BBCEarthAsia.uk",
-            "BBCLifestyleAsia.uk",
-            "BBCWorldNewsAsiaPacific.uk",
-            "BloombergTVAsiaPacific.hk",
-            "CinemaxSingapore.sg",
-            "CNA.sg",
-            "DiscoveryAsiaHongKong.hk",
-            "DiscoveryChannelHongKong.hk",
-            "DMAXAsia.sg",
             "EuronewsEnglish.fr",
-            "FoodNetworkAsia.sg",
             "HBOSignatureAsia.sg",
-            "HGTVAsia.us",
-            "HistoryAsia.us",
-            "LifetimeAsia.us",
             "RTNews.ru",
             "TLCSoutheastAsia.us",
-            "TV5MondeAsia.fr",
-            "WarnerTVSoutheastAsia.us"
+            "TV5MondeAsia.fr"
         ]
     },
     {
         "url": "https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml.gz",
         "channels": [
+            "BabyTV.uk",
+            "CBeebiesAsia.uk",
             "Galaxy.id",
             "GalaxyPremium.id",
-            "Kix.hk"
-        ]
-    },
-    {
-        "url": "https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml.gz",
-        "channels": [
-            "eGGNetwork.my",
-            "MTVAsia.sg",
-            "MoonbugKids.uk",
-            "ParamountNetworkMalaysia.my",
-            "TADAA.my",
-            "WWENetwork.us"
+            "HBOFamilyAsia.sg",
+            "HBOSignatureAsia.sg",
+            "Kix.hk",
+            "Thrill.hk",
         ]
     },
     {
@@ -57,7 +27,6 @@
         "channels": [
             "A2ZChannel11.ph",
             "ANC.ph",
-            "AXNPhilippines.ph",
             "CNNPhilippines.ph",
             "GMATV.ph",
             "GTV.ph",
@@ -76,15 +45,7 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml.gz",
         "channels" : [
-            "CGTN.cn",
-            "CNBCAsia.sg",
-            "CrimePlusInvestigationAsia.us",
-            "Hits.sg",
             "LoveNature.ca",
-            "NationalGeographicHDSingapore.sg",
-            "NationalGeographicWildHDSingapore.sg",
-            "OneTVAsia.sg",
-            "PremierSportsAsia.ie",
             "SmithsonianChannelAsia.us",
             "TheFilipinoChannelAsia.us"
         ]
@@ -108,50 +69,81 @@
         "url": "https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml.gz",
         "channels": [
             "AMCEast.us",
-            "CNN.us",
             "MTVLive.uk"
         ]
     },
     {
         "url": "https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml",
         "channels": [
+            "ABCAustralia",
+            "AFN",
+            "AlJazeeraEnglish",
+            "AnimalPlanet",
+            "Animax",
             "ArirangTV",
-            "BabyTVAsia.uk",
+            "AXN",
+            "BBCEarth",
+            "BBCLifestyle",
+            "BBCWorldNews",
             "beINSports",
             "beINSports2",
             "beINSports3",
-            "BoomerangSouthEastAsia.us",
-            "CartoonNetworkAsia.us",
-            "CBeebiesAsia.uk",
+            "BloombergTV",
+            "Boomerang",
+            "CartoonNetwork",
             "CCM",
-            "CelestialMovies.hk",
+            "CelestialMovies",
+            "CGTN",
             "CGTNDocumentary",
+            "Cinemax",
+            "CNA",
+            "CNBCAsia",
+            "CNN",
+            "CrimeInvestigation",
             "CTIAsia",
-            "DWEnglish",
+            "DiscoveryAsia",
+            "DiscoveryChannel",
+            "DMAX",
+            "DW",
+            "eGGNetwork",
             "Eurosport",
             "FightSports",
             "FOXNews",
-            "France24English",
+            "France24",
+            "FoodNetwork",
             "GolfChannel",
-            "HBOAsia.us",
-            "HBOFamilyAsia.us",
-            "HBOHits.us",
-            "HBOSignatureAsia.us",
+            "HBO",
+            "HBOHits.id",
+            "HGTV",
+            "History",
+            "HITS",
             "HITSMovies",
             "K-Plus",
             "KBSWorld",
-            "NickelodeonSouthEastAsia.us",
-            "NickJrAsia.us",
+            "Lifetime",
+            "MoonbugKids",
+            "MTVAsia",
+            "NatGeoWild",
+            "NationalGeographic",
+            "Nickelodeon",
+            "NickJr",
             "NHKWorldJapan",
             "NHKWorldPremium",
+            "ONE",
             "OutdoorChannel",
+            "ParamountNetwork",
+            "PremierSports",
+            "Primetime",
             "ShowcaseMovies",
-            "SPOTVAsia",
+            "SPOTV",
             "SPOTV2",
-            "Thrill.hk",
+            "TA-DAA!",
+            "TLC",
             "TVBSAsia",
             "tvN",
-            "tvNMovies"
+            "tvNMovies",
+            "WarnerTV",
+            "WWENetwork"
         ]
     }
 ]
