@@ -1,26 +1,24 @@
 <?php
-  if (!file_exists("localtv_token.txt"))
-    include("localtv_auth.php");
+  $token   = get_token();
+  $channel = "http://103.105.213.251:8443$token" . $_GET["channel"] . ".m3u8";
+  $headers = get_headers($channel);
 
-  $token = get_token();
-  $channel = "http://103.105.213.251:8443" . $token . $_GET["channel"] . ".m3u8";
-  $channel_headers = get_headers($channel);
-
-  if ($channel_headers[0] == "HTTP/1.1 410 Gone") {
+  if ($headers[0] == "HTTP/1.1 410 Gone") {
+    echo "[FP Token Updater] Current token has expired. Acquiring a new one...\n";
     include("localtv_auth.php");
     $token = get_token();
   }
 
-  header("Location: " . "http://103.105.213.251:8443" . $token . $_GET["channel"] . ".m3u8");
+  header("Location: http://103.105.213.251:8443$token" . $_GET["channel"] . ".m3u8");
 
   function get_token() {
     $url = getenv("JAWSDB_MARIA_URL");
     $dbparts = parse_url($url);
 
-    $hostname = $dbparts['host'];
-    $username = $dbparts['user'];
-    $password = $dbparts['pass'];
-    $database = ltrim($dbparts['path'],'/');
+    $hostname = $dbparts["host"];
+    $username = $dbparts["user"];
+    $password = $dbparts["pass"];
+    $database = ltrim($dbparts["path"], "/");
 
     $conn = new mysqli($hostname, $username, $password, $database);
 
