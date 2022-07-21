@@ -4,7 +4,8 @@
   $responses = array();
   $redirects = array();
 
-  $m3u_source = json_decode(parse_m3u("https://raw.githubusercontent.com/jmvbambico/iptv-sniper/master/channels.m3u"));
+  $branch = (getenv("env") == "iptv-sniper") ? "master" : "staging";
+  $m3u_source = json_decode(parse_m3u("https://raw.githubusercontent.com/jmvbambico/iptv-sniper/$branch/channels.m3u"));
   $m3u = "#EXTM3U url-tvg=\"$m3u_source->epg\"\n\n";
 
   foreach ($m3u_source->channels as $channel)
