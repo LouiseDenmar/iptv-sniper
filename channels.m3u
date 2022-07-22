@@ -110,8 +110,14 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=12
 #EXTINF:-1 tvg-id="RushbyAMC.us" tvg-name="Rush by AMC" tvg-logo="https://i.imgur.com/yngqRL8.png" group-title="Movies & Series",Rush by AMC
 https://amc-rushbyamc-1.imdbtv.wurl.com/manifest/playlist.m3u8
 
+#EXTINF:-1 tvg-id="ScreamFlix.us" tvg-name="ScreamFlix" tvg-logo="https://celebrityworldph.files.wordpress.com/2021/08/scream-flix.jpg" group-title="Movies & Series",ScreamFlix
+https://live-lunaott.akamaized.net/screamflix_ottera/playlist.m3u8
+
 #EXTINF:-1 tvg-id="ShowtimeEast.us" tvg-name="Showtime" tvg-logo="https://i.imgur.com/F6rUoQ7.png" group-title="Movies & Series",Showtime
 http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=860283&extension=ts&play_token=3bJyPI6B9a
+
+#EXTINF:-1 tvg-id="SolarFlix.ph" tvg-name="SolarFlix" tvg-logo="https://static.wikia.nocookie.net/russel/images/0/05/Solar_Flix_Logo_2022.png" group-title="Movies & Series",SolarFlix
+http://user.scalecdn.co:8080/live/Alicia/Alicia/567710.m3u8
 
 #EXTINF:-1 tvg-id="StarMoviesIndia.in" tvg-name="Star Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/STAR_Movies_logo.svg/1200px-STAR_Movies_logo.svg.png" group-title="Movies & Series",Star Movies
 http://sverigeplay.tv/play/live.php?mac=00:1A:79:ab:98:86&stream=136629&extension=ts&play_token=I0DMNLsHGF
@@ -230,16 +236,16 @@ https://streaming.cnnphilippines.com/live/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW" tvg-logo="https://i.imgur.com/1B4XjYf.png" group-title="News & Culture",DW
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 
-#EXTINF:-1 tvg-id="WNYWDT1.us" tvg-name="FOX 5" tvg-logo="https://i.imgur.com/zZd9Tkt.png" group-title="News & Culture",FOX 5
+#EXTINF:-1 tvg-id="WNYWDT1.us" tvg-name="FOX 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Fts-new-york-a.svg/240px-Fts-new-york-a.svg.png" group-title="News & Culture",FOX 5
 https://v-ny.theus6tv.tk/hls/5.1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="KSAZDT1.us" tvg-name="FOX 10" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png" group-title="News & Culture",FOX 10
+#EXTINF:-1 tvg-id="KSAZDT1.us" tvg-name="FOX 10" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Fts-phoenix-a.svg/200px-Fts-phoenix-a.svg.png" group-title="News & Culture",FOX 10
 https://v-px.mybtv.net/live/14.m3u8
 
-#EXTINF:-1 tvg-id="KTTVDT1.us" tvg-name="FOX 11" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png" group-title="News & Culture",FOX 11
+#EXTINF:-1 tvg-id="KTTVDT1.us" tvg-name="FOX 11" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Fts-los-angeles-a.svg/240px-Fts-los-angeles-a.svg.png" group-title="News & Culture",FOX 11
 https://v-la.mybtv.net/live/166.m3u8
 
-#EXTINF:-1 tvg-id="WTXFDT1.us" tvg-name="FOX 29" tvg-logo="https://i.imgur.com/fRjmk5r.png" group-title="News & Culture",FOX 29
+#EXTINF:-1 tvg-id="WTXFDT1.us" tvg-name="FOX 29" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Fts-philadelphia-a.svg/240px-Fts-philadelphia-a.svg.png" group-title="News & Culture",FOX 29
 https://v-pi.theus6tv.tk/hls/29.1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="FoxNewsChannel.us" tvg-name="Fox News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/512px-Fox_News_Channel_logo.svg.png" group-title="News & Culture",Fox News
@@ -406,7 +412,7 @@ https://bcovlive-a.akamaihd.net/48eee16919834d3b97df1082a649bcfa/ap-northeast-1/
 #EXTINF:-1 tvg-id="SpecialEvents" tvg-name="Special Events" tvg-logo="https://i.imgur.com/vRlLmha.png" group-title="Sports",Special Events
 https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/assets/moose_na.m3u
 
-#EXTINF:-1 tvg-id="TAPSports.ph" tvg-name="TAP Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6e/TAP_Sports_channel_logo.png" group-title="Sports",TAP Sports
+#EXTINF:-1 tvg-id="TAPSPORTSHD" tvg-name="TAP Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6e/TAP_Sports_channel_logo.png" group-title="Sports",TAP Sports
 https://iptv-sniper.herokuapp.com/localtv.php?channel=31
 
 #EXTINF:-1 tvg-id="WWENetwork.us" tvg-name="WWE Network" tvg-logo="https://i.postimg.cc/wxDcjfB2/WWENetwork-White.png" group-title="Sports",WWE Network 
