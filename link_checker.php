@@ -76,7 +76,7 @@
     }
 
     $globalist = array(
-        "epg" => "https://" . getenv("env") . ".herokuapp.com/epg/adoboTV.php",
+        "epg" => "https://" . getenv("env") . ".herokuapp.com/epg/adoboTV.php,https://" . getenv("env") . ".herokuapp.com/epg/skycable.php",
         "channels" => $items
     );
 
