@@ -20,7 +20,7 @@
       $xml .= "  <channel id=\"" . preg_replace('/[^A-Za-z0-9\-]/', '', $channels["name"]) . "\">\n";
       $xml .= "    <display-name>" . htmlspecialchars($channels["name"]) . "</display-name>\n";
       $xml .= "    <icon src=\"https://skyepg.mysky.com.ph/Main/" . $channels["userData"]["logo"] . "\" />\n";
-      $xml .= "    <url>https://iptv-sniper.herokuapp.com/epg/skycable.php?channel=" . $channels["id"] ."$format</url>\n";
+      $xml .= "    <url>" . htmlspecialchars("https://iptv-sniper.herokuapp.com/epg/skycable.php?channel=" . $channels["id"] . $format) . "</url>\n";
       $xml .= "  </channel>\n";
     }
   }
@@ -28,7 +28,7 @@
     $xml .= "  <channel id=\"" . preg_replace('/[^A-Za-z0-9\-]/', '', $epgs["location"][$i]["name"]) . "\">\n";
     $xml .= "    <display-name>" . htmlspecialchars($epgs["location"][$i]["name"]) . "</display-name>\n";
     $xml .= "    <icon src=\"https://skyepg.mysky.com.ph/Main/" . $epgs["location"][$i]["userData"]["logo"] . "\" />\n";
-    $xml .= "    <url>https://iptv-sniper.herokuapp.com/epg/skycable.php?channel=" . $epgs["location"][$i]["id"] ."$format</url>\n";
+    $xml .= "    <url>". htmlspecialchars("https://iptv-sniper.herokuapp.com/epg/skycable.php?channel=" . $epgs["location"][$i]["id"] . $format) . "</url>\n";
     $xml .= "  </channel>\n";
   }
 
