@@ -2,6 +2,7 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz",
         "channels": [
+            "DreamWorksChannelAsia.us",
             "EuronewsEnglish.fr",
             "HBOSignatureAsia.sg",
             "RTNews.ru",
@@ -26,7 +27,8 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml",
         "channels": [
-            "CinemaxMalaysia.my"
+            "CinemaxMalaysia.my",
+            "ParamountNetworkMalaysia.my"
         ]
     },
     {
@@ -37,10 +39,13 @@
             "CNNPhilippines.ph",
             "GMATV.ph",
             "GTV.ph",
+            "IBC13.ph",
             "KapamilyaChannel.ph",
             "PTV.ph",
             "RockEntertainment.sg",
-            "RockExtreme.sg"
+            "RockExtreme.sg",
+            "TeleNovelaChannel.ph",
+            "VivaCinema.ph"
         ]
     },
     {
@@ -52,6 +57,7 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/sg/starhubtvplus.com.epg.xml.gz",
         "channels" : [
+            "FashionTVAsia.fr",
             "LoveNature.ca",
             "SmithsonianChannelAsia.us",
             "TheFilipinoChannelAsia.us"
@@ -154,11 +160,18 @@
     {
         "url": "https://iptv-sniper.herokuapp.com/epg/skycable.php?format=gz",
         "channels": [
+            "ANIPLUSSD",
+            "CINEMO",
             "DZMMTELERADYO",
             "H2HD",
             "KNOWLEDGECHANNEL",
             "ONESPORTS",
+            "PBO",
+            "TapActionFlixHD",
+            "TAPSPORTSHD",
+            "TAPTV",
             "TECHSTORM",
+            "TRAVELCHANNEL",
             "TV5"
         ]
     }
