@@ -24,6 +24,12 @@
         ]
     },
     {
+        "url": "https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml",
+        "channels": [
+            "CinemaxMalaysia.my"
+        ]
+    },
+    {
         "url": "https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml.gz",
         "channels": [
             "A2ZChannel11.ph",
@@ -95,7 +101,6 @@
             "CelestialMovies",
             "CGTN",
             "CGTNDocumentary",
-            "Cinemax",
             "CNA",
             "CNBCAsia",
             "CNN",
