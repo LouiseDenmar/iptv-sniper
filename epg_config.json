@@ -81,7 +81,6 @@
             "IBC13.ph",
             "JeepneyTV.ph",
             "KapamilyaChannel.ph",
-            "MyxPhilippines.ph",
             "Net25.ph",
             "PTV.ph",
             "RockEntertainment.sg",
@@ -115,7 +114,6 @@
             "LoveNature.ca",
             "NHKWorldJapan.jp",
             "ParamountNetworkSingapore.sg",
-            "PremierSportsAsia.ie",
             "RTNews.ru",
             "SmithsonianChannelAsia.us"
         ]
@@ -214,6 +212,7 @@
             "NickelodeonSouthEastAsia.us",
             "NickJrAsia.us",
             "OutdoorChannel",
+            "PremierSports",
             "SPOTVAsia",
             "SPOTV2"
         ]
@@ -221,9 +220,11 @@
     {
         "url": "https://iptv-sniper.herokuapp.com/epg/skycable.php?format=gz",
         "channels": [
+            "ANIPLUSSD",
             "DZMMTELERADYO",
             "KNOWLEDGECHANNEL",
             "METROCHANNELSD",
+            "MYX",
             "ONESPORTS",
             "PBO",
             "TECHSTORM",
