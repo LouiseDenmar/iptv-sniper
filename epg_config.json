@@ -5,6 +5,13 @@
             "CineMo.ph"
         ]
     },
+[
+    {
+        "url": "https://iptv-org.github.io/epg/guides/bg/tv.dir.bg.epg.xml.gz",
+        "channels": [
+            "HBO2Bulgaria.bg"
+        ]
+    },
     {
         "url": "https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml.gz",
         "channels": [
@@ -27,6 +34,12 @@
         ]
     },
     {
+        "url": "https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml.gz",
+        "channels": [
+            "AnimaxAsia.sg"
+        ]
+    },
+    {
         "url": "https://iptv-org.github.io/epg/guides/in/dishtv.in.epg.xml.gz",
         "channels": [
             "Andflix.in",
@@ -34,9 +47,10 @@
         ]
     },
     {
-        "url": "https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml.gz",
+        "url": "https://iptv-org.github.io/epg/guides/in/startv.com.epg.xml.gz",
         "channels": [
-            "AnimaxAsia.sg"
+            "StarMoviesIndia.in",
+            "StarMoviesSelectHD.in"
         ]
     },
     {
@@ -144,13 +158,13 @@
             "Cheddar.us",
             "CNN.us",
             "DisneyChannelEast.us",
+            "DisneyJuniorEast.us",
             "ESPN.us",
             "ESPN2.us",
             "FoxSports1.us",
             "FoxSports2.us",
             "FXEast.us",
             "GameShowCentral.us",
-            "HBO2East.us",
             "HBOFamilyEast.us",
             "HLN.us",
             "KSAZDT1.us",

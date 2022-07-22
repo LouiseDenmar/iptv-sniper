@@ -47,7 +47,7 @@ http://ky-iptv.com:25461/live/Mouse/Mouse/1806799.ts
 #EXTINF:-1 tvg-id="OnePH.ph" tvg-name="One PH" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/OnePHCignal.svg/512px-OnePHCignal.svg.png" group-title="Local TV",One PH
 https://iptv-sniper.herokuapp.com/localtv.php?channel=42
 
-#EXTINF:-1 tvg-id="SariSariChannel.ph" tvg-name="Sari Sari Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/22/Sari-Sari_Channel_logo.png" group-title="Local TV",Sari Sari Channel
+#EXTINF:-1 tvg-id="SariSariChannel.ph" tvg-name="Sari Sari Channel" tvg-logo="https://i.imgur.com/l2A1mt5.jpg" group-title="Local TV",Sari Sari Channel
 http://fortv.cc:8080/live/jsc/jsc/101824.m3u8
 
 #EXTINF:-1 tvg-id="SMNI.ph" tvg-name="SMNI" tvg-logo="https://i.imgur.com/p3KeNAm.png" group-title="Local TV",SMNI
@@ -83,7 +83,7 @@ http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=860084&extens
 #EXTINF:-1 tvg-id="HBOMalaysia.my" tvg-name="HBO" tvg-logo="https://i.imgur.com/EnA2RcD.png" group-title="Movies & Series",HBO
 https://iptv-sniper.herokuapp.com/localtv.php?channel=15
 
-#EXTINF:-1 tvg-id="HBO2East.us" tvg-name="HBO 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png" group-title="Movies & Series",HBO 2
+#EXTINF:-1 tvg-id="HBO2Bulgaria.bg" tvg-name="HBO 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/512px-HBO2_logo.svg.png" group-title="Movies & Series",HBO 2
 http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=863195&extension=ts&play_token=yg7L52QpeM
 
 #EXTINF:-1 tvg-id="HBOFamilyEast.us" tvg-name="HBO Family" tvg-logo="https://i.imgur.com/sDFfNjo.png" group-title="Movies & Series",HBO Family
@@ -112,6 +112,12 @@ https://amc-rushbyamc-1.imdbtv.wurl.com/manifest/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ShowtimeEast.us" tvg-name="Showtime" tvg-logo="https://i.imgur.com/F6rUoQ7.png" group-title="Movies & Series",Showtime
 http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=860283&extension=ts&play_token=3bJyPI6B9a
+
+#EXTINF:-1 tvg-id="StarMoviesIndia.in" tvg-name="Start Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/STAR_Movies_logo.svg/1200px-STAR_Movies_logo.svg.png" group-title="Movies & Series",Star Movies
+http://sverigeplay.tv/play/live.php?mac=00:1A:79:ab:98:86&stream=136629&extension=ts&play_token=I0DMNLsHGF
+
+#EXTINF:-1 tvg-id="StarMoviesSelectHD.in" tvg-name="Star Movies Select" tvg-logo="https://i.imgur.com/9nfdMUO.png" group-title="Movies & Series",Star Movies Select
+http://qualityoverquantity.site:8880/play/live.php?mac=00:1A:79:91:db:9c&stream=862741&extension=ts&play_token=7797Sud1VB
 
 #EXTINF:-1 tvg-id="STIRRMovies.us" tvg-name="STIRR Movies" tvg-logo="https://i.imgur.com/ec3yTaI.png" group-title="Movies & Series",STIRR Movies
 https://dai.google.com/linear/hls/event/f-zA7b21Squ7M1_sabGfjA/master.m3u8
@@ -368,7 +374,7 @@ https://hncfree-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MLBNetwork.us" tvg-name="MLB Network" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/MLBNetworkLogo.svg/512px-MLBNetworkLogo.svg.png" group-title="Sports",MLB Network
 http://ky-iptv.com:25461/live/abc123456/abc123456/1284154.ts
 
-#EXTINF:-1 tvg-id="NBATV.us" tvg-name="NBA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/512px-NBA_TV.svg.png" group-title="Sports",NBA TV
+#EXTINF:-1 tvg-id="NBATV.us" tvg-name="NBA TV" tvg-logo="https://i.imgur.com/gSUFG5w.png" group-title="Sports",NBA TV
 http://sverigeplay.tv/play/live.php?mac=00:1A:79:AB:98:86&stream=115738&extension=ts&play_token=1abiaJReWZ
 
 #EXTINF:-1 tvg-id="OneSports.ph" tvg-name="One Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/One_Sports_logo.svg/512px-One_Sports_logo.svg.png" group-title="Sports",One Sports
@@ -453,6 +459,9 @@ https://contvanime.cinedigm.com/conapp-ssai/amagi_hls_data_xumo-host-contvanime-
 
 #EXTINF:-1 tvg-id="DisneyChannelEast.us" tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2019_Disney_Channel_logo.svg/512px-2019_Disney_Channel_logo.svg.png" group-title="Kids",Disney Channel
 http://ky-iptv.com:80/live/Peaches1/Peaches1/176246.ts
+
+#EXTINF:-1 tvg-id="DisneyJuniorEast.us" tvg-name="Disney Junior" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Disney_Junior.svg/512px-Disney_Junior.svg.png" group-title="Kids",Disney Junior
+http://sverigeplay.tv/play/live.php?mac=00:1A:79:41:98:CF&stream=16770&extension=ts&play_token=kfWzTSKetQ
 
 #EXTINF:-1 tvg-id="DreamWorksChannelAsia.us" tvg-name="DreamWorks Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/DreamWorks_Channel_Logo.svg/512px-DreamWorks_Channel_Logo.svg.png" group-title="Kids",DreamWorks Channel
 https://iptv-sniper.herokuapp.com/localtv.php?channel=23
