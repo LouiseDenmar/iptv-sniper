@@ -11,8 +11,6 @@
   $xml = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
   $xml .= "<tv date=\"" . date('Ymd') . "\" generator-info-name=\"AdoboTV\">\n";
 
-  $i = array_search($_GET["channel"], array_column($epgs["location"], "id"));
-
   if (!isset($_GET["channel"])) {
     $channels = array_column($epgs["location"], "name", "id");
 
@@ -25,6 +23,8 @@
     }
   }
   else {
+    $i = array_search($_GET["channel"], array_column($epgs["location"], "id"));
+
     $xml .= "  <channel id=\"" . preg_replace('/[^A-Za-z0-9\-]/', '', $epgs["location"][$i]["name"]) . "\">\n";
     $xml .= "    <display-name>" . htmlspecialchars($epgs["location"][$i]["name"]) . "</display-name>\n";
     $xml .= "    <icon src=\"https://skyepg.mysky.com.ph/Main/" . $epgs["location"][$i]["userData"]["logo"] . "\" />\n";
@@ -35,7 +35,7 @@
   foreach ($epgs["events"] as $programme) {
     if (isset($_GET["channel"]) && $programme["location"] !== $_GET["channel"]) continue;
 
-    $xml .= "  <programme start=\"" . date("YmdHis O", strtotime($programme["start"])) . "\" stop=\"" . date("YmdHis O", strtotime($programme["end"])) . "\" channel=\"" . preg_replace('/[^A-Za-z0-9\-]/', '', $epgs["location"][$i]["name"]) . "\">\n";
+    $xml .= "  <programme start=\"" . date("YmdHis O", strtotime($programme["start"])) . "\" stop=\"" . date("YmdHis O", strtotime($programme["end"])) . "\" channel=\"" . preg_replace('/[^A-Za-z0-9\-]/', '', $epgs["location"][array_search($programme["location"], array_column($epgs["location"], "id"))]["name"]) . "\">\n";
     $xml .= "    <title lang=\"en\">" . htmlspecialchars($programme["name"]) . "</title>\n";
     $xml .= "    <desc lang=\"en\">" . htmlspecialchars($programme["userData"]["description"]) . "</desc>\n";
     $xml .= "    <category lang=\"en\">Sky Cable</category>\n";
