@@ -308,7 +308,7 @@ http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=253167&extens
 #EXTINF:-1 tvg-id="HistoryAsia.us" tvg-name="History" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png" group-title="Science & Documentaries",History
 https://iptv-sniper.herokuapp.com/localtv.php?channel=53
 
-#EXTINF:-1 tvg-id="LoveNature.ca" tvg-name=""Love Nature" tvg-logo="https://i.ibb.co/X8hFFP4/Love-Nature-Type-Mask-FINAL-highres-removebg-preview-1.png" group-title="Science & Documentaries",Love Nature
+#EXTINF:-1 tvg-id="LoveNature.ca" tvg-name="Love Nature" tvg-logo="https://i.ibb.co/X8hFFP4/Love-Nature-Type-Mask-FINAL-highres-removebg-preview-1.png" group-title="Science & Documentaries",Love Nature
 http://bamus-eng-roku.amagi.tv/playlist1080p.m3u8
 
 #EXTINF:-1 tvg-id="NationalGeographicMalaysia.my" tvg-name="National Geographic Channel" tvg-logo="https://i.imgur.com/vKEqKFS.png" group-title="Science & Documentaries",National Geographic Channel
@@ -380,7 +380,7 @@ http://sverigeplay.tv/play/live.php?mac=00:1A:79:AB:98:86&stream=115738&extensio
 #EXTINF:-1 tvg-id="ONESPORTS" tvg-name="One Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/One_Sports_logo.svg/512px-One_Sports_logo.svg.png" group-title="Sports",One Sports
 https://iptv-sniper.herokuapp.com/localtv.php?channel=50
 
-#EXTINF:-1 tvg-id="PremierSports.ph" tvg-name="Premier Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cb/PremierSports-ph.png" group-title="Sports",Premier Sports
+#EXTINF:-1 tvg-id="PremierSports" tvg-name="Premier Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cb/PremierSports-ph.png" group-title="Sports",Premier Sports
 https://iptv-sniper.herokuapp.com/localtv.php?channel=36
 
 #EXTINF:-1 tvg-id="redbulltv.us" tvg-name="RedBull TV" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",RedBull TV
@@ -427,7 +427,7 @@ https://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS07/master.m3u8
 #EXTINF:-1 tvg-id="YoMTV.us" tvg-name="Yo! MTV" tvg-logo="https://images.pluto.tv/channels/5d14fc31252d35decbc4080b/colorLogoPNG.png" group-title="Music",Yo! MTV
 https://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS01/master.m3u8
 
-#EXTINF:-1 tvg-id="MyxPhilippines.ph" tvg-name="Myx PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Myxphlogo.svg/512px-Myxphlogo.svg.png" group-title="Music",Myx PH
+#EXTINF:-1 tvg-id="MYX" tvg-name="Myx PH" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Myxphlogo.svg/512px-Myxphlogo.svg.png" group-title="Music",Myx PH
 https://iptv-sniper.herokuapp.com/localtv.php?channel=75
 
 #EXTINF:-1 tvg-id="MyxUSA.us" tvg-name="Myx USA" tvg-logo="https://i.imgur.com/Bv8iTjn.png" group-title="Music",Myx USA
@@ -439,7 +439,7 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=24
 #EXTINF:-1 tvg-id="AnimeAllDay.us" tvg-name="Anime All Day" tvg-logo="https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG.png" group-title="Kids",Anime All Day
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 
-#EXTINF:-1 tvg-id="AniplusAsia.sg" tvg-name="Aniplus" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Aniplus_Asia_Logo.png/512px-Aniplus_Asia_Logo.png" group-title="Kids",Aniplus
+#EXTINF:-1 tvg-id="ANIPLUSSD" tvg-name="Aniplus" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Aniplus_Asia_Logo.png/512px-Aniplus_Asia_Logo.png" group-title="Kids",Aniplus
 http://sverigeplay.tv/play/live.php?mac=00:1A:79:ab:98:86&stream=115609&extension=ts&play_token=PhWmd1D0if
 
 #EXTINF:-1 tvg-id="BabyTVAsia.uk" tvg-name="BabyTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/45/BabyTV.png" group-title="Kids",BabyTV
