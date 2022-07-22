@@ -17,7 +17,7 @@
   $ctr = 0;
 
   foreach ($epgs as $epg) {
-    $epg_url = (pathinfo($epg->url, PATHINFO_EXTENSION) == "gz")? "compress.zlib://" . $epg->url : $epg->url;
+    $epg_url = (strpos($epg->url, "gz") !== false) ? "compress.zlib://" . $epg->url : $epg->url;
     $channels_list[]   = getChannels($epg_url, $epg->channels);
     $programmes_list[] = getProgrammes($epg_url, $epg->channels);
 

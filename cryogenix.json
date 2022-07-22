@@ -147,7 +147,7 @@
         ]
     },
     {
-        "url": "https://iptv-sniper.herokuapp.com/epg/skycable.php",
+        "url": "https://iptv-sniper.herokuapp.com/epg/skycable.php?format=gz",
         "channels": [
             "H2HD",
             "ONESPORTS",
