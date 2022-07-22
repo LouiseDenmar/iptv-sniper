@@ -12,6 +12,7 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml.gz",
         "channels": [
+            "ABCAustraliaAsia.au",
             "BabyTV.uk",
             "CBeebiesAsia.uk",
             "Galaxy.id",
@@ -75,7 +76,6 @@
     {
         "url": "https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml",
         "channels": [
-            "ABCAustralia",
             "AFN",
             "AlJazeeraEnglish",
             "AnimalPlanet",
