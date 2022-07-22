@@ -119,6 +119,12 @@
         ]
     },
     {
+        "url": "https://iptv-org.github.io/epg/guides/tr/tvplus.com.tr.epg.xml.gz",
+        "channels": [
+            "TRTWorld.tr"
+        ]
+    },
+    {
         "url": "https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml.gz",
         "channels": [
             "TVNAsia.hk",

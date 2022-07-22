@@ -149,7 +149,9 @@
     {
         "url": "https://iptv-sniper.herokuapp.com/epg/skycable.php?format=gz",
         "channels": [
+            "DZMMTELERADYO",
             "H2HD",
+            "KNOWLEDGECHANNEL",
             "ONESPORTS",
             "TECHSTORM",
             "TV5"
