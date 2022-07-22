@@ -27,13 +27,13 @@
             "France24English.fr",
             "HGTVAsia.us",
             "Thrill.hk",
-            "TheFilipinoChannelAsia.us",
-            "TravelChannelAsia.uk"
+            "TheFilipinoChannelAsia.us"
         ]
     },
     {
         "url": "https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml.gz",
         "channels": [
+            "ABCAustraliaAsia.au",
             "AnimaxAsia.sg"
         ]
     },
@@ -176,7 +176,6 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml.gz",
         "channels": [
-            "KapatidTV5.ph",
             "KTTVDT1.us",
             "MLBNetwork.us",
             "MyxUSA.us",
@@ -229,7 +228,9 @@
             "PBO",
             "TECHSTORM",
             "TLC",
-            "TMCTAGALIZEDMOVIECHANNEL"
+            "TMCTAGALIZEDMOVIECHANNEL",
+            "TRAVELCHANNEL",
+            "TV5"
         ]
     }
 ]
