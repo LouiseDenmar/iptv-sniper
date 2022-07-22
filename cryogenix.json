@@ -145,5 +145,14 @@
             "WarnerTV",
             "WWENetwork"
         ]
+    },
+    {
+        "url": "https://iptv-sniper.herokuapp.com/epg/skycable.php",
+        "channels": [
+            "H2HD",
+            "ONESPORTS",
+            "TECHSTORM",
+            "TV5"
+        ]
     }
 ]
