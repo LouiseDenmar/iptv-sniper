@@ -182,10 +182,10 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=56
 #EXTINF:-1 tvg-id="RockExtreme.sg" tvg-name="Rock Extreme" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d4/RockExtreme.png/revision/latest?cb=20210911032825" group-title="Lifestyle & Entertainment",Rock Extreme
 https://iptv-sniper.herokuapp.com/localtv.php?channel=57
 
-#EXTINF:-1 tvg-id="WPIXDT1.us" tvg-name="The CW" tvg-logo="https://logos-download.com/wp-content/uploads/2016/02/The_CW_logo_4800x2000.png" group-title="Lifestyle & Entertainment",The CW PIX 11
+#EXTINF:-1 tvg-id="WPIXDT1.us" tvg-name="The CW East" tvg-logo="https://logos-download.com/wp-content/uploads/2016/02/The_CW_logo_4800x2000.png" group-title="Lifestyle & Entertainment",The CW PIX 11
 https://v-ny.theus6tv.tk/hls/11.1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="KTLA.us" tvg-name="The CW" tvg-logo="https://logos-download.com/wp-content/uploads/2016/02/The_CW_logo_4800x2000.png" group-title="Lifestyle & Entertainment",The CW KTLA 5
+#EXTINF:-1 tvg-id="KTLADT1.us" tvg-name="The CW West" tvg-logo="https://logos-download.com/wp-content/uploads/2016/02/The_CW_logo_4800x2000.png" group-title="Lifestyle & Entertainment",The CW KTLA 5
 https://v-la.mybtv.net/live/164.m3u8
 
 #EXTINF:-1 tvg-id="TLC" tvg-name="TLC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/TLC-Logo_2016.svg/512px-TLC-Logo_2016.svg.png" group-title="Lifestyle & Entertainment",TLC
