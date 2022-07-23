@@ -186,7 +186,7 @@ https://iptv-sniper.herokuapp.com/localtv.php?channel=57
 https://v-ny.theus6tv.tk/hls/11.1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="KTLA.us" tvg-name="The CW" tvg-logo="https://logos-download.com/wp-content/uploads/2016/02/The_CW_logo_4800x2000.png" group-title="Lifestyle & Entertainment",The CW KTLA 5
-https://v-ny.theus6tv.tk/hls/11.1/playlist.m3u8
+https://v-la.mybtv.net/live/164.m3u8
 
 #EXTINF:-1 tvg-id="TLC" tvg-name="TLC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/TLC-Logo_2016.svg/512px-TLC-Logo_2016.svg.png" group-title="Lifestyle & Entertainment",TLC
 https://iptv-sniper.herokuapp.com/localtv.php?channel=47
