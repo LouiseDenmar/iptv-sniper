@@ -6,6 +6,7 @@
             "EuronewsEnglish.fr",
             "HBOSignatureAsia.sg",
             "RTNews.ru",
+            "TheFilipinoChannelAsia.us",
             "TLCSoutheastAsia.us",
             "TV5MondeAsia.fr"
         ]
@@ -59,8 +60,7 @@
         "channels" : [
             "FashionTVAsia.fr",
             "LoveNature.ca",
-            "SmithsonianChannelAsia.us",
-            "TheFilipinoChannelAsia.us"
+            "SmithsonianChannelAsia.us"
         ]
     },
     {
