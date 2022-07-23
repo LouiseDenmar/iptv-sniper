@@ -44,4 +44,4 @@
 
   $xml .= "</tv>";
   echo ($type == "application/gzip") ? gzencode($xml, 9) : $xml;
-//end skyepg.php
+//end skycable.php
