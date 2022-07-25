@@ -65,7 +65,7 @@ https://bcovlive-a.akamaihd.net/ebf15ff84e98490e8b00209ed77c77f5/us-east-1/62407
 #EXTINF:-1 tvg-id="CelestialMoviesPinoy.hk" tvg-name="Celestial Movies Pinoy" tvg-logo="https://cmpinoy.com.ph/storage/images/c4ca4238a0b923820dcc509a6f75849b/c/logo-default.png" group-title="Movies & Series",Celestial Movies Pinoy
 http://tiny.one/celestialpinoy
 
-#EXTINF:-1 tvg-id="CinemaOneGlobal.ph" tvg-name="Cinema One" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Cinema_One_2013_logo.svg/512px-Cinema_One_2013_logo.svg.png" group-title="Movies & Series",Cinema One
+#EXTINF:-1 tvg-id="CINEMAONE" tvg-name="Cinema One" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Cinema_One_2013_logo.svg/512px-Cinema_One_2013_logo.svg.png" group-title="Movies & Series",Cinema One
 https://cinemaone-abscbn-ono.amagi.tv/index_3.m3u8
 
 #EXTINF:-1 tvg-id="CineMo.ph" tvg-name="Cine Mo!" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Cinemo_logo_vectorized.svg/512px-Cinemo_logo_vectorized.svg.png" group-title="Movies & Series",Cine Mo!
@@ -116,7 +116,7 @@ https://live-lunaott.akamaized.net/screamflix_ottera/playlist.m3u8
 #EXTINF:-1 tvg-id="ShowtimeEast.us" tvg-name="Showtime" tvg-logo="https://i.imgur.com/F6rUoQ7.png" group-title="Movies & Series",Showtime
 http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=860283&extension=ts&play_token=3bJyPI6B9a
 
-#EXTINF:-1 tvg-id="SolarFlix.ph" tvg-name="SolarFlix" tvg-logo="https://static.wikia.nocookie.net/russel/images/0/05/Solar_Flix_Logo_2022.png" group-title="Movies & Series",SolarFlix
+#EXTINF:-1 tvg-id="SOLARFLIX" tvg-name="SolarFlix" tvg-logo="https://static.wikia.nocookie.net/russel/images/0/05/Solar_Flix_Logo_2022.png" group-title="Movies & Series",SolarFlix
 http://user.scalecdn.co:8080/live/Alicia/Alicia/567710.m3u8
 
 #EXTINF:-1 tvg-id="StarMoviesIndia.in" tvg-name="Star Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/STAR_Movies_logo.svg/1200px-STAR_Movies_logo.svg.png" group-title="Movies & Series",Star Movies

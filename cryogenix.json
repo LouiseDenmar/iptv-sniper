@@ -37,6 +37,7 @@
         "channels": [
             "A2ZChannel11.ph",
             "ANC.ph",
+            "CelestialMoviesPinoy.hk",
             "CNNPhilippines.ph",
             "GMATV.ph",
             "GTV.ph",
@@ -72,8 +73,6 @@
     {
         "url": "https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml.gz",
         "channels": [
-            "CinemaOneGlobal.ph",
-            "KapatidTV5.ph",
             "MyxUSA.us",
             "SariSariChannel.ph"
         ]
@@ -161,6 +160,7 @@
         "url": "https://iptv-sniper.herokuapp.com/epg/skycable.php?format=gz",
         "channels": [
             "ANIPLUSSD",
+            "CINEMAONE",
             "CINEMO",
             "DZMMTELERADYO",
             "H2HD",
