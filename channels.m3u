@@ -131,6 +131,12 @@ https://dai.google.com/linear/hls/event/f-zA7b21Squ7M1_sabGfjA/master.m3u8
 #EXTINF:-1 tvg-id="SyfyEast.us" tvg-name="Syfy" tvg-logo="https://i.imgur.com/4fMWhUE.png" group-title="Movies & Series",Syfy
 http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=860317&extension=ts&play_token=qUFDgWsenK
 
+#EXTINF:-1 tvg-id="TCMTurnerClassicMoviesEast.us" tvg-name="TCM East" tvg-logo="https://i.imgur.com/4fMWhUE.png" group-title="Movies & Series",TCM East [Geo-USA]
+https://tve-live-lln.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5128000.m3u8
+
+#EXTINF:-1 tvg-id="TCMTurnerClassicMoviesWest.us" tvg-name="TCM West" tvg-logo="https://i.imgur.com/4fMWhUE.png" group-title="Movies & Series",TCM West [Geo-USA]
+https://tve-live-lln.warnermediacdn.com/hls/live/2023187/tcmwest/noslate/VIDEO_1_5128000.m3u8
+
 #EXTINF:-1 tvg-id="USANetworkEast.us" tvg-name="USA Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/512px-USA_Network_logo_%282016%29.svg.png" group-title="Movies & Series",USA Network
 http://skylogic.site:8080/ce1eb8b3/fd28c06f6f/3390
 
@@ -193,6 +199,12 @@ https://v-ny.theus6tv.tk/hls/11.1/playlist.m3u8
 
 #EXTINF:-1 tvg-id="KTLADT1.us" tvg-name="The CW West" tvg-logo="https://logos-download.com/wp-content/uploads/2016/02/The_CW_logo_4800x2000.png" group-title="Lifestyle & Entertainment",The CW West
 https://v-la.mybtv.net/live/164.m3u8
+
+#EXTINF:-1 tvg-id="TBSEast.us" tvg-name="TBS East" tvg-logo="https://i.imgur.com/e3ik7KK.png" group-title="Lifestyle & Entertainment",TBS East [Geo-USA]
+https://tve-live-lln.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
+
+#EXTINF:-1 tvg-id="TBSWest.us" tvg-name="TBS East" tvg-logo="https://i.imgur.com/e3ik7KK.png" group-title="Lifestyle & Entertainment",TBS West [Geo-USA]
+https://tve-live-lln.warnermediacdn.com/hls/live/2023174/tbswest/slate/VIDEO_0_3564000.m3u8
 
 #EXTINF:-1 tvg-id="TLC" tvg-name="TLC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/TLC-Logo_2016.svg/512px-TLC-Logo_2016.svg.png" group-title="Lifestyle & Entertainment",TLC
 https://iptv-sniper.herokuapp.com/localtv.php?channel=47
@@ -397,6 +409,9 @@ http://clientsportals.tv/play/live.php?mac=00:1A:79:70:39:2a&stream=141598&exten
 
 #EXTINF:-1 tvg-id="FightSports" tvf-name="Fight Sports" tvg-logo="https://i.imgur.com/nV55veq.png" group-title="Sports",Fight Sports
 https://iptv-sniper.herokuapp.com/localtv.php?channel=18
+
+#EXTINF:-1 tvg-id="Fite.us" tvf-name="Fite" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/FITE_TV.svg/2560px-FITE_TV.svg.png" group-title="Sports",Fite
+https://rpn1.bozztv.com/36bay2/gusa-fite/index.m3u8
 
 #EXTINF:-1 tvg-id="FoxSports1.us" tvg-name="Fox Sports 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2015_Fox_Sports_1_logo.svg/512px-2015_Fox_Sports_1_logo.svg.png" group-title="Sports",Fox Sports 1
 http://ppvplug.net:8880/play/live.php?mac=00:1A:79:39:C8:55&stream=860061&extension=ts&play_token=329zFNX3So
